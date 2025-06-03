@@ -1,0 +1,726 @@
+/share2/wangyq/miniconda3_2558/envs/videollm-online/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+ClipTestArguments(
+_n_gpu=1,
+accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None, 'use_configured_state': False},
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+attn_implementation=flash_attention_2,
+augmentation=False,
+auto_find_batch_size=False,
+average_tokens_across_devices=False,
+batch_eval_metrics=False,
+bf16=True,
+bf16_full_eval=False,
+consecutive_n_frames_threshold=1,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+dataloader_prefetch_factor=None,
+dataset_config=None,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=False,
+embed_mark=2fps_384_1+3x3,
+end_idx=2000,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_do_concat_batches=True,
+eval_on_start=False,
+eval_steps=None,
+eval_strategy=no,
+eval_use_gather_object=False,
+evaluation_strategy=None,
+finetune_modules=['connector', 'mm_projector', 'response_head', 'related_head'],
+first_n_frames_no_generate=0,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+frame_fps=2.0,
+frame_num_tokens=49,
+frame_resolution=384,
+frame_token_cls=False,
+frame_token_pooled=[7, 7],
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+gradient_accumulation_steps=1,
+gradient_checkpointing=False,
+gradient_checkpointing_kwargs=None,
+greater_is_better=None,
+grounding_mode=False,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_for_metrics=[],
+include_inputs_for_metrics=False,
+include_num_input_tokens_seen=False,
+include_tokens_per_second=False,
+input_dir=/share2/wangyq/projects/MMDuet/datasets/shot2story/videos,
+is_online_model=True,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=5e-05,
+length_column_name=length,
+live_version=test,
+llm_pretrained=OpenGVLab/InternVL2_5-8B,
+load_best_model_at_end=False,
+local_rank=0,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=outputs/debug/runs/Apr18_10-14-21_ubuntu,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=500,
+logging_strategy=steps,
+lora_alpha=32,
+lora_modules=model\.layers.*(q_proj|k_proj|v_proj|o_proj|gate_proj|up_proj|down_proj)$,
+lora_pretrained=None,
+lora_r=16,
+lr_scheduler_kwargs={},
+lr_scheduler_type=linear,
+max_grad_norm=1.0,
+max_num_frames=400,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+neftune_noise_alpha=None,
+no_cuda=False,
+no_output_before_user_input=False,
+num_train_epochs=3.0,
+optim=adamw_torch,
+optim_args=None,
+optim_target_modules=None,
+output_dir=outputs/debug,
+output_fname=outputs/internvl2_5-8b/magqa/4sec.jsonl.1,
+overwrite_output_dir=False,
+past_index=-1,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=8,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_assistant_turns=False,
+remove_unused_columns=True,
+repetition_penalty=None,
+report_to=['tensorboard', 'wandb'],
+response_min_interval_frames=None,
+restore_callback_states_from_checkpoint=False,
+resume_from_checkpoint=None,
+run_name=outputs/debug,
+running_list_length=20,
+save_on_each_node=False,
+save_only_model=False,
+save_safetensors=True,
+save_steps=500,
+save_strategy=steps,
+save_total_limit=None,
+score_heads=informative_score,
+seed=42,
+skip_memory_metrics=True,
+split_batches=None,
+start_idx=1000,
+stream_end_prob_threshold=None,
+stream_end_score_sum_threshold=None,
+stream_loss_weight=1.0,
+system_prompt=A multimodal AI assistant is helping users with some activities. Below is their conversation, interleaved with the list of video frames received by the assistant.,
+test_fname=/share2/wangyq/projects/MMDuet/datasets/shot2story/annotations/magqa_test.json,
+tf32=None,
+threshold_z=None,
+time_instruction_format=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torch_empty_cache_steps=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_liger_kernel=False,
+use_mps_device=False,
+v_placeholder=<image>,
+video_chunk_sec=4,
+video_pooling_stride=4,
+vision_pretrained=google/siglip-large-patch16-384,
+warmup_ratio=0.0,
+warmup_steps=0,
+weight_decay=0.0,
+)
+A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
+- configuration_internvl_chat.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
+- modeling_internvl_chat.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 196.00it/s]
+InternLM2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  6.17it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.02it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  5.31it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  6.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.73it/s]
+A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
+- tokenization_internlm2.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+  0%|          | 0/1000 [00:00<?, ?it/s]question nb_rh5TdEPw.2.mp4 has been tested, skipping
+question EbIsLUcORHw.10.mp4 has been tested, skipping
+question _AhE54ZDDOk.3.mp4 has been tested, skipping
+question H_Zu5q5f_Cw.68.mp4 has been tested, skipping
+question 6lRTHAIJDIU.77.mp4 has been tested, skipping
+question aaNix9v70cc.90.mp4 has been tested, skipping
+question IXC8H9E5Wd0.53.mp4 has been tested, skipping
+question ETyfOQt9vtM.2.mp4 has been tested, skipping
+question FXQFL_TUNyw.2.mp4 has been tested, skipping
+question -ZA56bVQZfo.4.mp4 has been tested, skipping
+question a8zmeF3OZq0.9.mp4 has been tested, skipping
+question Gxy-A43vGLI.2.mp4 has been tested, skipping
+question eGPTkn00kSU.48.mp4 has been tested, skipping
+question _AidwgpZdqc.35.mp4 has been tested, skipping
+question ew6jIkt2ciM.10.mp4 has been tested, skipping
+question h4-eQspXGgE.43.mp4 has been tested, skipping
+question V8NvkmtVbBM.1.mp4 has been tested, skipping
+question fuxIZoR6XyA.8.mp4 has been tested, skipping
+question 1dZEUo4bx_M.23.mp4 has been tested, skipping
+question IYTvxCQdWWg.25.mp4 has been tested, skipping
+question dVMccqWC8ts.99.mp4 has been tested, skipping
+question exU4Ei1lovU.1.mp4 has been tested, skipping
+question RQcYST8J5F8.6.mp4 has been tested, skipping
+question HblQWby4L6g.7.mp4 has been tested, skipping
+question OQGBi132JSA.10.mp4 has been tested, skipping
+question geHQHyNf2_4.3.mp4 has been tested, skipping
+question EEovzGG0AMk.22.mp4 has been tested, skipping
+question fvRCs5jnmCg.4.mp4 has been tested, skipping
+question p5QTmB3RQqY.4.mp4 has been tested, skipping
+question kThz2KutqEw.9.mp4 has been tested, skipping
+question HF1K9Po9ylg.10.mp4 has been tested, skipping
+question qPMsUpM3mkw.60.mp4 has been tested, skipping
+question VzWiKb8LZ3Y.53.mp4 has been tested, skipping
+question -3L_zWKR5Ek.14.mp4 has been tested, skipping
+question fKCjKxaXg5Y.16.mp4 has been tested, skipping
+question qgmJ-7C5nww.15.mp4 has been tested, skipping
+question D_aUMqIFZWw.5.mp4 has been tested, skipping
+question NssFBkcwbZ0.3.mp4 has been tested, skipping
+question aVIBFJtYT4c.37.mp4 has been tested, skipping
+question 4fD6wuJx34E.4.mp4 has been tested, skipping
+question NNgdnzEHyvQ.4.mp4 has been tested, skipping
+question 3WVD7UHXGRM.2.mp4 has been tested, skipping
+question EUrr5M-HSDE.13.mp4 has been tested, skipping
+question NbqiX3nh7J4.33.mp4 has been tested, skipping
+question 5D7Ho00Z08o.50.mp4 has been tested, skipping
+question FUpHpNhoyf0.8.mp4 has been tested, skipping
+question pk0zMJNtEO8.46.mp4 has been tested, skipping
+question EA0U9jCUoq0.28.mp4 has been tested, skipping
+question NWC8h1lEuQI.3.mp4 has been tested, skipping
+question EZND4B463sc.12.mp4 has been tested, skipping
+question JhRB845u3mM.19.mp4 has been tested, skipping
+question HGJ7gaty42o.72.mp4 has been tested, skipping
+question NweLKlFwycQ.3.mp4 has been tested, skipping
+question Y4YMIbkMKI8.25.mp4 has been tested, skipping
+question I2dLl8aGBPc.11.mp4 has been tested, skipping
+question X8hyyfeLYzs.45.mp4 has been tested, skipping
+question hHo9DOJBehA.9.mp4 has been tested, skipping
+question WmoXVyqGcb8.35.mp4 has been tested, skipping
+question bQ_vMBlJlRU.13.mp4 has been tested, skipping
+question 7WPwvW9XEjk.22.mp4 has been tested, skipping
+question MlQv9e4vERY.3.mp4 has been tested, skipping
+question EOQUhFb--yI.26.mp4 has been tested, skipping
+question K1XBKq4k9QA.6.mp4 has been tested, skipping
+question 5i8VN44aKu8.17.mp4 has been tested, skipping
+question Le13fjmDf-4.9.mp4 has been tested, skipping
+question WrTKYU74tM0.11.mp4 has been tested, skipping
+question o7YBjyW2ZJI.1.mp4 has been tested, skipping
+question 2DQ8j2lF0ss.2.mp4 has been tested, skipping
+question RNY8xStpRDw.26.mp4 has been tested, skipping
+question IV9WrEbjtN0.28.mp4 has been tested, skipping
+question di3oJCZOuzk.28.mp4 has been tested, skipping
+question rwzwJraoiEg.7.mp4 has been tested, skipping
+question lsYHu114pIo.3.mp4 has been tested, skipping
+question MZk0G9rFb0k.7.mp4 has been tested, skipping
+question ryq-BM9ev1g.1.mp4 has been tested, skipping
+question esZZF1QJKrU.11.mp4 has been tested, skipping
+question rTeGi-oYziE.5.mp4 has been tested, skipping
+question fpdokqfsnMo.2.mp4 has been tested, skipping
+question d8aJZ5iTzZ8.1.mp4 has been tested, skipping
+question JpvXcNvpaWg.9.mp4 has been tested, skipping
+question cVx0uz7iYJo.43.mp4 has been tested, skipping
+question 2x9M97L5Sr4.3.mp4 has been tested, skipping
+question lKu_I2qvJWc.1.mp4 has been tested, skipping
+question 1XEk8M5guIY.18.mp4 has been tested, skipping
+question 4d0B0Dli-1g.54.mp4 has been tested, skipping
+question HCjkFTRUDgo.38.mp4 has been tested, skipping
+question f5rtBiJc600.6.mp4 has been tested, skipping
+question izI11rmx-Gc.25.mp4 has been tested, skipping
+question EGIAAgHPsqQ.6.mp4 has been tested, skipping
+question eUeAEKccjoQ.64.mp4 has been tested, skipping
+question NziJw8sENq4.3.mp4 has been tested, skipping
+question DTSu6UjvceY.20.mp4 has been tested, skipping
+question l8vvu2qo6hM.9.mp4 has been tested, skipping
+question ELBTm-3YPMU.13.mp4 has been tested, skipping
+question 1onbXVtdGAc.1.mp4 has been tested, skipping
+question G_N9tjTBFNE.11.mp4 has been tested, skipping
+question n6dm7GqJ7hI.3.mp4 has been tested, skipping
+question _joXta0gi10.13.mp4 has been tested, skipping
+question Lqh96ETsZB8.20.mp4 has been tested, skipping
+question jQN1FWdhHXM.23.mp4 has been tested, skipping
+question DwpveXAecSQ.1.mp4 has been tested, skipping
+question eSQ5B2SU6ug.3.mp4 has been tested, skipping
+question 0MJOWoIFLDA.1.mp4 has been tested, skipping
+question 2YQ2JRtSMXM.32.mp4 has been tested, skipping
+question 2nkqMZBR-ak.31.mp4 has been tested, skipping
+question 0yl27K4C0wc.6.mp4 has been tested, skipping
+question 7yYUnyuKoew.14.mp4 has been tested, skipping
+question opiY6ZJsT7Q.37.mp4 has been tested, skipping
+question TQRDSrpZ59U.1.mp4 has been tested, skipping
+question C9GLXp-X5Zo.2.mp4 has been tested, skipping
+question 8Jr4O3TWfok.3.mp4 has been tested, skipping
+question VeFM9HlR1io.1.mp4 has been tested, skipping
+question fqaCv6rWIvo.8.mp4 has been tested, skipping
+question KHtQ7TIr9fc.1.mp4 has been tested, skipping
+question d5hKq9foEoo.16.mp4 has been tested, skipping
+question KsOiiZrR1og.12.mp4 has been tested, skipping
+question ezRa_DkNm4k.3.mp4 has been tested, skipping
+question 6E1kOy3fZU4.1.mp4 has been tested, skipping
+question qNAo0UdYF6g.26.mp4 has been tested, skipping
+question D0tTu9kZo8c.2.mp4 has been tested, skipping
+question WyJ5OwQT9Qk.7.mp4 has been tested, skipping
+question 6-X80_8prQQ.15.mp4 has been tested, skipping
+question pTmj8jEFZt0.4.mp4 has been tested, skipping
+question 87hLwveIrXs.21.mp4 has been tested, skipping
+question alqFZ5MYWfw.3.mp4 has been tested, skipping
+question CrDLwpobv3M.2.mp4 has been tested, skipping
+question fPuxymJeYyc.7.mp4 has been tested, skipping
+question lV43fFMyjak.17.mp4 has been tested, skipping
+question INgwKE5xejQ.25.mp4 has been tested, skipping
+question pHVoEhnTJM4.12.mp4 has been tested, skipping
+question dbfC_P17J3c.19.mp4 has been tested, skipping
+question ogabatRYhfU.38.mp4 has been tested, skipping
+question No3YHZfgClM.6.mp4 has been tested, skipping
+question fmMdSEtwads.1.mp4 has been tested, skipping
+question Yug7XXCE8zM.2.mp4 has been tested, skipping
+question pXZ-UTfTaOw.9.mp4 has been tested, skipping
+question YwUQ5vUcarQ.24.mp4 has been tested, skipping
+question R913npL7Cg8.21.mp4 has been tested, skipping
+question 01fbXRJlfqo.41.mp4 has been tested, skipping
+question GkQPgyvgsgg.5.mp4 has been tested, skipping
+question WUCGlOtKNhQ.10.mp4 has been tested, skipping
+question aPpAOOkRPPQ.6.mp4 has been tested, skipping
+question MC2TYLVk6bU.12.mp4 has been tested, skipping
+question EG82BCLfid4.2.mp4 has been tested, skipping
+question 1z8QmAJXXHQ.40.mp4 has been tested, skipping
+question h9Q1M8UsO94.19.mp4 has been tested, skipping
+question qICzdC0pCAg.2.mp4 has been tested, skipping
+question 56yBPmDhXjg.5.mp4 has been tested, skipping
+question fIQI9AHm3So.11.mp4 has been tested, skipping
+question nu1FNhiOJXI.1.mp4 has been tested, skipping
+question a1UeqIfLALs.3.mp4 has been tested, skipping
+question LxTnJajOmCM.1.mp4 has been tested, skipping
+question kEt5BdPHfh4.7.mp4 has been tested, skipping
+question GNTYlIPESbU.27.mp4 has been tested, skipping
+question Wscd57aZTuE.10.mp4 has been tested, skipping
+question FAuLPE4YXc4.13.mp4 has been tested, skipping
+question ho_PoP3PiQ8.12.mp4 has been tested, skipping
+question IwsEt2zLq4I.3.mp4 has been tested, skipping
+question 3im5Xcn_Hu8.27.mp4 has been tested, skipping
+question dpBvmHHB3CI.19.mp4 has been tested, skipping
+question CVbELvZ_Euo.34.mp4 has been tested, skipping
+question qV_LyJfNzN4.3.mp4 has been tested, skipping
+question eoH8YJiY6EM.1.mp4 has been tested, skipping
+question Jh_ZI0Omq3g.10.mp4 has been tested, skipping
+question cxZ2BUoskzY.53.mp4 has been tested, skipping
+question iw-Mq9bimYQ.1.mp4 has been tested, skipping
+question dONE4OBs7Fo.1.mp4 has been tested, skipping
+question 77fn61AxzNc.80.mp4 has been tested, skipping
+question 8lxZ4bZ8Pk8.27.mp4 has been tested, skipping
+question LFq_bAMrREw.3.mp4 has been tested, skipping
+question MRZ6Bg9Q2DY.109.mp4 has been tested, skipping
+question GMxoh2QEvlg.6.mp4 has been tested, skipping
+question aIMEQs8z_jI.14.mp4 has been tested, skipping
+question _SzMMotUqBo.2.mp4 has been tested, skipping
+question GE3KAdAvSpU.6.mp4 has been tested, skipping
+question 1pxOTA8_Tx8.1.mp4 has been tested, skipping
+question GFWhmSQ4RcE.3.mp4 has been tested, skipping
+question 4D7fM_WPKG4.5.mp4 has been tested, skipping
+question Lk0NUa-1EA8.59.mp4 has been tested, skipping
+question dSEclyPWPkE.2.mp4 has been tested, skipping
+question pYVNQ0SrZck.11.mp4 has been tested, skipping
+question 6pbsQg08UUo.13.mp4 has been tested, skipping
+question Mor6bXyOfG4.14.mp4 has been tested, skipping
+question P3yTPOxaOeQ.5.mp4 has been tested, skipping
+question 61qCgjbvnDI.20.mp4 has been tested, skipping
+question Jsrw3zVk8j0.8.mp4 has been tested, skipping
+question fWMsyD_RNi0.12.mp4 has been tested, skipping
+question qCo-53s009Y.1.mp4 has been tested, skipping
+question 73lVyPC5ORc.45.mp4 has been tested, skipping
+question D6iZnCETHFM.52.mp4 has been tested, skipping
+question pYZFiXnoYDE.21.mp4 has been tested, skipping
+question BJqEkZu_g1M.29.mp4 has been tested, skipping
+question OGDgkr5NcOM.7.mp4 has been tested, skipping
+question JgK6jFxwRUU.37.mp4 has been tested, skipping
+question clG0fj2Z_i0.11.mp4 has been tested, skipping
+question lLfLmGKv2fo.27.mp4 has been tested, skipping
+question 3WNIeRpn5SY.17.mp4 has been tested, skipping
+question DuohLtLlQX8.4.mp4 has been tested, skipping
+question LzC6P6KPlyI.30.mp4 has been tested, skipping
+question h5y0MgQhK_w.70.mp4 has been tested, skipping
+question 6aMW5mOKxB8.18.mp4 has been tested, skipping
+question GJk_aVONgFk.11.mp4 has been tested, skipping
+question _b27lA_C9z8.14.mp4 has been tested, skipping
+question IJRwCxrKJQc.38.mp4 has been tested, skipping
+question HALtebWHpNA.11.mp4 has been tested, skipping
+question a1K6Z2qK2HM.30.mp4 has been tested, skipping
+question 0FNEjC2OWUA.10.mp4 has been tested, skipping
+question ZPF42VG3NMY.18.mp4 has been tested, skipping
+question E2YZtSst6Jc.6.mp4 has been tested, skipping
+question iR41QZa74MQ.2.mp4 has been tested, skipping
+question iuKJ_P2B9ZE.23.mp4 has been tested, skipping
+question OErUjntzr9k.17.mp4 has been tested, skipping
+question 66LrUdyJb2E.14.mp4 has been tested, skipping
+question 83F5rVm0cSo.43.mp4 has been tested, skipping
+question cdbH0Wg1T2c.26.mp4 has been tested, skipping
+question 2fhPcQ9dG1I.8.mp4 has been tested, skipping
+question 6eMSKpq3zOE.2.mp4 has been tested, skipping
+question eAsHgrU5WMs.15.mp4 has been tested, skipping
+question CUmNN6zGrEA.2.mp4 has been tested, skipping
+question ZSpN6zGRHgQ.10.mp4 has been tested, skipping
+question JnPY2X9qOL4.25.mp4 has been tested, skipping
+question KRRODHoQAHI.15.mp4 has been tested, skipping
+question hWFWYu6O-CM.7.mp4 has been tested, skipping
+question H43iRH7PKWk.12.mp4 has been tested, skipping
+question M8bk03k2z-0.71.mp4 has been tested, skipping
+question MJe6m5edDYw.3.mp4 has been tested, skipping
+question lXu7B4mKTTw.5.mp4 has been tested, skipping
+question kDhbGfCUJ8M.7.mp4 has been tested, skipping
+question MG9s3Ovl5TY.3.mp4 has been tested, skipping
+question X5nwbhbsCqM.1.mp4 has been tested, skipping
+question 7kRMXW5OWc8.4.mp4 has been tested, skipping
+question -eBkL28_2Yg.41.mp4 has been tested, skipping
+question 2G9MXOcp69E.21.mp4 has been tested, skipping
+question lupFFRJAWYg.44.mp4 has been tested, skipping
+question p9zRjUhrwtg.41.mp4 has been tested, skipping
+question 6VtdcqNX9JY.66.mp4 has been tested, skipping
+question e5ziYKhgus0.3.mp4 has been tested, skipping
+question 8RRTQUAn4kI.1.mp4 has been tested, skipping
+question MZWy5YKA-6c.9.mp4 has been tested, skipping
+question JUVh5NFnkwU.16.mp4 has been tested, skipping
+question JVpciHYbAfQ.20.mp4 has been tested, skipping
+question PsMhhagMzk8.33.mp4 has been tested, skipping
+question pLRLgaJIN6o.11.mp4 has been tested, skipping
+question 6vh3mfBZcn4.27.mp4 has been tested, skipping
+question W9nE3SILI9o.46.mp4 has been tested, skipping
+question c1isRmD4ezQ.7.mp4 has been tested, skipping
+question KWpmQA8Lxlg.6.mp4 has been tested, skipping
+question hiPY7mS11NA.30.mp4 has been tested, skipping
+question E0oX2LhlQmY.1.mp4 has been tested, skipping
+question NnbfVdYUcuA.4.mp4 has been tested, skipping
+question ImTsyQ6g_sE.2.mp4 has been tested, skipping
+question 45sbDsdwfBc.4.mp4 has been tested, skipping
+question CEZi0aZt1Xg.7.mp4 has been tested, skipping
+question rauStenbUPE.18.mp4 has been tested, skipping
+question XgJVN26uSfo.7.mp4 has been tested, skipping
+question KSMMWzRomhI.3.mp4 has been tested, skipping
+question Ywx3jsVdYYg.2.mp4 has been tested, skipping
+question ChevvWh72bU.1.mp4 has been tested, skipping
+question fyDpB9152tQ.35.mp4 has been tested, skipping
+question q3_iS5Xehlc.13.mp4 has been tested, skipping
+question FhWSr-Yh858.10.mp4 has been tested, skipping
+question GY4if-dRL9k.30.mp4 has been tested, skipping
+question BjkKMcS93yQ.21.mp4 has been tested, skipping
+question Y6s-S8h7Jx4.27.mp4 has been tested, skipping
+question qz83xA_luQI.6.mp4 has been tested, skipping
+question 3Nr4Jt8_1mY.21.mp4 has been tested, skipping
+question 2_AoYWoMarc.10.mp4 has been tested, skipping
+question Cle078tvttY.16.mp4 has been tested, skipping
+question HUhBaNvXGzo.1.mp4 has been tested, skipping
+question LjimNc1_Nfk.7.mp4 has been tested, skipping
+question DurblRo6w68.32.mp4 has been tested, skipping
+question YDn0bKdfP1g.2.mp4 has been tested, skipping
+question -zBxckJB9PQ.4.mp4 has been tested, skipping
+question -nLK0mxq1UM.20.mp4 has been tested, skipping
+question COZED4_L-Ns.53.mp4 has been tested, skipping
+question 4AwXspx6HOs.10.mp4 has been tested, skipping
+question I4d96lAxLnY.19.mp4 has been tested, skipping
+question NDHFCjK-HFI.2.mp4 has been tested, skipping
+question lgTUz7FosU0.64.mp4 has been tested, skipping
+question ZQYgiT9Wq_8.8.mp4 has been tested, skipping
+question o4MXRwB04KI.1.mp4 has been tested, skipping
+question cuqo8f_7foU.13.mp4 has been tested, skipping
+question f6milYshFlk.5.mp4 has been tested, skipping
+question 4AWL79edBWw.39.mp4 has been tested, skipping
+question 5rAZ5YXI3Po.33.mp4 has been tested, skipping
+question HvD_3n26238.18.mp4 has been tested, skipping
+question mM7Nn2ifpj4.5.mp4 has been tested, skipping
+question FQonBniudjw.2.mp4 has been tested, skipping
+question dRIiArSwx0E.2.mp4 has been tested, skipping
+question Goo_nHWcy4c.13.mp4 has been tested, skipping
+question hRCO9GAx3Sg.11.mp4 has been tested, skipping
+question E9KnHyYizd4.43.mp4 has been tested, skipping
+question gid2Z3Jywyw.13.mp4 has been tested, skipping
+question cLvyz9hHpzI.7.mp4 has been tested, skipping
+question IB41bdnfhbQ.1.mp4 has been tested, skipping
+question KR_0nI4yZv8.41.mp4 has been tested, skipping
+question MiBZ0SziuQE.1.mp4 has been tested, skipping
+question nwRqohMWc-A.3.mp4 has been tested, skipping
+question 0sxjWrSWZxs.4.mp4 has been tested, skipping
+question 1EMUdT_VQg4.56.mp4 has been tested, skipping
+question 2bdtqykQep8.9.mp4 has been tested, skipping
+question iDSggRHNyHY.9.mp4 has been tested, skipping
+question 0RjRqS5vl-Q.66.mp4 has been tested, skipping
+question 7VsW5K6_znE.32.mp4 has been tested, skipping
+question ZQS9aKIsViU.7.mp4 has been tested, skipping
+question K4aoW7LCDK0.60.mp4 has been tested, skipping
+question GasVx9-VTsU.72.mp4 has been tested, skipping
+question l8kucue70UQ.21.mp4 has been tested, skipping
+question FaAor3_r5yk.1.mp4 has been tested, skipping
+question cQsx5aHILpc.8.mp4 has been tested, skipping
+question fJ9pc9CSPEQ.10.mp4 has been tested, skipping
+question 8KNnj1QzFIc.4.mp4 has been tested, skipping
+question 6vIOHNU1xLg.5.mp4 has been tested, skipping
+question JJVBKg1ftew.4.mp4 has been tested, skipping
+question mYQP3-J-_zo.50.mp4 has been tested, skipping
+question -jkPtDwZHFE.27.mp4 has been tested, skipping
+question E8A0w8-MW9M.4.mp4 has been tested, skipping
+question o5WfR8cUWoo.83.mp4 has been tested, skipping
+question 66AWnA-197w.24.mp4 has been tested, skipping
+question 87cxdpA2Cbk.13.mp4 has been tested, skipping
+question 1l07Lsm8Yn8.10.mp4 has been tested, skipping
+question PwuqvysesaQ.6.mp4 has been tested, skipping
+question EBpdXNCqpfs.40.mp4 has been tested, skipping
+question fCLnMRKLw1Q.24.mp4 has been tested, skipping
+question FpjdIIAc1HY.7.mp4 has been tested, skipping
+question DtgTkHQBGx0.4.mp4 has been tested, skipping
+question fc_9xJlOhFU.17.mp4 has been tested, skipping
+question 1YnHoUvxnsI.21.mp4 has been tested, skipping
+question 2559riZ7u5g.34.mp4 has been tested, skipping
+question O0tY2W9iDMQ.1.mp4 has been tested, skipping
+question 4ggHTyL0wGg.16.mp4 has been tested, skipping
+question ELFZPKn5A1o.2.mp4 has been tested, skipping
+question Jq53wkmLJvE.14.mp4 has been tested, skipping
+question Mq-J7f5KJto.34.mp4 has been tested, skipping
+question MYUfGyCFvZc.15.mp4 has been tested, skipping
+question hOEF8eafA7I.5.mp4 has been tested, skipping
+question GLrjNZqBeek.35.mp4 has been tested, skipping
+question NdJBXombAmc.2.mp4 has been tested, skipping
+question XA6ttt0IKeQ.66.mp4 has been tested, skipping
+question oBJI_RMQGJc.15.mp4 has been tested, skipping
+question fO_0zubP-QI.2.mp4 has been tested, skipping
+question lBzH-0OnKto.41.mp4 has been tested, skipping
+question m6gffbRzH50.6.mp4 has been tested, skipping
+question 4wuKPlxjQsA.1.mp4 has been tested, skipping
+question 1JtxAJZt1ro.12.mp4 has been tested, skipping
+question 4TnMVbKtaNY.4.mp4 has been tested, skipping
+question IX8yMcTvZuc.61.mp4 has been tested, skipping
+question 5_2crvxS7JE.1.mp4 has been tested, skipping
+question HjVmnO2sBKY.2.mp4 has been tested, skipping
+question nY-PUM3fDPk.39.mp4 has been tested, skipping
+question fzfR8a0Z_Qg.69.mp4 has been tested, skipping
+question J_6-ptBHStQ.12.mp4 has been tested, skipping
+question YI2xm_UDRg8.1.mp4 has been tested, skipping
+question 1lIPeCTFCqw.3.mp4 has been tested, skipping
+question DPPSFkaPk7o.7.mp4 has been tested, skipping
+question 2EJDXYPNH5I.6.mp4 has been tested, skipping
+question fa9MPkW31bc.12.mp4 has been tested, skipping
+question fRS4G6FOxDE.15.mp4 has been tested, skipping
+question IQ3XfUtqX-g.29.mp4 has been tested, skipping
+question PWgpRqWGXvs.2.mp4 has been tested, skipping
+question E6johHMA0dc.16.mp4 has been tested, skipping
+question Rul4IYmr5xs.36.mp4 has been tested, skipping
+question LUrZmKbkMz8.46.mp4 has been tested, skipping
+question IobBPh-QH3w.5.mp4 has been tested, skipping
+question 7cBC_cC8pFw.13.mp4 has been tested, skipping
+question 8Rg6csfHBr0.26.mp4 has been tested, skipping
+question aQT3Spc3-dE.1.mp4 has been tested, skipping
+question f9oT_cRfVRo.40.mp4 has been tested, skipping
+question 4k7dtojRmss.5.mp4 has been tested, skipping
+question cWpJRR1EtBo.1.mp4 has been tested, skipping
+question 4xeJ4jqr3t8.56.mp4 has been tested, skipping
+question 1E-xBVi0pqQ.10.mp4 has been tested, skipping
+question cdY3htG6RbM.20.mp4 has been tested, skipping
+question cfZdelr5Jtw.16.mp4 has been tested, skipping
+question a-paJpTi2OA.13.mp4 has been tested, skipping
+question gY4SiL1Rf9M.2.mp4 has been tested, skipping
+question GrPllg72Zeo.6.mp4 has been tested, skipping
+question TTL6XZlh8DY.28.mp4 has been tested, skipping
+question EmTBhmABmhI.31.mp4 has been tested, skipping
+question oO3z44-warU.12.mp4 has been tested, skipping
+question 5jyZ0VqFRcY.17.mp4 has been tested, skipping
+question r4hCxQns8ac.20.mp4 has been tested, skipping
+question Hrebx1U1cDE.4.mp4 has been tested, skipping
+question MzQhJx7JP44.55.mp4 has been tested, skipping
+question N9pSRU7OQdI.6.mp4 has been tested, skipping
+question JRZbWplSu70.6.mp4 has been tested, skipping
+question 8zC3wU20ga0.40.mp4 has been tested, skipping
+question 8TNk2e8cGzk.8.mp4 has been tested, skipping
+question go4rADj1Jmc.67.mp4 has been tested, skipping
+question BkxC0Gt4Sb0.12.mp4 has been tested, skipping
+question lLXck9ChJP0.21.mp4 has been tested, skipping
+question HGLyrGGcfdA.36.mp4 has been tested, skipping
+question c_z4q0eZ57k.9.mp4 has been tested, skipping
+question METBPUhATrc.10.mp4 has been tested, skipping
+question LvAu0sXAsBo.16.mp4 has been tested, skipping
+question 3eGFpV0EBh4.30.mp4 has been tested, skipping
+question jJ_Zejm7LQE.8.mp4 has been tested, skipping
+question Nn62fTstT14.36.mp4 has been tested, skipping
+question c61e0rLm0uI.27.mp4 has been tested, skipping
+question eyS6OgUKDSI.12.mp4 has been tested, skipping
+question K-NRmZfZD7I.11.mp4 has been tested, skipping
+question PqasL_p3B8k.31.mp4 has been tested, skipping
+question lNbHw2XcMAw.13.mp4 has been tested, skipping
+question MUbzrgxWbX8.12.mp4 has been tested, skipping
+question mEmCO_2UN2o.7.mp4 has been tested, skipping
+question 23cwM893vJU.6.mp4 has been tested, skipping
+question 0HfeVQQaOVs.25.mp4 has been tested, skipping
+question OEDXpmtfNyQ.1.mp4 has been tested, skipping
+question 3adCikRcRsA.10.mp4 has been tested, skipping
+question 7Q5wKEvAY7M.21.mp4 has been tested, skipping
+question Rz6FPrZINNE.3.mp4 has been tested, skipping
+question MrU2dEpCUjE.2.mp4 has been tested, skipping
+question WwwfNcbILTw.6.mp4 has been tested, skipping
+question cnF85razRwg.18.mp4 has been tested, skipping
+question oqSkilvf1Pg.14.mp4 has been tested, skipping
+question MlQ7RCc5QAc.2.mp4 has been tested, skipping
+question 1CGeL1M8CSk.5.mp4 has been tested, skipping
+question 1KlcSDc-zpY.17.mp4 has been tested, skipping
+question 0j7agv3fPDw.40.mp4 has been tested, skipping
+question Rg0wfmvtax4.6.mp4 has been tested, skipping
+question 2xEzHOzs0Eo.22.mp4 has been tested, skipping
+question 6rpmJM_mEOM.2.mp4 has been tested, skipping
+question 1SjZ-VtbASE.4.mp4 has been tested, skipping
+question gezL1eabD_g.41.mp4 has been tested, skipping
+question ZW9RPLIcNUo.42.mp4 has been tested, skipping
+question gOlRBkc-xK8.18.mp4 has been tested, skipping
+question 2q0dNLBuI2s.1.mp4 has been tested, skipping
+question dHFvusFXWMM.23.mp4 has been tested, skipping
+question Yzb0iCapJXE.1.mp4 has been tested, skipping
+question DXgL6UzH_h8.4.mp4 has been tested, skipping
+question CpUMWiSY6AQ.25.mp4 has been tested, skipping
+question CWrjDoEBQsw.15.mp4 has been tested, skipping
+question BFar1JYy3x4.18.mp4 has been tested, skipping
+question 61MRbvT2pPw.31.mp4 has been tested, skipping
+question i7K8L-c788g.2.mp4 has been tested, skipping
+question BltP4kHxi7M.11.mp4 has been tested, skipping
+question IdqsBbh387w.24.mp4 has been tested, skipping
+question 8N86udSrA4A.11.mp4 has been tested, skipping
+question pOnEKHqbQzA.123.mp4 has been tested, skipping
+question obZbBCft8zE.3.mp4 has been tested, skipping
+question ezZkTTlnkgU.38.mp4 has been tested, skipping
+question Hfp6Fxnnt14.44.mp4 has been tested, skipping
+question dmX1W5umC1c.3.mp4 has been tested, skipping
+question FrdU2LXjSGs.11.mp4 has been tested, skipping
+question ixIzimI35SE.183.mp4 has been tested, skipping
+question lmCsX-Lr_bw.5.mp4 has been tested, skipping
+question KLk1P05dPVM.6.mp4 has been tested, skipping
+question 1mbUqWVX5xY.2.mp4 has been tested, skipping
+question lvxYSiJQcN0.34.mp4 has been tested, skipping
+question 4ZPjNooO_nU.7.mp4 has been tested, skipping
+question p7y5cWZjWcg.81.mp4 has been tested, skipping
+question DaawJhljNGc.7.mp4 has been tested, skipping
+question p4ozrMdR02Q.87.mp4 has been tested, skipping
+question 852zxDEAR-Q.48.mp4 has been tested, skipping
+question O7MgvRwwP0A.22.mp4 has been tested, skipping
+question HcT3uyNtPUE.41.mp4 has been tested, skipping
+question RuiJ9jzJms0.7.mp4 has been tested, skipping
+question RvC98yqRjqA.3.mp4 has been tested, skipping
+question cyI-J3NV3wQ.6.mp4 has been tested, skipping
+question DWoE-2-lXGU.19.mp4 has been tested, skipping
+question j9XvH6pZ_jE.3.mp4 has been tested, skipping
+question DFdJnI3hbrE.14.mp4 has been tested, skipping
+question foGuL_yOc1g.9.mp4 has been tested, skipping
+question o5ZnCGTIs6g.4.mp4 has been tested, skipping
+question D_u8jQjOPGY.10.mp4 has been tested, skipping
+question enYBTIjS_bM.1.mp4 has been tested, skipping
+question MIQrFEjt0hY.4.mp4 has been tested, skipping
+question Fj3FTSf1wIc.4.mp4 has been tested, skipping
+question gV1tESSpm-A.57.mp4 has been tested, skipping
+question 3b2lNwwkPFs.1.mp4 has been tested, skipping
+question 6Z9i5L-P_0A.1.mp4 has been tested, skipping
+question quc5TP4bmmw.50.mp4 has been tested, skipping
+question ixxA7rUXuP0.1.mp4 has been tested, skipping
+question P6PMy6gUAHk.15.mp4 has been tested, skipping
+question 5PqW_qVXREs.4.mp4 has been tested, skipping
+question YXbG61d2CRY.76.mp4 has been tested, skipping
+question mztyl0261IM.18.mp4 has been tested, skipping
+question MG67t7dZUQY.4.mp4 has been tested, skipping
+question 6U-fCsXPY3w.5.mp4 has been tested, skipping
+question YGzTqHm_soI.5.mp4 has been tested, skipping
+question Em8qDBn9aWM.14.mp4 has been tested, skipping
+question hhzOUv4ZGH4.29.mp4 has been tested, skipping
+question 2krJTlNerIE.27.mp4 has been tested, skipping
+question BO1tObl28Bo.4.mp4 has been tested, skipping
+question NRGP7qTZlhI.4.mp4 has been tested, skipping
+question 1aiI-D-XIng.5.mp4 has been tested, skipping
+question dYm2Gfqqpno.1.mp4 has been tested, skipping
+question XXTdKnUtE84.15.mp4 has been tested, skipping
+question 8VR6Tqubsps.45.mp4 has been tested, skipping
+question Ed713FcNRLM.3.mp4 has been tested, skipping
+question dbpS_Nom47s.32.mp4 has been tested, skipping
+question qAoXMN5AacQ.2.mp4 has been tested, skipping
+question Ho2nNxYjjlM.1.mp4 has been tested, skipping
+question Xcjgbopv4dw.14.mp4 has been tested, skipping
+question a6X5eG8E7_k.1.mp4 has been tested, skipping
+question rnFdV8rkmg8.17.mp4 has been tested, skipping
+question 2hboEdpog7M.27.mp4 has been tested, skipping
+question cal9oOKKgb8.5.mp4 has been tested, skipping
+question EqYvCJEjGYk.16.mp4 has been tested, skipping
+question HolBPRcf8C8.12.mp4 has been tested, skipping
+question JttB3Yh3rtM.3.mp4 has been tested, skipping
+question W_7ysMFZt6w.31.mp4 has been tested, skipping
+question NtzScMqo9WM.1.mp4 has been tested, skipping
+question YerTWNnICHU.1.mp4 has been tested, skipping
+question 5BsVUmnQ81Q.3.mp4 has been tested, skipping
+question ilO4EEdbl6E.67.mp4 has been tested, skipping
+question NEY-YObAjS4.8.mp4 has been tested, skipping
+question IinarLT0oLg.10.mp4 has been tested, skipping
+question qSBUw6tEiQY.12.mp4 has been tested, skipping
+question 6TBZYDxaAqI.17.mp4 has been tested, skipping
+question j7SUjcwXY8w.86.mp4 has been tested, skipping
+question X3c_m6iq8L4.58.mp4 has been tested, skipping
+question CG8zDDg0wXE.4.mp4 has been tested, skipping
+question -r_-F_nBoL8.15.mp4 has been tested, skipping
+question _bPu4_424pc.6.mp4 has been tested, skipping
+question BU01P6aEJ-o.2.mp4 has been tested, skipping
+question PPfb5meVkHA.5.mp4 has been tested, skipping
+question P36CRUOt-uY.6.mp4 has been tested, skipping
+question eimL94zp54Y.15.mp4 has been tested, skipping
+question nVfiuz0y7r0.35.mp4 has been tested, skipping
+question HYP0hnDviRg.56.mp4 has been tested, skipping
+question kFGyDJQe31o.12.mp4 has been tested, skipping
+question LcrHVZL0jgM.13.mp4 has been tested, skipping
+question 4k1EEe3-fPc.37.mp4 has been tested, skipping
+question efRac1nugPM.19.mp4 has been tested, skipping
+question 7Zw1VHxVFpY.8.mp4 has been tested, skipping
+question 7fJq3QTPUUg.36.mp4 has been tested, skipping
+question _2cLg7nJ6yg.5.mp4 has been tested, skipping
+question N0qtu5NXhuQ.3.mp4 has been tested, skipping
+question k6Cvc0s-NZc.44.mp4 has been tested, skipping
+question Fr8xwpQV3xw.16.mp4 has been tested, skipping
+question 7aLE50TMD44.21.mp4 has been tested, skipping
+question niMXkqnGl7E.11.mp4 has been tested, skipping
+question 2cYmQqPwrwI.8.mp4 has been tested, skipping
+ 54%|█████▎    | 535/1000 [00:06<00:05, 81.24it/s] 54%|█████▎    | 535/1000 [00:20<00:05, 81.24it/s] 54%|█████▍    | 539/1000 [00:25<00:28, 16.39it/s] 54%|█████▍    | 540/1000 [00:31<00:39, 11.60it/s] 54%|█████▍    | 540/1000 [00:50<00:39, 11.60it/s] 54%|█████▍    | 543/1000 [00:54<01:32,  4.92it/s] 54%|█████▍    | 544/1000 [01:01<01:57,  3.88it/s] 55%|█████▍    | 546/1000 [01:18<03:16,  2.31it/s] 55%|█████▍    | 547/1000 [01:26<04:06,  1.84it/s] 55%|█████▍    | 549/1000 [01:38<05:39,  1.33it/s] 55%|█████▌    | 550/1000 [01:51<08:10,  1.09s/it] 55%|█████▌    | 551/1000 [02:06<12:14,  1.64s/it] 55%|█████▌    | 552/1000 [02:16<15:41,  2.10s/it] 55%|█████▌    | 553/1000 [02:22<17:43,  2.38s/it] 55%|█████▌    | 554/1000 [02:29<20:38,  2.78s/it] 56%|█████▌    | 555/1000 [02:40<27:15,  3.67s/it] 56%|█████▌    | 556/1000 [02:43<26:33,  3.59s/it] 56%|█████▌    | 557/1000 [02:52<33:00,  4.47s/it] 56%|█████▌    | 558/1000 [02:58<34:44,  4.72s/it] 56%|█████▌    | 559/1000 [03:11<48:11,  6.56s/it] 56%|█████▌    | 560/1000 [03:21<53:58,  7.36s/it] 56%|█████▌    | 561/1000 [03:34<1:05:08,  8.90s/it] 56%|█████▌    | 562/1000 [03:39<56:54,  7.79s/it]   56%|█████▋    | 563/1000 [03:51<1:05:49,  9.04s/it] 56%|█████▋    | 564/1000 [03:55<55:47,  7.68s/it]   56%|█████▋    | 565/1000 [04:01<51:16,  7.07s/it] 57%|█████▋    | 566/1000 [04:06<47:34,  6.58s/it] 57%|█████▋    | 567/1000 [04:16<52:59,  7.34s/it] 57%|█████▋    | 568/1000 [04:23<53:23,  7.42s/it] 57%|█████▋    | 569/1000 [04:36<1:05:05,  9.06s/it] 57%|█████▋    | 570/1000 [04:57<1:30:02, 12.56s/it] 57%|█████▋    | 571/1000 [05:05<1:20:04, 11.20s/it] 57%|█████▋    | 572/1000 [05:13<1:12:46, 10.20s/it] 57%|█████▋    | 573/1000 [05:19<1:03:08,  8.87s/it] 57%|█████▋    | 574/1000 [05:24<54:51,  7.73s/it]   57%|█████▊    | 575/1000 [05:29<49:53,  7.04s/it] 58%|█████▊    | 576/1000 [05:42<1:03:02,  8.92s/it] 58%|█████▊    | 577/1000 [05:55<1:10:56, 10.06s/it] 58%|█████▊    | 578/1000 [05:57<54:17,  7.72s/it]   58%|█████▊    | 579/1000 [06:04<52:19,  7.46s/it] 58%|█████▊    | 580/1000 [06:15<58:25,  8.35s/it] 58%|█████▊    | 581/1000 [06:18<47:32,  6.81s/it] 58%|█████▊    | 582/1000 [06:27<51:48,  7.44s/it] 58%|█████▊    | 583/1000 [06:31<44:34,  6.41s/it] 58%|█████▊    | 584/1000 [06:36<42:22,  6.11s/it] 58%|█████▊    | 585/1000 [06:42<41:03,  5.94s/it] 59%|█████▊    | 586/1000 [06:47<40:04,  5.81s/it] 59%|█████▊    | 587/1000 [06:52<36:49,  5.35s/it] 59%|█████▉    | 588/1000 [07:03<49:43,  7.24s/it] 59%|█████▉    | 589/1000 [07:10<48:40,  7.11s/it] 59%|█████▉    | 590/1000 [07:23<1:00:42,  8.88s/it] 59%|█████▉    | 591/1000 [07:34<1:05:33,  9.62s/it] 59%|█████▉    | 592/1000 [07:52<1:22:36, 12.15s/it] 59%|█████▉    | 593/1000 [07:55<1:03:38,  9.38s/it] 59%|█████▉    | 594/1000 [07:57<48:02,  7.10s/it]   60%|█████▉    | 595/1000 [08:08<56:31,  8.37s/it] 60%|█████▉    | 596/1000 [08:13<48:29,  7.20s/it] 60%|█████▉    | 597/1000 [08:21<50:23,  7.50s/it] 60%|█████▉    | 598/1000 [08:23<39:12,  5.85s/it] 60%|█████▉    | 599/1000 [08:29<39:45,  5.95s/it] 60%|██████    | 600/1000 [08:35<38:47,  5.82s/it] 60%|██████    | 601/1000 [08:42<40:34,  6.10s/it] 60%|██████    | 602/1000 [08:47<39:17,  5.92s/it] 60%|██████    | 603/1000 [08:56<45:59,  6.95s/it] 60%|██████    | 604/1000 [09:01<40:58,  6.21s/it] 60%|██████    | 605/1000 [09:04<35:25,  5.38s/it] 61%|██████    | 606/1000 [09:10<36:16,  5.52s/it] 61%|██████    | 607/1000 [09:19<42:31,  6.49s/it] 61%|██████    | 608/1000 [09:27<45:02,  6.89s/it] 61%|██████    | 609/1000 [09:38<53:43,  8.24s/it] 61%|██████    | 610/1000 [09:46<53:02,  8.16s/it] 61%|██████    | 611/1000 [09:51<45:56,  7.09s/it] 61%|██████    | 612/1000 [09:59<47:31,  7.35s/it] 61%|██████▏   | 613/1000 [10:07<48:46,  7.56s/it] 61%|██████▏   | 614/1000 [10:15<50:31,  7.85s/it] 62%|██████▏   | 615/1000 [10:33<1:10:15, 10.95s/it] 62%|██████▏   | 616/1000 [10:35<52:54,  8.27s/it]   62%|██████▏   | 617/1000 [10:41<47:12,  7.40s/it] 62%|██████▏   | 618/1000 [10:45<41:49,  6.57s/it] 62%|██████▏   | 619/1000 [10:53<43:30,  6.85s/it] 62%|██████▏   | 620/1000 [10:57<38:30,  6.08s/it] 62%|██████▏   | 621/1000 [11:05<42:26,  6.72s/it] 62%|██████▏   | 622/1000 [11:14<45:38,  7.25s/it] 62%|██████▏   | 623/1000 [11:27<55:57,  8.91s/it] 62%|██████▏   | 624/1000 [11:40<1:04:45, 10.33s/it] 62%|██████▎   | 625/1000 [11:50<1:02:52, 10.06s/it] 63%|██████▎   | 626/1000 [11:53<50:37,  8.12s/it]   63%|██████▎   | 627/1000 [12:00<48:00,  7.72s/it] 63%|██████▎   | 628/1000 [12:04<40:53,  6.59s/it] 63%|██████▎   | 629/1000 [12:08<36:27,  5.90s/it] 63%|██████▎   | 630/1000 [12:13<34:27,  5.59s/it] 63%|██████▎   | 631/1000 [12:31<57:08,  9.29s/it] 63%|██████▎   | 632/1000 [12:34<45:27,  7.41s/it] 63%|██████▎   | 633/1000 [12:44<50:22,  8.24s/it] 63%|██████▎   | 634/1000 [12:47<39:08,  6.42s/it] 64%|██████▎   | 635/1000 [12:53<38:22,  6.31s/it] 64%|██████▎   | 636/1000 [13:00<39:29,  6.51s/it] 64%|██████▎   | 637/1000 [13:23<1:09:09, 11.43s/it] 64%|██████▍   | 638/1000 [13:27<56:39,  9.39s/it]   64%|██████▍   | 639/1000 [13:33<49:27,  8.22s/it] 64%|██████▍   | 640/1000 [13:38<43:19,  7.22s/it] 64%|██████▍   | 641/1000 [13:42<38:56,  6.51s/it] 64%|██████▍   | 642/1000 [13:48<37:46,  6.33s/it] 64%|██████▍   | 643/1000 [13:52<33:24,  5.61s/it] 64%|██████▍   | 644/1000 [13:59<36:00,  6.07s/it] 64%|██████▍   | 645/1000 [14:06<37:38,  6.36s/it] 65%|██████▍   | 646/1000 [14:14<39:12,  6.64s/it] 65%|██████▍   | 647/1000 [14:27<50:52,  8.65s/it] 65%|██████▍   | 648/1000 [14:36<51:28,  8.77s/it] 65%|██████▍   | 649/1000 [14:48<55:58,  9.57s/it] 65%|██████▌   | 650/1000 [14:51<44:54,  7.70s/it] 65%|██████▌   | 651/1000 [14:56<41:05,  7.06s/it] 65%|██████▌   | 652/1000 [15:10<51:52,  8.94s/it] 65%|██████▌   | 653/1000 [15:16<47:31,  8.22s/it] 65%|██████▌   | 654/1000 [15:28<53:58,  9.36s/it] 66%|██████▌   | 655/1000 [15:37<53:04,  9.23s/it] 66%|██████▌   | 656/1000 [15:52<1:02:18, 10.87s/it] 66%|██████▌   | 657/1000 [16:04<1:04:01, 11.20s/it] 66%|██████▌   | 658/1000 [16:12<59:20, 10.41s/it]   66%|██████▌   | 659/1000 [16:19<52:06,  9.17s/it] 66%|██████▌   | 660/1000 [16:22<41:30,  7.33s/it] 66%|██████▌   | 661/1000 [16:25<34:36,  6.12s/it] 66%|██████▌   | 662/1000 [16:29<30:26,  5.40s/it] 66%|██████▋   | 663/1000 [16:38<36:59,  6.59s/it] 66%|██████▋   | 664/1000 [16:44<34:50,  6.22s/it] 66%|██████▋   | 665/1000 [16:49<33:13,  5.95s/it] 67%|██████▋   | 666/1000 [16:52<27:59,  5.03s/it] 67%|██████▋   | 667/1000 [17:01<34:41,  6.25s/it] 67%|██████▋   | 668/1000 [17:07<33:47,  6.11s/it] 67%|██████▋   | 669/1000 [17:11<30:26,  5.52s/it] 67%|██████▋   | 670/1000 [17:16<29:30,  5.36s/it] 67%|██████▋   | 671/1000 [17:20<27:57,  5.10s/it] 67%|██████▋   | 672/1000 [17:34<42:19,  7.74s/it] 67%|██████▋   | 673/1000 [17:42<42:40,  7.83s/it] 67%|██████▋   | 674/1000 [17:53<48:01,  8.84s/it] 68%|██████▊   | 675/1000 [18:00<43:38,  8.06s/it] 68%|██████▊   | 676/1000 [18:07<42:35,  7.89s/it] 68%|██████▊   | 677/1000 [18:18<47:23,  8.80s/it] 68%|██████▊   | 678/1000 [18:36<1:02:27, 11.64s/it] 68%|██████▊   | 679/1000 [18:47<1:00:24, 11.29s/it] 68%|██████▊   | 680/1000 [18:55<54:46, 10.27s/it]   68%|██████▊   | 681/1000 [19:05<54:39, 10.28s/it] 68%|██████▊   | 682/1000 [19:19<1:00:07, 11.34s/it] 68%|██████▊   | 683/1000 [19:31<1:01:22, 11.62s/it] 68%|██████▊   | 684/1000 [19:37<52:13,  9.92s/it]   68%|██████▊   | 685/1000 [19:47<52:25,  9.98s/it] 69%|██████▊   | 686/1000 [19:51<42:54,  8.20s/it] 69%|██████▊   | 687/1000 [19:59<42:23,  8.13s/it] 69%|██████▉   | 688/1000 [20:19<1:00:46, 11.69s/it] 69%|██████▉   | 689/1000 [20:25<51:44,  9.98s/it]   69%|██████▉   | 690/1000 [20:33<48:18,  9.35s/it] 69%|██████▉   | 691/1000 [20:39<42:22,  8.23s/it] 69%|██████▉   | 692/1000 [20:50<47:47,  9.31s/it] 69%|██████▉   | 693/1000 [20:59<46:26,  9.08s/it] 69%|██████▉   | 694/1000 [21:06<43:18,  8.49s/it] 70%|██████▉   | 695/1000 [21:22<54:34, 10.74s/it] 70%|██████▉   | 696/1000 [21:24<41:17,  8.15s/it] 70%|██████▉   | 697/1000 [21:28<34:23,  6.81s/it] 70%|██████▉   | 698/1000 [21:32<29:43,  5.91s/it] 70%|██████▉   | 699/1000 [21:35<26:22,  5.26s/it] 70%|███████   | 700/1000 [21:46<34:49,  6.97s/it] 70%|███████   | 701/1000 [21:51<30:50,  6.19s/it] 70%|███████   | 702/1000 [21:54<26:50,  5.41s/it] 70%|███████   | 703/1000 [22:00<27:10,  5.49s/it] 70%|███████   | 704/1000 [22:09<31:43,  6.43s/it] 70%|███████   | 705/1000 [22:19<38:05,  7.75s/it] 71%|███████   | 706/1000 [22:22<29:56,  6.11s/it] 71%|███████   | 707/1000 [22:28<30:27,  6.24s/it] 71%|███████   | 708/1000 [22:32<26:00,  5.34s/it] 71%|███████   | 709/1000 [22:43<34:37,  7.14s/it] 71%|███████   | 710/1000 [22:50<33:51,  7.00s/it] 71%|███████   | 711/1000 [22:56<32:47,  6.81s/it] 71%|███████   | 712/1000 [23:05<35:48,  7.46s/it] 71%|███████▏  | 713/1000 [23:10<31:48,  6.65s/it] 71%|███████▏  | 714/1000 [23:24<42:11,  8.85s/it] 72%|███████▏  | 715/1000 [23:34<43:58,  9.26s/it] 72%|███████▏  | 716/1000 [23:43<43:58,  9.29s/it] 72%|███████▏  | 717/1000 [23:49<38:44,  8.21s/it] 72%|███████▏  | 718/1000 [23:58<39:25,  8.39s/it] 72%|███████▏  | 719/1000 [24:03<35:11,  7.52s/it] 72%|███████▏  | 720/1000 [24:06<29:04,  6.23s/it] 72%|███████▏  | 721/1000 [24:10<25:07,  5.40s/it] 72%|███████▏  | 722/1000 [24:16<26:19,  5.68s/it] 72%|███████▏  | 723/1000 [24:24<28:31,  6.18s/it] 72%|███████▏  | 724/1000 [24:29<27:09,  5.90s/it] 72%|███████▎  | 725/1000 [24:35<27:02,  5.90s/it] 73%|███████▎  | 726/1000 [24:39<24:11,  5.30s/it] 73%|███████▎  | 727/1000 [24:43<22:52,  5.03s/it] 73%|███████▎  | 728/1000 [24:51<26:16,  5.80s/it] 73%|███████▎  | 729/1000 [24:59<29:48,  6.60s/it] 73%|███████▎  | 730/1000 [25:07<31:58,  7.11s/it] 73%|███████▎  | 731/1000 [25:13<29:56,  6.68s/it] 73%|███████▎  | 732/1000 [25:17<26:02,  5.83s/it] 73%|███████▎  | 733/1000 [25:33<39:48,  8.95s/it] 73%|███████▎  | 734/1000 [25:41<37:38,  8.49s/it] 74%|███████▎  | 735/1000 [25:48<36:01,  8.16s/it] 74%|███████▎  | 736/1000 [25:55<34:08,  7.76s/it] 74%|███████▎  | 737/1000 [26:01<31:55,  7.28s/it] 74%|███████▍  | 738/1000 [26:05<27:27,  6.29s/it] 74%|███████▍  | 739/1000 [26:14<30:51,  7.09s/it] 74%|███████▍  | 740/1000 [26:24<34:14,  7.90s/it] 74%|███████▍  | 741/1000 [26:32<34:19,  7.95s/it] 74%|███████▍  | 742/1000 [26:40<34:21,  7.99s/it] 74%|███████▍  | 743/1000 [26:47<33:50,  7.90s/it] 74%|███████▍  | 744/1000 [26:53<30:09,  7.07s/it] 74%|███████▍  | 745/1000 [27:04<35:35,  8.37s/it] 75%|███████▍  | 746/1000 [27:15<38:49,  9.17s/it] 75%|███████▍  | 747/1000 [27:24<38:27,  9.12s/it] 75%|███████▍  | 748/1000 [27:36<42:25, 10.10s/it] 75%|███████▍  | 749/1000 [27:41<35:30,  8.49s/it] 75%|███████▌  | 750/1000 [27:46<30:11,  7.25s/it] 75%|███████▌  | 751/1000 [27:52<29:11,  7.03s/it] 75%|███████▌  | 752/1000 [27:56<24:49,  6.01s/it] 75%|███████▌  | 753/1000 [28:08<32:03,  7.79s/it] 75%|███████▌  | 754/1000 [28:12<27:37,  6.74s/it] 76%|███████▌  | 755/1000 [28:22<31:12,  7.64s/it] 76%|███████▌  | 756/1000 [28:23<23:57,  5.89s/it] 76%|███████▌  | 757/1000 [28:29<23:48,  5.88s/it] 76%|███████▌  | 758/1000 [28:36<24:20,  6.03s/it] 76%|███████▌  | 759/1000 [28:42<24:34,  6.12s/it] 76%|███████▌  | 760/1000 [28:44<19:28,  4.87s/it] 76%|███████▌  | 761/1000 [28:52<22:39,  5.69s/it] 76%|███████▌  | 762/1000 [28:58<23:09,  5.84s/it] 76%|███████▋  | 763/1000 [29:14<35:21,  8.95s/it] 76%|███████▋  | 764/1000 [29:23<35:21,  8.99s/it] 76%|███████▋  | 765/1000 [29:26<28:07,  7.18s/it] 77%|███████▋  | 766/1000 [29:31<26:00,  6.67s/it] 77%|███████▋  | 767/1000 [29:34<21:14,  5.47s/it] 77%|███████▋  | 768/1000 [29:45<26:47,  6.93s/it] 77%|███████▋  | 769/1000 [30:04<41:12, 10.70s/it] 77%|███████▋  | 770/1000 [30:12<38:06,  9.94s/it] 77%|███████▋  | 771/1000 [30:18<33:14,  8.71s/it] 77%|███████▋  | 772/1000 [30:22<28:01,  7.38s/it] 77%|███████▋  | 773/1000 [30:26<23:16,  6.15s/it] 77%|███████▋  | 774/1000 [30:33<25:02,  6.65s/it] 78%|███████▊  | 775/1000 [30:42<27:04,  7.22s/it] 78%|███████▊  | 776/1000 [30:46<23:57,  6.42s/it] 78%|███████▊  | 777/1000 [30:53<24:23,  6.56s/it] 78%|███████▊  | 778/1000 [31:06<30:33,  8.26s/it] 78%|███████▊  | 779/1000 [31:13<29:04,  7.90s/it] 78%|███████▊  | 780/1000 [31:17<24:56,  6.80s/it] 78%|███████▊  | 781/1000 [31:20<20:55,  5.73s/it] 78%|███████▊  | 782/1000 [31:27<22:16,  6.13s/it] 78%|███████▊  | 783/1000 [31:31<19:51,  5.49s/it] 78%|███████▊  | 784/1000 [31:40<22:51,  6.35s/it] 78%|███████▊  | 785/1000 [31:42<18:40,  5.21s/it] 79%|███████▊  | 786/1000 [31:46<16:43,  4.69s/it] 79%|███████▊  | 787/1000 [31:49<15:31,  4.37s/it] 79%|███████▉  | 788/1000 [31:52<13:32,  3.83s/it] 79%|███████▉  | 789/1000 [31:54<11:50,  3.37s/it] 79%|███████▉  | 790/1000 [31:57<11:49,  3.38s/it] 79%|███████▉  | 791/1000 [32:05<16:27,  4.72s/it] 79%|███████▉  | 792/1000 [32:09<15:41,  4.53s/it] 79%|███████▉  | 793/1000 [32:15<16:21,  4.74s/it] 79%|███████▉  | 794/1000 [32:17<13:44,  4.00s/it] 80%|███████▉  | 795/1000 [32:19<12:05,  3.54s/it] 80%|███████▉  | 796/1000 [32:28<17:40,  5.20s/it] 80%|███████▉  | 797/1000 [32:36<20:14,  5.98s/it] 80%|███████▉  | 798/1000 [32:43<20:53,  6.21s/it] 80%|███████▉  | 799/1000 [32:48<19:52,  5.94s/it] 80%|████████  | 800/1000 [32:57<22:15,  6.68s/it] 80%|████████  | 801/1000 [33:01<20:02,  6.04s/it] 80%|████████  | 802/1000 [33:07<19:12,  5.82s/it] 80%|████████  | 803/1000 [33:11<18:06,  5.51s/it] 80%|████████  | 804/1000 [33:17<18:08,  5.55s/it] 80%|████████  | 805/1000 [33:19<14:10,  4.36s/it] 81%|████████  | 806/1000 [33:21<12:17,  3.80s/it] 81%|████████  | 807/1000 [33:22<09:51,  3.07s/it] 81%|████████  | 808/1000 [33:26<10:13,  3.20s/it] 81%|████████  | 809/1000 [33:33<13:49,  4.34s/it] 81%|████████  | 810/1000 [33:39<15:02,  4.75s/it] 81%|████████  | 811/1000 [33:45<16:34,  5.26s/it] 81%|████████  | 812/1000 [33:49<15:24,  4.92s/it] 81%|████████▏ | 813/1000 [33:58<18:57,  6.08s/it] 81%|████████▏ | 814/1000 [34:06<21:00,  6.78s/it] 82%|████████▏ | 815/1000 [34:14<21:43,  7.05s/it] 82%|████████▏ | 816/1000 [34:21<21:33,  7.03s/it] 82%|████████▏ | 817/1000 [34:24<18:05,  5.93s/it] 82%|████████▏ | 818/1000 [34:32<19:08,  6.31s/it] 82%|████████▏ | 819/1000 [34:35<16:32,  5.48s/it] 82%|████████▏ | 820/1000 [34:39<15:10,  5.06s/it] 82%|████████▏ | 821/1000 [34:44<14:30,  4.87s/it] 82%|████████▏ | 822/1000 [34:48<13:59,  4.72s/it] 82%|████████▏ | 823/1000 [34:54<15:04,  5.11s/it] 82%|████████▏ | 824/1000 [35:01<16:48,  5.73s/it] 82%|████████▎ | 825/1000 [35:05<14:58,  5.14s/it] 83%|████████▎ | 826/1000 [35:08<13:01,  4.49s/it] 83%|████████▎ | 827/1000 [35:12<12:28,  4.33s/it] 83%|████████▎ | 828/1000 [35:16<12:34,  4.39s/it] 83%|████████▎ | 829/1000 [35:18<10:18,  3.61s/it] 83%|████████▎ | 830/1000 [35:26<13:29,  4.76s/it] 83%|████████▎ | 831/1000 [35:29<12:14,  4.35s/it] 83%|████████▎ | 832/1000 [35:33<11:40,  4.17s/it] 83%|████████▎ | 833/1000 [35:36<10:50,  3.90s/it] 83%|████████▎ | 834/1000 [35:40<10:36,  3.84s/it] 84%|████████▎ | 835/1000 [35:43<10:01,  3.64s/it] 84%|████████▎ | 836/1000 [35:47<09:59,  3.65s/it] 84%|████████▎ | 837/1000 [35:50<09:52,  3.64s/it] 84%|████████▍ | 838/1000 [35:54<09:56,  3.68s/it] 84%|████████▍ | 839/1000 [36:00<11:30,  4.29s/it] 84%|████████▍ | 840/1000 [36:04<11:34,  4.34s/it] 84%|████████▍ | 841/1000 [36:11<13:31,  5.10s/it] 84%|████████▍ | 842/1000 [36:15<12:24,  4.71s/it] 84%|████████▍ | 843/1000 [36:18<11:06,  4.25s/it] 84%|████████▍ | 844/1000 [36:21<09:52,  3.80s/it] 84%|████████▍ | 845/1000 [36:24<09:26,  3.65s/it] 85%|████████▍ | 846/1000 [36:32<12:53,  5.03s/it] 85%|████████▍ | 847/1000 [36:36<12:01,  4.72s/it] 85%|████████▍ | 848/1000 [36:39<10:44,  4.24s/it] 85%|████████▍ | 849/1000 [36:44<11:07,  4.42s/it] 85%|████████▌ | 850/1000 [36:50<12:04,  4.83s/it] 85%|████████▌ | 851/1000 [36:54<11:27,  4.61s/it] 85%|████████▌ | 852/1000 [37:02<13:29,  5.47s/it] 85%|████████▌ | 853/1000 [37:06<12:45,  5.21s/it] 85%|████████▌ | 854/1000 [37:10<11:52,  4.88s/it] 86%|████████▌ | 855/1000 [37:15<11:57,  4.95s/it] 86%|████████▌ | 856/1000 [37:21<12:18,  5.13s/it] 86%|████████▌ | 857/1000 [37:26<12:23,  5.20s/it] 86%|████████▌ | 858/1000 [37:31<11:42,  4.95s/it] 86%|████████▌ | 859/1000 [37:34<10:44,  4.57s/it] 86%|████████▌ | 860/1000 [37:41<12:11,  5.22s/it] 86%|████████▌ | 861/1000 [37:45<11:20,  4.89s/it] 86%|████████▌ | 862/1000 [37:50<11:03,  4.80s/it] 86%|████████▋ | 863/1000 [37:56<11:36,  5.09s/it] 86%|████████▋ | 864/1000 [37:58<09:43,  4.29s/it] 86%|████████▋ | 865/1000 [38:00<08:20,  3.71s/it] 87%|████████▋ | 866/1000 [38:07<10:18,  4.61s/it] 87%|████████▋ | 867/1000 [38:09<08:36,  3.88s/it] 87%|████████▋ | 868/1000 [38:11<07:20,  3.34s/it] 87%|████████▋ | 869/1000 [38:18<09:26,  4.32s/it] 87%|████████▋ | 870/1000 [38:23<09:31,  4.40s/it] 87%|████████▋ | 871/1000 [38:26<09:06,  4.23s/it] 87%|████████▋ | 872/1000 [38:32<09:42,  4.55s/it] 87%|████████▋ | 873/1000 [38:35<09:00,  4.26s/it] 87%|████████▋ | 874/1000 [38:40<09:17,  4.43s/it] 88%|████████▊ | 875/1000 [38:44<08:33,  4.11s/it] 88%|████████▊ | 876/1000 [38:48<08:43,  4.23s/it] 88%|████████▊ | 877/1000 [38:52<08:48,  4.30s/it] 88%|████████▊ | 878/1000 [38:55<07:45,  3.81s/it] 88%|████████▊ | 879/1000 [38:59<07:40,  3.80s/it] 88%|████████▊ | 880/1000 [39:07<10:09,  5.08s/it] 88%|████████▊ | 881/1000 [39:12<09:49,  4.96s/it] 88%|████████▊ | 882/1000 [39:15<08:44,  4.44s/it] 88%|████████▊ | 883/1000 [39:18<08:01,  4.12s/it] 88%|████████▊ | 884/1000 [39:21<07:19,  3.79s/it] 88%|████████▊ | 885/1000 [39:29<09:15,  4.83s/it] 89%|████████▊ | 886/1000 [39:31<07:46,  4.09s/it] 89%|████████▊ | 887/1000 [39:34<07:02,  3.73s/it] 89%|████████▉ | 888/1000 [39:39<07:31,  4.03s/it] 89%|████████▉ | 889/1000 [39:43<07:38,  4.13s/it] 89%|████████▉ | 890/1000 [39:47<07:28,  4.08s/it] 89%|████████▉ | 891/1000 [39:50<06:51,  3.77s/it] 89%|████████▉ | 892/1000 [39:55<07:41,  4.27s/it] 89%|████████▉ | 893/1000 [39:58<06:31,  3.66s/it] 89%|████████▉ | 894/1000 [40:02<07:00,  3.96s/it] 90%|████████▉ | 895/1000 [40:09<08:17,  4.74s/it] 90%|████████▉ | 896/1000 [40:17<10:01,  5.79s/it] 90%|████████▉ | 897/1000 [40:19<08:08,  4.74s/it] 90%|████████▉ | 898/1000 [40:29<10:26,  6.14s/it] 90%|████████▉ | 899/1000 [40:34<09:47,  5.81s/it] 90%|█████████ | 900/1000 [40:35<07:27,  4.47s/it] 90%|█████████ | 901/1000 [40:44<09:37,  5.84s/it] 90%|█████████ | 902/1000 [40:48<08:34,  5.25s/it] 90%|█████████ | 903/1000 [40:55<09:07,  5.65s/it] 90%|█████████ | 904/1000 [40:57<07:40,  4.79s/it] 90%|█████████ | 905/1000 [41:02<07:16,  4.60s/it] 91%|█████████ | 906/1000 [41:05<06:32,  4.18s/it] 91%|█████████ | 907/1000 [41:07<05:25,  3.50s/it] 91%|█████████ | 908/1000 [41:09<04:54,  3.20s/it] 91%|█████████ | 909/1000 [41:13<05:18,  3.50s/it] 91%|█████████ | 910/1000 [41:18<05:55,  3.95s/it] 91%|█████████ | 911/1000 [41:25<06:55,  4.67s/it] 91%|█████████ | 912/1000 [41:29<06:32,  4.47s/it] 91%|█████████▏| 913/1000 [41:31<05:20,  3.68s/it] 91%|█████████▏| 914/1000 [41:33<04:54,  3.43s/it] 92%|█████████▏| 915/1000 [41:38<05:14,  3.70s/it] 92%|█████████▏| 916/1000 [41:43<05:41,  4.07s/it] 92%|█████████▏| 917/1000 [41:48<06:08,  4.44s/it] 92%|█████████▏| 918/1000 [41:52<05:55,  4.34s/it] 92%|█████████▏| 919/1000 [41:56<05:38,  4.18s/it] 92%|█████████▏| 920/1000 [42:04<07:14,  5.43s/it] 92%|█████████▏| 921/1000 [42:09<06:54,  5.25s/it] 92%|█████████▏| 922/1000 [42:12<05:55,  4.56s/it] 92%|█████████▏| 923/1000 [42:18<06:19,  4.93s/it] 92%|█████████▏| 924/1000 [42:21<05:44,  4.53s/it] 92%|█████████▎| 925/1000 [42:25<05:23,  4.31s/it] 93%|█████████▎| 926/1000 [42:28<04:44,  3.85s/it] 93%|█████████▎| 927/1000 [42:35<05:57,  4.90s/it] 93%|█████████▎| 928/1000 [42:37<04:35,  3.82s/it] 93%|█████████▎| 929/1000 [42:42<04:57,  4.19s/it] 93%|█████████▎| 930/1000 [42:47<05:22,  4.61s/it] 93%|█████████▎| 931/1000 [42:55<06:13,  5.42s/it] 93%|█████████▎| 932/1000 [42:58<05:29,  4.84s/it] 93%|█████████▎| 933/1000 [43:00<04:26,  3.97s/it] 93%|█████████▎| 934/1000 [43:05<04:45,  4.33s/it] 94%|█████████▎| 935/1000 [43:14<06:02,  5.58s/it] 94%|█████████▎| 936/1000 [43:24<07:19,  6.86s/it] 94%|█████████▎| 937/1000 [43:30<06:58,  6.64s/it] 94%|█████████▍| 938/1000 [43:36<06:42,  6.49s/it] 94%|█████████▍| 939/1000 [43:40<05:54,  5.81s/it] 94%|█████████▍| 940/1000 [43:41<04:27,  4.46s/it] 94%|█████████▍| 941/1000 [43:48<05:03,  5.14s/it] 94%|█████████▍| 942/1000 [43:50<04:09,  4.30s/it] 94%|█████████▍| 943/1000 [43:52<03:17,  3.47s/it] 94%|█████████▍| 944/1000 [43:59<04:18,  4.61s/it] 94%|█████████▍| 945/1000 [44:01<03:21,  3.66s/it] 95%|█████████▍| 946/1000 [44:12<05:27,  6.06s/it] 95%|█████████▍| 947/1000 [44:17<04:57,  5.61s/it] 95%|█████████▍| 948/1000 [44:19<03:52,  4.47s/it] 95%|█████████▍| 949/1000 [44:27<04:41,  5.53s/it] 95%|█████████▌| 950/1000 [44:30<03:56,  4.72s/it] 95%|█████████▌| 951/1000 [44:32<03:17,  4.02s/it] 95%|█████████▌| 952/1000 [44:35<03:03,  3.82s/it] 95%|█████████▌| 953/1000 [44:38<02:46,  3.55s/it] 95%|█████████▌| 954/1000 [44:43<03:00,  3.92s/it] 96%|█████████▌| 955/1000 [44:55<04:48,  6.41s/it] 96%|█████████▌| 956/1000 [44:57<03:44,  5.11s/it] 96%|█████████▌| 957/1000 [45:08<04:53,  6.82s/it] 96%|█████████▌| 958/1000 [45:11<03:59,  5.70s/it] 96%|█████████▌| 959/1000 [45:16<03:41,  5.39s/it] 96%|█████████▌| 960/1000 [45:20<03:22,  5.06s/it] 96%|█████████▌| 961/1000 [45:27<03:37,  5.59s/it] 96%|█████████▌| 962/1000 [45:30<03:06,  4.90s/it] 96%|█████████▋| 963/1000 [45:35<02:55,  4.74s/it] 96%|█████████▋| 964/1000 [45:38<02:34,  4.28s/it] 96%|█████████▋| 965/1000 [45:45<02:55,  5.01s/it] 97%|█████████▋| 966/1000 [45:53<03:21,  5.92s/it] 97%|█████████▋| 967/1000 [45:59<03:21,  6.11s/it] 97%|█████████▋| 968/1000 [46:02<02:47,  5.23s/it] 97%|█████████▋| 969/1000 [46:07<02:41,  5.20s/it] 97%|█████████▋| 970/1000 [46:10<02:11,  4.37s/it] 97%|█████████▋| 971/1000 [46:18<02:36,  5.38s/it] 97%|█████████▋| 972/1000 [46:21<02:16,  4.86s/it] 97%|█████████▋| 973/1000 [46:29<02:36,  5.78s/it] 97%|█████████▋| 974/1000 [46:35<02:32,  5.86s/it] 98%|█████████▊| 975/1000 [46:40<02:20,  5.63s/it] 98%|█████████▊| 976/1000 [46:43<01:54,  4.77s/it] 98%|█████████▊| 977/1000 [46:48<01:51,  4.86s/it] 98%|█████████▊| 978/1000 [46:51<01:31,  4.17s/it] 98%|█████████▊| 979/1000 [46:56<01:34,  4.49s/it] 98%|█████████▊| 980/1000 [47:03<01:47,  5.37s/it] 98%|█████████▊| 981/1000 [47:08<01:35,  5.02s/it] 98%|█████████▊| 982/1000 [47:18<01:58,  6.58s/it] 98%|█████████▊| 983/1000 [47:21<01:35,  5.62s/it] 98%|█████████▊| 984/1000 [47:26<01:26,  5.38s/it] 98%|█████████▊| 985/1000 [47:31<01:17,  5.20s/it] 99%|█████████▊| 986/1000 [47:35<01:07,  4.79s/it] 99%|█████████▊| 987/1000 [47:42<01:14,  5.70s/it] 99%|█████████▉| 988/1000 [47:47<01:04,  5.40s/it] 99%|█████████▉| 989/1000 [47:51<00:53,  4.87s/it] 99%|█████████▉| 990/1000 [47:56<00:50,  5.02s/it] 99%|█████████▉| 991/1000 [48:01<00:44,  4.98s/it] 99%|█████████▉| 992/1000 [48:04<00:34,  4.30s/it] 99%|█████████▉| 993/1000 [48:08<00:31,  4.43s/it] 99%|█████████▉| 994/1000 [48:13<00:27,  4.58s/it]100%|█████████▉| 995/1000 [48:18<00:22,  4.49s/it]100%|█████████▉| 996/1000 [48:24<00:20,  5.15s/it]100%|█████████▉| 997/1000 [48:30<00:16,  5.44s/it]100%|█████████▉| 998/1000 [48:33<00:08,  4.42s/it]100%|█████████▉| 999/1000 [48:40<00:05,  5.41s/it]100%|██████████| 1000/1000 [48:44<00:00,  4.87s/it]100%|██████████| 1000/1000 [48:44<00:00,  2.92s/it]

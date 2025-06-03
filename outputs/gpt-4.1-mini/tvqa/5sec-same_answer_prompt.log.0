@@ -1,0 +1,203 @@
+Namespace(llm_pretrained='gpt-4.1-mini', input_dir='http://139.59.121.220/proactive_benchmark_frames/tvqa-1fps', test_fname='data/tvqa/0502_version-anno.json', output_fname='outputs/gpt-4.1-mini/tvqa/5sec-same_answer_prompt.jsonl', frame_fps=1.0, frame_resolution=None, video_chunk_sec=5, need_judge_answerable=1, start_idx=0, end_idx=200)
+  0%|          | 0/200 [00:00<?, ?it/s]question friends_frames=friends_s01e07_seg02_clip_18.mp4%Q0 0 5 has been tested, skipping
+question friends_frames=friends_s01e07_seg02_clip_18.mp4%Q0 5 10 has been tested, skipping
+question friends_frames=friends_s01e07_seg02_clip_18.mp4%Q0 10 15 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 0 5 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 5 10 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 10 15 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 15 20 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 20 25 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 25 30 has been tested, skipping
+question bbt_frames=s10e04_seg02_clip_10.mp4%Q3 30 35 has been tested, skipping
+question friends_frames=friends_s04e23-24_seg02_clip_35.mp4%Q1 0 5 has been tested, skipping
+question friends_frames=friends_s04e23-24_seg02_clip_35.mp4%Q1 5 10 has been tested, skipping
+question friends_frames=friends_s04e23-24_seg02_clip_35.mp4%Q1 10 15 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 0 5 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 5 10 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 10 15 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 15 20 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 20 25 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 25 30 has been tested, skipping
+question bbt_frames=s08e21_seg02_clip_10.mp4%Q4 30 35 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 0 5 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 5 10 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 10 15 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 15 20 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 20 25 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 25 30 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 30 35 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 35 40 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 40 45 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 45 50 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 50 55 has been tested, skipping
+question house_frames=house_s05e15_seg02_clip_17.mp4%Q6 55 60 has been tested, skipping
+question castle_frames=castle_s07e04_seg02_clip_14.mp4%Q1 0 5 has been tested, skipping
+question castle_frames=castle_s07e04_seg02_clip_14.mp4%Q1 5 10 has been tested, skipping
+question castle_frames=castle_s07e04_seg02_clip_14.mp4%Q1 10 15 has been tested, skipping
+question castle_frames=castle_s07e04_seg02_clip_14.mp4%Q1 15 20 has been tested, skipping
+question castle_frames=castle_s07e04_seg02_clip_14.mp4%Q1 20 25 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 0 5 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 5 10 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 10 15 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 15 20 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 20 25 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 25 30 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 30 35 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 35 40 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 40 45 has been tested, skipping
+question bbt_frames=s07e03_seg02_clip_06.mp4%Q5 45 50 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 0 5 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 5 10 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 10 15 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 15 20 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 20 25 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 25 30 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 30 35 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 35 40 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 40 45 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 45 50 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 50 55 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 55 60 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 60 65 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 65 70 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 70 75 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 75 80 has been tested, skipping
+question castle_frames=castle_s08e05_seg02_clip_03.mp4%Q3 80 85 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 0 5 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 5 10 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 10 15 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 15 20 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 20 25 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 25 30 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 30 35 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 35 40 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 40 45 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 45 50 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 50 55 has been tested, skipping
+question bbt_frames=s03e16_seg02_clip_04.mp4%Q4 55 60 has been tested, skipping
+question friends_frames=friends_s07e04_seg02_clip_05.mp4%Q1 0 5 has been tested, skipping
+question friends_frames=friends_s07e04_seg02_clip_05.mp4%Q1 5 10 has been tested, skipping
+question friends_frames=friends_s07e04_seg02_clip_05.mp4%Q1 10 15 has been tested, skipping
+question friends_frames=friends_s07e04_seg02_clip_05.mp4%Q1 15 20 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 0 5 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 5 10 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 10 15 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 15 20 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 20 25 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 25 30 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 30 35 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 35 40 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 40 45 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 45 50 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 50 55 has been tested, skipping
+question friends_frames=friends_s05e10_seg02_clip_16.mp4%Q6 55 57.666666666666664 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 0 5 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 5 10 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 10 15 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 15 20 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 20 25 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 25 30 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 30 35 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 35 40 has been tested, skipping
+question friends_frames=friends_s07e16_seg02_clip_19.mp4%Q4 40 45 has been tested, skipping
+question bbt_frames=s06e04_seg02_clip_16.mp4%Q0 0 5 has been tested, skipping
+question bbt_frames=s06e04_seg02_clip_16.mp4%Q0 5 10 has been tested, skipping
+question bbt_frames=s10e02_seg02_clip_05.mp4%Q2 0 5 has been tested, skipping
+question bbt_frames=s10e02_seg02_clip_05.mp4%Q2 5 10 has been tested, skipping
+question bbt_frames=s10e02_seg02_clip_05.mp4%Q2 10 15 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 0 5 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 5 10 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 10 15 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 15 20 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 20 25 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 25 30 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 30 35 has been tested, skipping
+question house_frames=house_s01e03_seg02_clip_01.mp4%Q4 35 40 has been tested, skipping
+question friends_frames=friends_s03e08_seg02_clip_11.mp4%Q0 0 5 has been tested, skipping
+question friends_frames=friends_s06e02_seg01_clip_01.mp4%Q0 0 5 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 0 5 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 5 10 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 10 15 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 15 20 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 20 25 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 25 30 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 30 35 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 35 40 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 40 45 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 45 50 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 50 55 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 55 60 has been tested, skipping
+question friends_frames=friends_s07e03_seg02_clip_05.mp4%Q6 60 61.666666666666664 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 0 5 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 5 10 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 10 15 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 15 20 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 20 25 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 25 30 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 30 35 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 35 40 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 40 45 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 45 50 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 50 55 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 55 60 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 60 65 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 65 70 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 70 75 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 75 80 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 80 85 has been tested, skipping
+question house_frames=house_s07e16_seg02_clip_21.mp4%Q6 85 88.66666666666667 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 0 5 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 5 10 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 10 15 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 15 20 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 20 25 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 25 30 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 30 35 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 35 40 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 40 45 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 45 50 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 50 55 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 55 60 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 60 65 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 65 70 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 70 75 has been tested, skipping
+question castle_frames=castle_s02e03_seg02_clip_23.mp4%Q3 75 80 has been tested, skipping
+question house_frames=house_s06e19_seg02_clip_22.mp4%Q1 0 5 has been tested, skipping
+question house_frames=house_s06e19_seg02_clip_22.mp4%Q1 5 10 has been tested, skipping
+question house_frames=house_s06e19_seg02_clip_22.mp4%Q1 10 15 has been tested, skipping
+question house_frames=house_s06e19_seg02_clip_22.mp4%Q1 15 20 has been tested, skipping
+question bbt_frames=s05e20_seg02_clip_14.mp4%Q4 0 5 has been tested, skipping
+question bbt_frames=s05e20_seg02_clip_14.mp4%Q4 5 10 has been tested, skipping
+question bbt_frames=s05e20_seg02_clip_14.mp4%Q4 10 15 has been tested, skipping
+question bbt_frames=s05e20_seg02_clip_14.mp4%Q4 15 20 has been tested, skipping
+question bbt_frames=s05e20_seg02_clip_14.mp4%Q4 20 25 has been tested, skipping
+question castle_frames=castle_s06e08_seg02_clip_06.mp4%Q1 0 5 has been tested, skipping
+question castle_frames=castle_s06e08_seg02_clip_06.mp4%Q1 5 10 has been tested, skipping
+question castle_frames=castle_s06e08_seg02_clip_06.mp4%Q1 10 15 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 0 5 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 5 10 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 10 15 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 15 20 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 20 25 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 25 30 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 30 35 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 35 40 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 40 45 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 45 50 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 50 55 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 55 60 has been tested, skipping
+question met_frames=met_s06e08_seg02_clip_03.mp4%Q6 60 62.666666666666664 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 0 5 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 5 10 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 10 15 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 15 20 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 20 25 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 25 30 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 30 35 has been tested, skipping
+question bbt_frames=s01e09_seg01_clip_00.mp4%Q0 35 40 has been tested, skipping
+question bbt_frames=s03e05_seg02_clip_00.mp4%Q2 0 5 has been tested, skipping
+question bbt_frames=s03e05_seg02_clip_00.mp4%Q2 5 10 has been tested, skipping
+question bbt_frames=s03e05_seg02_clip_00.mp4%Q2 10 15 has been tested, skipping
+question bbt_frames=s03e05_seg02_clip_00.mp4%Q2 15 20 has been tested, skipping
+question bbt_frames=s03e05_seg02_clip_00.mp4%Q2 20 25 has been tested, skipping
+ 13%|█▎        | 26/200 [00:04<00:32,  5.33it/s] 14%|█▎        | 27/200 [00:59<08:43,  3.03s/it] 14%|█▍        | 28/200 [01:04<09:00,  3.14s/it] 14%|█▍        | 29/200 [01:26<13:49,  4.85s/it] 15%|█▌        | 30/200 [02:06<25:11,  8.89s/it] 16%|█▌        | 31/200 [02:14<24:28,  8.69s/it] 16%|█▌        | 32/200 [02:23<24:32,  8.76s/it] 16%|█▋        | 33/200 [02:44<30:49, 11.07s/it] 17%|█▋        | 34/200 [02:57<31:54, 11.53s/it] 18%|█▊        | 35/200 [03:41<52:34, 19.12s/it] 18%|█▊        | 36/200 [03:48<44:34, 16.31s/it] 18%|█▊        | 37/200 [03:54<36:12, 13.33s/it] 19%|█▉        | 38/200 [04:26<49:49, 18.46s/it] 20%|█▉        | 39/200 [04:44<49:32, 18.46s/it] 20%|██        | 40/200 [05:15<58:30, 21.94s/it] 20%|██        | 41/200 [05:36<57:34, 21.72s/it] 21%|██        | 42/200 [05:55<55:03, 20.91s/it] 22%|██▏       | 43/200 [06:30<1:06:01, 25.23s/it] 22%|██▏       | 44/200 [06:50<1:01:22, 23.61s/it] 22%|██▎       | 45/200 [06:58<48:43, 18.86s/it]   23%|██▎       | 46/200 [07:14<46:04, 17.95s/it] 24%|██▎       | 47/200 [07:47<57:58, 22.73s/it] 24%|██▍       | 48/200 [07:53<44:10, 17.44s/it] 24%|██▍       | 49/200 [08:21<52:09, 20.73s/it] 25%|██▌       | 50/200 [08:36<47:25, 18.97s/it] 26%|██▌       | 51/200 [08:43<38:41, 15.58s/it] 26%|██▌       | 52/200 [09:18<52:34, 21.31s/it] 26%|██▋       | 53/200 [09:41<53:16, 21.74s/it] 27%|██▋       | 54/200 [10:35<1:16:12, 31.32s/it] 28%|██▊       | 55/200 [10:45<1:00:27, 25.02s/it] 28%|██▊       | 56/200 [11:04<55:58, 23.32s/it]   28%|██▊       | 57/200 [11:18<48:30, 20.35s/it] 29%|██▉       | 58/200 [11:45<52:50, 22.33s/it] 30%|██▉       | 59/200 [11:52<41:42, 17.75s/it] 30%|███       | 60/200 [12:28<54:30, 23.36s/it] 30%|███       | 61/200 [12:37<43:54, 18.95s/it] 31%|███       | 62/200 [12:46<36:37, 15.92s/it] 32%|███▏      | 63/200 [12:53<30:46, 13.48s/it] 32%|███▏      | 64/200 [13:36<50:09, 22.13s/it] 32%|███▎      | 65/200 [13:47<42:45, 19.00s/it] 33%|███▎      | 66/200 [14:14<47:31, 21.28s/it] 34%|███▎      | 67/200 [14:24<39:23, 17.77s/it] 34%|███▍      | 68/200 [14:34<33:56, 15.43s/it] 34%|███▍      | 69/200 [14:46<31:26, 14.40s/it] 35%|███▌      | 70/200 [15:20<43:55, 20.27s/it] 36%|███▌      | 71/200 [15:26<34:35, 16.09s/it] 36%|███▌      | 72/200 [16:02<46:50, 21.96s/it] 36%|███▋      | 73/200 [16:23<46:04, 21.77s/it] 37%|███▋      | 74/200 [16:52<50:12, 23.91s/it] 38%|███▊      | 75/200 [17:14<48:59, 23.52s/it] 38%|███▊      | 76/200 [17:26<41:02, 19.86s/it] 38%|███▊      | 77/200 [17:33<32:50, 16.02s/it] 39%|███▉      | 78/200 [17:52<34:45, 17.09s/it] 40%|███▉      | 79/200 [18:12<35:46, 17.74s/it] 40%|████      | 80/200 [18:26<33:15, 16.63s/it] 40%|████      | 81/200 [18:53<39:29, 19.91s/it] 41%|████      | 82/200 [19:20<43:17, 22.01s/it] 42%|████▏     | 83/200 [19:51<48:15, 24.75s/it] 42%|████▏     | 84/200 [20:02<39:58, 20.68s/it] 42%|████▎     | 85/200 [20:24<40:01, 20.88s/it] 43%|████▎     | 86/200 [20:46<40:36, 21.38s/it] 44%|████▎     | 87/200 [20:59<35:22, 18.78s/it] 44%|████▍     | 88/200 [21:14<32:48, 17.58s/it] 44%|████▍     | 89/200 [21:36<34:52, 18.85s/it] 45%|████▌     | 90/200 [22:24<50:47, 27.70s/it] 46%|████▌     | 91/200 [22:30<38:41, 21.30s/it] 46%|████▌     | 92/200 [22:41<32:28, 18.04s/it] 46%|████▋     | 93/200 [22:56<30:43, 17.23s/it] 47%|████▋     | 94/200 [23:20<33:58, 19.23s/it] 48%|████▊     | 95/200 [23:33<30:32, 17.45s/it] 48%|████▊     | 96/200 [23:42<25:30, 14.71s/it] 48%|████▊     | 97/200 [23:46<19:55, 11.61s/it] 49%|████▉     | 98/200 [24:24<33:10, 19.51s/it] 50%|████▉     | 99/200 [24:33<27:23, 16.27s/it] 50%|█████     | 100/200 [25:09<37:20, 22.40s/it] 50%|█████     | 101/200 [25:32<36:57, 22.40s/it] 51%|█████     | 102/200 [26:19<48:49, 29.90s/it] 52%|█████▏    | 103/200 [26:47<47:10, 29.18s/it] 52%|█████▏    | 104/200 [26:54<35:59, 22.50s/it] 52%|█████▎    | 105/200 [26:59<27:38, 17.45s/it] 53%|█████▎    | 106/200 [27:11<24:33, 15.68s/it] 54%|█████▎    | 107/200 [27:37<29:16, 18.88s/it] 54%|█████▍    | 108/200 [28:04<32:41, 21.32s/it] 55%|█████▍    | 109/200 [28:44<40:44, 26.86s/it] 55%|█████▌    | 110/200 [29:08<38:51, 25.90s/it] 56%|█████▌    | 111/200 [29:10<27:45, 18.72s/it] 56%|█████▌    | 112/200 [29:11<19:55, 13.58s/it] 56%|█████▋    | 113/200 [29:44<28:11, 19.44s/it] 57%|█████▋    | 114/200 [30:03<27:30, 19.20s/it] 57%|█████▊    | 115/200 [30:14<23:34, 16.64s/it] 58%|█████▊    | 116/200 [30:44<28:55, 20.66s/it] 58%|█████▊    | 117/200 [31:21<35:21, 25.57s/it] 59%|█████▉    | 118/200 [31:46<34:56, 25.57s/it] 60%|█████▉    | 119/200 [32:20<38:01, 28.17s/it] 60%|██████    | 120/200 [32:42<34:41, 26.02s/it] 60%|██████    | 121/200 [32:55<29:09, 22.14s/it] 61%|██████    | 122/200 [33:06<24:44, 19.03s/it] 62%|██████▏   | 123/200 [33:26<24:28, 19.07s/it] 62%|██████▏   | 124/200 [33:51<26:27, 20.88s/it] 62%|██████▎   | 125/200 [33:58<20:52, 16.70s/it] 63%|██████▎   | 126/200 [34:43<31:05, 25.21s/it] 64%|██████▎   | 127/200 [35:01<28:18, 23.27s/it] 64%|██████▍   | 128/200 [35:31<30:16, 25.23s/it] 64%|██████▍   | 129/200 [36:05<32:55, 27.83s/it] 65%|██████▌   | 130/200 [36:48<37:42, 32.33s/it] 66%|██████▌   | 131/200 [36:58<29:30, 25.66s/it] 66%|██████▌   | 132/200 [37:08<23:44, 20.94s/it] 66%|██████▋   | 133/200 [37:45<28:52, 25.86s/it] 67%|██████▋   | 134/200 [37:50<21:24, 19.47s/it] 68%|██████▊   | 135/200 [38:23<25:39, 23.68s/it] 68%|██████▊   | 136/200 [38:32<20:31, 19.24s/it] 68%|██████▊   | 137/200 [38:53<20:37, 19.64s/it] 69%|██████▉   | 138/200 [39:51<32:21, 31.32s/it] 70%|██████▉   | 139/200 [40:13<29:00, 28.53s/it] 70%|███████   | 140/200 [40:26<23:43, 23.72s/it] 70%|███████   | 141/200 [40:45<21:56, 22.32s/it] 71%|███████   | 142/200 [40:52<17:07, 17.72s/it] 72%|███████▏  | 143/200 [41:02<14:36, 15.38s/it] 72%|███████▏  | 144/200 [42:16<30:55, 33.13s/it] 72%|███████▎  | 145/200 [43:12<36:28, 39.80s/it] 73%|███████▎  | 146/200 [43:42<33:13, 36.91s/it] 74%|███████▎  | 147/200 [43:45<23:43, 26.86s/it] 74%|███████▍  | 148/200 [45:35<44:45, 51.65s/it] 74%|███████▍  | 149/200 [46:04<38:13, 44.97s/it] 75%|███████▌  | 150/200 [46:12<28:08, 33.76s/it] 76%|███████▌  | 151/200 [46:41<26:28, 32.42s/it] 76%|███████▌  | 152/200 [47:49<34:30, 43.14s/it] 76%|███████▋  | 153/200 [48:29<32:59, 42.12s/it] 77%|███████▋  | 154/200 [49:10<32:06, 41.89s/it] 78%|███████▊  | 155/200 [49:38<28:16, 37.70s/it] 78%|███████▊  | 156/200 [49:54<22:48, 31.10s/it] 78%|███████▊  | 157/200 [50:16<20:21, 28.41s/it] 79%|███████▉  | 158/200 [50:48<20:32, 29.34s/it] 80%|███████▉  | 159/200 [51:20<20:34, 30.12s/it] 80%|████████  | 160/200 [51:32<16:36, 24.92s/it] 80%|████████  | 161/200 [51:45<13:47, 21.21s/it] 81%|████████  | 162/200 [52:07<13:32, 21.37s/it] 82%|████████▏ | 163/200 [52:17<11:07, 18.03s/it] 82%|████████▏ | 164/200 [52:24<08:49, 14.71s/it] 82%|████████▎ | 165/200 [52:42<09:07, 15.64s/it] 83%|████████▎ | 166/200 [53:00<09:18, 16.42s/it] 84%|████████▎ | 167/200 [53:48<14:17, 25.98s/it] 84%|████████▍ | 168/200 [53:59<11:24, 21.39s/it] 84%|████████▍ | 169/200 [54:07<08:59, 17.39s/it] 85%|████████▌ | 170/200 [55:16<16:27, 32.92s/it] 86%|████████▌ | 171/200 [55:31<13:14, 27.39s/it] 86%|████████▌ | 172/200 [55:55<12:24, 26.59s/it] 86%|████████▋ | 173/200 [56:24<12:17, 27.33s/it] 87%|████████▋ | 174/200 [56:27<08:36, 19.87s/it] 88%|████████▊ | 175/200 [57:03<10:18, 24.73s/it] 88%|████████▊ | 176/200 [57:11<07:55, 19.80s/it] 88%|████████▊ | 177/200 [57:42<08:48, 22.97s/it] 89%|████████▉ | 178/200 [57:48<06:39, 18.17s/it] 90%|████████▉ | 179/200 [57:53<04:54, 14.00s/it] 90%|█████████ | 180/200 [58:04<04:21, 13.05s/it] 90%|█████████ | 181/200 [58:13<03:49, 12.09s/it] 91%|█████████ | 182/200 [58:35<04:29, 14.97s/it] 92%|█████████▏| 183/200 [58:59<04:59, 17.64s/it] 92%|█████████▏| 184/200 [59:32<05:57, 22.35s/it] 92%|█████████▎| 185/200 [59:51<05:18, 21.21s/it] 93%|█████████▎| 186/200 [1:00:01<04:10, 17.92s/it] 94%|█████████▎| 187/200 [1:00:47<05:40, 26.22s/it] 94%|█████████▍| 188/200 [1:00:52<03:58, 19.86s/it] 94%|█████████▍| 189/200 [1:01:20<04:04, 22.26s/it] 95%|█████████▌| 190/200 [1:01:44<03:47, 22.79s/it] 96%|█████████▌| 191/200 [1:01:46<02:30, 16.77s/it] 96%|█████████▌| 192/200 [1:02:24<03:03, 22.93s/it] 96%|█████████▋| 193/200 [1:03:05<03:20, 28.57s/it] 97%|█████████▋| 194/200 [1:03:14<02:16, 22.69s/it] 98%|█████████▊| 195/200 [1:03:20<01:27, 17.54s/it] 98%|█████████▊| 196/200 [1:03:23<00:52, 13.12s/it] 98%|█████████▊| 197/200 [1:03:33<00:36, 12.16s/it] 99%|█████████▉| 198/200 [1:03:48<00:26, 13.23s/it]100%|█████████▉| 199/200 [1:04:32<00:22, 22.41s/it]100%|██████████| 200/200 [1:04:44<00:00, 19.22s/it]100%|██████████| 200/200 [1:04:44<00:00, 19.42s/it]

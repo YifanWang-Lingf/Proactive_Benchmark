@@ -1,0 +1,3971 @@
+[
+  {
+    "video": "Hs5Q9gbZhjk.14.mp4",
+    "question_id": "Hs5Q9gbZhjk.14.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man, boy, and girl are all sitting in the car and eating something.",
+        "related_timespan": [
+          8.84,
+          15.72
+        ],
+        "reply_timespan": [
+          8.84,
+          15.749066666666668
+        ],
+        "preds": [
+          [
+            10,
+            "Driving in the car while a kid eats."
+          ],
+          [
+            12,
+            "Driving in the car while people eat."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people doing in the car?",
+        "time": 0
+      }
+    ],
+    "duration": 15.749066666666668
+  },
+  {
+    "video": "qm6B3s12VLI.27.mp4",
+    "question_id": "qm6B3s12VLI.27.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A group of people, two of whom are holding a trophy, are posing, suggesting an award ceremony during Bolden's visit to Stennis.",
+        "related_timespan": [
+          0.0,
+          7.56
+        ],
+        "reply_timespan": [
+          0.0,
+          8.559999999999999
+        ],
+        "preds": [
+          [
+            2,
+            "The event taking place is Bolden Visiting Stennis."
+          ],
+          [
+            8,
+            "The event is an awards ceremony."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "8.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What event is taking place involving NASA?",
+        "time": 0
+      }
+    ],
+    "duration": 16.626360338573157
+  },
+  {
+    "video": "6alEQGuroiM.35.mp4",
+    "question_id": "6alEQGuroiM.35.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The speed of the purple car is shown as 12.3s.",
+        "related_timespan": [
+          0.0,
+          6.44
+        ],
+        "reply_timespan": [
+          0.0,
+          7.44
+        ],
+        "preds": [
+          [
+            4,
+            "The car's 1/4 mile time is shown to be 12.3 seconds."
+          ],
+          [
+            6,
+            "The car's 1/4 mile time is shown to be 12.8 seconds."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 2,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What information is shown about the cars' speed?",
+        "time": 0
+      }
+    ],
+    "duration": 14.56
+  },
+  {
+    "video": "WtFejcr5AGc.2.mp4",
+    "question_id": "WtFejcr5AGc.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in the hat is driving while talking to the man in the passenger seat.",
+        "related_timespan": [
+          5.74,
+          31.06
+        ],
+        "reply_timespan": [
+          5.74,
+          31.097733333333334
+        ],
+        "preds": [
+          [
+            14,
+            "The man in the red hat is taking pictures of the car."
+          ],
+          [
+            20,
+            "The man in the red hat is driving the car."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 0,
+          "20.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man in the red hat doing?",
+        "time": 0
+      }
+    ],
+    "duration": 31.097733333333334
+  },
+  {
+    "video": "LLVEVw5CkPY.2.mp4",
+    "question_id": "LLVEVw5CkPY.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "She grooms the white dog and the puppy.",
+        "related_timespan": [
+          0.0,
+          4.04
+        ],
+        "reply_timespan": [
+          0.0,
+          5.04
+        ],
+        "preds": [
+          [
+            2,
+            "The woman in the blue-green dress is holding the leashes of the animals."
+          ],
+          [
+            4,
+            "The woman in the blue-green dress is petting an animal."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does the woman in the blue-green dress do with animals?",
+        "time": 0
+      }
+    ],
+    "duration": 16.316300000000002
+  },
+  {
+    "video": "-tAL5PE7zho.39.mp4",
+    "question_id": "-tAL5PE7zho.39.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is cooking in a kitchen, standing in front of a stove with a pan filled with avocados and using a spatula to turn a piece of avocado.",
+        "related_timespan": [
+          0.0,
+          8.44
+        ],
+        "reply_timespan": [
+          0.0,
+          9.44
+        ],
+        "preds": [
+          [
+            2,
+            "The man in the yellow shirt is cooking avocados on the stove."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man in the yellow shirt doing?",
+        "time": 0
+      }
+    ],
+    "duration": 15.04
+  },
+  {
+    "video": "-iDGUVWzM6Q.3.mp4",
+    "question_id": "-iDGUVWzM6Q.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is holding a black umbrella.",
+        "related_timespan": [
+          0.0,
+          8.64
+        ],
+        "reply_timespan": [
+          0.0,
+          9.64
+        ],
+        "preds": [
+          [
+            2,
+            "The man is holding an umbrella."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man holding while speaking to the camera?",
+        "time": 0
+      }
+    ],
+    "duration": 20.16
+  },
+  {
+    "video": "aq1Nn-90AKs.4.mp4",
+    "question_id": "aq1Nn-90AKs.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The women are looking at and possibly discussing the white cloth.",
+        "related_timespan": [
+          14.51,
+          26.66
+        ],
+        "reply_timespan": [
+          14.51,
+          26.693333333333335
+        ],
+        "preds": [
+          [
+            20,
+            "The two women are pinning fabric to a chair shaped object."
+          ],
+          [
+            24,
+            "The two women are working with the white cloth."
+          ],
+          [
+            26,
+            "The two women are looking at a piece of white cloth."
+          ]
+        ],
+        "judge_scores": {
+          "20.0": 1,
+          "24.0": 1,
+          "26.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the two women doing with the white cloth?",
+        "time": 0
+      }
+    ],
+    "duration": 26.693333333333335
+  },
+  {
+    "video": "etUgUgqxcEg.53.mp4",
+    "question_id": "etUgUgqxcEg.53.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A skull is placed on a table for display.",
+        "related_timespan": [
+          9.58,
+          11.71
+        ],
+        "reply_timespan": [
+          9.58,
+          12.71
+        ],
+        "preds": [
+          [
+            10,
+            "The skulls are being examined for evidence of the primate species."
+          ],
+          [
+            12,
+            "A skull is being examined at a museum."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the skulls?",
+        "time": 0
+      }
+    ],
+    "duration": 16.883533333333332
+  },
+  {
+    "video": "O9DAXIzsNMs.13.mp4",
+    "question_id": "O9DAXIzsNMs.13.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The grey sports car is making a turn in the road.",
+        "related_timespan": [
+          9.3,
+          14.1
+        ],
+        "reply_timespan": [
+          9.3,
+          15.1
+        ],
+        "preds": [
+          [
+            10,
+            "A gray car is driving on a track."
+          ],
+          [
+            12,
+            "A gray car is driving around a track."
+          ],
+          [
+            14,
+            "A gray car is driving on a track."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the cars?",
+        "time": 0
+      }
+    ],
+    "duration": 15.849166666666665
+  },
+  {
+    "video": "rIhzyR-wjDM.16.mp4",
+    "question_id": "rIhzyR-wjDM.16.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in white clothes is holding a red walkie-talkie, a man in a floral shirt is dancing, and two people in white clothes are sitting in a convertible car.",
+        "related_timespan": [
+          3.64,
+          6.87
+        ],
+        "reply_timespan": [
+          3.64,
+          7.87
+        ],
+        "preds": [
+          [
+            4,
+            "A man is talking in the scene."
+          ],
+          [
+            6,
+            "Men are in a room in the scene."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 0,
+          "6.0": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are people doing in the scene?",
+        "time": 0
+      }
+    ],
+    "duration": 10.8108
+  },
+  {
+    "video": "GcEiKrtuYKI.59.mp4",
+    "question_id": "GcEiKrtuYKI.59.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A player is wearing a baseball uniform and running toward a board with numbers.",
+        "related_timespan": [
+          0.0,
+          4.3
+        ],
+        "reply_timespan": [
+          0.0,
+          5.3
+        ],
+        "preds": [
+          [
+            2,
+            "A baseball player wearing number 97 is running toward the camera with a scoreboard and logo on the background. A gamer is viewing the scene from the bottom left corner of the screen."
+          ],
+          [
+            4,
+            "The baseball player is attempting to catch a ball by jumping up to the scoreboard."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the video game?",
+        "time": 0
+      }
+    ],
+    "duration": 13.747066666666667
+  },
+  {
+    "video": "fneDwR2L_QE.4.mp4",
+    "question_id": "fneDwR2L_QE.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Yellow granules (likely an ingredient).",
+        "related_timespan": [
+          0.0,
+          3.24
+        ],
+        "reply_timespan": [
+          0.0,
+          4.24
+        ],
+        "preds": [
+          [
+            2,
+            "Bulgur is shown in the video."
+          ],
+          [
+            4,
+            "Turmeric powder is shown in the video."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What ingredients are shown in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 17.32
+  },
+  {
+    "video": "6_FV2ML2hp4.28.mp4",
+    "question_id": "6_FV2ML2hp4.28.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is working on a jigsaw puzzle of a landscape with mountains and water.",
+        "related_timespan": [
+          0.0,
+          5.09
+        ],
+        "reply_timespan": [
+          0.0,
+          6.09
+        ],
+        "preds": [
+          [
+            2,
+            "Someone is putting together the jigsaw puzzle."
+          ],
+          [
+            6,
+            "The man is holding up a can of Loctite."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the jigsaw puzzle?",
+        "time": 0
+      }
+    ],
+    "duration": 16.18283333333333
+  },
+  {
+    "video": "dBgXQ4z5ZLs.4.mp4",
+    "question_id": "dBgXQ4z5ZLs.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A truck driving on a dirt road carrying a large load of logs.",
+        "related_timespan": [
+          4.8,
+          7.09
+        ],
+        "reply_timespan": [
+          4.8,
+          8.09
+        ],
+        "preds": [
+          [
+            6,
+            "A large truck carrying logs.\n"
+          ],
+          [
+            8,
+            "Crowded market with people carrying goods.\n"
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What can be seen on the right side of the screen in the video? ",
+        "time": 0
+      }
+    ],
+    "duration": 13.930583333333333
+  },
+  {
+    "video": "GRq_z6sQXWM.4.mp4",
+    "question_id": "GRq_z6sQXWM.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person opens the door of a red car and pulls the seat belt buckle.",
+        "related_timespan": [
+          3.9,
+          11.75
+        ],
+        "reply_timespan": [
+          3.9,
+          11.778433333333334
+        ],
+        "preds": [
+          [
+            4,
+            "The person opens the driver side door of the red car."
+          ],
+          [
+            8,
+            "The person touches the front seat in the red car."
+          ],
+          [
+            11.778433333333334,
+            "The person closes the driver side door of the red car."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "8.0": 1,
+          "11.778433333333334": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does the person do with the red car?",
+        "time": 0
+      }
+    ],
+    "duration": 11.778433333333334
+  },
+  {
+    "video": "C6jTN1ATwR8.2.mp4",
+    "question_id": "C6jTN1ATwR8.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man is taking a ball out of a golf hole and celebrating by holding his hands up high.",
+        "related_timespan": [
+          7.61,
+          11.71
+        ],
+        "reply_timespan": [
+          7.61,
+          11.745066666666666
+        ],
+        "preds": [
+          [
+            8,
+            "A golfer is approaching the hole."
+          ],
+          [
+            10,
+            "A golfer is bending over to pick the golf ball out of the hole."
+          ],
+          [
+            11.745066666666666,
+            "A golfer is pumping his fist in the air on the golf course."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 1,
+          "10.0": 1,
+          "11.745066666666666": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening on the golf course?",
+        "time": 0
+      }
+    ],
+    "duration": 11.745066666666666
+  },
+  {
+    "video": "Yk_beLAeoLY.33.mp4",
+    "question_id": "Yk_beLAeoLY.33.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman shows a bitten burger to the camera.",
+        "related_timespan": [
+          3.97,
+          7.47
+        ],
+        "reply_timespan": [
+          3.97,
+          8.469999999999999
+        ],
+        "preds": [
+          [
+            6,
+            "They are eating the burgers."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people doing with the burgers?",
+        "time": 0
+      }
+    ],
+    "duration": 13.380033333333333
+  },
+  {
+    "video": "HXtpWYWdsiY.3.mp4",
+    "question_id": "HXtpWYWdsiY.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A yellow car is parked on the side of the road.",
+        "related_timespan": [
+          16.22,
+          22.15
+        ],
+        "reply_timespan": [
+          16.22,
+          23.15
+        ],
+        "preds": [
+          [
+            18,
+            "The car is parked on a hill."
+          ],
+          [
+            20,
+            "The car is parked on the side of the road."
+          ]
+        ],
+        "judge_scores": {
+          "18.0": 1,
+          "20.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the cars doing?",
+        "time": 0
+      }
+    ],
+    "duration": 23.982291666666665
+  },
+  {
+    "video": "_QII9qUI8L8.7.mp4",
+    "question_id": "_QII9qUI8L8.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The person is cutting a piece of chocolate with a knife.",
+        "related_timespan": [
+          2.92,
+          29.12
+        ],
+        "reply_timespan": [
+          2.92,
+          29.16
+        ],
+        "preds": [
+          [
+            4,
+            "The person is chopping the chocolate."
+          ],
+          [
+            18,
+            "The person is putting something into a bowl."
+          ],
+          [
+            26,
+            "The person is mixing ingredients in a bowl."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "18.0": 1,
+          "26.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the person doing with the chocolate?",
+        "time": 0
+      }
+    ],
+    "duration": 29.16
+  },
+  {
+    "video": "qogbtmw3v5A.12.mp4",
+    "question_id": "qogbtmw3v5A.12.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man and others are sitting and staring ahead.",
+        "related_timespan": [
+          0.0,
+          3.27
+        ],
+        "reply_timespan": [
+          0.0,
+          4.27
+        ],
+        "preds": [
+          [
+            2,
+            "The people in the videos appear to be in some sort of meeting or negotiation, possibly in a historical or theatrical setting."
+          ],
+          [
+            4,
+            "The people in the videos are engaging in a meeting or a performance of some kind."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people in the videos doing?",
+        "time": 0
+      }
+    ],
+    "duration": 13.9139
+  },
+  {
+    "video": "1L1z3jeBOtk.33.mp4",
+    "question_id": "1L1z3jeBOtk.33.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A little boy sits on a creature with white hair. He turns and waves to the camera. They fly forward through the sky.",
+        "related_timespan": [
+          1.88,
+          3.16
+        ],
+        "reply_timespan": [
+          1.88,
+          4.16
+        ],
+        "preds": [
+          [
+            2,
+            "The young boy is sliding on a large puff of pink cotton candy."
+          ],
+          [
+            4,
+            "The young boy is riding on a large white cloud."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the young boy doing?",
+        "time": 0
+      }
+    ],
+    "duration": 16.8
+  },
+  {
+    "video": "I3SvDOUIWPo.7.mp4",
+    "question_id": "I3SvDOUIWPo.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man opens and closes a flap on a device.",
+        "related_timespan": [
+          2.57,
+          5.34
+        ],
+        "reply_timespan": [
+          2.57,
+          6.34
+        ],
+        "preds": [
+          [
+            4,
+            "A man looks into the opening between the trunk and the inside of the car."
+          ],
+          [
+            6,
+            "A man gets into the backseat of a car."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man gets into the back seat of the car and looks around.",
+        "related_timespan": [
+          5.37,
+          8.98
+        ],
+        "reply_timespan": [
+          5.37,
+          9.98
+        ],
+        "preds": [
+          [
+            6,
+            "A man gets into the backseat of a car."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What interactions do people have with car features?",
+        "time": 0
+      }
+    ],
+    "duration": 18.651966666666667
+  },
+  {
+    "video": "EUKFeP-BJRI.3.mp4",
+    "question_id": "EUKFeP-BJRI.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is touching flour, butter, and yellow powder on the table.",
+        "related_timespan": [
+          4.8,
+          13.6
+        ],
+        "reply_timespan": [
+          4.8,
+          14.6
+        ],
+        "preds": [
+          [
+            6,
+            "The person is measuring out 2 cups of flour on a table."
+          ],
+          [
+            8,
+            "The person is measuring out 2 cups of flour and 1 1/2 sticks of butter on a table."
+          ],
+          [
+            12,
+            "The person is measuring out ingredients including flour, butter, and raw sugar on a table."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the person doing with the ingredients on the table?",
+        "time": 0
+      }
+    ],
+    "duration": 32.6
+  },
+  {
+    "video": "E5GGC9t71IY.16.mp4",
+    "question_id": "E5GGC9t71IY.16.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is cutting a ripe fig in half and putting it into a bowl.",
+        "related_timespan": [
+          8.92,
+          12.6
+        ],
+        "reply_timespan": [
+          8.92,
+          12.64
+        ],
+        "preds": [
+          [
+            10,
+            "The fig is being cut in half."
+          ],
+          [
+            12,
+            "The fig is being quartered."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the figs in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 12.64
+  },
+  {
+    "video": "_pJsTT_ClJY.45.mp4",
+    "question_id": "_pJsTT_ClJY.45.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man wearing blue gloves is reaching into the aquarium.",
+        "related_timespan": [
+          1.43,
+          10.37
+        ],
+        "reply_timespan": [
+          1.43,
+          10.4
+        ],
+        "preds": [
+          [
+            2,
+            "There are fish swimming in the aquarium and the coral is moving with the current."
+          ],
+          [
+            8,
+            "A blue glove reaches into the aquarium and moves something."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "8.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the aquarium?",
+        "time": 0
+      }
+    ],
+    "duration": 10.4
+  },
+  {
+    "video": "LnX7xhbLGVU.23.mp4",
+    "question_id": "LnX7xhbLGVU.23.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man riding a dirt bike through a forest with many dry trees.",
+        "related_timespan": [
+          13.0,
+          16.53
+        ],
+        "reply_timespan": [
+          13.0,
+          16.566666666666666
+        ],
+        "preds": [
+          [
+            14,
+            "The overhead camera captures a motorcycle driving on a paved road and a reflection of the driver in the upper left corner of the screen."
+          ],
+          [
+            16,
+            "The overhead camera captures a motorcycle driving through a wooded area with many trees and fallen branches."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 0,
+          "16.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is captured by the overhead camera? ",
+        "time": 0
+      }
+    ],
+    "duration": 16.566666666666666
+  },
+  {
+    "video": "fG_a2fyDrwc.18.mp4",
+    "question_id": "fG_a2fyDrwc.18.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A screen showing a grill with corn on it and close-ups of corn.",
+        "related_timespan": [
+          1.57,
+          18.55
+        ],
+        "reply_timespan": [
+          1.57,
+          18.585233333333335
+        ],
+        "preds": [
+          [
+            2,
+            "Bananas, then corn."
+          ],
+          [
+            6,
+            "Corn."
+          ],
+          [
+            16,
+            "The letters GMO on a corn on the cob."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1,
+          "16.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is featured on the screen behind the man?",
+        "time": 0
+      }
+    ],
+    "duration": 18.585233333333335
+  },
+  {
+    "video": "7iXbMtOTbqg.9.mp4",
+    "question_id": "7iXbMtOTbqg.9.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The brunette woman is holding the blonde woman's face and kissing her.",
+        "related_timespan": [
+          0.0,
+          4.64
+        ],
+        "reply_timespan": [
+          0.0,
+          5.64
+        ],
+        "preds": [
+          [
+            2,
+            "The video shows one woman whispering to another woman."
+          ],
+          [
+            4,
+            "The video shows one woman kissing another woman."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What interactions between people are shown in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 11.378033333333333
+  },
+  {
+    "video": "40Gv62O1tV0.82.mp4",
+    "question_id": "40Gv62O1tV0.82.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A large stone statue of a lion with a hawk's head.",
+        "related_timespan": [
+          5.64,
+          10.28
+        ],
+        "reply_timespan": [
+          5.64,
+          11.28
+        ],
+        "preds": [
+          [
+            8,
+            "The artifact or statue resembles a sphinx."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does the artifact or statue resemble?",
+        "time": 0
+      }
+    ],
+    "duration": 13.9139
+  },
+  {
+    "video": "1bZBfBBjZ9g.3.mp4",
+    "question_id": "1bZBfBBjZ9g.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman is talking to the camera.",
+        "related_timespan": [
+          0.0,
+          8.84
+        ],
+        "reply_timespan": [
+          0.0,
+          9.84
+        ],
+        "preds": [
+          [
+            2,
+            "The woman is talking in front of a news backdrop."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the woman doing in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 12.746066666666668
+  },
+  {
+    "video": "gBhz2fT8oeM.39.mp4",
+    "question_id": "gBhz2fT8oeM.39.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Dimly lit room experiencing power outages and electromagnetic shocks.",
+        "related_timespan": [
+          3.67,
+          5.76
+        ],
+        "reply_timespan": [
+          3.67,
+          6.76
+        ],
+        "preds": [
+          [
+            4,
+            "The video depicts an industrial setting, specifically an electrical substation."
+          ],
+          [
+            6,
+            "The video depicts a power substation."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What kind of setting is depicted in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 11.970291666666666
+  },
+  {
+    "video": "2xoINx_EY40.10.mp4",
+    "question_id": "2xoINx_EY40.10.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Two men are sitting at a table, one is talking, and the other is listening.",
+        "related_timespan": [
+          0.0,
+          3.21
+        ],
+        "reply_timespan": [
+          0.0,
+          4.21
+        ],
+        "preds": [
+          [
+            2,
+            "The two men are talking."
+          ],
+          [
+            4,
+            "The two men are sitting and talking."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the two men doing?",
+        "time": 0
+      }
+    ],
+    "duration": 23.916666666666668
+  },
+  {
+    "video": "I3mLwm889XI.7.mp4",
+    "question_id": "I3mLwm889XI.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman is talking and a female gymnast is doing a backflip on the mat.",
+        "related_timespan": [
+          0.0,
+          6.26
+        ],
+        "reply_timespan": [
+          0.0,
+          7.26
+        ],
+        "preds": [
+          [
+            2,
+            "A woman is talking to the camera while a gymnast is practicing on the balance beam. Another gymnast is practicing on the floor."
+          ],
+          [
+            4,
+            "A gymnast is practicing a tumbling routine on the floor."
+          ],
+          [
+            6,
+            "Two gymnasts are practicing on the floor while others are in the background."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the gymnastics gym?",
+        "time": 0
+      }
+    ],
+    "duration": 11.886875
+  },
+  {
+    "video": "3Nq7HPrCfxM.21.mp4",
+    "question_id": "3Nq7HPrCfxM.21.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is sitting at a table speaking to the camera.",
+        "related_timespan": [
+          0.0,
+          10.55
+        ],
+        "reply_timespan": [
+          0.0,
+          10.593916666666665
+        ],
+        "preds": [
+          [
+            2,
+            "The man at the table is standing in front of a crowd and speaking."
+          ],
+          [
+            10,
+            "The man at the table is talking to the camera."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "10.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man at the table doing?",
+        "time": 0
+      }
+    ],
+    "duration": 10.593916666666665
+  },
+  {
+    "video": "XhHJIHEmQw8.10.mp4",
+    "question_id": "XhHJIHEmQw8.10.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman is holding thinking putty.",
+        "related_timespan": [
+          2.94,
+          5.14
+        ],
+        "reply_timespan": [
+          2.94,
+          6.14
+        ],
+        "preds": [
+          [
+            4,
+            "A person is playing with thinking putty."
+          ],
+          [
+            6,
+            "People are drawing on thinking putty."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Two people are playing a game of tic tac on thinking putty.",
+        "related_timespan": [
+          5.17,
+          9.51
+        ],
+        "reply_timespan": [
+          5.17,
+          10.51
+        ],
+        "preds": [
+          [
+            6,
+            "People are drawing on thinking putty."
+          ],
+          [
+            8,
+            "The people are playing tic tac toe on the thinking putty."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are people doing with thinking putty?",
+        "time": 0
+      }
+    ],
+    "duration": 25.2252
+  },
+  {
+    "video": "WZ1gb-T_Fxw.1.mp4",
+    "question_id": "WZ1gb-T_Fxw.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in a white T-shirt is talking with gestures in front of a shelf with many pairs of shoes on it.",
+        "related_timespan": [
+          11.16,
+          21.0
+        ],
+        "reply_timespan": [
+          11.16,
+          21.04
+        ],
+        "preds": [
+          [
+            12,
+            "A man is standing in front of a shoe display and talking."
+          ],
+          [
+            14,
+            "A man is talking in front of a shelf of shoes."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 2,
+          "14.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the shoe store?",
+        "time": 0
+      }
+    ],
+    "duration": 21.04
+  },
+  {
+    "video": "IY5XUV2aEs0.2.mp4",
+    "question_id": "IY5XUV2aEs0.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Jupiter is in the background.",
+        "related_timespan": [
+          8.16,
+          11.12
+        ],
+        "reply_timespan": [
+          8.16,
+          11.16
+        ],
+        "preds": [
+          [
+            10,
+            "The video features backgrounds including a violin, a protest with police, a military scene with a helicopter, an impressionist painting, a red gradient, and a starry background."
+          ],
+          [
+            11.16,
+            "The video features backgrounds including a violin, a protest with police, a military scene with a helicopter, an impressionist painting, a red gradient, a starry background, and Jupiter."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 0,
+          "11.16": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What backgrounds are featured in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 11.16
+  },
+  {
+    "video": "DZrwzsreV90.7.mp4",
+    "question_id": "DZrwzsreV90.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The player in a red jersey kicks a football into the goal.",
+        "related_timespan": [
+          0.0,
+          3.52
+        ],
+        "reply_timespan": [
+          0.0,
+          4.52
+        ],
+        "preds": [
+          [
+            2,
+            "The player in the red jersey is kicking the football."
+          ],
+          [
+            4,
+            "The player in the red jersey is celebrating a goal."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the player in the red jersey doing with the football?",
+        "time": 0
+      }
+    ],
+    "duration": 20.72
+  },
+  {
+    "video": "Lzi650thDN0.1.mp4",
+    "question_id": "Lzi650thDN0.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Three people are wearing identical black and white tops.",
+        "related_timespan": [
+          3.44,
+          14.68
+        ],
+        "reply_timespan": [
+          3.44,
+          15.68
+        ],
+        "preds": [
+          [
+            4,
+            "Captain America, Ant-Man, and Nebula are wearing black and white tops."
+          ],
+          [
+            6,
+            "War Machine and Ant-Man are wearing black and white tops."
+          ],
+          [
+            8,
+            "Avengers and Endgame are wearing black and white tops."
+          ],
+          [
+            10,
+            "Ant-Man is wearing a black and white top."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 2,
+          "6.0": 1,
+          "8.0": 1,
+          "10.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Who is wearing a black and white top?",
+        "time": 0
+      }
+    ],
+    "duration": 21.388033333333333
+  },
+  {
+    "video": "F7e3OAY9RDw.13.mp4",
+    "question_id": "F7e3OAY9RDw.13.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A baseball game is in progress, with the pitcher throwing the ball, the batter hitting it, and the catcher and umpire watching.",
+        "related_timespan": [
+          2.64,
+          6.47
+        ],
+        "reply_timespan": [
+          2.64,
+          7.47
+        ],
+        "preds": [
+          [
+            4,
+            "The pitcher is getting ready to pitch the ball to David Ortiz."
+          ],
+          [
+            6,
+            "The pitcher is pitching the ball to David Ortiz, and he is swinging his bat."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening at the baseball game?",
+        "time": 0
+      }
+    ],
+    "duration": 12.245566666666667
+  },
+  {
+    "video": "DB8YHKHYsVw.4.mp4",
+    "question_id": "DB8YHKHYsVw.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A pair of very large wings suddenly sprout from the back of the armored man, and he flies into the sky.",
+        "related_timespan": [
+          1.67,
+          5.61
+        ],
+        "reply_timespan": [
+          1.67,
+          6.61
+        ],
+        "preds": [
+          [
+            2,
+            "The man in armor makes a large gesture with his arms out."
+          ],
+          [
+            4,
+            "The man in armor flies."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What happens with the man in full armor?",
+        "time": 0
+      }
+    ],
+    "duration": 14.881533333333334
+  },
+  {
+    "video": "Ft5WiQCkASg.9.mp4",
+    "question_id": "Ft5WiQCkASg.9.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is looking at the camera and speaking to the camera with a serious face.",
+        "related_timespan": [
+          0.0,
+          5.92
+        ],
+        "reply_timespan": [
+          0.0,
+          6.92
+        ],
+        "preds": [
+          [
+            2,
+            "The man is standing in front of the camera and talking."
+          ],
+          [
+            6,
+            "The man is standing in front of the camera and talking about an ass blaster."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man doing in front of the camera?",
+        "time": 0
+      }
+    ],
+    "duration": 13.179833333333333
+  },
+  {
+    "video": "RYun7EXYon8.35.mp4",
+    "question_id": "RYun7EXYon8.35.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person's hand is moving the plate of lobster sashimi.",
+        "related_timespan": [
+          21.0,
+          23.88
+        ],
+        "reply_timespan": [
+          21.0,
+          24.88
+        ],
+        "preds": [
+          [
+            22,
+            "The lobster sashimi is being carried on a platter by a person indoors."
+          ],
+          [
+            24,
+            "The lobster sashimi is being turned in a platter."
+          ]
+        ],
+        "judge_scores": {
+          "22.0": 1,
+          "24.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done with the lobster sashimi?",
+        "time": 0
+      }
+    ],
+    "duration": 26.32
+  },
+  {
+    "video": "WsWYZZE74q4.6.mp4",
+    "question_id": "WsWYZZE74q4.6.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man puts a bag of concrete on a red and silver machine and scrapes the bag down the middle.",
+        "related_timespan": [
+          10.34,
+          15.06
+        ],
+        "reply_timespan": [
+          10.34,
+          16.060000000000002
+        ],
+        "preds": [
+          [
+            12,
+            "The man is putting a bag of concrete onto a piece of equipment."
+          ],
+          [
+            14,
+            "The bag of concrete is being cut open."
+          ],
+          [
+            16,
+            "The bag of concrete is being dumped into the equipment."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 1,
+          "14.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done with the bags of concrete?",
+        "time": 0
+      }
+    ],
+    "duration": 33.32495833333333
+  },
+  {
+    "video": "KWaBY4DbZp0.19.mp4",
+    "question_id": "KWaBY4DbZp0.19.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "One person is holding a spoonful of brown powder and another is stirring chocolate sauce in the pot with a spatula.",
+        "related_timespan": [
+          1.8,
+          13.04
+        ],
+        "reply_timespan": [
+          1.8,
+          13.08
+        ],
+        "preds": [
+          [
+            2,
+            "They are mixing the food."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people doing with the food?",
+        "time": 0
+      }
+    ],
+    "duration": 13.08
+  },
+  {
+    "video": "Eq0Tx1uAUWo.3.mp4",
+    "question_id": "Eq0Tx1uAUWo.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A slender shaped brush with a red stem and a cartoon woman with tools are shown.",
+        "related_timespan": [
+          1.33,
+          5.29
+        ],
+        "reply_timespan": [
+          1.33,
+          6.29
+        ],
+        "preds": [
+          [
+            2,
+            "Mod Podge and a paintbrush."
+          ],
+          [
+            4,
+            "Welding equipment."
+          ],
+          [
+            6,
+            "A fan and a pony toy."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What objects are being handled or shown in the captions?",
+        "time": 0
+      }
+    ],
+    "duration": 10.625
+  },
+  {
+    "video": "fGJ3wS7jxWU.6.mp4",
+    "question_id": "fGJ3wS7jxWU.6.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A group of people are sitting at a table on a boat in the middle of the sea, smiling and enjoying their food and drinks.",
+        "related_timespan": [
+          3.77,
+          7.44
+        ],
+        "reply_timespan": [
+          3.77,
+          8.440000000000001
+        ],
+        "preds": [
+          [
+            6,
+            "People are eating and drinking on the boat."
+          ],
+          [
+            8,
+            "People are eating, drinking, and sunbathing on the boat."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are people doing on the boat?",
+        "time": 0
+      }
+    ],
+    "duration": 11.644966666666667
+  },
+  {
+    "video": "5iAKOS4fmTQ.15.mp4",
+    "question_id": "5iAKOS4fmTQ.15.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in red clothes touches the top of the spacecraft with his hand.",
+        "related_timespan": [
+          9.09,
+          12.22
+        ],
+        "reply_timespan": [
+          9.09,
+          13.22
+        ],
+        "preds": [
+          [
+            10,
+            "People are cleaning the space station."
+          ],
+          [
+            12,
+            "People are doing gymnastics in the space station."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 0,
+          "12.0": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activities are people doing in the space station?",
+        "time": 0
+      }
+    ],
+    "duration": 15.056708333333333
+  },
+  {
+    "video": "I_JsZK_iQqc.14.mp4",
+    "question_id": "I_JsZK_iQqc.14.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The monsters are wearing suits.",
+        "related_timespan": [
+          0.0,
+          8.38
+        ],
+        "reply_timespan": [
+          0.0,
+          9.38
+        ],
+        "preds": [
+          [
+            2,
+            "Suits."
+          ],
+          [
+            4,
+            "Suits and lizard masks."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people wearing?",
+        "time": 0
+      }
+    ],
+    "duration": 10.2102
+  },
+  {
+    "video": "4jJGtAZIhUU.77.mp4",
+    "question_id": "4jJGtAZIhUU.77.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is playing a game live while wearing headphones.",
+        "related_timespan": [
+          0.0,
+          16.28
+        ],
+        "reply_timespan": [
+          0.0,
+          17.28
+        ],
+        "preds": [
+          [
+            2,
+            "Playing video games"
+          ],
+          [
+            6,
+            "Speaking into a microphone"
+          ],
+          [
+            12,
+            "Watching a video"
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activity involves using headphones?",
+        "time": 0
+      }
+    ],
+    "duration": 22.32232232232232
+  },
+  {
+    "video": "epmh_bRmhKo.11.mp4",
+    "question_id": "epmh_bRmhKo.11.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The setting has bright lights and people coming and going.",
+        "related_timespan": [
+          0.0,
+          11.27
+        ],
+        "reply_timespan": [
+          0.0,
+          12.27
+        ],
+        "preds": [
+          [
+            2,
+            "The man is in a large, crowded area, possibly a convention or conference. There are booths and people in the background."
+          ],
+          [
+            12,
+            "The man is at a convention; however, there is a war game-like setting in the background."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the setting or environment around the man?",
+        "time": 0
+      }
+    ],
+    "duration": 19.566666666666666
+  },
+  {
+    "video": "PkiaXT7rcC8.8.mp4",
+    "question_id": "PkiaXT7rcC8.8.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A bearded man sits in the back seat of the car.",
+        "related_timespan": [
+          10.78,
+          16.55
+        ],
+        "reply_timespan": [
+          10.78,
+          16.583233333333332
+        ],
+        "preds": [
+          [
+            12,
+            "The man is sitting in the back seat."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where is the man sitting?",
+        "time": 0
+      }
+    ],
+    "duration": 16.583233333333332
+  },
+  {
+    "video": "j8PXFrVwZEA.4.mp4",
+    "question_id": "j8PXFrVwZEA.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman is bending over to get something out of a cupboard.",
+        "related_timespan": [
+          0.0,
+          7.57
+        ],
+        "reply_timespan": [
+          0.0,
+          8.57
+        ],
+        "preds": [
+          [
+            6,
+            "The woman is leaning down and looking at something."
+          ],
+          [
+            8,
+            "The woman is looking in a cabinet under the counter."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The woman bends over, then runs her hand across a plank on the cupboard, closes it, and walks towards the fridge and opens the door.",
+        "related_timespan": [
+          7.61,
+          11.75
+        ],
+        "reply_timespan": [
+          7.61,
+          11.778433333333334
+        ],
+        "preds": [
+          [
+            8,
+            "The woman is looking in a cabinet under the counter."
+          ],
+          [
+            11.778433333333334,
+            "The woman is walking in the kitchen. The woman is opening the refrigerator."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 1,
+          "11.778433333333334": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the woman doing in the kitchen?",
+        "time": 0
+      }
+    ],
+    "duration": 11.778433333333334
+  },
+  {
+    "video": "imNwf_fD-gk.45.mp4",
+    "question_id": "imNwf_fD-gk.45.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The video depicts a group of people on a large ship in the ocean.",
+        "related_timespan": [
+          2.77,
+          6.07
+        ],
+        "reply_timespan": [
+          2.77,
+          7.07
+        ],
+        "preds": [
+          [
+            4,
+            "The scenes in the videos are related to a tropical island and a ship with people on board."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the scenes in the videos related to?",
+        "time": 0
+      }
+    ],
+    "duration": 10.2102
+  },
+  {
+    "video": "RpkgLzyUUAA.15.mp4",
+    "question_id": "RpkgLzyUUAA.15.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is lying in a bed with medical equipment in the background.",
+        "related_timespan": [
+          0.0,
+          3.77
+        ],
+        "reply_timespan": [
+          0.0,
+          4.77
+        ],
+        "preds": [
+          [
+            2,
+            "The man is in a hospital bed."
+          ],
+          [
+            4,
+            "The man is being examined by a doctor."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the man in the hospital bed?",
+        "time": 0
+      }
+    ],
+    "duration": 26.266666666666666
+  },
+  {
+    "video": "YMWttbLZTIc.8.mp4",
+    "question_id": "YMWttbLZTIc.8.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A baseball player is trotting around the field.",
+        "related_timespan": [
+          11.44,
+          13.55
+        ],
+        "reply_timespan": [
+          11.44,
+          14.55
+        ],
+        "preds": [
+          [
+            12,
+            "The runner is running toward third base."
+          ],
+          [
+            14,
+            "A runner is running towards home plate. A batter is at the plate."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 1,
+          "14.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the baseball game?",
+        "time": 0
+      }
+    ],
+    "duration": 17.41741741741742
+  },
+  {
+    "video": "6OLDzu5TmNc.6.mp4",
+    "question_id": "6OLDzu5TmNc.6.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is looking from side to side with his arms crossed, then looking forward in surprise and raising his hands.",
+        "related_timespan": [
+          15.28,
+          24.12
+        ],
+        "reply_timespan": [
+          15.28,
+          24.16
+        ],
+        "preds": [
+          [
+            18,
+            "The man is looking around."
+          ],
+          [
+            22,
+            "The man is performing a triple jump. The man is celebrating his triple jump. The man is raising his arms and yelling. The man is looking around."
+          ]
+        ],
+        "judge_scores": {
+          "18.0": 1,
+          "22.0": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What actions is the man performing in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 24.16
+  },
+  {
+    "video": "YQywOi2mCrE.38.mp4",
+    "question_id": "YQywOi2mCrE.38.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man and woman are talking to each other.",
+        "related_timespan": [
+          15.65,
+          24.99
+        ],
+        "reply_timespan": [
+          15.65,
+          25.025000000000002
+        ],
+        "preds": [
+          [
+            16,
+            "The woman is about to put her hair into the fan while the man watches."
+          ],
+          [
+            18,
+            "The woman is attempting to blow bubbles through the fan while the man watches."
+          ],
+          [
+            20,
+            "The woman is straightening up while the man is standing next to her on the stage."
+          ],
+          [
+            22,
+            "The woman is smiling while standing next to the man on the stage."
+          ],
+          [
+            24,
+            "The woman and the man are standing next to a fan on the stage."
+          ],
+          [
+            25.025000000000002,
+            "The woman is standing near the fan with her hands on her sides while the man is standing next to her on the stage."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 0,
+          "18.0": 0,
+          "20.0": 1,
+          "22.0": 1,
+          "24.0": 1,
+          "25.025000000000002": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the man and woman doing on the stage?",
+        "time": 0
+      }
+    ],
+    "duration": 25.025000000000002
+  },
+  {
+    "video": "49M59RMSzzw.27.mp4",
+    "question_id": "49M59RMSzzw.27.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man talks while holding a potato chip and later takes a potato chip out of the package.",
+        "related_timespan": [
+          1.7,
+          4.3
+        ],
+        "reply_timespan": [
+          1.7,
+          5.3
+        ],
+        "preds": [
+          [
+            2,
+            "A man looks at a potato chip."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What do people do with potato chips in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 14.347666666666667
+  },
+  {
+    "video": "dEdNYkHUomw.2.mp4",
+    "question_id": "dEdNYkHUomw.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A red, white, and black bike is on display.",
+        "related_timespan": [
+          0.0,
+          25.29
+        ],
+        "reply_timespan": [
+          0.0,
+          25.325300000000002
+        ],
+        "preds": [
+          [
+            2,
+            "A motorcycle is on display."
+          ],
+          [
+            4,
+            "A KTM motorcycle is on display."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is on display?",
+        "time": 0
+      }
+    ],
+    "duration": 25.325300000000002
+  },
+  {
+    "video": "o418lXDLssM.7.mp4",
+    "question_id": "o418lXDLssM.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man and a woman are sitting and talking.",
+        "related_timespan": [
+          1.1,
+          6.17
+        ],
+        "reply_timespan": [
+          1.1,
+          7.17
+        ],
+        "preds": [
+          [
+            4,
+            "Two people are sitting side by side and talking to each other."
+          ],
+          [
+            6,
+            "Two people are sitting side by side and talking to each other, and then a scene from Superman is shown."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 2,
+          "6.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the interactions happening between people?",
+        "time": 0
+      }
+    ],
+    "duration": 18.118100000000002
+  },
+  {
+    "video": "240RLfDI724.18.mp4",
+    "question_id": "240RLfDI724.18.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A car is driving on a road with grass and trees on both sides.",
+        "related_timespan": [
+          0.0,
+          12.95
+        ],
+        "reply_timespan": [
+          0.0,
+          13.95
+        ],
+        "preds": [
+          [
+            4,
+            "Grocery is delivered with autonomous vehicles."
+          ],
+          [
+            10,
+            "A Nuro autonomous vehicle is moving on the road."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 0,
+          "10.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening on the road?",
+        "time": 0
+      }
+    ],
+    "duration": 25.992633333333334
+  },
+  {
+    "video": "YdlfnzR8ojc.1.mp4",
+    "question_id": "YdlfnzR8ojc.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The red car is driving over a ditch and a blue Jeep is driving down the road; another car is going through a forest.",
+        "related_timespan": [
+          14.18,
+          17.6
+        ],
+        "reply_timespan": [
+          14.18,
+          17.642625
+        ],
+        "preds": [
+          [
+            16,
+            "A red car is off-roading."
+          ],
+          [
+            17.642625,
+            "A blue car is driving on the road."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 1,
+          "17.642625": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the vehicles doing?",
+        "time": 0
+      }
+    ],
+    "duration": 17.642625
+  },
+  {
+    "video": "lIRE2oeIehw.67.mp4",
+    "question_id": "lIRE2oeIehw.67.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The dog is talking to a woman in front of a wall with bottles of alcohol.",
+        "related_timespan": [
+          6.73,
+          11.03
+        ],
+        "reply_timespan": [
+          6.73,
+          11.066666666666666
+        ],
+        "preds": [
+          [
+            8,
+            "The dog is standing in front of a bartender and appears to be talking to her."
+          ],
+          [
+            10,
+            "The dog is standing in front of a bartender, and a man in a green hoodie and jeans has joined them."
+          ],
+          [
+            11.066666666666666,
+            "The dog is standing in front of a bartender, a man in a green hoodie, and a woman in a white skirt and blue jacket."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 2,
+          "10.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the dog's role in the cartoon video?",
+        "time": 0
+      }
+    ],
+    "duration": 11.066666666666666
+  },
+  {
+    "video": "6Q-UeuliYpk.8.mp4",
+    "question_id": "6Q-UeuliYpk.8.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Mantis shrimp fried with pepper, garlic, and scallion, and clams fried with green and red peppers.",
+        "related_timespan": [
+          3.24,
+          9.56
+        ],
+        "reply_timespan": [
+          3.24,
+          10.56
+        ],
+        "preds": [
+          [
+            6,
+            "The video shows a dish featuring mantis shrimp topped with fried garlic or breadcrumbs. There are also green onions, cucumber slices and red peppers visible."
+          ],
+          [
+            8,
+            "The video showcases a dish of clams sautéed in a dark sauce and topped with red peppers."
+          ],
+          [
+            10,
+            "The video also displays a plate of stir-fried noodles with vegetables and what seems to be a meat-based sauce, as well as a dish of leafy green vegetables with a light sauce.\n"
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "8.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What types of food are being shown or eaten?",
+        "time": 0
+      }
+    ],
+    "duration": 25.88
+  },
+  {
+    "video": "6Y6rnjFQl7A.31.mp4",
+    "question_id": "6Y6rnjFQl7A.31.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is using a power drill to remove the screws and then taking the flywheel off.",
+        "related_timespan": [
+          1.37,
+          18.87
+        ],
+        "reply_timespan": [
+          1.37,
+          19.87
+        ],
+        "preds": [
+          [
+            2,
+            "Someone is removing a flywheel."
+          ],
+          [
+            6,
+            "Someone is removing bolts from the flywheel."
+          ],
+          [
+            12,
+            "The flywheel is being placed onto the engine."
+          ],
+          [
+            16,
+            "The flywheel is being aligned."
+          ],
+          [
+            18,
+            "The flywheel is being installed."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1,
+          "12.0": 1,
+          "16.0": 1,
+          "18.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done to the flywheel?",
+        "time": 0
+      }
+    ],
+    "duration": 20.466666666666665
+  },
+  {
+    "video": "CUZgoOO6_EQ.11.mp4",
+    "question_id": "CUZgoOO6_EQ.11.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The focus is on a black man in a hoodie with \"NATE\" on it and boxing gloves, suggesting he is a significant figure in the crowd.",
+        "related_timespan": [
+          9.34,
+          18.72
+        ],
+        "reply_timespan": [
+          9.34,
+          18.752066666666668
+        ],
+        "preds": [
+          [
+            10,
+            "The focus of the video is on a boxing match."
+          ],
+          [
+            14,
+            "The focus of the video is on Nate, the boxer, as he walks into the ring."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "14.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the focus of the video?",
+        "time": 0
+      }
+    ],
+    "duration": 18.752066666666668
+  },
+  {
+    "video": "V13SCcr0pT4.45.mp4",
+    "question_id": "V13SCcr0pT4.45.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The Joker is walking forward with a sword.",
+        "related_timespan": [
+          9.59,
+          12.8
+        ],
+        "reply_timespan": [
+          9.59,
+          13.8
+        ],
+        "preds": [
+          [
+            10,
+            "The Joker is walking in the video."
+          ],
+          [
+            12,
+            "The Joker is walking with a gun in the video."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the Joker doing in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 14.973291666666666
+  },
+  {
+    "video": "f9DOQAnzZhA.1.mp4",
+    "question_id": "f9DOQAnzZhA.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "An athlete throws the baseball hard and another athlete catches it.",
+        "related_timespan": [
+          1.74,
+          6.84
+        ],
+        "reply_timespan": [
+          1.74,
+          7.84
+        ],
+        "preds": [
+          [
+            2,
+            "The athletes are running during the game."
+          ],
+          [
+            4,
+            "The athletes are sliding during the game."
+          ],
+          [
+            6,
+            "The athlete is catching during the game."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "4.0": 0,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the athletes doing during the game?",
+        "time": 0
+      }
+    ],
+    "duration": 22.756066666666666
+  },
+  {
+    "video": "8YIWypzkS5M.4.mp4",
+    "question_id": "8YIWypzkS5M.4.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A player in a white baseball uniform jumps up and catches the ball, then runs into the fence and tries to stand up as teammates call out to him.",
+        "related_timespan": [
+          0.0,
+          8.74
+        ],
+        "reply_timespan": [
+          0.0,
+          9.74
+        ],
+        "preds": [
+          [
+            2,
+            "A baseball player in white and red uniform is running towards the wall and jumps to catch the ball while another baseball player is running to the same spot."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the baseball players during the game?",
+        "time": 0
+      }
+    ],
+    "duration": 11.578233333333333
+  },
+  {
+    "video": "_qG2bOAwOZo.12.mp4",
+    "question_id": "_qG2bOAwOZo.12.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Several pipes are shown, and water springs out of a pipe.",
+        "related_timespan": [
+          1.17,
+          5.64
+        ],
+        "reply_timespan": [
+          1.17,
+          6.64
+        ],
+        "preds": [
+          [
+            2,
+            "The pipes are part of a water park structure that pours water into a red cone."
+          ],
+          [
+            4,
+            "The pipes are part of a water park structure that includes slides."
+          ],
+          [
+            6,
+            "The pipes are part of a water park structure that includes slides and water features."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What role do pipes play in the scene?",
+        "time": 0
+      }
+    ],
+    "duration": 11.878533333333333
+  },
+  {
+    "video": "7KOSPnBS_Lo.33.mp4",
+    "question_id": "7KOSPnBS_Lo.33.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person dressed in gray is riding a bicycle.",
+        "related_timespan": [
+          0.0,
+          4.23
+        ],
+        "reply_timespan": [
+          0.0,
+          5.23
+        ],
+        "preds": [
+          [
+            2,
+            "BMX"
+          ],
+          [
+            4,
+            "Riding a bike"
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activity involves a bicycle?",
+        "time": 0
+      }
+    ],
+    "duration": 21.0
+  },
+  {
+    "video": "pe3qgYy57Yo.2.mp4",
+    "question_id": "pe3qgYy57Yo.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A white car is driving on the road and quickly crosses the roadblocks.",
+        "related_timespan": [
+          1.72,
+          8.08
+        ],
+        "reply_timespan": [
+          1.72,
+          9.08
+        ],
+        "preds": [
+          [
+            2,
+            "The white car is driving on the road."
+          ],
+          [
+            4,
+            "The white car is driving on a road that has orange cones set up."
+          ],
+          [
+            6,
+            "The white car is driving on a road with orange cones set up, and has a roof rack on the top of the car."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the white car?",
+        "time": 0
+      }
+    ],
+    "duration": 16.12
+  },
+  {
+    "video": "P1mVU2pKuTg.1.mp4",
+    "question_id": "P1mVU2pKuTg.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman gestures a pattern to the camera, and a man makes a gesture to the camera.",
+        "related_timespan": [
+          0.0,
+          4.96
+        ],
+        "reply_timespan": [
+          0.0,
+          5.96
+        ],
+        "preds": [
+          [
+            2,
+            "People wave at the camera and make heart shapes with their hands."
+          ],
+          [
+            4,
+            "People point towards the camera with both hands and then move their fingers back and forth."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man greets the camera with one hand and shouts while waving his arms; later, a woman shouts while holding a sign.",
+        "related_timespan": [
+          17.36,
+          20.2
+        ],
+        "reply_timespan": [
+          17.36,
+          21.2
+        ],
+        "preds": [
+          [
+            18,
+            "A man waves."
+          ],
+          [
+            20,
+            "A man waves."
+          ]
+        ],
+        "judge_scores": {
+          "18.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What gestures or actions do people perform towards the camera or in front of others?",
+        "time": 0
+      }
+    ],
+    "duration": 22.8
+  },
+  {
+    "video": "HBweWSZcuxU.17.mp4",
+    "question_id": "HBweWSZcuxU.17.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The video includes a grassy setting by a river on the movie poster and a redhead is featured.",
+        "related_timespan": [
+          5.36,
+          10.4
+        ],
+        "reply_timespan": [
+          5.36,
+          11.4
+        ],
+        "preds": [
+          [
+            6,
+            "A football field, a forest, a location with spirits, and a Scottish Highland-like region with mountains, lochs, and green fields."
+          ],
+          [
+            10,
+            "A football field, a forest, a location with spirits, a Scottish Highland-like region with mountains, lochs, and green fields, and a stage."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1,
+          "10.0": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What different settings or environments are depicted in the videos?",
+        "time": 0
+      }
+    ],
+    "duration": 13.0
+  },
+  {
+    "video": "2b9DqmOFozY.1.mp4",
+    "question_id": "2b9DqmOFozY.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Makeup is being discussed or demonstrated.",
+        "related_timespan": [
+          0.0,
+          18.83
+        ],
+        "reply_timespan": [
+          0.0,
+          18.866666666666667
+        ],
+        "preds": [
+          [
+            2,
+            "A child and an adult demonstrate makeup or face painting."
+          ],
+          [
+            12,
+            "The video is demonstrating eye shadow application."
+          ],
+          [
+            14,
+            "The video is demonstrating the application of lipstick."
+          ],
+          [
+            16,
+            "Eyeliner is being demonstrated."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "12.0": 2,
+          "14.0": 2,
+          "16.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being demonstrated or discussed?",
+        "time": 0
+      }
+    ],
+    "duration": 18.866666666666667
+  },
+  {
+    "video": "njV5Z0GxbfA.57.mp4",
+    "question_id": "njV5Z0GxbfA.57.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man is diving in the water and holding a long thick wire.",
+        "related_timespan": [
+          8.41,
+          15.75
+        ],
+        "reply_timespan": [
+          8.41,
+          15.782433333333334
+        ],
+        "preds": [
+          [
+            10,
+            "They are involved in cooking and diving."
+          ],
+          [
+            15.782433333333334,
+            "They are involved in diving."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "15.782433333333334": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activities are the men involved in?",
+        "time": 0
+      }
+    ],
+    "duration": 15.782433333333334
+  },
+  {
+    "video": "X9OhvgBdvIA.8.mp4",
+    "question_id": "X9OhvgBdvIA.8.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The two men are sitting at a table with laptops in front of them.",
+        "related_timespan": [
+          1.5,
+          8.94
+        ],
+        "reply_timespan": [
+          1.5,
+          9.94
+        ],
+        "preds": [
+          [
+            2,
+            "The two men are using laptops."
+          ],
+          [
+            6,
+            "The two men are playing video games."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the two men doing?",
+        "time": 0
+      }
+    ],
+    "duration": 11.244566666666667
+  },
+  {
+    "video": "6ureBD2VY1c.3.mp4",
+    "question_id": "6ureBD2VY1c.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman is speaking in front of the camera, and a man is taking photos.",
+        "related_timespan": [
+          0.0,
+          10.24
+        ],
+        "reply_timespan": [
+          0.0,
+          11.24
+        ],
+        "preds": [
+          [
+            4,
+            "The person is speaking in front of the camera."
+          ],
+          [
+            8,
+            "The person is using a camera in front of the camera."
+          ],
+          [
+            10,
+            "People are standing and walking around in front of the camera."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "8.0": 1,
+          "10.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activities are people doing in front of the camera?",
+        "time": 0
+      }
+    ],
+    "duration": 20.820800000000002
+  },
+  {
+    "video": "_KgWye11I8g.7.mp4",
+    "question_id": "_KgWye11I8g.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A black game console is displayed.",
+        "related_timespan": [
+          0.0,
+          7.51
+        ],
+        "reply_timespan": [
+          0.0,
+          8.51
+        ],
+        "preds": [
+          [
+            2,
+            "A black Nintendo 3DS is displaying its Mii Plaza app."
+          ],
+          [
+            8,
+            "The video is displaying a black PlayStation Vita."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "8.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being displayed in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 13.9139
+  },
+  {
+    "video": "2ZcsoP1AUTI.6.mp4",
+    "question_id": "2ZcsoP1AUTI.6.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Machines are spraying white smoke onto an airplane.",
+        "related_timespan": [
+          0.0,
+          8.74
+        ],
+        "reply_timespan": [
+          0.0,
+          9.74
+        ],
+        "preds": [
+          [
+            2,
+            "Planes are being de-iced."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activity is being carried out on or near vehicles?",
+        "time": 0
+      }
+    ],
+    "duration": 22.4224
+  },
+  {
+    "video": "2l9I3UhWP10.8.mp4",
+    "question_id": "2l9I3UhWP10.8.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is holding a box of Switch games and patting it while talking to the camera.",
+        "related_timespan": [
+          9.74,
+          14.41
+        ],
+        "reply_timespan": [
+          9.74,
+          15.41
+        ],
+        "preds": [
+          [
+            14,
+            "The man is squatting while holding the Switch game box."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man doing with the Switch game box?",
+        "time": 0
+      }
+    ],
+    "duration": 22.2222
+  },
+  {
+    "video": "E2WelDikd4s.50.mp4",
+    "question_id": "E2WelDikd4s.50.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Disney Castle with a blue sky and white clouds in the background.",
+        "related_timespan": [
+          12.15,
+          18.95
+        ],
+        "reply_timespan": [
+          12.15,
+          18.985633333333332
+        ],
+        "preds": [
+          [
+            14,
+            "The photos show a castle during the day with clouds in the sky."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is shown in the photos?",
+        "time": 0
+      }
+    ],
+    "duration": 18.985633333333332
+  },
+  {
+    "video": "nTGjRCHPHYw.10.mp4",
+    "question_id": "nTGjRCHPHYw.10.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is standing in front of a table with several items on it and is talking and gesturing.",
+        "related_timespan": [
+          8.34,
+          11.95
+        ],
+        "reply_timespan": [
+          8.34,
+          12.95
+        ],
+        "preds": [
+          [
+            10,
+            "The man is presenting and discussing motorcycle tank pads."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man doing in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 22.2222
+  },
+  {
+    "video": "iU6Vq2pBI-I.59.mp4",
+    "question_id": "iU6Vq2pBI-I.59.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Credit cards, specifically the citi double cash card.",
+        "related_timespan": [
+          0.0,
+          22.59
+        ],
+        "reply_timespan": [
+          0.0,
+          23.59
+        ],
+        "preds": [
+          [
+            2,
+            "The video discusses Apple Card."
+          ],
+          [
+            12,
+            "The video discusses credit cards including the Citi Double Cash card."
+          ],
+          [
+            14,
+            "The video discusses credit cards."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 0,
+          "12.0": 1,
+          "14.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being discussed in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 27.861166666666666
+  },
+  {
+    "video": "RjC6aV1SNIQ.3.mp4",
+    "question_id": "RjC6aV1SNIQ.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A person is preparing to pour the white stuff from a clear container into a tub.",
+        "related_timespan": [
+          8.88,
+          12.18
+        ],
+        "reply_timespan": [
+          8.88,
+          13.18
+        ],
+        "preds": [
+          [
+            10,
+            "The white stuff is being stirred with a red spatula."
+          ],
+          [
+            12,
+            "The white stuff is being poured."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1,
+          "12.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A woman uses a red spatula to scrape the white stuff into the silver tub.",
+        "related_timespan": [
+          12.22,
+          15.81
+        ],
+        "reply_timespan": [
+          12.22,
+          16.810000000000002
+        ],
+        "preds": [
+          [
+            16,
+            "The white stuff is being added to the bowl."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done with the white stuff?",
+        "time": 0
+      }
+    ],
+    "duration": 18.30995833333333
+  },
+  {
+    "video": "my2KTkgATPU.34.mp4",
+    "question_id": "my2KTkgATPU.34.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "People are eating macaroni at the dining table.",
+        "related_timespan": [
+          14.38,
+          18.89
+        ],
+        "reply_timespan": [
+          14.38,
+          18.9189
+        ],
+        "preds": [
+          [
+            16,
+            "Chicken nuggets are being prepared or eaten."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What type of food is being prepared or eaten?",
+        "time": 0
+      }
+    ],
+    "duration": 18.9189
+  },
+  {
+    "video": "KGTsMFEgpFI.3.mp4",
+    "question_id": "KGTsMFEgpFI.3.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A pitcher throws the baseball, and the batter hits it and starts running.",
+        "related_timespan": [
+          2.87,
+          5.51
+        ],
+        "reply_timespan": [
+          2.87,
+          6.51
+        ],
+        "preds": [
+          [
+            4,
+            "The score is 2-2. The pitcher is throwing the ball."
+          ],
+          [
+            6,
+            "The batter is swinging the bat and missing the ball. The batter drops the bat again and then falls onto the ground. The ball is going into the outfield."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening during the baseball game?",
+        "time": 0
+      }
+    ],
+    "duration": 11.4114
+  },
+  {
+    "video": "cN039e4NGAw.7.mp4",
+    "question_id": "cN039e4NGAw.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in a black suit glances to his left, turning his head and walking on.",
+        "related_timespan": [
+          7.61,
+          9.18
+        ],
+        "reply_timespan": [
+          7.61,
+          10.18
+        ],
+        "preds": [
+          [
+            8,
+            "The man in the suit is walking outside."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man in the suit doing?",
+        "time": 0
+      }
+    ],
+    "duration": 11.4114
+  },
+  {
+    "video": "6He8k52im8I.6.mp4",
+    "question_id": "6He8k52im8I.6.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "People are throwing torches at a vehicle and there is a street with many people walking on it.",
+        "related_timespan": [
+          2.77,
+          5.64
+        ],
+        "reply_timespan": [
+          2.77,
+          6.64
+        ],
+        "preds": [
+          [
+            4,
+            "On the street, there is a large group of people surrounding a car that appears to be on fire."
+          ],
+          [
+            6,
+            "On the street, people cross the street at a crosswalk with cars stopped as they protest."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "6.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What notable events occur on the street?",
+        "time": 0
+      }
+    ],
+    "duration": 14.1141
+  },
+  {
+    "video": "_nbQsnUvlo4.9.mp4",
+    "question_id": "_nbQsnUvlo4.9.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is holding a white helmet in his hand and then placing it on a motorbike mirror.",
+        "related_timespan": [
+          0.0,
+          4.96
+        ],
+        "reply_timespan": [
+          0.0,
+          5.96
+        ],
+        "preds": [
+          [
+            2,
+            "The man is holding the helmet in his hand."
+          ],
+          [
+            4,
+            "The man is showing the helmet."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man doing with the helmet?",
+        "time": 0
+      }
+    ],
+    "duration": 12.5125
+  },
+  {
+    "video": "fRqJsYel7V0.15.mp4",
+    "question_id": "fRqJsYel7V0.15.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The person is cutting an onigiri on a cutting board.",
+        "related_timespan": [
+          10.98,
+          13.01
+        ],
+        "reply_timespan": [
+          10.98,
+          13.046366666666668
+        ],
+        "preds": [
+          [
+            12,
+            "The onigiri is being cut with a knife."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done to the onigiri?",
+        "time": 0
+      }
+    ],
+    "duration": 13.046366666666668
+  },
+  {
+    "video": "_8UAR6y9vtM.1.mp4",
+    "question_id": "_8UAR6y9vtM.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The video shows a vast white land, Antarctica, covered with snow and surrounded by ocean.",
+        "related_timespan": [
+          16.9,
+          23.37
+        ],
+        "reply_timespan": [
+          16.9,
+          23.4
+        ],
+        "preds": [
+          [
+            23.4,
+            "Ice melting in Antarctica is featured in the video."
+          ]
+        ],
+        "judge_scores": {
+          "23.4": 0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is featured about Antarctica in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 23.4
+  },
+  {
+    "video": "KqUZIzkIWaY.7.mp4",
+    "question_id": "KqUZIzkIWaY.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Oil is being poured into a pan on a stove.",
+        "related_timespan": [
+          0.0,
+          3.96
+        ],
+        "reply_timespan": [
+          0.0,
+          4.96
+        ],
+        "preds": [
+          [
+            2,
+            "Oil is being poured into a pan."
+          ],
+          [
+            4,
+            "The oil is heating up in a pan."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being done with the oil?",
+        "time": 0
+      }
+    ],
+    "duration": 12.804458333333333
+  }
+]

@@ -1,0 +1,1682 @@
+[
+  {
+    "video": "OSfMU69X3C4.7.mp4",
+    "question_id": "OSfMU69X3C4.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "People are working at workstations.",
+        "time": [
+          0,
+          11.88
+        ],
+        "judge_questions": [
+          "Are people working?",
+          "Are they at workstations?"
+        ],
+        "related_timespan": [
+          0.0,
+          8.88
+        ],
+        "preds": [
+          [
+            4,
+            "People in the office appear to be working at computer desks, engaging in tasks or conversations. Some are standing and interacting with each other."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man and a woman are using phones and then talking and smiling.",
+        "time": [
+          5.91,
+          13.64
+        ],
+        "judge_questions": [
+          "Are a man and a woman using phones?",
+          "Do the man and woman smile?"
+        ],
+        "related_timespan": [
+          8.91,
+          10.64
+        ],
+        "preds": [],
+        "judge_scores": {}
+      },
+      {
+        "role": "assistant",
+        "content": "A man is holding a telephone and being filmed.",
+        "time": [
+          7.68,
+          14.08
+        ],
+        "judge_questions": [
+          "Is a man holding a telephone?",
+          "Is the man being filmed?"
+        ],
+        "related_timespan": [
+          10.68,
+          12.95
+        ],
+        "preds": [],
+        "judge_scores": {}
+      },
+      {
+        "role": "assistant",
+        "content": "A man is interacting with someone at a computer desk and smiling.",
+        "time": [
+          9.98,
+          14.08
+        ],
+        "judge_questions": [
+          "Is a man interacting with someone at a computer desk?",
+          "Is the man smiling?"
+        ],
+        "related_timespan": [
+          12.98,
+          14.05
+        ],
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are people doing in the office?",
+        "time": 0
+      }
+    ],
+    "duration": 14.080733333333333
+  },
+  {
+    "video": "eaU9xQkP_jE.26.mp4",
+    "question_id": "eaU9xQkP_jE.26.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A fighting or wrestling match is taking place in the boxing ring.",
+        "time": [
+          0,
+          4.2
+        ],
+        "judge_questions": [
+          "Is there a fighting or wrestling match happening?",
+          "Is the match taking place in a boxing ring?"
+        ],
+        "related_timespan": [
+          0.0,
+          1.2
+        ],
+        "preds": [
+          [
+            2,
+            "The activity taking place in the video is a mixed martial arts (MMA) fight inside a cage, likely a UFC event."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A fighting or wrestling match is taking place, as a man lifts and throws another down on the boxing ring.",
+        "time": [
+          3.54,
+          15.65
+        ],
+        "judge_questions": [
+          "Is there a fighting or wrestling match happening?",
+          "Does a man lift and throw another down on the boxing ring?"
+        ],
+        "related_timespan": [
+          6.54,
+          15.62
+        ],
+        "preds": [
+          [
+            10,
+            "The activity in the video includes both a mixed martial arts (MMA) fight inside a cage and a boxing match inside a ring, as shown in the frames."
+          ],
+          [
+            12,
+            "The activity in the video is a boxing match taking place inside a boxing ring."
+          ],
+          [
+            15.648966666666666,
+            "The activity taking place in the video is a wrestling or grappling match inside a ring, as evidenced by the fighters engaged in ground fighting techniques."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 3,
+          "12.0": 4,
+          "15.648966666666666": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activity is taking place in the video?",
+        "time": 0
+      }
+    ],
+    "duration": 15.648966666666666
+  },
+  {
+    "video": "Hs5Q9gbZhjk.14.mp4",
+    "question_id": "Hs5Q9gbZhjk.14.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is driving a black convertible car.",
+        "time": [
+          0,
+          5.74
+        ],
+        "judge_questions": [
+          "Is the man driving the car?",
+          "Is the car a black convertible?"
+        ],
+        "related_timespan": [
+          0.0,
+          2.74
+        ],
+        "preds": [
+          [
+            2,
+            "The people in the car are driving."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The boy is sitting in the back seat, looking at something and eating something, while the man is driving.",
+        "time": [
+          1.64,
+          9.37
+        ],
+        "judge_questions": [
+          "Is the boy sitting in the back seat?",
+          "Is the boy eating something?",
+          "Is the man driving?"
+        ],
+        "related_timespan": [
+          4.64,
+          6.37
+        ],
+        "preds": [
+          [
+            6,
+            "The person in the front is driving the car, and the child in the back seat is looking at or reading something."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The man, boy, and girl are all sitting in the car and eating something.",
+        "time": [
+          5.84,
+          15.75
+        ],
+        "judge_questions": [
+          "Are there three people in the car?",
+          "Are the people sitting in the car?",
+          "Are they eating something?"
+        ],
+        "related_timespan": [
+          8.84,
+          15.72
+        ],
+        "preds": [
+          [
+            12,
+            "The people in the car are driving, the child in the back is reading or looking at something, and the girl in the front is eating something, possibly a snack."
+          ],
+          [
+            14,
+            "The people in the car are driving and eating snacks. The child in the back seat is also eating and appears to be talking or reacting to something."
+          ],
+          [
+            15.749066666666668,
+            "The child in the back seat is eating fries, and the girl in the front seat is also eating a fry. The child seems to be making faces or reacting playfully while eating."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 2,
+          "14.0": 3,
+          "15.749066666666668": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What are the people doing in the car?",
+        "time": 0
+      }
+    ],
+    "duration": 15.749066666666668
+  },
+  {
+    "video": "4dr0llTvNMI.26.mp4",
+    "question_id": "4dr0llTvNMI.26.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman is clearing things off the table and wiping it with a rag.",
+        "time": [
+          8.34,
+          15.78
+        ],
+        "judge_questions": [
+          "Is a woman clearing things off the table?",
+          "Is she wiping the table with a rag?"
+        ],
+        "related_timespan": [
+          11.34,
+          15.75
+        ],
+        "preds": [
+          [
+            12,
+            "A wooden dining table is being cleaned and organized, with a person placing a decorative lantern or candle holder on it."
+          ],
+          [
+            14,
+            "A wooden dining table is being cleaned and cleared of placemats or papers."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 3,
+          "14.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being cleaned?",
+        "time": 0
+      }
+    ],
+    "duration": 15.782433333333334
+  },
+  {
+    "video": "qm6B3s12VLI.27.mp4",
+    "question_id": "qm6B3s12VLI.27.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A group of people, two of whom are holding a trophy, are posing, suggesting an award ceremony during Bolden's visit to Stennis.",
+        "time": [
+          0,
+          10.56
+        ],
+        "judge_questions": [
+          "Are two people holding a trophy?",
+          "Is Bolden visiting Stennis during the event?"
+        ],
+        "related_timespan": [
+          0.0,
+          7.56
+        ],
+        "preds": [
+          [
+            2,
+            "The event taking place is \"Bolden Visits Stennis,\" as indicated by the text on the screen."
+          ],
+          [
+            8,
+            "The event involving NASA is an award ceremony where four people are holding a large trophy or award, followed by a person speaking at a podium with the NASA logo."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3,
+          "8.0": 5
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man is speaking at a NASA podium, indicating a formal event or presentation at NASA.",
+        "time": [
+          4.59,
+          14.15
+        ],
+        "judge_questions": [
+          "Is a man speaking at a NASA podium?",
+          "Is there a formal event or presentation at NASA?"
+        ],
+        "related_timespan": [
+          7.59,
+          11.15
+        ],
+        "preds": [
+          [
+            8,
+            "The event involving NASA is an award ceremony where four people are holding a large trophy or award, followed by a person speaking at a podium with the NASA logo."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What event is taking place involving NASA?",
+        "time": 0
+      }
+    ],
+    "duration": 16.626360338573157
+  },
+  {
+    "video": "6alEQGuroiM.35.mp4",
+    "question_id": "6alEQGuroiM.35.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The speed of the purple car is shown as 12.3s.",
+        "time": [
+          0,
+          9.44
+        ],
+        "judge_questions": [
+          "Is the purple car's speed displayed as 12.3 seconds?  ",
+          "Is information about the cars' speed shown?"
+        ],
+        "related_timespan": [
+          0.0,
+          6.44
+        ],
+        "preds": [
+          [
+            2,
+            "The video shows a blue car accelerating rapidly and emitting smoke from the tires, indicating high speed or quick acceleration. However, no specific numerical speed information or speed measurements are shown in the video."
+          ],
+          [
+            4,
+            "The video shows that the \"New Golf R\" 1/4 mile time is 12.3 seconds."
+          ],
+          [
+            6,
+            "The video shows that the \"New Golf R\" 1/4 mile time is 12.3 seconds at first, and then later it is shown as 12.8 seconds."
+          ],
+          [
+            8,
+            "The video shows the \"New Golf R\" 1/4 mile time as 12.8 seconds."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2,
+          "4.0": 4,
+          "6.0": 4,
+          "8.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The speed of another car, the Old Golf R, is shown as 13.1s.",
+        "time": [
+          5.76,
+          14.56
+        ],
+        "judge_questions": [
+          "Is the speed of another car shown?",
+          "Is the speed shown as 13.1 seconds?"
+        ],
+        "related_timespan": [
+          8.76,
+          14.52
+        ],
+        "preds": [
+          [
+            12,
+            "The video shows the \"Old Golf R\" 1/4 mile time as 13.1 seconds."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 5
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What information is shown about the cars' speed?",
+        "time": 0
+      }
+    ],
+    "duration": 14.56
+  },
+  {
+    "video": "WtFejcr5AGc.2.mp4",
+    "question_id": "WtFejcr5AGc.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in a red hat is crouching next to a silver car talking to the camera.",
+        "time": [
+          0,
+          8.71
+        ],
+        "judge_questions": [
+          "Is the man in the red hat crouching next to a silver car?",
+          "Is he talking to the camera?"
+        ],
+        "related_timespan": [
+          0.0,
+          5.71
+        ],
+        "preds": [
+          [
+            2,
+            "The man in the red hat is talking or explaining something while standing next to a silver car."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The man in the hat is driving while talking to the man in the passenger seat.",
+        "time": [
+          2.74,
+          31.1
+        ],
+        "judge_questions": [
+          "Is the man in the hat driving?",
+          "Is he talking to the man in the passenger seat?"
+        ],
+        "related_timespan": [
+          5.74,
+          31.06
+        ],
+        "preds": [
+          [
+            16,
+            "The man in the red hat is sitting inside the car, wearing a seatbelt, and appears to be listening or concentrating."
+          ],
+          [
+            18,
+            "The man in the red hat is driving the car while talking."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 3,
+          "18.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man in the red hat doing?",
+        "time": 0
+      }
+    ],
+    "duration": 31.097733333333334
+  },
+  {
+    "video": "G7CJ2TvVf9U.17.mp4",
+    "question_id": "G7CJ2TvVf9U.17.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman turns to see a man leaning against the door looking at her, then she smiles and turns away.",
+        "time": [
+          0,
+          6.97
+        ],
+        "judge_questions": [
+          "Does the woman see the man leaning against the door?",
+          "Does the woman turn away after seeing the man?"
+        ],
+        "related_timespan": [
+          0.0,
+          3.97
+        ],
+        "preds": [
+          [
+            2,
+            "The woman is seen closely interacting with a mirror, appearing to kiss or nearly kiss her own reflection. The images do not clearly show any interaction between the woman and a man."
+          ],
+          [
+            4,
+            "The man approaches the group of women, including the woman in the white dress, and they appear to acknowledge each other, but no direct or intimate interaction such as touching or speaking is clearly shown between them in these frames."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1,
+          "4.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The scene shows a man in a suit and a woman in a blue suit walking side by side.",
+        "time": [
+          4.67,
+          12.07
+        ],
+        "judge_questions": [
+          "Are the man and woman walking side by side?",
+          "Is the man wearing a suit?",
+          "Is the woman wearing a blue suit?"
+        ],
+        "related_timespan": [
+          7.67,
+          12.03
+        ],
+        "preds": [
+          [
+            12,
+            "In the last frame, the woman in the light blue outfit is holding hands with the man beside her, indicating a close, possibly intimate interaction between them."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What interactions occur between the woman and the man?",
+        "time": 0
+      }
+    ],
+    "duration": 12.066666666666666
+  },
+  {
+    "video": "g0oZb_6lre0.1.mp4",
+    "question_id": "g0oZb_6lre0.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Luggage was left behind by Sun Country Airlines. ",
+        "time": [
+          0,
+          6.44
+        ],
+        "judge_questions": [
+          "Was luggage left behind by Sun Country Airlines?"
+        ],
+        "related_timespan": [
+          0.0,
+          3.44
+        ],
+        "preds": [
+          [
+            2,
+            "The issue being reported about Sun Country Airlines is \"LUGGAGE LEFT BEHIND.\""
+          ],
+          [
+            6,
+            "The issue being reported about Sun Country Airlines is that a flight left Minneapolis without luggage."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 5,
+          "6.0": 5
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A Sun Country flight left Minneapolis without luggage.",
+        "time": [
+          0.47,
+          11.91
+        ],
+        "judge_questions": [
+          "Did the Sun Country flight leave Minneapolis without luggage?",
+          "Is the issue related to luggage?"
+        ],
+        "related_timespan": [
+          3.47,
+          11.88
+        ],
+        "preds": [
+          [
+            6,
+            "The issue being reported about Sun Country Airlines is that a flight left Minneapolis without luggage."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 5
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What issue is being reported about Sun Country Airlines?",
+        "time": 0
+      }
+    ],
+    "duration": 11.911900000000001
+  },
+  {
+    "video": "0roOoYMur40.7.mp4",
+    "question_id": "0roOoYMur40.7.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A woman and a man are standing on stage draped in red flags and wearing medals.",
+        "time": [
+          0,
+          8.88
+        ],
+        "judge_questions": [
+          "Are a woman and a man standing on the stage?",
+          "Are they draped in red flags?",
+          "Are they wearing medals?"
+        ],
+        "related_timespan": [
+          0.0,
+          5.88
+        ],
+        "preds": [
+          [
+            2,
+            "On the stage, two athletes are being recognized as bronze medallists for the diving event \"Mixed 3M Synchro Springboard\" at the SEA Games Kuala Lumpur 2017. They are standing with their medals and wearing red sashes."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Contestants are standing on the podium draped in flags.",
+        "time": [
+          2.92,
+          11.56
+        ],
+        "judge_questions": [
+          "Are contestants standing on the podium?",
+          "Are the contestants draped in flags?"
+        ],
+        "related_timespan": [
+          5.92,
+          8.56
+        ],
+        "preds": [],
+        "judge_scores": {}
+      },
+      {
+        "role": "assistant",
+        "content": "A man and a woman in red and white outfits are draped in a flag and walk onto the stage together.",
+        "time": [
+          5.6,
+          11.72
+        ],
+        "judge_questions": [
+          "Are the man and woman wearing red and white outfits?",
+          "Are they draped in a flag?",
+          "Do they walk onto the stage together?"
+        ],
+        "related_timespan": [
+          8.6,
+          11.68
+        ],
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening on the stage?",
+        "time": 0
+      }
+    ],
+    "duration": 11.72
+  },
+  {
+    "video": "Hrgq1eFC9SE.36.mp4",
+    "question_id": "Hrgq1eFC9SE.36.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman is laughing with the child.",
+        "time": [
+          0,
+          5.7
+        ],
+        "judge_questions": [
+          "Is the woman laughing?",
+          "Is the child present with the woman?"
+        ],
+        "related_timespan": [
+          0.0,
+          2.7
+        ],
+        "preds": [
+          [
+            2,
+            "The woman is smiling and interacting happily with the child, who is also smiling and appears to be enjoying the interaction."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The woman is pushing a stroller with the child in it out of a garage.",
+        "time": [
+          5.41,
+          10.94
+        ],
+        "judge_questions": [
+          "Is the woman pushing a stroller?",
+          "Is the child in the stroller?",
+          "Is the woman moving the stroller out of a garage?"
+        ],
+        "related_timespan": [
+          8.41,
+          10.91
+        ],
+        "preds": [
+          [
+            10,
+            "The woman is picking up the child and placing them into a stroller."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the woman doing with the child?",
+        "time": 0
+      }
+    ],
+    "duration": 10.944277610944278
+  },
+  {
+    "video": "dYUK-oWkt4g.2.mp4",
+    "question_id": "dYUK-oWkt4g.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in a hat is surrounded by a group of people in the ring while his arm is lifted by a man beside him.",
+        "time": [
+          0,
+          13.21
+        ],
+        "judge_questions": [
+          "Is the man in the hat inside the ring?",
+          "Is the man in the hat surrounded by a group of people?",
+          "Is the man in the hat's arm being lifted by someone beside him?"
+        ],
+        "related_timespan": [
+          0.0,
+          10.21
+        ],
+        "preds": [
+          [
+            2,
+            "In the ring, a fighter is having his arm raised by the referee, indicating that he has won the match."
+          ],
+          [
+            6,
+            "In the ring, two fighters are separately celebrating their victories with raised arms, each in different moments of the match result announcement."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4,
+          "6.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man is surrounded by a group of people in the ring while his arm is lifted by a man beside him.",
+        "time": [
+          16.42,
+          31.8
+        ],
+        "judge_questions": [
+          "Is a man surrounded by a group of people in the ring?",
+          "Is the man's arm being lifted by someone beside him?"
+        ],
+        "related_timespan": [
+          19.42,
+          31.77
+        ],
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening in the ring?",
+        "time": 0
+      }
+    ],
+    "duration": 31.798433333333335
+  },
+  {
+    "video": "aGu-2KaP6pc.1.mp4",
+    "question_id": "aGu-2KaP6pc.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is wearing a purple shirt and gray pants.",
+        "time": [
+          0,
+          14.91
+        ],
+        "judge_questions": [
+          "Is the man wearing a purple shirt?  ",
+          "Is the man wearing gray pants?"
+        ],
+        "related_timespan": [
+          0.0,
+          11.91
+        ],
+        "preds": [
+          [
+            2,
+            "The man is wearing a dark purple short-sleeve polo shirt and dark pants."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The man is wearing a purple shirt and gray pants.",
+        "time": [
+          13.05,
+          20.59
+        ],
+        "judge_questions": [
+          "Is the man wearing a purple shirt?",
+          "Is the man wearing gray pants?"
+        ],
+        "related_timespan": [
+          16.05,
+          20.55
+        ],
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man wearing?",
+        "time": 0
+      }
+    ],
+    "duration": 20.587233333333334
+  },
+  {
+    "video": "8Z0822sZ5Go.13.mp4",
+    "question_id": "8Z0822sZ5Go.13.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The person scrapes the thick yellow stuff into a white cup covered with a plastic bag.",
+        "time": [
+          0,
+          8.61
+        ],
+        "judge_questions": [
+          "Is the yellow stuff scraped into a cup?",
+          "Is the cup covered with a plastic bag?"
+        ],
+        "related_timespan": [
+          0.0,
+          5.61
+        ],
+        "preds": [
+          [
+            2,
+            "The person is scooping or moving the yellow substance, which looks like mashed potatoes or dough, with a spoon or spatula inside a container lined with plastic wrap or parchment paper."
+          ],
+          [
+            8,
+            "The person is transferring the yellow mixture from the container lined with plastic wrap into a piping bag and then piping small portions of it onto a baking sheet lined with parchment paper."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4,
+          "8.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The person picks up the plastic bag containing the thick yellow stuff.",
+        "time": [
+          2.64,
+          10.54
+        ],
+        "judge_questions": [
+          "Is the yellow stuff inside a plastic bag?",
+          "Does the person pick up the bag?"
+        ],
+        "related_timespan": [
+          5.64,
+          7.54
+        ],
+        "preds": [
+          [
+            8,
+            "The person is transferring the yellow mixture from the container lined with plastic wrap into a piping bag and then piping small portions of it onto a baking sheet lined with parchment paper."
+          ],
+          [
+            10,
+            "The person is piping small dollops of the yellow mixture onto a parchment-lined baking sheet using a piping bag."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 2,
+          "10.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The person squeezes the yellow stuff onto parchment paper with a laminating bag.",
+        "time": [
+          4.57,
+          23.46
+        ],
+        "judge_questions": [
+          "Is the yellow stuff being squeezed onto parchment paper?"
+        ],
+        "related_timespan": [
+          7.57,
+          23.42
+        ],
+        "preds": [
+          [
+            8,
+            "The person is transferring the yellow mixture from the container lined with plastic wrap into a piping bag and then piping small portions of it onto a baking sheet lined with parchment paper."
+          ],
+          [
+            10,
+            "The person is piping small dollops of the yellow mixture onto a parchment-lined baking sheet using a piping bag."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 4,
+          "10.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the person doing with the yellow stuff?",
+        "time": 0
+      }
+    ],
+    "duration": 23.456766666666667
+  },
+  {
+    "video": "LLVEVw5CkPY.2.mp4",
+    "question_id": "LLVEVw5CkPY.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "She grooms the white dog and the puppy.",
+        "time": [
+          0,
+          7.04
+        ],
+        "judge_questions": [
+          "Does the woman groom a white dog?  ",
+          "Does the woman groom a puppy?"
+        ],
+        "related_timespan": [
+          0.0,
+          4.04
+        ],
+        "preds": [
+          [
+            2,
+            "The woman in the blue-green dress is interacting gently with the animals; she is holding and petting the dog and the small horse, showing care and affection."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "She walks towards the door pulling a black and white horse.",
+        "time": [
+          3.21,
+          12.54
+        ],
+        "judge_questions": [
+          "Is the woman pulling a horse?",
+          "Is the horse black and white?",
+          "Does the woman walk towards the door?"
+        ],
+        "related_timespan": [
+          6.21,
+          9.54
+        ],
+        "preds": [],
+        "judge_scores": {}
+      },
+      {
+        "role": "assistant",
+        "content": "She is pulling a black and white pony through a door.",
+        "time": [
+          8.04,
+          16.32
+        ],
+        "judge_questions": [
+          "Is the woman pulling a pony?",
+          "Is the pony black and white?",
+          "Is she pulling the pony through a door?"
+        ],
+        "related_timespan": [
+          11.04,
+          13.88
+        ],
+        "preds": [
+          [
+            16,
+            "The woman in the blue-green dress is Dr. Katy Nelson, a veterinarian at Belle Haven Animal Medical Centre."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does the woman in the blue-green dress do with animals?",
+        "time": 0
+      }
+    ],
+    "duration": 16.316300000000002
+  },
+  {
+    "video": "IL0cuuekUO8.2.mp4",
+    "question_id": "IL0cuuekUO8.2.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "There is a tractor in the background.",
+        "time": [
+          0,
+          9.2
+        ],
+        "judge_questions": [
+          "Is there a tractor present?",
+          "Is the tractor in the background?"
+        ],
+        "related_timespan": [
+          0.0,
+          6.2
+        ],
+        "preds": [
+          [
+            2,
+            "The tractor is stationary in the background and does not appear to be moving."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A man is driving a tractor in a field with a woman sitting next to him.",
+        "time": [
+          3.24,
+          12.76
+        ],
+        "judge_questions": [
+          "Is a man driving the tractor?",
+          "Is the tractor in a field?",
+          "Is there a woman sitting next to the man on the tractor?"
+        ],
+        "related_timespan": [
+          6.24,
+          9.76
+        ],
+        "preds": [
+          [
+            12,
+            "The tractor is moving forward as the dirt mound in front of it gradually changes position across the frames."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A person is driving a tractor down a dirt road.",
+        "time": [
+          6.8,
+          16.4
+        ],
+        "judge_questions": [
+          "Is a person driving the tractor?",
+          "Is the tractor on a dirt road?"
+        ],
+        "related_timespan": [
+          9.8,
+          13.4
+        ],
+        "preds": [
+          [
+            12,
+            "The tractor is moving forward as the dirt mound in front of it gradually changes position across the frames."
+          ],
+          [
+            14,
+            "The tractor is moving forward across the frames as indicated by the change in the background scenery and the angle of the camera mounted on it."
+          ],
+          [
+            16,
+            "The tractor is moving closer to the camera, as evidenced by the increasing size of its tires and the lowering perspective in the frames."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 3,
+          "14.0": 3,
+          "16.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A red tractor is driving on a dirt road towards the camera.",
+        "time": [
+          10.44,
+          21.12
+        ],
+        "judge_questions": [
+          "Is the tractor red?",
+          "Is the tractor driving on a dirt road?",
+          "Is the tractor moving towards the camera?"
+        ],
+        "related_timespan": [
+          13.44,
+          18.12
+        ],
+        "preds": [
+          [
+            14,
+            "The tractor is moving forward across the frames as indicated by the change in the background scenery and the angle of the camera mounted on it."
+          ],
+          [
+            16,
+            "The tractor is moving closer to the camera, as evidenced by the increasing size of its tires and the lowering perspective in the frames."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 4,
+          "16.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is happening with the tractor?",
+        "time": 0
+      }
+    ],
+    "duration": 22.24
+  },
+  {
+    "video": "IpveWJpT3ns.1.mp4",
+    "question_id": "IpveWJpT3ns.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A machine made of metal.",
+        "time": [
+          0,
+          17.61
+        ],
+        "judge_questions": [
+          "Is the object a machine?",
+          "Is the machine made of metal?"
+        ],
+        "related_timespan": [
+          0.0,
+          14.61
+        ],
+        "preds": [
+          [
+            2,
+            "The images show a mechanical object or satellite-like structure in space above the Earth, but there is no clear indication of any specific work being done."
+          ],
+          [
+            8,
+            "In the last frame, it appears that an astronaut is working on or inspecting a piece of mechanical or electronic equipment, likely some part of a spacecraft or satellite component."
+          ],
+          [
+            16,
+            "The images show several people in cleanroom suits working on a complex, gold-colored mechanical and electronic device that is likely a spacecraft instrument or satellite component inside a laboratory or assembly area. They appear to be assembling, inspecting, or testing this device."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2,
+          "8.0": 3,
+          "16.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A large object made of metal with various wires attached to it.",
+        "time": [
+          11.68,
+          22.15
+        ],
+        "judge_questions": [
+          "Is the object large?",
+          "Is the object made of metal?",
+          "Are there various wires attached to the object?"
+        ],
+        "related_timespan": [
+          14.68,
+          19.15
+        ],
+        "preds": [
+          [
+            16,
+            "The images show several people in cleanroom suits working on a complex, gold-colored mechanical and electronic device that is likely a spacecraft instrument or satellite component inside a laboratory or assembly area. They appear to be assembling, inspecting, or testing this device."
+          ]
+        ],
+        "judge_scores": {
+          "16.0": 4
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A large silver object with some wires and tubes attached to it.",
+        "time": [
+          16.22,
+          28.26
+        ],
+        "judge_questions": [
+          "Is the object large and silver?",
+          "Are there wires attached to the object?",
+          "Are there tubes attached to the object?"
+        ],
+        "related_timespan": [
+          19.22,
+          28.23
+        ],
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is being worked on?",
+        "time": 0
+      }
+    ],
+    "duration": 28.261566666666667
+  },
+  {
+    "video": "3lYVqvRIasI.1.mp4",
+    "question_id": "3lYVqvRIasI.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A boy in a denim jacket with a backpack is talking to a girl in red, and they walk together in the woods.",
+        "time": [
+          0,
+          6.25
+        ],
+        "judge_questions": [
+          "Is there a boy in a denim jacket with a backpack?",
+          "Is the boy talking to a girl in red?",
+          "Do they walk together in the woods?"
+        ],
+        "related_timespan": [
+          0.0,
+          3.25
+        ],
+        "preds": [
+          [
+            2,
+            "In the forest, a young man and a young woman are having a conversation. The setting appears to be calm and private, suggesting an important or intimate moment between the two characters."
+          ],
+          [
+            4,
+            "In the forest, the young woman reacts with shock or concern while the young man adjusts his hat, indicating something unexpected or troubling has occurred."
+          ],
+          [
+            6,
+            "In the forest, a young woman in a red coat appears distressed or fearful as three girls dressed in dark clothing with white collars approach her. The scene suggests a tense or threatening encounter occurring in the forest."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 4,
+          "4.0": 3,
+          "6.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A girl in red turns to see three people in black standing behind her; a tree with men hanging is shown in the forest.",
+        "time": [
+          0.29,
+          9.97
+        ],
+        "judge_questions": [
+          "Does a girl in red turn to see three people in black behind her?",
+          "Are there men hanging from a tree in the forest?"
+        ],
+        "related_timespan": [
+          3.29,
+          6.97
+        ],
+        "preds": [
+          [
+            4,
+            "In the forest, the young woman reacts with shock or concern while the young man adjusts his hat, indicating something unexpected or troubling has occurred."
+          ],
+          [
+            6,
+            "In the forest, a young woman in a red coat appears distressed or fearful as three girls dressed in dark clothing with white collars approach her. The scene suggests a tense or threatening encounter occurring in the forest."
+          ],
+          [
+            8,
+            "In the forest, a young woman is seen holding a crafted object, appearing alert and cautious as she looks around, indicating a sense of danger or urgency in the environment."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 2,
+          "6.0": 3,
+          "8.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A girl is standing in a forest holding something with sticks and lines.",
+        "time": [
+          4.01,
+          11.34
+        ],
+        "judge_questions": [
+          "Is the girl standing in the forest?",
+          "Is she holding something with sticks and lines?"
+        ],
+        "related_timespan": [
+          7.01,
+          8.34
+        ],
+        "preds": [
+          [
+            8,
+            "In the forest, a young woman is seen holding a crafted object, appearing alert and cautious as she looks around, indicating a sense of danger or urgency in the environment."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What happens in the forest?",
+        "time": 0
+      }
+    ],
+    "duration": 16.26625
+  },
+  {
+    "video": "3b64-1vz1FM.1.mp4",
+    "question_id": "3b64-1vz1FM.1.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man with a beard lies down and lifts the barbell up and down.",
+        "time": [
+          0,
+          8.68
+        ],
+        "judge_questions": [
+          "Is the man with a beard lying down?",
+          "Is he lifting a barbell up and down?"
+        ],
+        "related_timespan": [
+          0.0,
+          5.68
+        ],
+        "preds": [
+          [
+            2,
+            "The man with a beard is lifting weights, specifically performing a bench press."
+          ],
+          [
+            6,
+            "The man with a beard is lifting weights using a barbell on a bench press and then later shown making a phone call while standing near a sofa."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 5,
+          "6.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What activity is the man with a beard doing?",
+        "time": 0
+      }
+    ],
+    "duration": 20.44
+  },
+  {
+    "video": "G1jixIOBhJU.13.mp4",
+    "question_id": "G1jixIOBhJU.13.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man is speaking to the camera with a smile.",
+        "time": [
+          0,
+          7.2
+        ],
+        "judge_questions": [
+          "Is the man speaking to the camera?",
+          "Is the man smiling?"
+        ],
+        "related_timespan": [
+          0.0,
+          4.2
+        ],
+        "preds": [
+          [
+            2,
+            "The man is speaking while displaying words such as \"ALWAYS,\" \"2,\" and \"DO\" on the screen."
+          ],
+          [
+            4,
+            "The man is singing, as indicated by his facial expressions and closed eyes in the later frames."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3,
+          "4.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The man is speaking to the camera with a smile.",
+        "time": [
+          5.48,
+          11.81
+        ],
+        "judge_questions": [
+          "Is the man speaking to the camera?",
+          "Is the man smiling?"
+        ],
+        "related_timespan": [
+          8.48,
+          11.78
+        ],
+        "preds": [
+          [
+            10,
+            "In these frames, the man is talking directly to the camera and appears to be explaining or emphasizing something based on his animated facial expressions."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is the man doing?",
+        "time": 0
+      }
+    ],
+    "duration": 11.8118
+  },
+  {
+    "video": "-ozMwvYF5zY.12.mp4",
+    "question_id": "-ozMwvYF5zY.12.mp4",
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in a suit talks to the rabbit and a duck with soda on their head.",
+        "time": [
+          0,
+          4.33
+        ],
+        "judge_questions": [
+          "Does the man in a suit talk to the rabbit?",
+          "Does the man in a suit talk to the duck?",
+          "Does the duck have soda on its head?"
+        ],
+        "related_timespan": [
+          0.0,
+          1.33
+        ],
+        "preds": [
+          [
+            2,
+            "The rabbit and the duck appear to be in a courtroom setting. The duck seems shocked with some substance around his mouth, while the rabbit looks worried or surprised. In the last frame, both the rabbit and the duck are standing up before a judge, indicating they might be involved in a legal proceeding or trial."
+          ],
+          [
+            4,
+            "In the new frames, the judge is angrily pointing while the rabbit and the duck are still by the judge's bench. Then, a close-up shows the rabbit's hand being handcuffed, indicating they are being arrested or restrained."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3,
+          "4.0": 3
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The bailiff handcuffs a rabbit and a duck and then grabs them up.",
+        "time": [
+          0,
+          9.38
+        ],
+        "judge_questions": [
+          "Does the bailiff handcuff the rabbit and the duck?",
+          "Does the bailiff grab the rabbit and the duck after handcuffing them?"
+        ],
+        "related_timespan": [
+          1.38,
+          6.38
+        ],
+        "preds": [
+          [
+            2,
+            "The rabbit and the duck appear to be in a courtroom setting. The duck seems shocked with some substance around his mouth, while the rabbit looks worried or surprised. In the last frame, both the rabbit and the duck are standing up before a judge, indicating they might be involved in a legal proceeding or trial."
+          ],
+          [
+            4,
+            "In the new frames, the judge is angrily pointing while the rabbit and the duck are still by the judge's bench. Then, a close-up shows the rabbit's hand being handcuffed, indicating they are being arrested or restrained."
+          ],
+          [
+            6,
+            "The rabbit and the duck are shown handcuffed together by their wrists with chains, indicating that they have been restrained or arrested. A stern-looking officer or soldier is holding the chain linking the two together."
+          ],
+          [
+            8,
+            "The rabbit and the duck are being physically removed from the courtroom by the officer holding the chain that connects their handcuffs. They are being carried out while still chained together."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 3,
+          "4.0": 4,
+          "6.0": 5,
+          "8.0": 5
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The bailiff grabs up a rabbit and a duck and walks away.",
+        "time": [
+          3.42,
+          11.38
+        ],
+        "judge_questions": [
+          "Does the bailiff grab a rabbit?",
+          "Does the bailiff grab a duck?",
+          "Does the bailiff walk away with the animals?"
+        ],
+        "related_timespan": [
+          6.42,
+          8.38
+        ],
+        "preds": [
+          [
+            8,
+            "The rabbit and the duck are being physically removed from the courtroom by the officer holding the chain that connects their handcuffs. They are being carried out while still chained together."
+          ],
+          [
+            10,
+            "The rabbit is seen leaving the room alone in a confident manner, while there is no sign of the duck in these frames. The focus is on the rabbit exiting the scene."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 4,
+          "10.0": 3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What happens to the rabbit and the duck?",
+        "time": 0
+      }
+    ],
+    "duration": 24.649624999999997
+  }
+]

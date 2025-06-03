@@ -1,0 +1,2192 @@
+[
+  {
+    "video": "Arson041_x264.mp4",
+    "question_id": "Arson041_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man came to the door and sprinkled gasoline, mainly in front of the door. The man lit the fire and left. The gasoline exploded and the flames flooded the entire corridor.",
+        "related_timespan": [
+          71.0,
+          120.5
+        ],
+        "reply_timespan": [
+          71.0,
+          121.5
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            115.0,
+            "This unidentified person deliberately poured gasoline in front of someone else's door and set it on fire; this behavior clearly constitutes arson."
+          ]
+        ],
+        "judge_scores": {
+          "115.0": 2
+        }
+      }
+    ],
+    "duration": 125.13333333333334
+  },
+  {
+    "video": "RoadAccidents131_x264.mp4",
+    "question_id": "RoadAccidents131_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "At the intersection, a black car going straight collided with a black car going straight on the other road.",
+        "related_timespan": [
+          6.0,
+          8.0
+        ],
+        "reply_timespan": [
+          6.0,
+          9.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            8.0,
+            "At the intersection, a normally driving car collided with a car being chased by a police car."
+          ]
+        ],
+        "judge_scores": {
+          "8.0": 1
+        }
+      }
+    ],
+    "duration": 50.8
+  },
+  {
+    "video": "Burglary024_x264.mp4",
+    "question_id": "Burglary024_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Rifled through the drawers and side cabinets and took away two items similar to hard drives.",
+        "related_timespan": [
+          2.0,
+          41.0
+        ],
+        "reply_timespan": [
+          2.0,
+          42.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            5.0,
+            "A suspicious person wearing only underwear is committing theft at an unattended store checkout counter."
+          ]
+        ],
+        "judge_scores": {
+          "5.0": 1
+        }
+      }
+    ],
+    "duration": 120.16666666666667
+  },
+  {
+    "video": "Arrest024_x264.mp4",
+    "question_id": "Arrest024_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The white car stopped. A man in white opened the passenger door and came out and crawled forward for a distance before stopping. Another man in white jumped out of the white car and lay motionless on the ground. The police checked the condition of the men and arrested them.",
+        "related_timespan": [
+          33.5,
+          103.5
+        ],
+        "reply_timespan": [
+          33.5,
+          104.5
+        ],
+        "num_captions": 5,
+        "preds": [
+          [
+            35.0,
+            "The suspicious person in the white car was forcibly restrained by the police."
+          ],
+          [
+            38.0,
+            "The police fired shots at the suspicious person inside the white car."
+          ],
+          [
+            69.0,
+            "The police have taken control of all suspicious individuals inside the white car."
+          ]
+        ],
+        "judge_scores": {
+          "35.0": 1,
+          "38.0": 1,
+          "69.0": 1
+        }
+      }
+    ],
+    "duration": 120.96666666666667
+  },
+  {
+    "video": "Shooting007_x264.mp4",
+    "question_id": "Shooting007_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "There is a man in blue shooting with a pistol.",
+        "related_timespan": [
+          1.5,
+          5.5
+        ],
+        "reply_timespan": [
+          1.5,
+          6.5
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            2.0,
+            "A man in a blue shirt is illegally shooting in the courtyard."
+          ],
+          [
+            4.0,
+            "A man in a blue shirt is shooting at another man in the courtyard."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2,
+          "4.0": 2
+        }
+      }
+    ],
+    "duration": 47.666666666666664
+  },
+  {
+    "video": "Shooting019_x264.mp4",
+    "question_id": "Shooting019_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A gun shot is happening on the street.",
+        "related_timespan": [
+          34.0,
+          48.5
+        ],
+        "reply_timespan": [
+          34.0,
+          49.5
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            34.0,
+            "A man walked out of the door and fired shots at two criminals who were stealing a car."
+          ]
+        ],
+        "judge_scores": {
+          "34.0": 1
+        }
+      }
+    ],
+    "duration": 91.86666666666666
+  },
+  {
+    "video": "Arrest030_x264.mp4",
+    "question_id": "Arrest030_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Two armed police officers broke into the door.",
+        "related_timespan": [
+          184.5,
+          240.0
+        ],
+        "reply_timespan": [
+          184.5,
+          241.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            226.0,
+            "The police arrived promptly and apprehended three criminals who were vandalizing the ATM."
+          ]
+        ],
+        "judge_scores": {
+          "226.0": 1
+        }
+      }
+    ],
+    "duration": 288.06666666666666
+  },
+  {
+    "video": "Shoplifting010_x264.mp4",
+    "question_id": "Shoplifting010_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "At this time, the woman carrying the schoolbag took a few yellow items from the shelf and put them into the schoolbag.",
+        "related_timespan": [
+          25.0,
+          30.67
+        ],
+        "reply_timespan": [
+          25.0,
+          31.67
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            27.0,
+            "A woman is stealing items from the shelves inside the store."
+          ]
+        ],
+        "judge_scores": {
+          "27.0": 2
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The woman carrying a purple schoolbag put some bags of snacks into the schoolbag.",
+        "related_timespan": [
+          51.67,
+          65.67
+        ],
+        "reply_timespan": [
+          51.67,
+          66.67
+        ],
+        "num_captions": 6,
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "duration": 91.2
+  },
+  {
+    "video": "RoadAccidents001_x264.mp4",
+    "question_id": "RoadAccidents001_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A car knocked a motorcycle rider wearing blue clothes and black vest into the yard next to the road",
+        "related_timespan": [
+          7.0,
+          10.0
+        ],
+        "reply_timespan": [
+          7.0,
+          11.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            7.0,
+            "A moving motorcycle collided with a car."
+          ]
+        ],
+        "judge_scores": {
+          "7.0": 1
+        }
+      }
+    ],
+    "duration": 45.53333333333333
+  },
+  {
+    "video": "RoadAccidents016_x264.mp4",
+    "question_id": "RoadAccidents016_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A white car collided with a black car. The black car was hit on the sidewalk. People who were waiting for the bus scattered in all directions.",
+        "related_timespan": [
+          17.67,
+          24.0
+        ],
+        "reply_timespan": [
+          17.67,
+          25.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            22.0,
+            "An out-of-control car crashed into the crowd."
+          ]
+        ],
+        "judge_scores": {
+          "22.0": 1
+        }
+      }
+    ],
+    "duration": 73.06666666666666
+  },
+  {
+    "video": "Explosion039_x264.mp4",
+    "question_id": "Explosion039_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "An explosion occurred in a restaurant, and the items on the table were shaken to the ground",
+        "related_timespan": [
+          2.0,
+          5.0
+        ],
+        "reply_timespan": [
+          2.0,
+          6.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            3.0,
+            "In a restaurant with multiple customers dining, the ceiling suddenly collapsed."
+          ]
+        ],
+        "judge_scores": {
+          "3.0": 1
+        }
+      }
+    ],
+    "duration": 33.266666666666666
+  },
+  {
+    "video": "Arson022_x264.mp4",
+    "question_id": "Arson022_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man light the Christmas tree and successfully lit it.",
+        "related_timespan": [
+          116.67,
+          133.33
+        ],
+        "reply_timespan": [
+          116.67,
+          134.33
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            123.0,
+            "An unidentified man set fire to a Christmas tree and papers in someone else's house, causing a fire."
+          ]
+        ],
+        "judge_scores": {
+          "123.0": 1
+        }
+      }
+    ],
+    "duration": 288.0
+  },
+  {
+    "video": "Explosion035_x264.mp4",
+    "question_id": "Explosion035_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "There was an explosion in the office. Many papers were rolled up and flew into the air and then fell down. There was gray fog filling the room.",
+        "related_timespan": [
+          8.33,
+          11.67
+        ],
+        "reply_timespan": [
+          8.33,
+          12.67
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            9.0,
+            "An explosion suddenly occurred in an office."
+          ]
+        ],
+        "judge_scores": {
+          "9.0": 1
+        }
+      }
+    ],
+    "duration": 95.5
+  },
+  {
+    "video": "Abuse030_x264.mp4",
+    "question_id": "Abuse030_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man started to hit the dog, but the dog hid",
+        "related_timespan": [
+          42.5,
+          45.33
+        ],
+        "reply_timespan": [
+          42.5,
+          46.33
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            44.0,
+            "A dog on the road was tied up with a rope by a man and beaten violently."
+          ]
+        ],
+        "judge_scores": {
+          "44.0": 2
+        }
+      }
+    ],
+    "duration": 51.46666666666667
+  },
+  {
+    "video": "Shooting046_x264.mp4",
+    "question_id": "Shooting046_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in blue plaid shirt took out a gun and pointed at the man in black clothes",
+        "related_timespan": [
+          133.5,
+          141.0
+        ],
+        "reply_timespan": [
+          133.5,
+          142.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            137.0,
+            "A man who was withdrawing money suddenly pulled out a gun and shot the robber."
+          ]
+        ],
+        "judge_scores": {
+          "137.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The man next to him took out his gun and shot around",
+        "related_timespan": [
+          158.67,
+          169.6
+        ],
+        "reply_timespan": [
+          158.67,
+          169.6
+        ],
+        "num_captions": 1,
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "duration": 169.6
+  },
+  {
+    "video": "Explosion033_x264.mp4",
+    "question_id": "Explosion033_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "An explosion occurred in a factory, black smoke filled the air, and then a huge red flame ignited",
+        "related_timespan": [
+          51.67,
+          105.2
+        ],
+        "reply_timespan": [
+          51.67,
+          105.13
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            60.0,
+            "The explosion caused the oil tank to catch fire."
+          ]
+        ],
+        "judge_scores": {
+          "60.0": 1
+        }
+      }
+    ],
+    "duration": 105.13333333333334
+  },
+  {
+    "video": "Shoplifting034_x264.mp4",
+    "question_id": "Shoplifting034_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman puts a box between her legs behind her back",
+        "related_timespan": [
+          245.0,
+          249.0
+        ],
+        "reply_timespan": [
+          245.0,
+          250.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            248.0,
+            "The woman in the video put an unpaid item under her skirt in her bag, which should be considered theft."
+          ]
+        ],
+        "judge_scores": {
+          "248.0": 1
+        }
+      }
+    ],
+    "duration": 397.9
+  },
+  {
+    "video": "Burglary018_x264.mp4",
+    "question_id": "Burglary018_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man started to pry the door of the house with a knife",
+        "related_timespan": [
+          24.0,
+          35.0
+        ],
+        "reply_timespan": [
+          24.0,
+          36.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            36.0,
+            "After breaking the door lock, they opened the door and immediately ran away, suspected of illegally trespassing into the building."
+          ]
+        ],
+        "judge_scores": {
+          "36.0": 1
+        }
+      }
+    ],
+    "duration": 37.5
+  },
+  {
+    "video": "Explosion043_x264.mp4",
+    "question_id": "Explosion043_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A house in the distance exploded, a large amount of gray smoke filled the air, and many people ran away",
+        "related_timespan": [
+          148.67,
+          153.33
+        ],
+        "reply_timespan": [
+          148.67,
+          154.33
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            152.0,
+            "A building has exploded."
+          ]
+        ],
+        "judge_scores": {
+          "152.0": 1
+        }
+      }
+    ],
+    "duration": 254.86666666666667
+  },
+  {
+    "video": "Shoplifting016_x264.mp4",
+    "question_id": "Shoplifting016_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman opened the skirt with her hands, then stuffed the rectangular box into the skirt and sandwiched it with her legs.",
+        "related_timespan": [
+          21.0,
+          24.0
+        ],
+        "reply_timespan": [
+          21.0,
+          25.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            24.0,
+            "The woman in the video hides an item under her skirt, suspected of theft."
+          ]
+        ],
+        "judge_scores": {
+          "24.0": 2
+        }
+      }
+    ],
+    "duration": 49.43333333333333
+  },
+  {
+    "video": "Arrest039_x264.mp4",
+    "question_id": "Arrest039_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in black police uniform rushed in and shot the man in black, who was lying on the ground.",
+        "related_timespan": [
+          240.5,
+          344.5
+        ],
+        "reply_timespan": [
+          240.5,
+          345.5
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            244.0,
+            "A police officer rushed in with a handgun and shot the man, who then fell to the ground."
+          ],
+          [
+            262.0,
+            "Subsequently, two more police officers came in to assist."
+          ]
+        ],
+        "judge_scores": {
+          "244.0": 1,
+          "262.0": 1
+        }
+      }
+    ],
+    "duration": 527.8333333333334
+  },
+  {
+    "video": "Shoplifting015_x264.mp4",
+    "question_id": "Shoplifting015_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in white short sleeves came back and put the things on the table into his pants pocket, and then left",
+        "related_timespan": [
+          67.0,
+          72.0
+        ],
+        "reply_timespan": [
+          67.0,
+          73.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            73.0,
+            "The man in white in the video stuffed an item from the table into his pocket and then slipped away, suspected of theft."
+          ]
+        ],
+        "judge_scores": {
+          "73.0": 2
+        }
+      }
+    ],
+    "duration": 75.2
+  },
+  {
+    "video": "Explosion017_x264.mp4",
+    "question_id": "Explosion017_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A fire started on a motorbike in a gas station.",
+        "related_timespan": [
+          33.0,
+          48.0
+        ],
+        "reply_timespan": [
+          33.0,
+          49.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            34.0,
+            "A motorcycle in the video suddenly caught fire."
+          ]
+        ],
+        "judge_scores": {
+          "34.0": 2
+        }
+      }
+    ],
+    "duration": 54.766666666666666
+  },
+  {
+    "video": "Shooting026_x264.mp4",
+    "question_id": "Shooting026_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in the white shirt turned around and raised his gun, took two steps forward and then fired. The man in the white shirt walked to the left side of the road, turning back and shooting from time to time.",
+        "related_timespan": [
+          6.5,
+          20.0
+        ],
+        "reply_timespan": [
+          6.5,
+          21.0
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            13.0,
+            "The man suddenly opened fire and then quickly ran away, resulting in a shooting incident."
+          ]
+        ],
+        "judge_scores": {
+          "13.0": 1
+        }
+      }
+    ],
+    "duration": 46.766666666666666
+  },
+  {
+    "video": "Shooting034_x264.mp4",
+    "question_id": "Shooting034_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man got off his car on the road raised his pistol and ran forward",
+        "related_timespan": [
+          32.0,
+          35.0
+        ],
+        "reply_timespan": [
+          32.0,
+          36.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            32.0,
+            "The man in the black car got out and fired a pistol at the red vehicle ahead."
+          ]
+        ],
+        "judge_scores": {
+          "32.0": 1
+        }
+      }
+    ],
+    "duration": 46.96666666666667
+  },
+  {
+    "video": "Explosion010_x264.mp4",
+    "question_id": "Explosion010_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "An explosion occurred in the distance, accompanied by a large amount of smoke and fire.",
+        "related_timespan": [
+          9.5,
+          36.0
+        ],
+        "reply_timespan": [
+          9.5,
+          37.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            10.0,
+            "An explosion occurred in the video, accompanied by a large amount of black smoke."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 2
+        }
+      }
+    ],
+    "duration": 83.26666666666667
+  },
+  {
+    "video": "Robbery106_x264.mp4",
+    "question_id": "Robbery106_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man pointed a gun at another man and forced him to give his phone.",
+        "related_timespan": [
+          16.0,
+          20.0
+        ],
+        "reply_timespan": [
+          16.0,
+          21.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            18.0,
+            "A man got off the motorcycle, pulled a handgun from his waist, and robbed the man who was on the phone."
+          ]
+        ],
+        "judge_scores": {
+          "18.0": 2
+        }
+      }
+    ],
+    "duration": 39.9
+  },
+  {
+    "video": "Assault010_x264.mp4",
+    "question_id": "Assault010_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in the white T-shirt came over again, and then hit the man who was knocked down in front with a broom.",
+        "related_timespan": [
+          408.67,
+          431.0
+        ],
+        "reply_timespan": [
+          408.67,
+          432.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            420.0,
+            "The man in the gray short-sleeve shirt took a broom and hit the bed hard."
+          ]
+        ],
+        "judge_scores": {
+          "420.0": 0
+        }
+      }
+    ],
+    "duration": 539.2333333333333
+  },
+  {
+    "video": "Stealing062_x264.mp4",
+    "question_id": "Stealing062_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in patterned clothes left, and the man in blue walked behind the white car and bent over to try to move the things in the car.",
+        "related_timespan": [
+          12.0,
+          35.0
+        ],
+        "reply_timespan": [
+          12.0,
+          36.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            35.0,
+            "A man passing by the car suddenly walked back to the trunk of the car and took some items, suspected of theft."
+          ]
+        ],
+        "judge_scores": {
+          "35.0": 1
+        }
+      }
+    ],
+    "duration": 52.0
+  },
+  {
+    "video": "Assault011_x264.mp4",
+    "question_id": "Assault011_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Three men beat a man with sticks until someone came out to break up the fight.",
+        "related_timespan": [
+          12.5,
+          32.0
+        ],
+        "reply_timespan": [
+          12.5,
+          33.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            14.0,
+            "In the video, a person wearing pink clothes and a person wearing green clothes are hitting another person wearing a white shirt near a motorcycle with sticks."
+          ],
+          [
+            17.0,
+            "The man in the white shirt in the video is being beaten with sticks by three people."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 1,
+          "17.0": 2
+        }
+      }
+    ],
+    "duration": 76.26666666666667
+  },
+  {
+    "video": "RoadAccidents121_x264.mp4",
+    "question_id": "RoadAccidents121_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A black car was hit by a white car while passing through the alley, and a woman was also knocked to the ground.",
+        "related_timespan": [
+          11.0,
+          13.0
+        ],
+        "reply_timespan": [
+          11.0,
+          14.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            11.0,
+            "A black car was waiting at the intersection, when suddenly another white car came speeding and crashed, causing the car to overturn on the ground."
+          ]
+        ],
+        "judge_scores": {
+          "11.0": 1
+        }
+      }
+    ],
+    "duration": 61.166666666666664
+  },
+  {
+    "video": "Fighting047_x264.mp4",
+    "question_id": "Fighting047_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "One person pushed another person to the ground",
+        "related_timespan": [
+          6.67,
+          61.0
+        ],
+        "reply_timespan": [
+          6.67,
+          62.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            33.0,
+            "The fight started from the outer room of the repair shop and moved into the inner room, then back out again, with several people joining the brawl, including a girl holding a stick."
+          ]
+        ],
+        "judge_scores": {
+          "33.0": 1
+        }
+      }
+    ],
+    "duration": 148.63333333333333
+  },
+  {
+    "video": "Burglary033_x264.mp4",
+    "question_id": "Burglary033_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A young white man wearing a black coat was groping in front of the door and trying to open it.",
+        "related_timespan": [
+          2.0,
+          11.0
+        ],
+        "reply_timespan": [
+          2.0,
+          12.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            2.0,
+            "A man is trying to pick the lock at someone's door, attempting to illegally break into someone else's house."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 2
+        }
+      }
+    ],
+    "duration": 41.96666666666667
+  },
+  {
+    "video": "Burglary005_x264.mp4",
+    "question_id": "Burglary005_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man kicked open the door and entered the room, and another lookout man also entered the room.",
+        "related_timespan": [
+          157.0,
+          168.0
+        ],
+        "reply_timespan": [
+          157.0,
+          169.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            158.0,
+            "A man wearing a white t-shirt, after knocking on the door with no response, tried to break in with his foot; this is illegal trespassing."
+          ]
+        ],
+        "judge_scores": {
+          "158.0": 1
+        }
+      }
+    ],
+    "duration": 257.6333333333333
+  },
+  {
+    "video": "Explosion020_x264.mp4",
+    "question_id": "Explosion020_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man stood next to a black car and communicated with another man. There were a lot of sparks in his pocket, and then the thing fell to the ground.",
+        "related_timespan": [
+          2.0,
+          9.0
+        ],
+        "reply_timespan": [
+          2.0,
+          10.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            3.0,
+            "A person threw something like fireworks from a black car, causing sparks to fly, intentionally damaging other people's property."
+          ]
+        ],
+        "judge_scores": {
+          "3.0": 1
+        }
+      }
+    ],
+    "duration": 43.03333333333333
+  },
+  {
+    "video": "Explosion002_x264.mp4",
+    "question_id": "Explosion002_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The refueling gun and the black car caught fire, and the two ran away quickly.",
+        "related_timespan": [
+          50.0,
+          70.0
+        ],
+        "reply_timespan": [
+          50.0,
+          71.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            50.0,
+            "In the video, two men are around a black car that is being refueled, and then it catches fire. It seems they used an open flame at the gas station, causing the fire around them."
+          ]
+        ],
+        "judge_scores": {
+          "50.0": 1
+        }
+      }
+    ],
+    "duration": 133.76666666666668
+  },
+  {
+    "video": "Explosion011_x264.mp4",
+    "question_id": "Explosion011_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The white thing emits a lot of white smoke after hitting the bus.",
+        "related_timespan": [
+          26.5,
+          31.5
+        ],
+        "reply_timespan": [
+          26.5,
+          32.5
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            27.0,
+            "A person at the bus stop threw an unknown object at the bus, producing thick smoke."
+          ]
+        ],
+        "judge_scores": {
+          "27.0": 2
+        }
+      }
+    ],
+    "duration": 52.36666666666667
+  },
+  {
+    "video": "Shooting022_x264.mp4",
+    "question_id": "Shooting022_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in red took out his gun and shot at the striped man. At the same time, the four people sitting on the bench in the front stood up and hid in the corner of the room.",
+        "related_timespan": [
+          95.0,
+          110.0
+        ],
+        "reply_timespan": [
+          95.0,
+          111.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            95.0,
+            "The two people pulled at each other, then both drew their guns and fired at each other."
+          ]
+        ],
+        "judge_scores": {
+          "95.0": 1
+        }
+      }
+    ],
+    "duration": 151.8
+  },
+  {
+    "video": "Arson035_x264.mp4",
+    "question_id": "Arson035_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man set the car on fire and caught fire himself.",
+        "related_timespan": [
+          20.0,
+          30.0
+        ],
+        "reply_timespan": [
+          20.0,
+          31.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            28.0,
+            "A man walked up to a car, poured a flammable liquid on the car's front windshield, then an explosion occurred, producing sparks that burned the man, who then fled."
+          ]
+        ],
+        "judge_scores": {
+          "28.0": 2
+        }
+      }
+    ],
+    "duration": 47.9
+  },
+  {
+    "video": "Shooting008_x264.mp4",
+    "question_id": "Shooting008_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "One man is shooting with a pistol when lying on the ground.",
+        "related_timespan": [
+          2.5,
+          10.5
+        ],
+        "reply_timespan": [
+          2.5,
+          11.5
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            5.0,
+            "A man suddenly rushed towards the railing, seemingly in danger, then immediately pulled out a gun and fired, as if they were being threatened by someone with a gun outside the surveillance footage."
+          ]
+        ],
+        "judge_scores": {
+          "5.0": 1
+        }
+      }
+    ],
+    "duration": 54.166666666666664
+  },
+  {
+    "video": "Shoplifting022_x264.mp4",
+    "question_id": "Shoplifting022_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The boy took a box of snacks from the shelf and hid it in his clothes.",
+        "related_timespan": [
+          9.0,
+          14.0
+        ],
+        "reply_timespan": [
+          9.0,
+          15.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            10.0,
+            "A man and a woman came to the store to steal food from the shelves."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The boy squatted for a moment, stepped forward and took a box of things from the bottom of the shelf, and hid it in his clothes;",
+        "related_timespan": [
+          48.0,
+          52.0
+        ],
+        "reply_timespan": [
+          48.0,
+          53.0
+        ],
+        "num_captions": 1,
+        "preds": [],
+        "judge_scores": {}
+      }
+    ],
+    "duration": 73.03333333333333
+  },
+  {
+    "video": "Shooting043_x264.mp4",
+    "question_id": "Shooting043_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in red clothes raised a gun towards the man in black clothes",
+        "related_timespan": [
+          31.5,
+          41.0
+        ],
+        "reply_timespan": [
+          31.5,
+          42.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            32.0,
+            "The man retreating with a gun ran again to the man standing at the store entrance holding something."
+          ],
+          [
+            34.0,
+            "A man with a gun and a man holding something started pushing and shoving each other."
+          ],
+          [
+            36.0,
+            "The man with a gun pointed his gun at the man holding something."
+          ],
+          [
+            37.0,
+            "The man with the gun backed away while pointing the gun at the man holding something and the man who initially pushed him."
+          ],
+          [
+            38.0,
+            "A gunman fired a shot at the door next to the man holding something."
+          ],
+          [
+            39.0,
+            "The man with the gun was advancing toward the man holding something, aiming the gun at him."
+          ],
+          [
+            40.0,
+            "The man with the gun continued to hold the gun pointed at the man holding something."
+          ],
+          [
+            41.0,
+            "The armed man fired a shot again at the door next to the man holding something."
+          ]
+        ],
+        "judge_scores": {
+          "32.0": 1,
+          "34.0": 1,
+          "36.0": 2,
+          "37.0": 2,
+          "38.0": 2,
+          "39.0": 2,
+          "40.0": 2,
+          "41.0": 2
+        }
+      }
+    ],
+    "duration": 62.46666666666667
+  },
+  {
+    "video": "RoadAccidents011_x264.mp4",
+    "question_id": "RoadAccidents011_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A blue car collided with a yellow car",
+        "related_timespan": [
+          8.67,
+          10.0
+        ],
+        "reply_timespan": [
+          8.67,
+          11.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            10.0,
+            "The moving truck collided with the car that suddenly pulled out."
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 1
+        }
+      }
+    ],
+    "duration": 71.96666666666667
+  },
+  {
+    "video": "Vandalism036_x264.mp4",
+    "question_id": "Vandalism036_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man overturned the shelves in a store.",
+        "related_timespan": [
+          18.0,
+          26.0
+        ],
+        "reply_timespan": [
+          18.0,
+          27.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            19.0,
+            "A shirtless man suddenly threw the store's items to the ground."
+          ],
+          [
+            22.0,
+            "The man continued to knock down the store's shelves."
+          ]
+        ],
+        "judge_scores": {
+          "19.0": 1,
+          "22.0": 2
+        }
+      }
+    ],
+    "duration": 48.1
+  },
+  {
+    "video": "Burglary032_x264.mp4",
+    "question_id": "Burglary032_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man walked around the room and stopped at the cabinet and desk inside. He kept rummaging around the desk for items.",
+        "related_timespan": [
+          43.0,
+          123.0
+        ],
+        "reply_timespan": [
+          43.0,
+          124.0
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            77.0,
+            "The man who came in later was rummaging through the things in the drawer."
+          ],
+          [
+            81.0,
+            "The man who kicked the chair stood on the desk and tore down something from the wall."
+          ],
+          [
+            88.0,
+            "The man who kicked the chair handed the office items to the person outside the window."
+          ],
+          [
+            91.0,
+            "The man who came in later continued rummaging through the things in the drawer."
+          ],
+          [
+            99.0,
+            "The man who kicked the chair moved the monitor."
+          ],
+          [
+            114.0,
+            "The man who kicked the chair handed the monitor to the person outside the window."
+          ],
+          [
+            118.0,
+            "The man holding the flashlight opened the desk drawer."
+          ]
+        ],
+        "judge_scores": {
+          "77.0": 1,
+          "81.0": 1,
+          "88.0": 1,
+          "91.0": 2,
+          "99.0": 1,
+          "114.0": 1,
+          "118.0": 1
+        }
+      }
+    ],
+    "duration": 526.5
+  },
+  {
+    "video": "Shooting032_x264.mp4",
+    "question_id": "Shooting032_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The man in the hat pointed a gun at the person lying on the ground.",
+        "related_timespan": [
+          266.5,
+          273.5
+        ],
+        "reply_timespan": [
+          266.5,
+          274.5
+        ],
+        "num_captions": 3,
+        "preds": [
+          [
+            268.0,
+            "A man in a white coat falls to the ground."
+          ],
+          [
+            270.0,
+            "The man in the hat following behind is holding something and pointing at the man in white who has fallen to the ground."
+          ]
+        ],
+        "judge_scores": {
+          "268.0": 0,
+          "270.0": 1
+        }
+      }
+    ],
+    "duration": 722.7
+  },
+  {
+    "video": "Explosion016_x264.mp4",
+    "question_id": "Explosion016_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "An explosion occurred in the distant building, and white smoke came out after a burst of fire.",
+        "related_timespan": [
+          6.0,
+          15.0
+        ],
+        "reply_timespan": [
+          6.0,
+          16.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            9.0,
+            "Thick smoke is coming out."
+          ]
+        ],
+        "judge_scores": {
+          "9.0": 1
+        }
+      }
+    ],
+    "duration": 32.1
+  },
+  {
+    "video": "Shoplifting028_x264.mp4",
+    "question_id": "Shoplifting028_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The woman took a cup from the shelf and put it into her bag, then reached out and fumbled for a while.",
+        "related_timespan": [
+          19.0,
+          28.0
+        ],
+        "reply_timespan": [
+          19.0,
+          29.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            21.0,
+            "A woman in white shoved a bottle from the shelf into her handbag."
+          ],
+          [
+            28.0,
+            "The woman in white continued to stuff another bottle of something into her handbag, and the man in white saw this but did not stop her."
+          ]
+        ],
+        "judge_scores": {
+          "21.0": 1,
+          "28.0": 1
+        }
+      }
+    ],
+    "duration": 45.233333333333334
+  },
+  {
+    "video": "Fighting018_x264.mp4",
+    "question_id": "Fighting018_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man robbed a woman and then they started fighting. At last, the woman hit the man to the ground and ran away.",
+        "related_timespan": [
+          2.67,
+          14.0
+        ],
+        "reply_timespan": [
+          2.67,
+          15.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            4.0,
+            "The woman rushed forward to fight the man in black."
+          ],
+          [
+            7.0,
+            "The woman kicked the man in black."
+          ],
+          [
+            9.0,
+            "The woman kicked the man in black again."
+          ],
+          [
+            10.0,
+            "The woman continued to kick the man in black, knocking him to the ground."
+          ]
+        ],
+        "judge_scores": {
+          "4.0": 1,
+          "7.0": 1,
+          "9.0": 1,
+          "10.0": 1
+        }
+      }
+    ],
+    "duration": 46.3
+  },
+  {
+    "video": "Burglary079_x264.mp4",
+    "question_id": "Burglary079_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A total of five people gathered around the door and cooperated to pry it open. Five people got into the house one after another.",
+        "related_timespan": [
+          258.33,
+          357.0
+        ],
+        "reply_timespan": [
+          258.33,
+          358.0
+        ],
+        "num_captions": 2,
+        "preds": [
+          [
+            259.0,
+            "Another man then helped to pry open the door."
+          ],
+          [
+            266.0,
+            "Then another man also joined in prying open the door."
+          ],
+          [
+            286.0,
+            "Three people worked together to pry open the door."
+          ],
+          [
+            350.0,
+            "Three men pried open the door."
+          ],
+          [
+            358.0,
+            "Five people broke in."
+          ]
+        ],
+        "judge_scores": {
+          "259.0": 1,
+          "266.0": 1,
+          "286.0": 1,
+          "350.0": 1,
+          "358.0": 2
+        }
+      }
+    ],
+    "duration": 495.1
+  },
+  {
+    "video": "Shooting013_x264.mp4",
+    "question_id": "Shooting013_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man shot with a gun at the frond door of a house and ran away.",
+        "related_timespan": [
+          28.67,
+          31.5
+        ],
+        "reply_timespan": [
+          28.67,
+          32.5
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            30.0,
+            "A man pulled out a handgun and fired a shot into the house."
+          ]
+        ],
+        "judge_scores": {
+          "30.0": 2
+        }
+      }
+    ],
+    "duration": 35.766666666666666
+  },
+  {
+    "video": "Arson016_x264.mp4",
+    "question_id": "Arson016_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The newspaper on the seat has been burning and smoking",
+        "related_timespan": [
+          33.33,
+          59.87
+        ],
+        "reply_timespan": [
+          33.33,
+          59.83
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            37.0,
+            "The fire quickly grew larger."
+          ],
+          [
+            49.0,
+            "The paper was completely burned."
+          ]
+        ],
+        "judge_scores": {
+          "37.0": 1,
+          "49.0": 1
+        }
+      }
+    ],
+    "duration": 59.833333333333336
+  },
+  {
+    "video": "Robbery050_x264.mp4",
+    "question_id": "Robbery050_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A man in red ran out from behind the white car and threatened the man in the car.",
+        "related_timespan": [
+          16.5,
+          47.0
+        ],
+        "reply_timespan": [
+          16.5,
+          48.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            19.0,
+            "The man in red is pointing a gun at the window."
+          ],
+          [
+            21.0,
+            "The man in red is pointing a gun at the people inside the car."
+          ],
+          [
+            38.0,
+            "A man in a striped shirt searches the blue-clothed man in the car."
+          ],
+          [
+            48.0,
+            "The man in the red clothes and the man in the striped shirt took something from the car and ran away."
+          ]
+        ],
+        "judge_scores": {
+          "19.0": 1,
+          "21.0": 2,
+          "38.0": 1,
+          "48.0": 2
+        }
+      }
+    ],
+    "duration": 56.7
+  },
+  {
+    "video": "Shooting004_x264.mp4",
+    "question_id": "Shooting004_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Woman was shot and fell to the ground",
+        "related_timespan": [
+          16.67,
+          22.0
+        ],
+        "reply_timespan": [
+          16.67,
+          23.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            18.0,
+            "The armed man fired a shot at the man."
+          ],
+          [
+            20.0,
+            "The armed man quickly pointed the gun at the man."
+          ]
+        ],
+        "judge_scores": {
+          "18.0": 0,
+          "20.0": 0
+        }
+      }
+    ],
+    "duration": 59.766666666666666
+  },
+  {
+    "video": "Abuse028_x264.mp4",
+    "question_id": "Abuse028_x264.mp4",
+    "conversation": [
+      {
+        "role": "user",
+        "time": 0,
+        "content": "What suspicious or harmful activities, including unlawful, criminal behaviors or destructive accidents, are happening in the video?"
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "A black dog ran towards the fence and was hit by the postman with a stick.",
+        "related_timespan": [
+          5.5,
+          8.0
+        ],
+        "reply_timespan": [
+          5.5,
+          9.0
+        ],
+        "num_captions": 1,
+        "preds": [
+          [
+            7.0,
+            "The man with the blue hat is hitting the puppy with the stick in his hand."
+          ]
+        ],
+        "judge_scores": {
+          "7.0": 2
+        }
+      }
+    ],
+    "duration": 47.06666666666667
+  }
+]

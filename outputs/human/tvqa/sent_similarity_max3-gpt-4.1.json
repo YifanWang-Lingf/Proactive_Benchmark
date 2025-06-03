@@ -1,0 +1,6308 @@
+[
+  {
+    "frame": "house_frames/house_s07e18_seg02_clip_01",
+    "video": "house_frames=house_s07e18_seg02_clip_01.mp4",
+    "audio": "house/house_audios/house_s07e18_seg02_clip_01.mp3",
+    "question_id": "house_frames=house_s07e18_seg02_clip_01.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Foreman do after House told them to draw cultures for bacteria and fungi?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Nope. Dominika went to A.C. With her boyfriend.",
+        "time": 0.972
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)So, diagnosis boring. It's epistaxis.",
+        "time": 6.377
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It's a nose bleed. Blood runs into his lungs, he coughs it back out.",
+        "time": 8.913
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: The flu explains the rest of the symptoms.",
+        "time": 11.582
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)Toxic exposure to ammonia or sulphites can traumatize the lungs,",
+        "time": 15.686
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)cause neuralgias or fevers.",
+        "time": 19.523
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)Fits better because of his radiating chest pain.",
+        "time": 21.592
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Do a home search for toxins. Draw cultures for bacteria and fungi.",
+        "time": 25.73
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Thirteen:)You're married?",
+        "time": 32.603
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)You were gone so long.",
+        "time": 34.005
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Green card.",
+        "time": 37.675
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Thirteen:)Thanks for not saying anything. I just need some time to...",
+        "time": 40.778
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)I didn't do it for you. Some puzzles are just too good to share.",
+        "time": 43.214
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Thirteen:)This is my exit.",
+        "time": 49.12
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Chili?",
+        "time": 58.195
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Hate chili.",
+        "time": 59.297
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Love spud guns.",
+        "time": 60.631
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You get nose bleeds?",
+        "time": 67.038
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Brian:)Yeah. Yeah.",
+        "time": 68.572
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Brian:)You think that's where the blood came from?",
+        "time": 69.974
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)I don't just think it, I hope it.",
+        "time": 71.442
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)When was the last time it happened?",
+        "time": 73.711
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Brian:)At the quarterfinals.",
+        "time": 75.079
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Brian:)I coach volleyball,",
+        "time": 76.247
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Brian:)and during warm-ups, I got hit in the nose a few months ago.",
+        "time": 77.848
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase (looking Annoyed):)You coach volleyball in a gym? Yes.",
+        "time": 84.355
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)With showers? Yes.",
+        "time": 87.058
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)Clean showers?",
+        "time": 88.459
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "threw his briefcase on the table",
+        "related_timespan": [
+          26.43,
+          30.46
+        ],
+        "reply_timespan": [
+          26.43,
+          31.46
+        ],
+        "preds": [
+          [
+            30.5,
+            "Foreman placed his briefcase on the table."
+          ]
+        ],
+        "judge_scores": {
+          "30.5": 2
+        }
+      }
+    ],
+    "duration": 89.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s02e16_seg02_clip_05",
+    "video": "castle_frames=castle_s02e16_seg02_clip_05.mp4",
+    "audio": "castle/castle_audios/castle_s02e16_seg02_clip_05.mp3",
+    "question_id": "castle_frames=castle_s02e16_seg02_clip_05.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Tyler say his girlfriend was studying after Beckett asked him about it?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler Benton:)That's Jessica. Jessica Margolis. My girlfriend.",
+        "time": 0.78
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler Benton:)Next week was our one-year anniversary.",
+        "time": 5.385
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler Benton:)I was going to propose.",
+        "time": 6.82
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Where were you last night, Mr. Benton?",
+        "time": 8.388
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)At the hospital. I'm a first year. I was working a 24-hour shift.",
+        "time": 10.523
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)You can ask my attending.",
+        "time": 14.061
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Have you ever seen these before?",
+        "time": 17.598
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah, I... I bought them for Jessica a few months ago. Why?",
+        "time": 20.735
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)She was found hanging by them in the park.",
+        "time": 24.872
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)- You guys like to play? - What?",
+        "time": 28.809
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)No. We never even used them. They were just supposed to be a joke,",
+        "time": 31.746
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)- because of her research. - Research?",
+        "time": 35.851
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)I tried to be supportive, but I should've stopped her.",
+        "time": 38.487
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)I should've pushed her to study something else.",
+        "time": 40.422
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)What was she studying?",
+        "time": 42.291
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)The sociology of sexual bondage and domination.",
+        "time": 46.662
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)She spent months meeting people in that world,",
+        "time": 50.732
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)trying to understand what made them tick.",
+        "time": 52.868
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)And they killed her for it.",
+        "time": 56.739
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And where did you keep these cuffs?",
+        "time": 60.476
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)I don't know. At her place, I guess.",
+        "time": 62.979
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)Her roommate probably knows.",
+        "time": 66.382
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tyler:)The two of them were, like, attached at the hip.",
+        "time": 67.45
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Danielle:)Jessica and I have been roommates since freshman year.",
+        "time": 71.421
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Danielle:)We've lived together so long, we're practically sisters.",
+        "time": 74.457
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Tyler said that you might know",
+        "time": 78.227
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)where she kept the cuffs he gave her.",
+        "time": 79.763
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Danielle:)She showed them to me when she got them,",
+        "time": 82.733
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Danielle:)but I never saw them after that.",
+        "time": 85.569
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)When was the last time that you saw Jessica?",
+        "time": 87.137
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The Sociology of Sexual Bondage and Domination",
+        "related_timespan": [
+          41.9,
+          51.36
+        ],
+        "reply_timespan": [
+          41.9,
+          52.36
+        ],
+        "preds": [
+          [
+            47.0,
+            "Tyler said she is studying the sociology of sexual bondage and domination."
+          ]
+        ],
+        "judge_scores": {
+          "47.0": 2
+        }
+      }
+    ],
+    "duration": 90.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s08e08_seg02_clip_06",
+    "video": "castle_frames=castle_s08e08_seg02_clip_06.mp4",
+    "audio": "castle/castle_audios/castle_s08e08_seg02_clip_06.mp3",
+    "question_id": "castle_frames=castle_s08e08_seg02_clip_06.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why does Castle tell Sarah he boarded early after being told to come back later?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And plus, they're not with the crew.",
+        "time": 0.651
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: AII right. Ifthey're anything like my mother,",
+        "time": 2.653
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: you're gonna have your hands full.",
+        "time": 3.955
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)Okay, heads up.",
+        "time": 15.166
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)So some rich guy bought",
+        "time": 16.5
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: the be-part-of-the-show dance package for our next cruise.",
+        "time": 17.969
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)And I promise not to step on anyone's toes.",
+        "time": 20.438
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Are you Mr. Schirmer?",
+        "time": 25.543
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Yeah, I boarded early in hopes of getting in a little extra rehearsal time.",
+        "time": 26.711
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)I'm not sure how you boarded early, Mr. Schirmer, but we're...",
+        "time": 30.181
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Please, actually Mr. Schirmer's my father.",
+        "time": 32.483
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Please call me Jermuhkohnah...",
+        "time": 34.018
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Sorry, what? - Jermphld.",
+        "time": 39.39
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Dave?",
+        "time": 41.058
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)- At your service! - Well, Dave, I'm sorry,",
+        "time": 42.159
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: rehearsal is not part of the dance package.",
+        "time": 43.728
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I'll tell you what. There's an extra hundy in it for ya.",
+        "time": 45.196
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)Places, everyone!",
+        "time": 48.866
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I'm gonna warm up a little bit. I thought... Okay, gotcha.",
+        "time": 49.967
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Um, uh...",
+        "time": 53.471
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)You know, a friend of mine",
+        "time": 54.839
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)bought the dance package on a cruise about a month ago.",
+        "time": 56.474
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)He said there was a dancer here by the name of Lara",
+        "time": 60.311
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)who was very helpful. Is she here today?",
+        "time": 62.647
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)Actually, Lara's a no-show for today.",
+        "time": 63.981
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: But ifyou want to meet her, you can ask her bunkmate, Bethany.",
+        "time": 65.816
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Thank you.",
+        "time": 67.918
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)So, Dave, uh, according to your questionnaire,",
+        "time": 69.387
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)you have professional dance experience, right?",
+        "time": 71.522
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah. No, definitely.",
+        "time": 73.257
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)And you studied the video we sent?",
+        "time": 74.392
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)- Yes. Of course. - Perfect.",
+        "time": 75.86
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)So let's take it from the opening number.",
+        "time": 77.928
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sarah:)Opening number.",
+        "time": 79.397
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Excuse me, Bethany? I...",
+        "time": 82.667
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, good spot.",
+        "time": 85.736
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay. Let's take this from the top, people.",
+        "time": 87.004
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "To have time to rehearse ",
+        "related_timespan": [
+          15.18,
+          30.37
+        ],
+        "reply_timespan": [
+          15.18,
+          31.37
+        ],
+        "preds": [
+          [
+            27.5,
+            "Castle hopes to have more time to rehearse."
+          ]
+        ],
+        "judge_scores": {
+          "27.5": 2
+        }
+      }
+    ],
+    "duration": 92.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s03e09_seg02_clip_07",
+    "video": "friends_frames=friends_s03e09_seg02_clip_07.mp4",
+    "audio": "friends/friends_audios/friends_s03e09_seg02_clip_07.mp3",
+    "question_id": "friends_frames=friends_s03e09_seg02_clip_07.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What color shirt does Ross have on when he is in the park with Monica",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Her name is Dutch and also Margha.",
+        "time": 0.903
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Margha.",
+        "time": 4.907
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Woman:)- Margha. - Margha.",
+        "time": 6.075
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Mar-hon.",
+        "time": 8.878
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Margha.",
+        "time": 12.381
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yo, flirty boys. We're in the middle of a game.",
+        "time": 13.549
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Come on, guys! Let's go! Come on. Second down!",
+        "time": 17.82
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Hello? It's third down. - No, it's not. It's second.",
+        "time": 21.223
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)- Wow. - Wow what?",
+        "time": 25.427
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: How it just amazes me that you're still pulling stuff like this.",
+        "time": 27.73
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Pulling what? It's second down. - Okay, it's second down.",
+        "time": 32.201
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Take all the second downs you need.",
+        "time": 36.438
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)- I heard that. - Well, I said it loud.",
+        "time": 39.475
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Margha:)It is okay if I stay and watch?",
+        "time": 43.979
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I can't go home just yet.",
+        "time": 46.382
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: My roommate is forshlocking a big American businessman.",
+        "time": 48.017
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Just sit right there. - Yeah, why don't you stick around?",
+        "time": 54.623
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)- Well, that went well. - I think so.",
+        "time": 57.826
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You know, I was thinking about asking her for her number.",
+        "time": 59.728
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The color of Ross' shirt is blue",
+        "related_timespan": [
+          27.54,
+          37.24
+        ],
+        "reply_timespan": [
+          27.54,
+          38.24
+        ],
+        "preds": [
+          [
+            37.5,
+            "Ross is wearing a purple shirt."
+          ]
+        ],
+        "judge_scores": {
+          "37.5": 0
+        }
+      }
+    ],
+    "duration": 62.666666666666664
+  },
+  {
+    "frame": "house_frames/house_s04e16_seg02_clip_13",
+    "video": "house_frames=house_s04e16_seg02_clip_13.mp4",
+    "audio": "house/house_audios/house_s04e16_seg02_clip_13.mp3",
+    "question_id": "house_frames=house_s04e16_seg02_clip_13.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Wilson do before he left House in the office?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)This is exactly what I said would happen. It's in her brain now.",
+        "time": 0.517
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: The brain involvement gives us a new symptom.",
+        "time": 3.42
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)That wouldn't be there if you hadn't...",
+        "time": 5.422
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)It's where the disease was going.",
+        "time": 7.257
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)We needed to know that.",
+        "time": 8.725999999999999
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)This was not your decision to make!",
+        "time": 9.793
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)You went behind my back. You went behind House's back.",
+        "time": 11.195
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Inside voices.",
+        "time": 13.397
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)House wanted to warm her up.",
+        "time": 14.932
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)You just guilted him into changing his mind.",
+        "time": 16.367
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)Heart, liver, rash and now her brain.",
+        "time": 21.505
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Auto-immune fits best. Crash trauma could've set it off.",
+        "time": 25.876
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Start her on prednisone, then we'll warm her up again.",
+        "time": 29.046
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)House, if this is some other infection,",
+        "time": 32.282
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)the steroids will trash her immune system.",
+        "time": 34.752
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)He's the attending. You're the family.",
+        "time": 41.692
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)Go spend more time with the patient.",
+        "time": 44.094
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)You can't do this.",
+        "time": 54.805
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)That's not a good argument.",
+        "time": 57.207
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)It's not an argument at all. I'm sorry.",
+        "time": 59.243
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)Cuddy's right. I was afraid to do anything.",
+        "time": 88.672
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Wilson kicked a chair to show annoyance.",
+        "related_timespan": [
+          62.76,
+          69.69
+        ],
+        "reply_timespan": [
+          62.76,
+          70.69
+        ],
+        "preds": [
+          [
+            68.0,
+            "Wilson kicked the chair in front of House's desk before leaving the office."
+          ]
+        ],
+        "judge_scores": {
+          "68.0": 2
+        }
+      }
+    ],
+    "duration": 92.66666666666667
+  },
+  {
+    "frame": "met_frames/met_s03e11_seg02_clip_01",
+    "video": "met_frames=met_s03e11_seg02_clip_01.mp4",
+    "audio": "met/met_audios/met_s03e11_seg02_clip_01.mp3",
+    "question_id": "met_frames=met_s03e11_seg02_clip_01.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What was Barney doing when Wendy said all this time?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ♪",
+        "time": 0.675
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I love them. Me, too.",
+        "time": 13.888
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Wow.",
+        "time": 23.098
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: That was an interesting use of the beverage gun.",
+        "time": 24.433
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Club soda can get anything off.",
+        "time": 27.836
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wendy:)It finally happened.",
+        "time": 31.24
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wendy:)All this time,",
+        "time": 32.908
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wendy:)Every drink I brought you...",
+        "time": 34.91
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wendy:)I always felt there was this unspoken connection between us.",
+        "time": 37.045
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wendy:)And I was right.",
+        "time": 40.249
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Hey, can I get a gin and tonic?",
+        "time": 42.251
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)See, I bet you didn't pay for that gin and tonic.",
+        "time": 46.088
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Oh, I paid for it.",
+        "time": 48.023
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)But you got to admit, there is an upside",
+        "time": 51.026
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)To breaking the platinum rule.",
+        "time": 52.728
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Like maybe, as her boyfriend,",
+        "time": 54.229
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)I could get a discount on treatments.",
+        "time": 55.264
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, ted.",
+        "time": 56.865
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "He was buttoning up his shirt.",
+        "related_timespan": [
+          31.34,
+          40.33
+        ],
+        "reply_timespan": [
+          31.34,
+          41.33
+        ],
+        "preds": [
+          [
+            34.0,
+            "Barney is buttoning up his clothes."
+          ]
+        ],
+        "judge_scores": {
+          "34.0": 2
+        }
+      }
+    ],
+    "duration": 58.666666666666664
+  },
+  {
+    "frame": "castle_frames/castle_s07e18_seg02_clip_23",
+    "video": "castle_frames=castle_s07e18_seg02_clip_23.mp4",
+    "audio": "castle/castle_audios/castle_s07e18_seg02_clip_23.mp3",
+    "question_id": "castle_frames=castle_s07e18_seg02_clip_23.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where did Ryan say that the money sent to Frank probably came from after Beckett asked if they could trace it?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Ryan, I'm so sorry.",
+        "time": 0.088
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)I know.",
+        "time": 1.6560000000000001
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It's gonna be a lot harder on my sister.",
+        "time": 3.591
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)But at least Frank isn't our shooter.",
+        "time": 7.2620000000000005
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Does he know who is?",
+        "time": 10.181
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No. He received $5,000 and an envelope",
+        "time": 11.517
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)along with an address where to leave the press pass.",
+        "time": 15.22
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And who paid him?",
+        "time": 16.739
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)He was contacted by an outfit called Manhattan Politics.",
+        "time": 18.206
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Turns out, it's a front, with a dead email address.",
+        "time": 20.775
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)So whoever's behind this set up Eric Chambers",
+        "time": 23.111
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)and used Frank to do it.",
+        "time": 25.313
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Can we trace the money?",
+        "time": 27.032
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)No luck so far. Though the bills are sequential,",
+        "time": 28.917
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)so it probably came from a bank withdrawal.",
+        "time": 31.452
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)What about the envelope?",
+        "time": 33.071
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)CSU pulled off a partial print,",
+        "time": 34.323
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)but it's not enough to run against the database.",
+        "time": 36.208
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Maybe we don't have to.",
+        "time": 38.627
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)What do you mean?",
+        "time": 40.895
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Well, given the texts we found on Carolyn Decker's phone,",
+        "time": 42.281
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)we may only have to check one name.",
+        "time": 45.066
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)Alex will be discharged later today",
+        "time": 48.003
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)and we are so grateful and humbled",
+        "time": 50.238
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)by the outpouring of support from all over the world.",
+        "time": 53.207
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)But it's also a time of mourning",
+        "time": 57.512
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)for the tragic death of Carolyn Decker.",
+        "time": 60.298
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)My husband will honor her name by continuing to fight",
+        "time": 63.701
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)for the people of this country",
+        "time": 67.789
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mia:)and for those whose voices aren't always heard.",
+        "time": 70.058
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Ryan said the money probably came from a bank withdrawal",
+        "related_timespan": [
+          31.77,
+          33.59
+        ],
+        "reply_timespan": [
+          31.77,
+          34.59
+        ],
+        "preds": [
+          [
+            32.0,
+            "Ryan said he might be withdrawing money from the bank."
+          ]
+        ],
+        "judge_scores": {
+          "32.0": 1
+        }
+      }
+    ],
+    "duration": 73.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s10e01_seg02_clip_02",
+    "video": "friends_frames=friends_s10e01_seg02_clip_02.mp4",
+    "audio": "friends/friends_audios/friends_s10e01_seg02_clip_02.mp3",
+    "question_id": "friends_frames=friends_s10e01_seg02_clip_02.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Monica tell Chandler about movies, when they were eavesdropping?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Grandma, Grandma, Grandma.",
+        "time": 0.531
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Okay, I'll see you later. - Okay!",
+        "time": 10.541
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)That's the door. He's gone.",
+        "time": 14.512
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)And she's turning on the TV...",
+        "time": 16.747
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...and watching Miss Congeniality.",
+        "time": 19.917
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Honey? If you know it through a wall, you know it too well.",
+        "time": 25.356
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Hey, what are you guys doing?",
+        "time": 37.368
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)We're just... We're sad to go, so we're just saying goodbye to the hotel.",
+        "time": 42.573
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)I love you...",
+        "time": 46.944
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...Paradise Hotel Golf Resort and Spa.",
+        "time": 49.78
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah. We had a great time, thank you.",
+        "time": 55.753
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "If he knows it through a wall, he knows it too well",
+        "related_timespan": [
+          14.5,
+          30.25
+        ],
+        "reply_timespan": [
+          14.5,
+          31.25
+        ],
+        "preds": [
+          [
+            20.5,
+            "Chandler told Monica the name of the movie \"Congeniality\" while eavesdropping."
+          ],
+          [
+            26.5,
+            "Monica said that Chandler knows too much."
+          ]
+        ],
+        "judge_scores": {
+          "20.5": 0,
+          "26.5": 1
+        }
+      }
+    ],
+    "duration": 63.666666666666664
+  },
+  {
+    "frame": "bbt_frames/s04e11_seg02_clip_05",
+    "video": "bbt_frames=s04e11_seg02_clip_05.mp4",
+    "audio": "bbt_new/bbt_audios/s04e11_seg02_clip_05.mp3",
+    "question_id": "bbt_frames=s04e11_seg02_clip_05.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What was Penny holding when she told Zack she was still mad at him?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)Score.",
+        "time": 0.78
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I got an Archie, Betty and Veronica,",
+        "time": 2.19
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: and a Jughead.",
+        "time": 4.15
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)All set for my weekend number twos.",
+        "time": 5.46
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Congratulations.",
+        "time": 9.48
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Zack, how would you like to be Superman?",
+        "time": 11.66
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)I don't know, sounds like a lot of responsibility.",
+        "time": 15.3
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Fine, if Zack's going to be Superman,",
+        "time": 22.74
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)I want to be Green Lantern.",
+        "time": 24.54
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)But I'm Green Lantern.",
+        "time": 25.94
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)You can be Aquaman.",
+        "time": 26.91
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)I don't want to be Aquaman.",
+        "time": 28.33
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)He sucks.",
+        "time": 29.66
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)He sucks underwater.",
+        "time": 32.75
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)He sucks fish pee.",
+        "time": 36.32
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Excuse me,",
+        "time": 38.79
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)I believe Aquaman uses his telepathic powers",
+        "time": 39.96
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)to request the fish do their business elsewhere.",
+        "time": 43.36
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)Hey, babe.",
+        "time": 47.66
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)I'm still mad at you.",
+        "time": 49.27
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)Well, you won't be",
+        "time": 50.35
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)when you hear the great news.",
+        "time": 51.34
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)What great news?",
+        "time": 52.44
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)We're going to a costume party",
+        "time": 53.47
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)at the comic book store on New Year's Eve,",
+        "time": 55.07
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zack:)and you get to be Wonder Woman.",
+        "time": 57.61
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Penny was holding a laundry basket with detergent and clothes in it.",
+        "related_timespan": [
+          47.61,
+          50.96
+        ],
+        "reply_timespan": [
+          47.61,
+          51.96
+        ],
+        "preds": [
+          [
+            50.0,
+            "Penny is holding a laundry basket."
+          ]
+        ],
+        "judge_scores": {
+          "50.0": 1
+        }
+      }
+    ],
+    "duration": 61.666666666666664
+  },
+  {
+    "frame": "met_frames/met_s04e01_seg02_clip_13",
+    "video": "met_frames=met_s04e01_seg02_clip_13.mp4",
+    "audio": "met/met_audios/met_s04e01_seg02_clip_13.mp3",
+    "question_id": "met_frames=met_s04e01_seg02_clip_13.mp4%Q6",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Barney do after Robin says nothing?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Stella:)No.",
+        "time": 0.68
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Well, I'm not gonna like it with you staring at me the whole time.",
+        "time": 1.948
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Stella:)Go to your room and I will come get you when it's over.",
+        "time": 5.517
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted (2030):)- Stella... - Go.",
+        "time": 7.419
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Marshall:)Should I leave, too?",
+        "time": 15.893
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: What part? What part? What part?",
+        "time": 18.496
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Thanks.",
+        "time": 28.271
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Robin:)Nothing? Not even a glance?",
+        "time": 30.407
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I mean, even I was thinking about rocking a motorboat on those bad boys.",
+        "time": 33.109
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: What the hell is wrong with you, Barney?",
+        "time": 37.046
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)I don't always want to be that guy.",
+        "time": 39.682
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Sometimes I want to be someone you can have an actual conversation with.",
+        "time": 41.816
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Now, tell me something about you that I don't know yet.",
+        "time": 45.92
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Barney:)Seriously.",
+        "time": 49.857
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Robin:)Okay.",
+        "time": 52.526
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Robin:)There's a job opening at a new cable network that would be perfect for me.",
+        "time": 55.796
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Barney moves his wine glass from his mouth and licks his lip.",
+        "related_timespan": [
+          29.1,
+          32.44
+        ],
+        "reply_timespan": [
+          29.1,
+          33.44
+        ],
+        "preds": [
+          [
+            33.0,
+            "Barney took a sip of red wine."
+          ]
+        ],
+        "judge_scores": {
+          "33.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s04e13_seg02_clip_11",
+    "video": "friends_frames=friends_s04e13_seg02_clip_11.mp4",
+    "audio": "friends/friends_audios/friends_s04e13_seg02_clip_11.mp3",
+    "question_id": "friends_frames=friends_s04e13_seg02_clip_11.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What said Rachel after she closed the door?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I don't remember it.",
+        "time": 0.447
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)-Do you need help with that? -I got it.",
+        "time": 19.399
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)I just feel bad. I never vacuum.",
+        "time": 23.036
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)I was with Joshua for an hour today, and he has not asked me out.",
+        "time": 29.342
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)-Just so frustrating. -Why don't you ask him out?",
+        "time": 34.481
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Totally. That's such a turn-on.",
+        "time": 37.217
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Really? It doesn't seem desperate?",
+        "time": 40.153
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: That's the turn-on.",
+        "time": 42.589
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)He just got a divorce. Right? He's probably really nervous around women.",
+        "time": 45.926
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Maybe you just need to make the first move.",
+        "time": 49.729
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -I've never asked a guy out before. -You've never asked a guy out?",
+        "time": 52.199
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)No. Have you?",
+        "time": 56.069
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "I was with Joshua for an hour today, and he has not ask me out.",
+        "related_timespan": [
+          29.37,
+          35.07
+        ],
+        "reply_timespan": [
+          29.37,
+          36.07
+        ],
+        "preds": [
+          [
+            30.0,
+            "Rachel said, \"I've been with Joshua for an hour today, and he still hasn't asked me out.\""
+          ]
+        ],
+        "judge_scores": {
+          "30.0": 2
+        }
+      }
+    ],
+    "duration": 57.666666666666664
+  },
+  {
+    "frame": "bbt_frames/s09e19_seg02_clip_08",
+    "video": "bbt_frames=s09e19_seg02_clip_08.mp4",
+    "audio": "bbt_new/bbt_audios/s09e19_seg02_clip_08.mp3",
+    "question_id": "bbt_frames=s09e19_seg02_clip_08.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where are Penny, Bernadette, and Raj when Howard and Leonard are at the movie theater?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Right.",
+        "time": 0.143
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Amy:)So where are we going?",
+        "time": 1.21
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)No, I meant turn right, and you missed it.",
+        "time": 2.912
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Maybe you do need to know.",
+        "time": 6.416
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (indistinct chatter)",
+        "time": 11.387
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)What are we gonna tell the girls?",
+        "time": 13.423
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)It's not a problem.",
+        "time": 14.624
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)I mean without lying.",
+        "time": 15.792
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)And now you've made it a problem.",
+        "time": 16.926
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Come on. We're a couple of smart guys.",
+        "time": 19.295
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)I'm sure we can come up with a way to explain this",
+        "time": 21.364
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)that doesn't make us look bad.",
+        "time": 23.232
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (phone chimes)",
+        "time": 24.901
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh!",
+        "time": 26.769
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny(at Howard's workshop, reading text):)The boys had to drive all the way to San Bernardino",
+        "time": 28.705
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny(at Howard's workshop, reading text):)for the solder and got a flat.",
+        "time": 30.506
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (phone chimes)",
+        "time": 34.41
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)They bought it.",
+        "time": 35.445
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)But we're gonna have to",
+        "time": 37.847
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)put the spare on before we go back.",
+        "time": 39.415
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Oh, you're good at this.",
+        "time": 41.05
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)Well, I lie a lot.",
+        "time": 42.752
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: MAN: Hey, guys, thank you",
+        "time": 45.922
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Man:)for being a part of our test screening. You're about",
+        "time": 47.59
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Man:)to be one of the first audiences to see Suicide Squad.",
+        "time": 49.525
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (applause and cheering) Hey!",
+        "time": 52.228
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (laughs) You were right.",
+        "time": 54.197
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, I keep telling you...",
+        "time": 55.465
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)good things happen to bad people.",
+        "time": 56.599
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Penny, Bernadette, and Raj are in a workshop lab.",
+        "related_timespan": [
+          25.86,
+          33.37
+        ],
+        "reply_timespan": [
+          25.86,
+          34.37
+        ],
+        "preds": [
+          [
+            28.0,
+            "Penny, Bernadette, and Raj are at home."
+          ],
+          [
+            32.0,
+            "Penny, Bernadette, and Raj are in Howard's studio."
+          ]
+        ],
+        "judge_scores": {
+          "28.0": 0,
+          "32.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s01e18_seg02_clip_11",
+    "video": "friends_frames=friends_s01e18_seg02_clip_11.mp4",
+    "audio": "friends/friends_audios/friends_s01e18_seg02_clip_11.mp3",
+    "question_id": "friends_frames=friends_s01e18_seg02_clip_11.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Rachel have in her hands when she is shuffling them really fast?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: And I went to camp with her cousin.",
+        "time": 0.354
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)-The job is perfect! I can do this. -That's great!",
+        "time": 2.99
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -Then she told a funny story. -Great, tell us and we'll laugh.",
+        "time": 7.661
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Let's play poker!",
+        "time": 11.965
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Listen, we talked about it and if you don't wanna play, it's okay.",
+        "time": 15.435
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yes, we can play some other game. Like Pictionary?",
+        "time": 20.14
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Very funny.",
+        "time": 26.88
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -But we'd like to try poker again. -Yes, I think we should.",
+        "time": 28.448
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)-Do you want me to shuffle those? -That's okay, I'm gonna give it a go.",
+        "time": 32.686
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: So Pheebs owes $7. 50. Monica owes $10.00.",
+        "time": 47.234
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: And Rachel, you owe 1 5 big ones!",
+        "time": 50.437
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Thanks for teaching us Cross-Eyed Mary. We gotta play that other way.",
+        "time": 54.274
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "she has a deck of cards",
+        "related_timespan": [
+          32.11,
+          40.22
+        ],
+        "reply_timespan": [
+          32.11,
+          41.22
+        ],
+        "preds": [
+          [
+            37.5,
+            "Rachel has a deck of playing cards in her hand."
+          ]
+        ],
+        "judge_scores": {
+          "37.5": 2
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "house_frames/house_s08e02_seg02_clip_24",
+    "video": "house_frames=house_s08e02_seg02_clip_24.mp4",
+    "audio": "house/house_audios/house_s08e02_seg02_clip_24.mp3",
+    "question_id": "house_frames=house_s08e02_seg02_clip_24.mp4%Q2",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why did Park say House methods were too dangerous when she was talking to House?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)We need to hit it harder.",
+        "time": 0.586
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)We need to carpet bomb, blitzkrieg.",
+        "time": 3.088
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)We need the nuclear option...",
+        "time": 5.991
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: At some point, you're gonna say we need to radiate, right'?",
+        "time": 7.359
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)See? The metaphors work.",
+        "time": 9.762
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)But that'll destroy the good lung, too.",
+        "time": 11.43
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)Better to go with a strong cocktail of immunosuppressants.",
+        "time": 13.332
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Won't be fast enough. Wilson needs these lungs.",
+        "time": 16.001
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)It's working.",
+        "time": 48.3
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: He did ii.",
+        "time": 54.24
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)I'm not going to Chicago.",
+        "time": 59.144
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: If you stay, we'll have to have a hearing.",
+        "time": 62.414
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)I know.",
+        "time": 65.818
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "It would destroy the other lung",
+        "related_timespan": [
+          11.38,
+          19.12
+        ],
+        "reply_timespan": [
+          11.38,
+          20.12
+        ],
+        "preds": [
+          [
+            14.0,
+            "Because it will destroy healthy lungs."
+          ]
+        ],
+        "judge_scores": {
+          "14.0": 1
+        }
+      }
+    ],
+    "duration": 91.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s09e23-24_seg02_clip_47",
+    "video": "friends_frames=friends_s09e23-24_seg02_clip_47.mp4",
+    "audio": "friends/friends_audios/friends_s09e23-24_seg02_clip_47.mp3",
+    "question_id": "friends_frames=friends_s09e23-24_seg02_clip_47.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What game is the group playing when they have to stop due to injury",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -You okay? -No, honey, l'm okay.",
+        "time": 0.349
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Shake it off. Oh, no shaking. No shaking. No shaking.",
+        "time": 2.418
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, my God. l can't play.",
+        "time": 9.892
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mike:)-So you forfeit? -Mike wins?",
+        "time": 13.629
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: l can't believe it. l lost.",
+        "time": 17.032
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)-No, you didn't. -What?",
+        "time": 23.739
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -Because l'm gonna play for you. -You can't do that.",
+        "time": 27.409
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: lt's okay. l don't care which of them l beat.",
+        "time": 30.746
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay, we're taking that paddle home, mister.",
+        "time": 34.783
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)-Honey, you don't have to do this. -Yes, l do.",
+        "time": 42.157
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: l may not understand why you have to win so badly...",
+        "time": 44.86
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)...but if it's important to you, it's important to me.",
+        "time": 47.296
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Because l love you.",
+        "time": 50.065
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "The group is playing Ping Pong",
+        "related_timespan": [
+          0.0,
+          13.01
+        ],
+        "reply_timespan": [
+          0.0,
+          14.01
+        ],
+        "preds": [
+          [
+            10.0,
+            "Table tennis"
+          ]
+        ],
+        "judge_scores": {
+          "10.0": 2
+        }
+      }
+    ],
+    "duration": 52.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s04e09_seg02_clip_06",
+    "video": "friends_frames=friends_s04e09_seg02_clip_06.mp4",
+    "audio": "friends/friends_audios/friends_s04e09_seg02_clip_06.mp3",
+    "question_id": "friends_frames=friends_s04e09_seg02_clip_06.mp4%Q6",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Who is at the door when Moncia is alone in the kitchen?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)My first review is out.",
+        "time": 0.595
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)The Chelsea Reporter.",
+        "time": 3.6310000000000002
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: These used to keep me so warm.",
+        "time": 6.267
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Look, I'm on the back page.",
+        "time": 9.737
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"Would I go back to Allesandro's? Sure, I'd get two meals.",
+        "time": 13.141
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)One for me, and one for the guy pointing the gun to my head.\"",
+        "time": 16.611
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)You really laid into this place.",
+        "time": 20.849
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: They don't pay me a penny a word to make friends.",
+        "time": 23.451
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I found a guy who'd fix up the van for catering.",
+        "time": 26.654
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You want me to go?",
+        "time": 30.225
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It's okay. Are we sure we don't want the waterbed?",
+        "time": 31.459
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Because it would be silly to take it out if we're just gonna put it back in again.",
+        "time": 36.798
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Haven't we made this decision?",
+        "time": 41.803
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)Yeah, all right.",
+        "time": 43.905
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)-Who is it? -It's Allesandro, from Allesandro's.",
+        "time": 54.549
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Allesandro is at the door ",
+        "related_timespan": [
+          54.92,
+          60.03
+        ],
+        "reply_timespan": [
+          54.92,
+          60.666666666666664
+        ],
+        "preds": [
+          [
+            58.0,
+            "Alessandro"
+          ]
+        ],
+        "judge_scores": {
+          "58.0": 2
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s02e17_seg02_clip_08",
+    "video": "friends_frames=friends_s02e17_seg02_clip_08.mp4",
+    "audio": "friends/friends_audios/friends_s02e17_seg02_clip_08.mp3",
+    "question_id": "friends_frames=friends_s02e17_seg02_clip_08.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How does Ross say he knows that Dino was not a Velociraptor when he's on the phone with Tony?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)No, there is no way he was a velociraptor.",
+        "time": 0.289
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Look at the cranial ridge, okay?",
+        "time": 3.892
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)If Dino was a velociraptor, he'd have eaten the Flintstones.",
+        "time": 6.028
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Were you taking a nap?",
+        "time": 12.501
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)I was.",
+        "time": 13.869
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Tony, can you hold on? That's the other line.",
+        "time": 15.838
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Yeah, she's here, but can she call you back?",
+        "time": 20.075
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay, thanks.",
+        "time": 23.345
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Call Joanna.",
+        "time": 25.047
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Did she leave a number?",
+        "time": 26.348
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Did you see me write one down?",
+        "time": 27.616
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)I don't have her number, butt-munch.",
+        "time": 31.32
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)She'll call back. Don't be such a baby.",
+        "time": 35.524
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)You're the baby.",
+        "time": 37.926
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)- Get off my back. - Get out of my face.",
+        "time": 39.561
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Wait, hold on, Tony. Hold on.",
+        "time": 42.498
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah, she's right here. Hold on.",
+        "time": 48.437
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Tony, can I call you back?",
+        "time": 52.141
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)That's my sister's boyfriend.",
+        "time": 54.777
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Give me that.",
+        "time": 56.612
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Dino would have eaten the Flintstones if he was a Velociraptor.",
+        "related_timespan": [
+          5.19,
+          13.43
+        ],
+        "reply_timespan": [
+          5.19,
+          14.43
+        ],
+        "preds": [
+          [
+            9.0,
+            "If Dino were a velociraptor, he would have long ago eaten \"The Flintstones.\""
+          ]
+        ],
+        "judge_scores": {
+          "9.0": 2
+        }
+      }
+    ],
+    "duration": 61.666666666666664
+  },
+  {
+    "frame": "met_frames/met_s06e14_seg02_clip_00",
+    "video": "met_frames=met_s06e14_seg02_clip_00.mp4",
+    "audio": "met/met_audios/met_s06e14_seg02_clip_00.mp3",
+    "question_id": "met_frames=met_s06e14_seg02_clip_00.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why did Ted feel useless after Marshall's tragic loss?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: 6x14 - Last Words (1.00) .:: www.sous-titres.eu ::.",
+        "time": 1.72
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Kids, when your best friend loses someone...",
+        "time": 4.624
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Marshall:)My dad's dead?",
+        "time": 7.391
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You drop everything and rush to his side.",
+        "time": 9.895
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Only to find yourself standing there with no idea what to do or say.",
+        "time": 12.082
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)This is the toughest time in Marshall's life",
+        "time": 15.779
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)and I feel absolutely useless.",
+        "time": 17.882
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)What can we do to help?",
+        "time": 19.939
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lily:)Don't look at me. This morning, Marshall said,",
+        "time": 21.49
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"I have to pee.\" And I said, \"Don't worry, baby, I'll do it for you.\"",
+        "time": 23.636
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lily:)Halfway through the pee, I'm, like, \"This doesn't even make sense!\"",
+        "time": 26.566
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Well, I've been to a couple funerals, so I know my role.",
+        "time": 29.748
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I'm Vice Girl.",
+        "time": 32.952
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Whatever Marshall needs to get through this day, I got it right here.",
+        "time": 34.212
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)Cigarettes, alcohol... Are these firecrackers?",
+        "time": 40.843
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)My God, Robin, you somehow",
+        "time": 44.511
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ted:)crammed Tijuana into a purse.",
+        "time": 46.348
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Robin, hushing:)Be cool, nerds!",
+        "time": 48.959
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lily:)Marshall's mom hasn't eaten, slept or sat down since we got here.",
+        "time": 53.601
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lily:)Wait!",
+        "time": 58.326
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lily:)That can be my role! I'll take care of Judy!",
+        "time": 59.451
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Because he had no idea how to help his friend.",
+        "related_timespan": [
+          15.55,
+          22.7
+        ],
+        "reply_timespan": [
+          15.55,
+          23.7
+        ],
+        "preds": [
+          [
+            22.0,
+            "Because Ted can't help Marshall at all."
+          ]
+        ],
+        "judge_scores": {
+          "22.0": 2
+        }
+      }
+    ],
+    "duration": 62.666666666666664
+  },
+  {
+    "frame": "bbt_frames/s02e01_seg02_clip_04",
+    "video": "bbt_frames=s02e01_seg02_clip_04.mp4",
+    "audio": "bbt_new/bbt_audios/s02e01_seg02_clip_04.mp3",
+    "question_id": "bbt_frames=s02e01_seg02_clip_04.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Penny say when Leonard asked if she could go to a movie on Saturday?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)When did we become friends?",
+        "time": 0.802
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)I.e., I couldn't become Green Lantern...",
+        "time": 5.39
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)...unless I was chosen by the Guardians of Oa.",
+        "time": 7.267
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Given enough startup capital and an adequate research facility...",
+        "time": 9.436
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)...I could be Batman.",
+        "time": 12.606
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - You could be Batman? - Sure.",
+        "time": 18.57
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: [IN DEEP VOICE] I'm Batman.",
+        "time": 20.489
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: [IN NORMAL VOICE] See?",
+        "time": 21.74
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Hi, guys. - Hey.",
+        "time": 25.202
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)- Hi, Penny. - Hey.",
+        "time": 26.411
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)If you're not doing anything Friday night, I thought we could go see a movie.",
+        "time": 29.081
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)You know, I think I have the dinner shift on Friday.",
+        "time": 32.918
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Okay. What about Saturday? - You know, I'm not sure.",
+        "time": 35.754
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)The manager hasn't posted the schedule. How about I let you know?",
+        "time": 38.632
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Great. - Okay.",
+        "time": 41.802
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)So you just let me know when you know. Okay, so... Oh, God, I am the bad fish.",
+        "time": 42.97
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)- What did I do wrong? - Why are you asking me?",
+        "time": 50.352
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)I have no information about your interactions with Penny...",
+        "time": 53.981
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)...nor do I have any method of learning such things.",
+        "time": 57.359
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "That the manager hadn't posted the work schedule so she didn't know.",
+        "related_timespan": [
+          35.35,
+          43.42
+        ],
+        "reply_timespan": [
+          35.35,
+          44.42
+        ],
+        "preds": [
+          [
+            42.0,
+            "Not sure, the manager hasn't released the schedule yet."
+          ]
+        ],
+        "judge_scores": {
+          "42.0": 2
+        }
+      }
+    ],
+    "duration": 62.666666666666664
+  },
+  {
+    "frame": "grey_frames/grey_s03e06_seg02_clip_23",
+    "video": "grey_frames=grey_s03e06_seg02_clip_23.mp4",
+    "audio": "grey/grey_audios/grey_s03e06_seg02_clip_23.mp3",
+    "question_id": "grey_frames=grey_s03e06_seg02_clip_23.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Gretchen do after she said was going home?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (NANCY:)Thanks.",
+        "time": 0.548
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Where are we going again? - We need to go upstairs.",
+        "time": 17.064
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (CHRISTINA:)OK.",
+        "time": 22.036
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Wait. Wait!",
+        "time": 35.049
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (GRETCHEN:)Where are we?",
+        "time": 37.184
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: We're on the psychiatric floor, and we need to place you on a 72-hour hold.",
+        "time": 38.252
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (GRETCHEN:)No. I'm not crazy. You can't... No. I'm going home.",
+        "time": 42.356
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)Gretchen.",
+        "time": 46.894
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No, you have to let me go home. Please?",
+        "time": 47.962
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I'll just, I need to go back home. Please.",
+        "time": 50.03
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You'll hurt yourself again, right?",
+        "time": 52.366
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Isn't that your plan, so you won't have to take the exam?",
+        "time": 54.401
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)You need some help, Gretchen.",
+        "time": 57.204
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)If the idea of taking an exam makes you hold your palm to a burner,",
+        "time": 59.306
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)you need some help.",
+        "time": 64.011
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)Everyone needs help from time to time. Someone to look out for them.",
+        "time": 65.446
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)Make sure they're OK. Make sure they're ready.",
+        "time": 69.783
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)I have that. And you need that right now.",
+        "time": 74.655
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (GRETCHEN:)- I'm not crazy. - I know.",
+        "time": 84.832
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (GEORGE:)Just...",
+        "time": 87.601
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Pushed the button to the elevator.",
+        "related_timespan": [
+          40.78,
+          47.88
+        ],
+        "reply_timespan": [
+          40.78,
+          48.88
+        ],
+        "preds": [
+          [
+            48.0,
+            "Gretchen ran out of the ward."
+          ]
+        ],
+        "judge_scores": {
+          "48.0": 1
+        }
+      }
+    ],
+    "duration": 88.66666666666667
+  },
+  {
+    "frame": "grey_frames/grey_s02e05_seg02_clip_04",
+    "video": "grey_frames=grey_s02e05_seg02_clip_04.mp4",
+    "audio": "grey/grey_audios/grey_s02e05_seg02_clip_04.mp3",
+    "question_id": "grey_frames=grey_s02e05_seg02_clip_04.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What happens to George and Alex after George mentions he didn't get any sleep?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Alex:)You got shot in the line of duty?",
+        "time": 0.486
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Pete (has difficulty speaking):)First month on the job. Can you believe my luck?",
+        "time": 2.8209999999999997
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Pete (has difficulty speaking):)Guy pulls a gun and I freeze up.",
+        "time": 5.791
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: The rookie who let himself get shot.",
+        "time": 7.96
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Pete (has difficulty speaking):)- I'm never gonna live this down. - Sure, you will.",
+        "time": 10.362
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Pete:)You think?",
+        "time": 13.065
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)Absolutely.",
+        "time": 15.067
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)Hey, I got Verna Bradley's tests back.",
+        "time": 19.238
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)I don't think she had a heart attack.",
+        "time": 21.373
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Bailey:)Look at the changes in her EKG. She had something.",
+        "time": 23.609
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)Her serial enzymes and dobutamine stress echo were negative.",
+        "time": 26.345
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)- I actually think she's fine. - Get a cardiac cath. Be thorough.",
+        "time": 29.648
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)I am thorough.",
+        "time": 35.421
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Alex:)- What's the deal with Izzie? - She shaved her legs for you.",
+        "time": 37.089
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Alex:)- And? - You didn't even kiss her good night.",
+        "time": 40.693
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Pete:)- You didn't follow through? - Hey, I always follow through.",
+        "time": 43.262
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George (half laughs):)- You didn't last night. - Mind your own business.",
+        "time": 47.433
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Derek:)Mind...",
+        "time": 50.035
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)She had expectations. Women have expectations. And you didn't meet them.",
+        "time": 53.038
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)I live with these women.",
+        "time": 57.209
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: When you guys don't meet their expectations, I hear about it.",
+        "time": 58.877
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)I didn't get any sleep last night.",
+        "time": 62.081
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)So, you know, it is my business.",
+        "time": 64.249
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Alex:)- Dude, we're not moving. - Really! You think?",
+        "time": 76.095
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Dr. Cole, 2621. Dr. Cole, 2621.",
+        "time": 89.541
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "George and Alex become trapped in the elevator.",
+        "related_timespan": [
+          62.63,
+          71.22
+        ],
+        "reply_timespan": [
+          62.63,
+          72.22
+        ],
+        "preds": [
+          [
+            70.0,
+            "The ward suddenly lost power, but they didn't move."
+          ]
+        ],
+        "judge_scores": {
+          "70.0": 1
+        }
+      }
+    ],
+    "duration": 101.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s03e03_seg02_clip_05",
+    "video": "friends_frames=friends_s03e03_seg02_clip_05.mp4",
+    "audio": "friends/friends_audios/friends_s03e03_seg02_clip_05.mp3",
+    "question_id": "friends_frames=friends_s03e03_seg02_clip_05.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": " Where was Chandler when Ross and Rachel were giving him advice",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Option number one: She'll take a cab home from the airport.",
+        "time": 0.87
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Or option two: You can meet her at baggage claim. What do you do?",
+        "time": 3.873
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)- That's easy. Baggage claim. - Wrong! Now you're single.",
+        "time": 7.977
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)It's actually secret option number three.",
+        "time": 13.483
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)You meet her at the gate. That way she knows you love her.",
+        "time": 17.186
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)Okay, this is good.",
+        "time": 21.591
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)All right, listen. I have one. Janice likes to cuddle...",
+        "time": 22.825
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)...at night, which I'm all for.",
+        "time": 26.896
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: But when you want to go to sleep, you want some space.",
+        "time": 29.565
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)So how do I tell her that without...",
+        "time": 33.369
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)...you know, accidentally calling her fat or something?",
+        "time": 36.539
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)Oh, honey. I'm sorry. We can't help you there, because we're cuddly sleepers.",
+        "time": 40.042
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay. I'm late for work. All right. Are you guys going to come down?",
+        "time": 45.848
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Yeah. I'm right behind you. - Okay. Good luck, Chandler.",
+        "time": 49.519
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)- Thank you. - Bye, sweetie.",
+        "time": 52.789
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Bye, honey.",
+        "time": 54.223
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Okay, the sleeping thing.",
+        "time": 57.16
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Sitting at the kitchen table in front of them",
+        "related_timespan": [
+          0.0,
+          12.01
+        ],
+        "reply_timespan": [
+          0.0,
+          13.01
+        ],
+        "preds": [
+          [
+            6.0,
+            "Chandler is sitting in the room with Ross and Rachel."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s04e21_seg02_clip_01",
+    "video": "friends_frames=friends_s04e21_seg02_clip_01.mp4",
+    "audio": "friends/friends_audios/friends_s04e21_seg02_clip_01.mp3",
+    "question_id": "friends_frames=friends_s04e21_seg02_clip_01.mp4%Q0",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Emily do after telling Ross it is his decision?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It's just that I thought it might be awkward for you.",
+        "time": 0.648
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: But it's absolutely your decision.",
+        "time": 4.953
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Emily:)-More tea? -Sure.",
+        "time": 7.622
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Emily:)Earl Grey?",
+        "time": 10.525
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Fine, invite whoever you want.",
+        "time": 12.927
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)I don't want to be single, okay? I just want to be married again.",
+        "time": 19.867
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)And I just want a million dollars!",
+        "time": 29.576999999999998
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh God, Monica. Thank God!",
+        "time": 35.049
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)This is Rachel. Another Lincoln High survivor.",
+        "time": 40.255
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)This is Chandler.",
+        "time": 43.758
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Phoebe.",
+        "time": 45.26
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Joey.",
+        "time": 46.694
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -Do you remember Ross? -Sure.",
+        "time": 48.029
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Back in high school...",
+        "time": 53.901
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)...I had a major crush on you.",
+        "time": 56.004
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "picks up the empty tea cups",
+        "related_timespan": [
+          5.35,
+          12.77
+        ],
+        "reply_timespan": [
+          5.35,
+          13.77
+        ],
+        "preds": [
+          [
+            9.0,
+            "Emily asked Ross if he wanted some more tea."
+          ]
+        ],
+        "judge_scores": {
+          "9.0": 0
+        }
+      }
+    ],
+    "duration": 59.666666666666664
+  },
+  {
+    "frame": "castle_frames/castle_s06e21_seg02_clip_22",
+    "video": "castle_frames=castle_s06e21_seg02_clip_22.mp4",
+    "audio": "castle/castle_audios/castle_s06e21_seg02_clip_22.mp3",
+    "question_id": "castle_frames=castle_s06e21_seg02_clip_22.mp4%Q6",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How does Beckett threaten to have Zaretsky be disbarred after he tells Fulton to not explain anything?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)I think I figured that one out.",
+        "time": 0.696
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Who do you suppose does all the contract work",
+        "time": 2.031
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)for the Street Sports Festival?",
+        "time": 3.815
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Brett Zaretsky?",
+        "time": 5.734
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah. And Zaretsky also represents Tommy Fulton personally.",
+        "time": 7.002
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zaretsky:)I hope you have a good reason for dragging us down here, Detective.",
+        "time": 12.241
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)How about murder?",
+        "time": 16.412
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Fulton:)Come on. If this is about Logan,",
+        "time": 18.514
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Fulton:)I was at a club doing promotions from midnight to 4:00 a.m.",
+        "time": 20.682
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)And where were you on April 27th, 2008,",
+        "time": 24.887
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)when Jay Dixon was killed?",
+        "time": 28.29
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: If you ever tell anyone what happened to Jay, you'll be dead, too!",
+        "time": 33.929
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)When I asked you earlier this morning about Jay Dixon,",
+        "time": 41.904
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: you said that you never heard of him. And that was a lie.",
+        "time": 44.048
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zaretsky:)That tape proves nothing about Logan or Jay's deaths.",
+        "time": 47.476
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)I can place you at the scene of a six-year-old unsolved murder.",
+        "time": 50.946
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)I also have circumstantial evidence that you killed Logan in order to cover it up.",
+        "time": 55.05
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Now, how much more do you think a jury is gonna need",
+        "time": 58.754
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)in order to connect those dots?",
+        "time": 61.123
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Fulton:)I can explain.",
+        "time": 62.891
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zaretsky:)Don't explain anything, Tommy.",
+        "time": 64.059
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You think you can hide behind attorney-client privilege",
+        "time": 66.161
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: if you concealed evidence of a child's murder?",
+        "time": 68.345
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)I will have you disbarred!",
+        "time": 70.799
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And then you will stand trial alongside your client.",
+        "time": 72.334
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Maybe you'd like to call your lawyer.",
+        "time": 74.97
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zaretsky:)Don't say another word.",
+        "time": 78.273
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Fulton:)Brett, what's the point? I mean, the whole plan is screwed anyway.",
+        "time": 79.808
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Would you stop digging our graves?",
+        "time": 82.845
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Fulton:)I'm not going down for murders that someone else did.",
+        "time": 84.48
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zaretsky:)For God's sake, shut your mouth, Tommy.",
+        "time": 87.449
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "For concealing evidence of a child's murder.",
+        "related_timespan": [
+          63.92,
+          72.47
+        ],
+        "reply_timespan": [
+          63.92,
+          73.47
+        ],
+        "preds": [
+          [
+            70.0,
+            "Beckett threatened to disbar him by saying, \"You think you can hide behind attorney-client privilege,\" and \"What if you concealed evidence related to child murder?\""
+          ]
+        ],
+        "judge_scores": {
+          "70.0": 2
+        }
+      }
+    ],
+    "duration": 90.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s07e17_seg02_clip_14",
+    "video": "castle_frames=castle_s07e17_seg02_clip_14.mp4",
+    "audio": "castle/castle_audios/castle_s07e17_seg02_clip_14.mp3",
+    "question_id": "castle_frames=castle_s07e17_seg02_clip_14.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Ryan say to Beckett and Castle after he walked in?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)She is a human, like the rest of us, flaws and all.",
+        "time": 0.623
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Not some infallible super-cop who swoops in every time to save the day.",
+        "time": 3.659
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Hey, Zhang just got a lead that could crack this case.",
+        "time": 6.896
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You were saying?",
+        "time": 12.018
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)I was scanning surveillance video of Henry's apartment complex,",
+        "time": 16.639
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)trying to piece together the timeline",
+        "time": 19.509
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)on the day he died, when I saw this.",
+        "time": 20.977
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: That's Henry. Note the time.",
+        "time": 23.68
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: 2:37 p.m.",
+        "time": 25.682
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Meaning after Henry left the repo yard, he went back home.",
+        "time": 27.767
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)Except he didn't stay.",
+        "time": 29.819
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)Five minutes later, he left his apartment complex.",
+        "time": 31.454
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)Watch what happens next.",
+        "time": 35.107
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Before he was killed, Henry Graham was kidnapped!",
+        "time": 43.616
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)Tech was able to pull the numbers off the license plate.",
+        "time": 50.89
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)The SUV is registered to a William \"Billy\" Hicks.",
+        "time": 53.126
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)According to my buddies at Narcotics,",
+        "time": 56.596
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: this guy is hardcore.",
+        "time": 58.014
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Every year, he makes their top 20 list for drug dealers,",
+        "time": 59.415
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)but they've never been able to nail him,",
+        "time": 62.535
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)mostly because he has other guys do his dirty work.",
+        "time": 63.969
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)I know this man.",
+        "time": 66.589
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)Billy Hicks started Henry on a life of crime, hired him as an enforcer.",
+        "time": 68.391
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)He's the reason that Henry went to prison.",
+        "time": 71.627
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Well, then he's probably the reason Henry was murdered.",
+        "time": 74.046
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)But Henry hasn't worked for Hicks in almost 10 years.",
+        "time": 76.566
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Zhang:)Why would Hicks come after him now?",
+        "time": 79.252
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Maybe Henry knew too much.",
+        "time": 83.205
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)About Hicks and the organization.",
+        "time": 84.74
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)That's probably why Glassman approached him at The Jade Temple.",
+        "time": 86.208
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Zhang had a lead that could crack the case",
+        "related_timespan": [
+          7.13,
+          13.38
+        ],
+        "reply_timespan": [
+          7.13,
+          14.38
+        ],
+        "preds": [
+          [
+            9.0,
+            "Zhang Gang obtained a clue that might help solve the case."
+          ]
+        ],
+        "judge_scores": {
+          "9.0": 2
+        }
+      }
+    ],
+    "duration": 89.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s07e01_seg02_clip_16",
+    "video": "castle_frames=castle_s07e01_seg02_clip_16.mp4",
+    "audio": "castle/castle_audios/castle_s07e01_seg02_clip_16.mp3",
+    "question_id": "castle_frames=castle_s07e01_seg02_clip_16.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where does Beckett suggest they start before Castle wakes up?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Don't you think Castle deserves the benefit of the doubt?",
+        "time": 0.271
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You guys, none of us knows the truth about Castle.",
+        "time": 10.298
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)Not yet.",
+        "time": 12.801
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And, Espo, you know what? If you're wrong, then he was a victim.",
+        "time": 14.803
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)So instead of us just standing around waiting for him to wake up,",
+        "time": 17.371
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)why don't we start by figuring out who owns that dinghy?",
+        "time": 20.742
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)I'm already on it.",
+        "time": 23.261
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Boat had expired tags registered",
+        "time": 24.495
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)to a Curtis Holt of Savannah, Georgia.",
+        "time": 25.897
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)We called Holt.",
+        "time": 27.333
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)He said that he sold it over a year ago at a garage sale.",
+        "time": 28.967
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)He can't recall who he sold it to.",
+        "time": 31.12
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay, check his story, find the current owner.",
+        "time": 32.621
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: We find the owner, we'll figure out where Castle was coming from.",
+        "time": 34.739
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: In the meantime, I'll talk to the ship's captain",
+        "time": 38.177
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: and see if he can tell us anything else.",
+        "time": 39.41
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Captain Mundy:)Based on Mr. Castle's condition,",
+        "time": 42.146
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Captain Mundy:)I'm guessing he'd been in that vessel four or five days.",
+        "time": 44.715
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Okay, could the dinghy have come from a larger boat?",
+        "time": 47.936
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)Not likely.",
+        "time": 50.337
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)See, it has fenders, or pads, to protect the paint.",
+        "time": 51.99
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)And the position of the fenders points to it being moored at a dock.",
+        "time": 54.091
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Is there any way to know where that dock is?",
+        "time": 57.094
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)I can give you my best guess.",
+        "time": 59.063
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)The dinghy had a six-horse motor,",
+        "time": 60.832
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)two hours' worth of fuel, if the tanks were full.",
+        "time": 62.45
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)After it ran dry, it drifted for four or five days.",
+        "time": 64.452
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)So, based on winds and current vectors,",
+        "time": 68.706
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)it probably launched",
+        "time": 70.892
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Mundy:)somewhere between Rhode Island and southern Maine.",
+        "time": 72.544
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)Looks like we caught a break.",
+        "time": 75.313
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Turns out that sky-blue dinghy was a standard white",
+        "time": 76.815
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)when it came out of the factory.",
+        "time": 79.117
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And how does that help us?",
+        "time": 80.318
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)Well, the previous owner pimped it out.",
+        "time": 81.652
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: He added custom fishing-rod holders and painted it sky blue.",
+        "time": 83.254
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Making it a relative rarity in the world of dinghies.",
+        "time": 86.49
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Esposito:)So, going off what the captain told you,",
+        "time": 88.793
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "figuring out who owns the dinghy",
+        "related_timespan": [
+          19.06,
+          24.05
+        ],
+        "reply_timespan": [
+          19.06,
+          25.05
+        ],
+        "preds": [
+          [
+            23.0,
+            "Starting from first checking whose small boat that is."
+          ]
+        ],
+        "judge_scores": {
+          "23.0": 2
+        }
+      }
+    ],
+    "duration": 90.66666666666667
+  },
+  {
+    "frame": "house_frames/house_s05e18_seg02_clip_12",
+    "video": "house_frames=house_s05e18_seg02_clip_12.mp4",
+    "audio": "house/house_audios/house_s05e18_seg02_clip_12.mp3",
+    "question_id": "house_frames=house_s05e18_seg02_clip_12.mp4%Q3",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Neil tell Taub to do right after Taub had given him reasons to change his prototype?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)Used to?",
+        "time": 0.963
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)When I was a plastic surgeon.",
+        "time": 2.097
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)But one day, I took stock of my life and...",
+        "time": 3.765
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, screw it.",
+        "time": 8.103
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)I had an affair with the daughter of one of my partners.",
+        "time": 12.307
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)They signed a non-disclosure, I signed a non-compete.",
+        "time": 15.244
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)And the funny thing is I wound up telling my wife anyway.",
+        "time": 18.413
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)You like your job?",
+        "time": 25.988
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)Same as you, same as everyone, it has its ups and downs.",
+        "time": 27.656
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Kutner:)You're lying to make me feel better.",
+        "time": 33.395
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)Yeah. It's the best. I'm in charge, you know. I'm a kid with toys.",
+        "time": 36.798
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)Speaking of which, what do you think of the prototype?",
+        "time": 42.504
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)It's amazing.",
+        "time": 44.84
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You gotta make it a half-inch smaller, though.",
+        "time": 46.908
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)You serious? I got small hands,",
+        "time": 50.012
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)6.5 gloves, like women surgeons,",
+        "time": 51.78
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Taub:)which are your fastest-growing market.",
+        "time": 53.482
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Me and the girls would have to use two hands to hit the switch.",
+        "time": 55.183
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)Why do I bother paying the idiots that work for me?",
+        "time": 60.289
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)Put down that crap you're drinking,",
+        "time": 63.625
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Neil:)because I am breaking out the really good stuff.",
+        "time": 65.294
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Morgan:)What's wrong?",
+        "time": 83.178
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Morgan:)I went to the bathroom. My urine...",
+        "time": 84.68
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Thirteen:)Green again? It's brown.",
+        "time": 87.215
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Neil had instructed Taub to put down that crap he's drinking.",
+        "related_timespan": [
+          63.02,
+          65.27
+        ],
+        "reply_timespan": [
+          63.02,
+          66.27
+        ],
+        "preds": [
+          [
+            65.0,
+            "Neil asked Taub to put down the wine glass."
+          ]
+        ],
+        "judge_scores": {
+          "65.0": 2
+        }
+      }
+    ],
+    "duration": 90.66666666666667
+  },
+  {
+    "frame": "house_frames/house_s07e07_seg02_clip_13",
+    "video": "house_frames=house_s07e07_seg02_clip_13.mp4",
+    "audio": "house/house_audios/house_s07e07_seg02_clip_13.mp3",
+    "question_id": "house_frames=house_s07e07_seg02_clip_13.mp4%Q2",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How long did Broda say it would take to get the results back before he left the room",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)I guess she's eager or has a blind spot for sarcasm.",
+        "time": 0.409
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I just wanna look at the rash under her arm",
+        "time": 5.747
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)to see if it's matured to match the...",
+        "time": 7.783
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Broda:)You can look through the glass.",
+        "time": 9.184
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)I need to be closer.",
+        "time": 10.452
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Masters:)If the pustules are at a different stage...",
+        "time": 11.686
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Broda:)She's comfortable.",
+        "time": 13.121
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Broda:)We're gonna have our results back in eight hours.",
+        "time": 14.489
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Broda:)If it's not smallpox, you can be the first one in there.",
+        "time": 16.758
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Eve.",
+        "time": 60.535
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wilson:)Guess who came by the hospital for a visit.",
+        "time": 62.504
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wilson:)Hello, Eve.",
+        "time": 68.043
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wilson:)Oh, no.",
+        "time": 71.713
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wilson:)All right, I'm gonna get a couple of nice nurses to come in here",
+        "time": 75.55
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Wilson:)and get you two ready for the treatment, all right?",
+        "time": 78.787
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Okay.",
+        "time": 81.623
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Broda said the results would be back in 8 hours",
+        "related_timespan": [
+          10.56,
+          22.01
+        ],
+        "reply_timespan": [
+          10.56,
+          23.01
+        ],
+        "preds": [
+          [
+            12.0,
+            "Because she is a master of Krav Maga, she is deadly accurate with a sniper rifle at a distance of one and a half miles."
+          ]
+        ],
+        "judge_scores": {
+          "12.0": 0
+        }
+      }
+    ],
+    "duration": 88.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s02e07_seg02_clip_10",
+    "video": "castle_frames=castle_s02e07_seg02_clip_10.mp4",
+    "audio": "castle/castle_audios/castle_s02e07_seg02_clip_10.mp3",
+    "question_id": "castle_frames=castle_s02e07_seg02_clip_10.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why is Beckett surprised when she receives Hayley's toxic screening results?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)or making promises that she knew she wasn't going to be able to keep.",
+        "time": 0.562
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)- What promises would she make? - She said that I could come back.",
+        "time": 3.999
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)She said that we were gonna be a team.",
+        "time": 7.469
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)But I had to get clean.",
+        "time": 11.339
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)\"You gotta clean up, baby girl. You're gonna end up dead.\"",
+        "time": 13.408
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)Hmm. Thus, irony.",
+        "time": 16.479
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)How was I supposed to get clean when she couldn't even do it?",
+        "time": 19.849
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Wait a minute, she was using again?",
+        "time": 24.287
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)Yeah. She was with Tony the day after I saw her.",
+        "time": 26.222
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)- Who's Tony? - My dealer.",
+        "time": 28.357
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sky:)She was handing him a wad of cash.",
+        "time": 32.094
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)I was just thinking, if she was using again,",
+        "time": 37.4
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)that would explain why she left her producers,",
+        "time": 39.602
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)but not why she was killed, who killed her, or why she went to the police.",
+        "time": 41.738
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: What I just said was not confusing enough",
+        "time": 45.976
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: for your face to do what it's doing.",
+        "time": 47.644
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)That was Perlmutter.",
+        "time": 49.58
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)The tox results just got back from the lab.",
+        "time": 50.814
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)There were no drugs in Hayley's system.",
+        "time": 53.116
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)She was 100% clean and sober.",
+        "time": 54.852
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Then why was she giving a wad of cash to Tony the drug dealer?",
+        "time": 57.321
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tony:)She didn't want drugs. She wanted a gun.",
+        "time": 65.663
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tony:)- A gun? - And not a punkass.22, either.",
+        "time": 67.799
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: A.38. She wanted to put a hole in a brother.",
+        "time": 70.301
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tony:)Seeing as she's dead, I say I did the right thing at the time.",
+        "time": 72.871
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tony:)- The girl was scared. - Of what?",
+        "time": 75.807
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Tony:)Didn't say, and I didn't ask. She just wanted the gun.",
+        "time": 78.476
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Are you sure?",
+        "time": 84.582
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No, I'm not trying to tell you how to do your job, I just...",
+        "time": 86.818
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Beckett is surprised because Hayley was completely sober.",
+        "related_timespan": [
+          49.15,
+          61.44
+        ],
+        "reply_timespan": [
+          49.15,
+          62.44
+        ],
+        "preds": [
+          [
+            57.0,
+            "Because Hailey has no drugs in her body, she is completely sober and not under the influence of alcohol at all."
+          ]
+        ],
+        "judge_scores": {
+          "57.0": 2
+        }
+      }
+    ],
+    "duration": 91.66666666666667
+  },
+  {
+    "frame": "bbt_frames/s06e23_seg02_clip_06",
+    "video": "bbt_frames=s06e23_seg02_clip_06.mp4",
+    "audio": "bbt_new/bbt_audios/s06e23_seg02_clip_06.mp3",
+    "question_id": "bbt_frames=s06e23_seg02_clip_06.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is Penny holding when she sits on the sofa",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)A satanic fungus that looks suspiciously like Al Pacino...",
+        "time": 0.62
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...rises from the forest floor and says:",
+        "time": 6.526
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"You're playing D&D...",
+        "time": 10.129
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)...you're playing D&D...",
+        "time": 12.665
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)...this whole apartment...",
+        "time": 14.501
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...is playing D&D.\"",
+        "time": 19.138
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Okay, who wants a drink?",
+        "time": 29.415
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Penny, we don't consume alcohol during Dungeons & Dragons.",
+        "time": 32.018
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It impairs ourjudgment.",
+        "time": 35.889
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Oh, this isn't alcohol. It's a magic potion that makes me like you.",
+        "time": 38.992
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Double potion, please.",
+        "time": 46.599
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)Okay, here we go.",
+        "time": 49.402
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You find yourselves face to face with two hulking ogres.",
+        "time": 50.603
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"What are you doing in our dungeon?\"",
+        "time": 56.676
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Penny is holding a pitcher and cups",
+        "related_timespan": [
+          29.41,
+          37.51
+        ],
+        "reply_timespan": [
+          29.41,
+          38.51
+        ],
+        "preds": [
+          [
+            34.0,
+            "Penny was holding a pot of drink while sitting on the sofa."
+          ]
+        ],
+        "judge_scores": {
+          "34.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "grey_frames/grey_s03e04_seg02_clip_12",
+    "video": "grey_frames=grey_s03e04_seg02_clip_12.mp4",
+    "audio": "grey/grey_audios/grey_s03e04_seg02_clip_12.mp3",
+    "question_id": "grey_frames=grey_s03e04_seg02_clip_12.mp4%Q6",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where is Sloan standing when Derek is talking to the patient with the bandaged face",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (GEORGE:)Right.",
+        "time": 0.995
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (CHRISTINA:)Are you... mad at me?",
+        "time": 4.465
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Hey, hey! You're mad at me?",
+        "time": 7.268
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (BURKE:)Forget it. Just... don't worry about it.",
+        "time": 13.708
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (BURKE:)- You have patients. - I'm on call for the pit.",
+        "time": 17.812
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Cristina... - I'm not leaving.",
+        "time": 20.548000000000002
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (BURKE:)Time me.",
+        "time": 30.558
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (IZZIE:)The transplant went better than anyone expected. He was better.",
+        "time": 35.797
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: He was so much better.",
+        "time": 39.3
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: But Denny, um, before the surgery, he was hooked up to a machine called a...",
+        "time": 42.203
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (MR. DUQUETTE:)- You're not answering my question. - I'm trying. I'm getting there.",
+        "time": 47.275
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - It was complicated. His heart was... - Don't give a damn about the medicine.",
+        "time": 51.846
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (MR. DUQUETTE:)I know what killed my son.",
+        "time": 55.883
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (MR. DUQUETTE:)He had a bad heart. He had a bad heart for a long time.",
+        "time": 60.955
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (MR. DUQUETTE:)I get that.",
+        "time": 64.091
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: What I don't get is how a girI like you goes from being my son's doctor",
+        "time": 65.426
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (MR. DUQUETTE:)What I don't get is how you got him to propose to you hours before he died.",
+        "time": 73.634
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Mr. Sullivan, I'm going to recommend a night of observation in the ICU",
+        "time": 80.541
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (DEREK:)before Dr. Sloan proceeds with your surgery.",
+        "time": 84.879
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Sloan is standing at the foot of the patient's bed",
+        "related_timespan": [
+          77.99,
+          87.14
+        ],
+        "reply_timespan": [
+          77.99,
+          87.66666666666667
+        ],
+        "preds": [
+          [
+            86.0,
+            "He is standing opposite the patient holding the bandage."
+          ]
+        ],
+        "judge_scores": {
+          "86.0": 1
+        }
+      }
+    ],
+    "duration": 87.66666666666667
+  },
+  {
+    "frame": "bbt_frames/s04e19_seg02_clip_15",
+    "video": "bbt_frames=s04e19_seg02_clip_15.mp4",
+    "audio": "bbt_new/bbt_audios/s04e19_seg02_clip_15.mp3",
+    "question_id": "bbt_frames=s04e19_seg02_clip_15.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What happened after Sheldon said that he wished they had a train?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)It'd be swell if they had a train.",
+        "time": 0.53
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Thank you, Penny.",
+        "time": 8.8
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)No problem.",
+        "time": 10.6
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)So, Leonard,",
+        "time": 12.97
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)I think it's interesting you didn't call your girlfriend",
+        "time": 14.51
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)to come get you.",
+        "time": 16.57
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Uh, I kind of told her I was working.",
+        "time": 17.78
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)So you lied to her.",
+        "time": 20.25
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Also interesting.",
+        "time": 22.08
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Yeah, she doesn't really understand",
+        "time": 23.95
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)the whole Warcraft adventure-role-playing thing.",
+        "time": 25.7
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Well, doesn't matter if she gets it, as long as she's pretty.",
+        "time": 28.65
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)This one's funny, Leonard.",
+        "time": 33.49
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Howard:)How come you couldn't make it work with her?",
+        "time": 35.99
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)So did you at least get Sheldon's fake stuff back?",
+        "time": 39.6
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)No. We failed in our noble quest.",
+        "time": 42.2
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)How come?",
+        "time": 45.5
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Todd Zarnecki was mean.",
+        "time": 46.55
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)All right. Hang on.",
+        "time": 50.11
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)What are you doing?",
+        "time": 51.64
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)I'm gonna show you how we finish a quest in Nebraska.",
+        "time": 53.08
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Oh. Beyonce.",
+        "time": 57.85
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "They were in the car with Penny and friends.",
+        "related_timespan": [
+          0.0,
+          12.4
+        ],
+        "reply_timespan": [
+          0.0,
+          13.4
+        ],
+        "preds": [
+          [
+            7.0,
+            "Then Sheldon sat in the middle of the back seat, the man who was originally driving moved to the passenger seat, and now a woman was driving."
+          ],
+          [
+            13.0,
+            "The people in the car are chatting."
+          ]
+        ],
+        "judge_scores": {
+          "7.0": 1,
+          "13.0": 1
+        }
+      }
+    ],
+    "duration": 62.666666666666664
+  },
+  {
+    "frame": "bbt_frames/s04e07_seg02_clip_10",
+    "video": "bbt_frames=s04e07_seg02_clip_10.mp4",
+    "audio": "bbt_new/bbt_audios/s04e07_seg02_clip_10.mp3",
+    "question_id": "bbt_frames=s04e07_seg02_clip_10.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What did Sheldon say Leonard was on the verge of doing when they first met?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)No.",
+        "time": 0.12
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Page:)Then I'm afraid you can't withdraw it.",
+        "time": 1.99
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)I'm sorry. I don't recall you saying \"no backsies.\"",
+        "time": 5.19
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Page:)Is there anything else?",
+        "time": 10.4
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)Yes. I'd like to offer a laudatory statement",
+        "time": 12.2
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)about Howard's many excellent qualities that I believe",
+        "time": 14.9
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)will tip the scales back in his favor.",
+        "time": 17.01
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"Howard Joel Wolowitz.",
+        "time": 20.04
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"H is for honesty, of which he has much.",
+        "time": 21.58
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"O's for outstanding,",
+        "time": 24.61
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"which he is such.",
+        "time": 26.15
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"W's for witty, he's quick with a joke.",
+        "time": 27.98
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)A's for artistic, his ability... \" I'm sorry.",
+        "time": 30.59
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Page:)Dr. Cooper, this matter is already closed.",
+        "time": 32.84
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)But I still have \"rd Joel Wolowitz\" left to go.",
+        "time": 35.86
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Page:)It's closed.",
+        "time": 39.03
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)I don't understand why you people",
+        "time": 42.35
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)are picking on my friend, Howard,",
+        "time": 43.93
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)when there are much more serious security threats to pursue.",
+        "time": 45.53
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)For instance, when I first met Leonard,",
+        "time": 47.77
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)he was on the verge of giving away",
+        "time": 49.87
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)rocket secrets to a North Korean spy,",
+        "time": 51.71
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Sheldon:)and not one agent ever investigated that.",
+        "time": 53.68
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Page:)This is Leonard Hofstadter?",
+        "time": 57.41
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Giving away rocket secrets to a North Korean spy",
+        "related_timespan": [
+          43.42,
+          53.17
+        ],
+        "reply_timespan": [
+          43.42,
+          54.17
+        ],
+        "preds": [
+          [
+            53.0,
+            "He disclosed rocket secrets to North Korean spies, and he almost gave up, but no one conducted an investigation."
+          ]
+        ],
+        "judge_scores": {
+          "53.0": 1
+        }
+      }
+    ],
+    "duration": 59.666666666666664
+  },
+  {
+    "frame": "bbt_frames/s06e08_seg02_clip_01",
+    "video": "bbt_frames=s06e08_seg02_clip_01.mp4",
+    "audio": "bbt_new/bbt_audios/s06e08_seg02_clip_01.mp3",
+    "question_id": "bbt_frames=s06e08_seg02_clip_01.mp4%Q0",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What is Leonard holding when talking to Penny at the kitchen island?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Say, \"Can't talk right now. Hanging with my boyfriend.",
+        "time": 0.079
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)England sucks, you suck, U.S.A. Number one.\"",
+        "time": 2.749
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Fine. \"Hanging with my boyfriend. Talk to you later.\"",
+        "time": 8.888
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)- Happy? - Yes. Thank you.",
+        "time": 13.893
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)Mm-hm.",
+        "time": 15.528
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Raj:)Huh.",
+        "time": 18.765
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - What did he say? - Nothing.",
+        "time": 23.036
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)What?",
+        "time": 25.438
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"Did your boyfriend make you type that?\"",
+        "time": 27.173
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)I hate this guy.",
+        "time": 37.684
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Don't be like that. - Oh, come on. Trust me, he's hitting on you.",
+        "time": 41.988
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)He's not, we're just friends. Is this gonna be a problem?",
+        "time": 45.558
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)He's supposed to come over tomorrow to work.",
+        "time": 48.361
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Leonard:)Really? Here?",
+        "time": 50.797
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)If it makes you uncomfortable, I'll switch partners even though the thing's due...",
+        "time": 52.131
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Penny:)...and everyone already has a partner and I'll probably end up failing the class.",
+        "time": 56.135
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Leonard is holding a tea bag.",
+        "related_timespan": [
+          0.0,
+          2.4
+        ],
+        "reply_timespan": [
+          0.0,
+          3.4
+        ],
+        "preds": [
+          [
+            1.0,
+            "Holding a green object in hand."
+          ]
+        ],
+        "judge_scores": {
+          "1.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s09e17_seg02_clip_05",
+    "video": "friends_frames=friends_s09e17_seg02_clip_05.mp4",
+    "audio": "friends/friends_audios/friends_s09e17_seg02_clip_05.mp3",
+    "question_id": "friends_frames=friends_s09e17_seg02_clip_05.mp4%Q4",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Chandler do after Ross points at him?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Oh, yeah, this'll show him. Here we go.",
+        "time": 0.739
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)-What are you doing? -Oh, you'll see, my friend!",
+        "time": 3.342
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: l'm dead?",
+        "time": 11.183
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)And so young.",
+        "time": 15.554
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Posting that l died? That really isn't funny.",
+        "time": 18.424
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)Well, how you died was funny.",
+        "time": 22.928
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Oh, please. Hit by a blimp?",
+        "time": 24.597
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: lt kills over one Americans every year.",
+        "time": 28.067
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)Unbelievable. My classmates are gonna think l'm dead.",
+        "time": 32.938
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: My professors. My parents are gonna get phone calls!",
+        "time": 36.408
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You're messing with people's feelings here.",
+        "time": 39.645
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You wanna talk about people's feelings? You should have heard how hurt...",
+        "time": 41.881
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...Professor Stern was when l told him l wouldn't be able to go to Key West!",
+        "time": 45.618
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You've really crossed a line here. But that's okay.",
+        "time": 50.556
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Because l'm on my way to buy some Photoshop software...",
+        "time": 53.592
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)...and a stack of gay porn.",
+        "time": 56.562
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "He stands up from the couch. ",
+        "related_timespan": [
+          21.5,
+          28.48
+        ],
+        "reply_timespan": [
+          21.5,
+          29.48
+        ],
+        "preds": [
+          [
+            25.0,
+            "After pointing at him, Chandler argued with him, asking why he said Ross was dead."
+          ]
+        ],
+        "judge_scores": {
+          "25.0": 0
+        }
+      }
+    ],
+    "duration": 58.666666666666664
+  },
+  {
+    "frame": "friends_frames/friends_s01e10_seg02_clip_05",
+    "video": "friends_frames=friends_s01e10_seg02_clip_05.mp4",
+    "audio": "friends/friends_audios/friends_s01e10_seg02_clip_05.mp3",
+    "question_id": "friends_frames=friends_s01e10_seg02_clip_05.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How was Phoebe going to break the pact before the party? ",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I see. You're gonna ask him to New Year's.",
+        "time": 0.226
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)-She's gonna break the pact. -No! No, no.",
+        "time": 3.496
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Phoebe:)No. Yeah, could I just?",
+        "time": 7.767
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: -Yeah. I already asked Janice. -What?",
+        "time": 12.672
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ross:)This was a pact! This was your pact!",
+        "time": 15.708
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)I couldn't handle the pressure. I snapped!",
+        "time": 18.645
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: But that was the worst breakup in history!",
+        "time": 21.481
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)I'm not saying it was a good idea. I snapped!",
+        "time": 24.717
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)Hi, sorry I'm late.",
+        "time": 29.489
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)Too many jokes.",
+        "time": 40.867
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chandler:)Must mock Joey.",
+        "time": 44.204
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)Nice shoes, huh?",
+        "time": 48.074
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: God, you're killing me!",
+        "time": 50.91
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Monica:)Ross, he's playing with my spatulas again!",
+        "time": 54.781
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Phoebe was going to ask a guy to the party. ",
+        "related_timespan": [
+          0.0,
+          11.9
+        ],
+        "reply_timespan": [
+          0.0,
+          12.9
+        ],
+        "preds": [
+          [
+            2.0,
+            "She plans to invite him to celebrate the New Year."
+          ]
+        ],
+        "judge_scores": {
+          "2.0": 1
+        }
+      }
+    ],
+    "duration": 58.666666666666664
+  },
+  {
+    "frame": "grey_frames/grey_s03e24_seg02_clip_20",
+    "video": "grey_frames=grey_s03e24_seg02_clip_20.mp4",
+    "audio": "grey/grey_audios/grey_s03e24_seg02_clip_20.mp3",
+    "question_id": "grey_frames=grey_s03e24_seg02_clip_20.mp4%Q0",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How did Alex react after he was told it would be the patient's words against his?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It will be my word against yours.",
+        "time": 0.693
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Alex:)You're right. I have absolutely no idea who you are.",
+        "time": 4.3629999999999995
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)You paged me?",
+        "time": 16.408
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Yeah. I think I figured out a way to help Meredith,",
+        "time": 17.543
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)but I've got Shepherd's post-op and I can't do it without your help.",
+        "time": 20.179
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (George:)And I won't leave the program without knowing that she's still in it.",
+        "time": 24.216
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)You're not leaving the program.",
+        "time": 32.591
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)Listen, we made a mistake.",
+        "time": 34.793
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: We had sex. But that's all it was.",
+        "time": 37.596
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)We both wanted it to mean something",
+        "time": 41.834
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: because... you didn't want to feel like that guy that cheats on his wife.",
+        "time": 43.836
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: I didn't want to feel like that girl that put you in that position.",
+        "time": 47.973
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)But the truth is, it didn't mean anything.",
+        "time": 51.443
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)I know you think I have feelings for you, but I don't.",
+        "time": 57.149
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Izzie:)So you can stay. You're not leaving the program.",
+        "time": 62.688
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "He said, \"I don't even know who you are anymore,\" and left the room.",
+        "related_timespan": [
+          0.0,
+          12.5
+        ],
+        "reply_timespan": [
+          0.0,
+          13.5
+        ],
+        "preds": [
+          [
+            6.0,
+            "He said she was right; he had no idea who she was."
+          ]
+        ],
+        "judge_scores": {
+          "6.0": 1
+        }
+      }
+    ],
+    "duration": 100.66666666666667
+  },
+  {
+    "frame": "castle_frames/castle_s03e22_seg02_clip_02",
+    "video": "castle_frames=castle_s03e22_seg02_clip_02.mp4",
+    "audio": "castle/castle_audios/castle_s03e22_seg02_clip_02.mp3",
+    "question_id": "castle_frames=castle_s03e22_seg02_clip_02.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Montgomery respond to castle after he asked,who flies in for that short a stay?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)There couldn't have been that many.",
+        "time": 0.175
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And specifically focus on the people",
+        "time": 1.377
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)who might have bought tickets last minute.",
+        "time": 2.778
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Right.",
+        "time": 4.213
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)What were you into, Mike?",
+        "time": 7.182
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Okay, so we got five flights out of LA that meet our criteria.",
+        "time": 9.318
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)I ran all the passengers and one name popped.",
+        "time": 12.154
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Neil McCauley.",
+        "time": 15.19
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Bought his ticket at the airport an hour before the flight.",
+        "time": 16.825
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)His identity is brand new.",
+        "time": 19.161
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)No credit history and his driver's license number is a fake.",
+        "time": 22.097
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Neil McCauley. Really?",
+        "time": 24.833
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Why?",
+        "time": 26.368
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)That's our guy.",
+        "time": 30.572
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)Well, if it is, you're going to need to get on a plane.",
+        "time": 31.84
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Ryan:)'Cause Mr. McCauley flew back to LA two hours after Royce was shot.",
+        "time": 34.443
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)You have no solid evidence linking Neil McCauley to this murder.",
+        "time": 39.515
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)He came to New York for six hours.",
+        "time": 42.885
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Who flies in for that short a stay?",
+        "time": 44.753
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)Businessmen do it all the time.",
+        "time": 46.388
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Businessmen don't use false IDs.",
+        "time": 47.723
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Or pack a silencer?",
+        "time": 49.024
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)That's supposition. I need a lot more than that",
+        "time": 50.392
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)to justify flying a detective across the country.",
+        "time": 52.094
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You and I both know that the longer I wait to go out there,",
+        "time": 54.263
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)the colder this trail gets.",
+        "time": 57.299
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)Take a day, shore this up,",
+        "time": 58.901
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)and if there's sufficient evidence, I'll contact LAPD.",
+        "time": 60.602
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You'll contact the LAPD? This is my case.",
+        "time": 62.938
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)This happened in our jurisdiction.",
+        "time": 65.24
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)You think the LAPD is going to lift a finger?",
+        "time": 67.209
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)Kate, you're too close to this!",
+        "time": 69.478
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)No, sir, I am committed. I am not compromised.",
+        "time": 70.612
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)You're torn up!",
+        "time": 73.816
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)Kate, things between you and Royce ended badly. I get it.",
+        "time": 79.755
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)But that emotion is exactly why I need to assign this to someone else.",
+        "time": 85.127
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Montgomery says, Businessman do it all the time.",
+        "related_timespan": [
+          44.19,
+          49.36
+        ],
+        "reply_timespan": [
+          44.19,
+          50.36
+        ],
+        "preds": [
+          [
+            48.0,
+            "He said that merchants have always done this."
+          ]
+        ],
+        "judge_scores": {
+          "48.0": 1
+        }
+      }
+    ],
+    "duration": 94.66666666666667
+  },
+  {
+    "frame": "house_frames/house_s04e01_seg02_clip_15",
+    "video": "house_frames=house_s04e01_seg02_clip_15.mp4",
+    "audio": "house/house_audios/house_s04e01_seg02_clip_15.mp3",
+    "question_id": "house_frames=house_s04e01_seg02_clip_15.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why does Wilson say he thought it would be fun before House seems upset?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)I thought this was gonna be fun.",
+        "time": 0.831
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)I mess with you, you mess with me, eventually you give in.",
+        "time": 2.199
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)But you've shown a startling lack of humor, which got me thinking.",
+        "time": 7.671
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Megan Bradberry:)Oh, God.",
+        "time": 12.009
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)What's the real reason you won't hire a team?",
+        "time": 13.177
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)I told you. I don't need a team.",
+        "time": 15.679
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)Then hire three people and let them sit on their asses.",
+        "time": 17.448
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)That wouldn't be right.",
+        "time": 19.517
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)Three years ago, you hired a team. What's changed?",
+        "time": 20.618
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)I've become a man of principle. I've gotten smarter.",
+        "time": 23.254
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)What answer will make Socrates shut up?",
+        "time": 26.891
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)What's changed is, you hired a team.",
+        "time": 28.692
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)You connected with a team, you worked with a team",
+        "time": 31.529
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)and you lost a team.",
+        "time": 34.298
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Damn.",
+        "time": 36.934
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)There's no abnormalities in her pancreas.",
+        "time": 38.202
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)You fall in love. You get married. 50% chance it'll end in misery.",
+        "time": 40.404
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)Hiring employees can be even tougher,",
+        "time": 44.875
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)because you know, eventually, they're gonna leave.",
+        "time": 46.71
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)There's increased T2 signal on her hepatic capsule,",
+        "time": 49.48
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)if you know what I mean.",
+        "time": 52.75
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (James Wilson:)You got hurt. Get over it.",
+        "time": 55.819
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Now, if you'll excuse me,",
+        "time": 61.926
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: my patient's about to start bleeding out of her mouth and anus.",
+        "time": 63.227
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lisa Cuddy:)Internal bleeding.",
+        "time": 78.676
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Not anymore. Now it's all over the place.",
+        "time": 81.111
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)Why are you here?",
+        "time": 84.114
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Greg House:)That's my patient down there.",
+        "time": 86.25
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "He likes to mess with House",
+        "related_timespan": [
+          0.0,
+          11.88
+        ],
+        "reply_timespan": [
+          0.0,
+          12.88
+        ],
+        "preds": [
+          [
+            5.0,
+            "Because House will eventually compromise."
+          ],
+          [
+            10.0,
+            "House exhibited a shocking lack of humor, which made him start to think."
+          ]
+        ],
+        "judge_scores": {
+          "5.0": 1,
+          "10.0": 1
+        }
+      }
+    ],
+    "duration": 88.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s06e15-16_seg02_clip_10",
+    "video": "friends_frames=friends_s06e15-16_seg02_clip_10.mp4",
+    "audio": "friends/friends_audios/friends_s06e15-16_seg02_clip_10.mp3",
+    "question_id": "friends_frames=friends_s06e15-16_seg02_clip_10.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Joey tell Chandler to do before he leaves the room?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)-Is she gonna be all right? -Yeah, she's in there.",
+        "time": 0.472
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)Oh, great.",
+        "time": 2.908
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)Go take off those pants. They look ready.",
+        "time": 5.243
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: And over there is Brady's Pub...",
+        "time": 13.652
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)where I like to unwind after a long day of \"surgeoning.\"",
+        "time": 15.787
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)This is so amazing. What else?",
+        "time": 18.957
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)Well, that is a large piece of television equipment.",
+        "time": 21.893
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)And that is an old man.",
+        "time": 25.163
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)-Hey, old man! -Hey.",
+        "time": 27.132
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Alrighty. What do you say we head back to my place?",
+        "time": 28.9
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You know, I would really love to, but I shouldn't.",
+        "time": 32.938
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Why? Why can't the world stop turning...",
+        "time": 38.109
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)just for a moment, just for us?",
+        "time": 43.748
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Isn't that a line from the show?",
+        "time": 48.453
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Rachel:)Yeah, but...",
+        "time": 52.524
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)I may have said those things before, but...",
+        "time": 54.526
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)I never truly meant them until now.",
+        "time": 57.662
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Joey tells Chandler to take off his pants.",
+        "related_timespan": [
+          0.0,
+          12.92
+        ],
+        "reply_timespan": [
+          0.0,
+          13.92
+        ],
+        "preds": [
+          [
+            7.0,
+            "Joey told him to take off his pants quickly."
+          ]
+        ],
+        "judge_scores": {
+          "7.0": 2
+        }
+      }
+    ],
+    "duration": 63.666666666666664
+  },
+  {
+    "frame": "castle_frames/castle_s03e05_seg02_clip_18",
+    "video": "castle_frames=castle_s03e05_seg02_clip_18.mp4",
+    "audio": "castle/castle_audios/castle_s03e05_seg02_clip_18.mp3",
+    "question_id": "castle_frames=castle_s03e05_seg02_clip_18.mp4%Q1",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "What does Castle find after Beckett says maybe they'll catch a break?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Well, sir, we think that an accomplice was helping him out.",
+        "time": 0.011
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)So, we're looking into known associates",
+        "time": 3.081
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)and we've also got a team out at Greg's apartment",
+        "time": 4.349
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)looking to see if they can find any leads.",
+        "time": 6.918
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)We're also monitoring his credit cards",
+        "time": 8.753
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)and we've issued APBs for the Tri-State area,",
+        "time": 10.422
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)but given all of the planning,",
+        "time": 12.29
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)they probably already had an escape route planned.",
+        "time": 13.425
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)But, if we're lucky, we'll catch a break.",
+        "time": 16.594
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)I think we just did.",
+        "time": 18.697
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Greg's letters to Amy.",
+        "time": 22.3
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)If they'd been planning this for a long time,",
+        "time": 23.935
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)there's gotta be a clue in the letters.",
+        "time": 25.47
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Montgomery:)Call the crew over at Greg's. If we can find Amy's letters to Greg,",
+        "time": 26.971
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - then we'll have a full set. - Yes, sir.",
+        "time": 29.34
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: And these are just love notes.",
+        "time": 32.644
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)There's nothing in here about the escape.",
+        "time": 34.145
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Well, then we have to look at these like a romance novel,",
+        "time": 36.047
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)not a murder mystery.",
+        "time": 38.483
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)These people are baring their souls in these letters.",
+        "time": 39.617
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)And if we're lucky, we'll find our Zihuatanejo.",
+        "time": 42.153
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)No, I know what it is.",
+        "time": 48.493
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)I'm a cop. I've seen the movie.",
+        "time": 50.495
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: It's just there's nothing about that in here.",
+        "time": 53.164
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)The only thing that Amy talks about is being innocent of the crime",
+        "time": 55.4
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)she was convicted of, and how much she misses Greg.",
+        "time": 58.336
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)Yeah, it's pretty clear Greg misses her, too. Listen to this.",
+        "time": 60.872
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)\"The days without you grow longer, but my love for you grows...\"",
+        "time": 63.675
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Stronger?",
+        "time": 67.846
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"...harder.\"",
+        "time": 69.013
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)A poet he's not.",
+        "time": 70.982
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Yeah, well not everyone is a best-selling crime novelist.",
+        "time": 72.117
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)And it doesn't mean that their love was any less.",
+        "time": 75.22
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)Listen to what she wrote to him.",
+        "time": 77.288
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Beckett:)\"I can't bear to see you suffer.",
+        "time": 79.958
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"Make a new life with someone else. Just be happy.",
+        "time": 82.193
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: \"If anyone deserves it, it's you.\"",
+        "time": 85.196
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Castle:)I think I have his response to that.",
+        "time": 87.398
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Castle finds a stack of Greg's letters to Amy.",
+        "related_timespan": [
+          15.93,
+          26.4
+        ],
+        "reply_timespan": [
+          15.93,
+          27.4
+        ],
+        "preds": [
+          [
+            24.0,
+            "A letter from Greg to Amy."
+          ],
+          [
+            27.0,
+            "There must be a clue in the letter."
+          ]
+        ],
+        "judge_scores": {
+          "24.0": 1,
+          "27.0": 1
+        }
+      }
+    ],
+    "duration": 91.66666666666667
+  },
+  {
+    "frame": "friends_frames/friends_s03e20_seg02_clip_16",
+    "video": "friends_frames=friends_s03e20_seg02_clip_16.mp4",
+    "audio": "friends/friends_audios/friends_s03e20_seg02_clip_16.mp3",
+    "question_id": "friends_frames=friends_s03e20_seg02_clip_16.mp4%Q5",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Where does Lauren go after she comes into the auditorium?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)About what happened with us.",
+        "time": 0.223
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No, and there's really no reason why he should find out.",
+        "time": 3.693
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: So let's not make a big deal out of it, okay?",
+        "time": 8.831
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)What are you talking about?",
+        "time": 13.536
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)It was a big deal.",
+        "time": 15.671
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: You can't tell me last night didn't mean something to you.",
+        "time": 19.175
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Joey:)I was there. You're not that good an actress.",
+        "time": 22.578
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Kate:)I was just caught up in the moment.",
+        "time": 27.483
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: That's all it was.",
+        "time": 31.187
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Joey, I'm sorry you feel bad, but...",
+        "time": 34.09
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: ...haven't you slept with a woman where it meant more to her than it did to you?",
+        "time": 37.226
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No.",
+        "time": 41.13
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Lauren:)- Hi, Kate. - Hi, Lauren.",
+        "time": 44.233
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Kate:)- Hi, Lauren. - Hi, pig!",
+        "time": 47.937
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: - Sorry I scared you in there. - It's okay.",
+        "time": 55.244
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Lauren goes over to the coffee table.",
+        "related_timespan": [
+          43.52,
+          51.32
+        ],
+        "reply_timespan": [
+          43.52,
+          52.32
+        ],
+        "preds": [
+          [
+            51.0,
+            "She came to the desk."
+          ]
+        ],
+        "judge_scores": {
+          "51.0": 1
+        }
+      }
+    ],
+    "duration": 60.666666666666664
+  },
+  {
+    "frame": "house_frames/house_s08e05_seg02_clip_25",
+    "video": "house_frames=house_s08e05_seg02_clip_25.mp4",
+    "audio": "house/house_audios/house_s08e05_seg02_clip_25.mp3",
+    "question_id": "house_frames=house_s08e05_seg02_clip_25.mp4%Q2",
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Why is Foreman using the regular doctor's locker room after Chase asks him why he's up here when he has his own office and bathroom?",
+        "time": 0
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Denise:)I knew you could never do that to me.",
+        "time": 0.854
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Denise:)I don't know how, but I knew.",
+        "time": 3.189
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)Glad to see taking a year off didn't dull your skill set.",
+        "time": 22.876
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)I got lucky.",
+        "time": 25.779
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)About the other night",
+        "time": 29.582
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)I have enough problems with this job.",
+        "time": 31.551
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Second guessing my best doctors shouldn't be one of them.",
+        "time": 34.054
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)Why are you up here?",
+        "time": 40.126
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)You have your own bathroom and office now.",
+        "time": 41.561
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: To shower. I haven't left the hospital in four days.",
+        "time": 43.296
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Why?",
+        "time": 47.634
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)House won't go home and there's no way",
+        "time": 49.069
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)I'm leaving him here unsupervised.",
+        "time": 50.837
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)House is screwing with you.",
+        "time": 61.247
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)By not screwing with you.",
+        "time": 64.617
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)He's watching TV and drinking martinis all night.",
+        "time": 67.153
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: Meanwhile, he's keeping you here",
+        "time": 70.79
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)searching for a plan that doesn't even exist.",
+        "time": 72.525
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)How the hell did I not see that?",
+        "time": 75.261
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Foreman:)I'm glad you're back.",
+        "time": 87.507
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)Me, too.",
+        "time": 90.81
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Chase:)Either a hot tub or a sauna.",
+        "time": 103.456
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Park:)A hot tub would be cool.",
+        "time": 106.192
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)New team, old team,",
+        "time": 109.129
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)I present phase one",
+        "time": 112.332
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)of operation Outer Office 2.0.",
+        "time": 115.702
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (Adams:)Nothing's changed.",
+        "time": 128.148
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: (House:)Oh, everything has changed.",
+        "time": 132.485
+      },
+      {
+        "role": "user",
+        "content": "Subtitle: No.",
+        "time": 159.846
+      }
+    ],
+    "answer": [
+      {
+        "role": "assistant",
+        "content": "Foreman needs to take a shower because he's been at the hospital nonstop for four days babysitting House.",
+        "related_timespan": [
+          39.45,
+          53.94
+        ],
+        "reply_timespan": [
+          39.45,
+          54.94
+        ],
+        "preds": [
+          [
+            46.0,
+            "Because he needs to take a shower. He hasn't left the hospital for four days."
+          ]
+        ],
+        "judge_scores": {
+          "46.0": 2
+        }
+      }
+    ],
+    "duration": 161.66666666666666
+  }
+]
