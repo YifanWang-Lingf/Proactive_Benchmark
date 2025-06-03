@@ -1,0 +1,2 @@
+Namespace(src_video_folder='/share3/public_share/Ego4D/v2/360_sec-clip_540ss_6fps', dest_frame_folder='/share3/wangyq/resources/proactive_benchmark_frames/ego4d_goalstep-1fps-grp', anno_fname='/share2/wangyq/projects/online_videollm/proactive_benchmark/qa_generate/outputs/ego4d_goalstep/0502_version-anno.json', start_idx=0, end_idx=1000000000, fps=1.0, num_workers=5)
+videos: 87
