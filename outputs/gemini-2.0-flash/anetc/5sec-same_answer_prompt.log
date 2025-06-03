@@ -1,199 +1,0 @@
-Namespace(llm_pretrained='gemini-2.0-flash', input_dir='/var/www/html/proactive_benchmark_frames/anetc-1fps', test_fname='data/anetc/0502_version-anno.json', output_fname='outputs/gemini-2.0-flash/anetc/5sec-same_answer_prompt.jsonl', frame_fps=1.0, frame_resolution=None, video_chunk_sec=5, need_judge_answerable=1, start_idx=0, end_idx=100)
-  0%|          | 0/100 [00:00<?, ?it/s]question v_hiVs1hNyPpw.mp4 0 5 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 5 10 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 10 15 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 15 20 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 20 25 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 25 30 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 30 35 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 35 40 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 40 45 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 45 50 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 50 55 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 55 60 has been tested, skipping
-question v_hiVs1hNyPpw.mp4 60 64.55 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 0 5 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 5 10 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 10 15 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 15 20 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 20 25 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 25 30 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 30 35 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 35 40 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 40 45 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 45 50 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 50 55 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 55 60 has been tested, skipping
-question v_PxGggNnMGtQ.mp4 60 63.5 has been tested, skipping
-question v_cxDPCkefl1A.mp4 0 5 has been tested, skipping
-question v_cxDPCkefl1A.mp4 5 10 has been tested, skipping
-question v_cxDPCkefl1A.mp4 10 15 has been tested, skipping
-question v_cxDPCkefl1A.mp4 15 20 has been tested, skipping
-question v_cxDPCkefl1A.mp4 20 25 has been tested, skipping
-question v_cxDPCkefl1A.mp4 25 30 has been tested, skipping
-question v_cxDPCkefl1A.mp4 30 35 has been tested, skipping
-question v_cxDPCkefl1A.mp4 35 40 has been tested, skipping
-question v_cxDPCkefl1A.mp4 40 45 has been tested, skipping
-question v_cxDPCkefl1A.mp4 45 50 has been tested, skipping
-question v_cxDPCkefl1A.mp4 50 55 has been tested, skipping
-question v_cxDPCkefl1A.mp4 55 60 has been tested, skipping
-question v_cxDPCkefl1A.mp4 60 65 has been tested, skipping
-question v_cxDPCkefl1A.mp4 65 70 has been tested, skipping
-question v_cxDPCkefl1A.mp4 70 73.85 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 0 5 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 5 10 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 10 15 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 15 20 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 20 25 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 25 30 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 30 35 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 35 40 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 40 45 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 45 50 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 50 55 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 55 60 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 60 65 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 65 70 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 70 75 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 75 80 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 80 85 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 85 90 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 90 95 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 95 100 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 100 105 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 105 110 has been tested, skipping
-question v_9bERRZ2eTbo.mp4 110 113.89 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 0 5 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 5 10 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 10 15 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 15 20 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 20 25 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 25 30 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 30 35 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 35 40 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 40 45 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 45 50 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 50 55 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 55 60 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 60 65 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 65 70 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 70 75 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 75 80 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 80 85 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 85 90 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 90 95 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 95 100 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 100 105 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 105 110 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 110 115 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 115 120 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 120 125 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 125 130 has been tested, skipping
-question v_WuO75Sb0Kgg.mp4 130 135 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 0 5 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 5 10 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 10 15 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 15 20 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 20 25 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 25 30 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 30 35 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 35 40 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 40 45 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 45 50 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 50 55 has been tested, skipping
-question v_0NgQr2-AieQ.mp4 55 59.05 has been tested, skipping
-question v_iHO42zwYsu0.mp4 0 5 has been tested, skipping
-question v_iHO42zwYsu0.mp4 5 10 has been tested, skipping
-question v_iHO42zwYsu0.mp4 10 15 has been tested, skipping
-question v_iHO42zwYsu0.mp4 15 20 has been tested, skipping
-question v_iHO42zwYsu0.mp4 20 25 has been tested, skipping
-question v_iHO42zwYsu0.mp4 25 30 has been tested, skipping
-question v_iHO42zwYsu0.mp4 30 35 has been tested, skipping
-question v_iHO42zwYsu0.mp4 35 40 has been tested, skipping
-question v_iHO42zwYsu0.mp4 40 45 has been tested, skipping
-question v_iHO42zwYsu0.mp4 45 50 has been tested, skipping
-question v_iHO42zwYsu0.mp4 50 55 has been tested, skipping
-question v_iHO42zwYsu0.mp4 55 60 has been tested, skipping
-question v_iHO42zwYsu0.mp4 60 65 has been tested, skipping
-question v_iHO42zwYsu0.mp4 65 70 has been tested, skipping
-question v_iHO42zwYsu0.mp4 70 75 has been tested, skipping
-question v_iHO42zwYsu0.mp4 75 80 has been tested, skipping
-question v_iHO42zwYsu0.mp4 80 85 has been tested, skipping
-question v_iHO42zwYsu0.mp4 85 90 has been tested, skipping
-question v_iHO42zwYsu0.mp4 90 95 has been tested, skipping
-question v_iHO42zwYsu0.mp4 95 100 has been tested, skipping
-question v_iHO42zwYsu0.mp4 100 105 has been tested, skipping
-question v_iHO42zwYsu0.mp4 105 110 has been tested, skipping
-question v_iHO42zwYsu0.mp4 110 115 has been tested, skipping
-question v_iHO42zwYsu0.mp4 115 120 has been tested, skipping
-question v_iHO42zwYsu0.mp4 120 125 has been tested, skipping
-question v_iHO42zwYsu0.mp4 125 130 has been tested, skipping
-question v_iHO42zwYsu0.mp4 130 135 has been tested, skipping
-question v_iHO42zwYsu0.mp4 135 140 has been tested, skipping
-question v_iHO42zwYsu0.mp4 140 142.71 has been tested, skipping
-question v_qVqlImNflY8.mp4 0 5 has been tested, skipping
-question v_qVqlImNflY8.mp4 5 10 has been tested, skipping
-question v_qVqlImNflY8.mp4 10 15 has been tested, skipping
-question v_qVqlImNflY8.mp4 15 20 has been tested, skipping
-question v_qVqlImNflY8.mp4 20 25 has been tested, skipping
-question v_qVqlImNflY8.mp4 25 30 has been tested, skipping
-question v_qVqlImNflY8.mp4 30 35 has been tested, skipping
-question v_qVqlImNflY8.mp4 35 40 has been tested, skipping
-question v_qVqlImNflY8.mp4 40 45 has been tested, skipping
-question v_qVqlImNflY8.mp4 45 50 has been tested, skipping
-question v_qVqlImNflY8.mp4 50 55 has been tested, skipping
-question v_qVqlImNflY8.mp4 55 60 has been tested, skipping
-question v_qVqlImNflY8.mp4 60 65 has been tested, skipping
-question v_qVqlImNflY8.mp4 65 70 has been tested, skipping
-question v_qVqlImNflY8.mp4 70 75 has been tested, skipping
-question v_qVqlImNflY8.mp4 75 80 has been tested, skipping
-question v_qVqlImNflY8.mp4 80 85 has been tested, skipping
-question v_qVqlImNflY8.mp4 85 90 has been tested, skipping
-question v_qVqlImNflY8.mp4 90 95 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 0 5 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 5 10 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 10 15 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 15 20 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 20 25 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 25 30 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 30 35 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 35 40 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 40 45 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 45 50 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 50 55 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 55 60 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 60 65 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 65 70 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 70 75 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 75 80 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 80 85 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 85 90 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 90 95 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 95 100 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 100 105 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 105 110 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 110 115 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 115 120 has been tested, skipping
-question v_8FSKFy1tPQc.mp4 120 123.02 has been tested, skipping
-question v_CdjU2OZri4c.mp4 0 5 has been tested, skipping
-question v_CdjU2OZri4c.mp4 5 10 has been tested, skipping
-question v_CdjU2OZri4c.mp4 10 15 has been tested, skipping
-question v_CdjU2OZri4c.mp4 15 20 has been tested, skipping
-question v_CdjU2OZri4c.mp4 20 25 has been tested, skipping
-question v_CdjU2OZri4c.mp4 25 30 has been tested, skipping
-question v_CdjU2OZri4c.mp4 30 35 has been tested, skipping
-question v_CdjU2OZri4c.mp4 35 40 has been tested, skipping
-question v_CdjU2OZri4c.mp4 40 45 has been tested, skipping
-question v_CdjU2OZri4c.mp4 45 50 has been tested, skipping
-question v_CdjU2OZri4c.mp4 50 55 has been tested, skipping
-question v_CdjU2OZri4c.mp4 55 60 has been tested, skipping
-question v_CdjU2OZri4c.mp4 60 65 has been tested, skipping
-question v_CdjU2OZri4c.mp4 65 70 has been tested, skipping
-question v_CdjU2OZri4c.mp4 70 75 has been tested, skipping
-question v_CdjU2OZri4c.mp4 75 80 has been tested, skipping
-question v_CdjU2OZri4c.mp4 80 85 has been tested, skipping
-question v_CdjU2OZri4c.mp4 85 90 has been tested, skipping
-question v_CdjU2OZri4c.mp4 90 95 has been tested, skipping
-question v_CdjU2OZri4c.mp4 95 100 has been tested, skipping
-question v_CdjU2OZri4c.mp4 100 104.89 has been tested, skipping
- 11%|█         | 11/100 [00:52<07:07,  4.80s/it] 12%|█▏        | 12/100 [01:10<09:13,  6.29s/it] 13%|█▎        | 13/100 [01:44<14:47, 10.20s/it] 14%|█▍        | 14/100 [01:54<14:39, 10.22s/it] 15%|█▌        | 15/100 [02:17<17:50, 12.59s/it] 16%|█▌        | 16/100 [02:36<19:36, 14.01s/it] 17%|█▋        | 17/100 [03:25<30:50, 22.30s/it] 18%|█▊        | 18/100 [04:24<43:13, 31.63s/it] 19%|█▉        | 19/100 [05:03<45:14, 33.51s/it] 20%|██        | 20/100 [05:31<42:27, 31.85s/it] 21%|██        | 21/100 [06:28<51:22, 39.02s/it] 22%|██▏       | 22/100 [07:25<57:28, 44.21s/it] 23%|██▎       | 23/100 [07:41<46:16, 36.06s/it] 24%|██▍       | 24/100 [08:34<51:55, 41.00s/it] 25%|██▌       | 25/100 [09:23<54:05, 43.27s/it] 26%|██▌       | 26/100 [10:03<52:15, 42.37s/it] 27%|██▋       | 27/100 [10:54<54:36, 44.89s/it] 28%|██▊       | 28/100 [11:12<44:22, 36.98s/it] 29%|██▉       | 29/100 [11:22<33:59, 28.72s/it] 30%|███       | 30/100 [11:31<26:39, 22.86s/it] 31%|███       | 31/100 [12:02<29:02, 25.26s/it] 32%|███▏      | 32/100 [12:51<36:48, 32.48s/it] 33%|███▎      | 33/100 [13:24<36:32, 32.72s/it] 34%|███▍      | 34/100 [14:01<37:20, 33.95s/it] 35%|███▌      | 35/100 [14:05<27:06, 25.02s/it] 36%|███▌      | 36/100 [14:31<26:50, 25.16s/it] 37%|███▋      | 37/100 [15:35<38:36, 36.76s/it] 38%|███▊      | 38/100 [16:19<40:21, 39.06s/it] 39%|███▉      | 39/100 [16:35<32:41, 32.16s/it] 40%|████      | 40/100 [17:24<37:12, 37.20s/it] 41%|████      | 41/100 [17:46<32:10, 32.72s/it] 42%|████▏     | 42/100 [18:16<30:52, 31.94s/it] 43%|████▎     | 43/100 [18:26<24:01, 25.29s/it] 44%|████▍     | 44/100 [19:11<29:12, 31.29s/it] 45%|████▌     | 45/100 [19:29<25:00, 27.28s/it] 46%|████▌     | 46/100 [19:34<18:33, 20.61s/it] 47%|████▋     | 47/100 [20:14<23:21, 26.45s/it] 48%|████▊     | 48/100 [20:37<21:54, 25.28s/it] 49%|████▉     | 49/100 [21:12<24:00, 28.25s/it] 50%|█████     | 50/100 [22:15<32:14, 38.69s/it] 51%|█████     | 51/100 [23:14<36:36, 44.82s/it] 52%|█████▏    | 52/100 [23:48<33:16, 41.60s/it] 53%|█████▎    | 53/100 [24:00<25:30, 32.56s/it] 54%|█████▍    | 54/100 [24:12<20:21, 26.56s/it] 55%|█████▌    | 55/100 [24:17<14:58, 19.97s/it] 56%|█████▌    | 56/100 [24:32<13:29, 18.40s/it] 57%|█████▋    | 57/100 [24:56<14:20, 20.01s/it] 58%|█████▊    | 58/100 [25:46<20:23, 29.13s/it] 59%|█████▉    | 59/100 [26:39<24:48, 36.30s/it] 60%|██████    | 60/100 [26:54<19:52, 29.81s/it] 61%|██████    | 61/100 [27:51<24:48, 38.18s/it] 62%|██████▏   | 62/100 [28:16<21:40, 34.23s/it] 63%|██████▎   | 63/100 [28:55<21:58, 35.64s/it] 64%|██████▍   | 64/100 [29:37<22:25, 37.37s/it] 65%|██████▌   | 65/100 [30:00<19:20, 33.15s/it] 66%|██████▌   | 66/100 [30:18<16:14, 28.66s/it] 67%|██████▋   | 67/100 [30:59<17:46, 32.32s/it] 68%|██████▊   | 68/100 [31:50<20:16, 38.02s/it] 69%|██████▉   | 69/100 [32:52<23:18, 45.10s/it] 70%|███████   | 70/100 [33:06<17:51, 35.72s/it] 71%|███████   | 71/100 [33:13<13:03, 27.03s/it] 72%|███████▏  | 72/100 [33:56<14:56, 32.00s/it] 73%|███████▎  | 73/100 [34:57<18:17, 40.63s/it] 74%|███████▍  | 74/100 [35:18<15:03, 34.77s/it] 75%|███████▌  | 75/100 [36:18<17:37, 42.29s/it] 76%|███████▌  | 76/100 [36:25<12:40, 31.68s/it] 77%|███████▋  | 77/100 [37:19<14:43, 38.40s/it] 78%|███████▊  | 78/100 [38:10<15:26, 42.10s/it] 79%|███████▉  | 79/100 [38:36<13:05, 37.40s/it] 80%|████████  | 80/100 [38:39<08:59, 26.97s/it] 81%|████████  | 81/100 [39:26<10:30, 33.18s/it] 82%|████████▏ | 82/100 [39:42<08:23, 27.98s/it] 83%|████████▎ | 83/100 [40:03<07:17, 25.73s/it] 84%|████████▍ | 84/100 [40:28<06:47, 25.47s/it] 85%|████████▌ | 85/100 [40:39<05:19, 21.31s/it] 86%|████████▌ | 86/100 [41:41<07:49, 33.50s/it] 87%|████████▋ | 87/100 [42:36<08:37, 39.82s/it] 88%|████████▊ | 88/100 [42:45<06:07, 30.62s/it] 89%|████████▉ | 89/100 [43:21<05:54, 32.19s/it] 90%|█████████ | 90/100 [43:37<04:34, 27.42s/it] 91%|█████████ | 91/100 [43:44<03:10, 21.22s/it] 92%|█████████▏| 92/100 [44:33<03:56, 29.57s/it] 93%|█████████▎| 93/100 [44:37<02:33, 21.93s/it] 94%|█████████▍| 94/100 [45:11<02:33, 25.66s/it] 95%|█████████▌| 95/100 [46:09<02:56, 35.36s/it] 96%|█████████▌| 96/100 [47:03<02:42, 40.75s/it] 97%|█████████▋| 97/100 [47:23<01:44, 34.77s/it] 98%|█████████▊| 98/100 [47:44<01:00, 30.44s/it] 99%|█████████▉| 99/100 [48:35<00:36, 36.64s/it]100%|██████████| 100/100 [49:32<00:00, 42.76s/it]100%|██████████| 100/100 [49:32<00:00, 29.72s/it]

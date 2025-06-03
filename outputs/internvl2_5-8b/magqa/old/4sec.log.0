@@ -1,944 +1,0 @@
-/share2/wangyq/miniconda3_2558/envs/videollm-online/lib/python3.10/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
-  warnings.warn(
-ClipTestArguments(
-_n_gpu=1,
-accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None, 'use_configured_state': False},
-adafactor=False,
-adam_beta1=0.9,
-adam_beta2=0.999,
-adam_epsilon=1e-08,
-attn_implementation=flash_attention_2,
-augmentation=False,
-auto_find_batch_size=False,
-average_tokens_across_devices=False,
-batch_eval_metrics=False,
-bf16=True,
-bf16_full_eval=False,
-consecutive_n_frames_threshold=1,
-data_seed=None,
-dataloader_drop_last=False,
-dataloader_num_workers=0,
-dataloader_persistent_workers=False,
-dataloader_pin_memory=True,
-dataloader_prefetch_factor=None,
-dataset_config=None,
-ddp_backend=None,
-ddp_broadcast_buffers=None,
-ddp_bucket_cap_mb=None,
-ddp_find_unused_parameters=None,
-ddp_timeout=1800,
-debug=[],
-deepspeed=None,
-disable_tqdm=False,
-dispatch_batches=None,
-do_eval=False,
-do_predict=False,
-do_train=False,
-embed_mark=2fps_384_1+3x3,
-end_idx=1000,
-eval_accumulation_steps=None,
-eval_delay=0,
-eval_do_concat_batches=True,
-eval_on_start=False,
-eval_steps=None,
-eval_strategy=no,
-eval_use_gather_object=False,
-evaluation_strategy=None,
-finetune_modules=['connector', 'mm_projector', 'response_head', 'related_head'],
-first_n_frames_no_generate=0,
-fp16=False,
-fp16_backend=auto,
-fp16_full_eval=False,
-fp16_opt_level=O1,
-frame_fps=2.0,
-frame_num_tokens=49,
-frame_resolution=384,
-frame_token_cls=False,
-frame_token_pooled=[7, 7],
-fsdp=[],
-fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
-fsdp_min_num_params=0,
-fsdp_transformer_layer_cls_to_wrap=None,
-full_determinism=False,
-gradient_accumulation_steps=1,
-gradient_checkpointing=False,
-gradient_checkpointing_kwargs=None,
-greater_is_better=None,
-grounding_mode=False,
-group_by_length=False,
-half_precision_backend=auto,
-hub_always_push=False,
-hub_model_id=None,
-hub_private_repo=False,
-hub_strategy=every_save,
-hub_token=<HUB_TOKEN>,
-ignore_data_skip=False,
-include_for_metrics=[],
-include_inputs_for_metrics=False,
-include_num_input_tokens_seen=False,
-include_tokens_per_second=False,
-input_dir=/share2/wangyq/projects/MMDuet/datasets/shot2story/videos,
-is_online_model=True,
-jit_mode_eval=False,
-label_names=None,
-label_smoothing_factor=0.0,
-learning_rate=5e-05,
-length_column_name=length,
-live_version=test,
-llm_pretrained=OpenGVLab/InternVL2_5-8B,
-load_best_model_at_end=False,
-local_rank=0,
-log_level=passive,
-log_level_replica=warning,
-log_on_each_node=True,
-logging_dir=outputs/debug/runs/Apr18_10-14-21_ubuntu,
-logging_first_step=False,
-logging_nan_inf_filter=True,
-logging_steps=500,
-logging_strategy=steps,
-lora_alpha=32,
-lora_modules=model\.layers.*(q_proj|k_proj|v_proj|o_proj|gate_proj|up_proj|down_proj)$,
-lora_pretrained=None,
-lora_r=16,
-lr_scheduler_kwargs={},
-lr_scheduler_type=linear,
-max_grad_norm=1.0,
-max_num_frames=400,
-max_steps=-1,
-metric_for_best_model=None,
-mp_parameters=,
-neftune_noise_alpha=None,
-no_cuda=False,
-no_output_before_user_input=False,
-num_train_epochs=3.0,
-optim=adamw_torch,
-optim_args=None,
-optim_target_modules=None,
-output_dir=outputs/debug,
-output_fname=outputs/internvl2_5-8b/magqa/4sec.jsonl.0,
-overwrite_output_dir=False,
-past_index=-1,
-per_device_eval_batch_size=8,
-per_device_train_batch_size=8,
-prediction_loss_only=False,
-push_to_hub=False,
-push_to_hub_model_id=None,
-push_to_hub_organization=None,
-push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
-ray_scope=last,
-remove_assistant_turns=False,
-remove_unused_columns=True,
-repetition_penalty=None,
-report_to=['tensorboard', 'wandb'],
-response_min_interval_frames=None,
-restore_callback_states_from_checkpoint=False,
-resume_from_checkpoint=None,
-run_name=outputs/debug,
-running_list_length=20,
-save_on_each_node=False,
-save_only_model=False,
-save_safetensors=True,
-save_steps=500,
-save_strategy=steps,
-save_total_limit=None,
-score_heads=informative_score,
-seed=42,
-skip_memory_metrics=True,
-split_batches=None,
-start_idx=0,
-stream_end_prob_threshold=None,
-stream_end_score_sum_threshold=None,
-stream_loss_weight=1.0,
-system_prompt=A multimodal AI assistant is helping users with some activities. Below is their conversation, interleaved with the list of video frames received by the assistant.,
-test_fname=/share2/wangyq/projects/MMDuet/datasets/shot2story/annotations/magqa_test.json,
-tf32=None,
-threshold_z=None,
-time_instruction_format=None,
-torch_compile=False,
-torch_compile_backend=None,
-torch_compile_mode=None,
-torch_empty_cache_steps=None,
-torchdynamo=None,
-tpu_metrics_debug=False,
-tpu_num_cores=None,
-use_cpu=False,
-use_ipex=False,
-use_legacy_prediction_loop=False,
-use_liger_kernel=False,
-use_mps_device=False,
-v_placeholder=<image>,
-video_chunk_sec=4,
-video_pooling_stride=4,
-vision_pretrained=google/siglip-large-patch16-384,
-warmup_ratio=0.0,
-warmup_steps=0,
-weight_decay=0.0,
-)
-A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
-- configuration_internvl_chat.py
-. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
-A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
-- modeling_internvl_chat.py
-. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00, 17734.90it/s]
-InternLM2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
-  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
-  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
-  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  6.30it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  7.58it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  8.03it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  8.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  8.04it/s]
-A new version of the following files was downloaded from https://huggingface.co/OpenGVLab/InternVL2_5-8B:
-- tokenization_internlm2.py
-. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
-  0%|          | 0/1000 [00:00<?, ?it/s]question OSfMU69X3C4.7.mp4 has been tested, skipping
-question eaU9xQkP_jE.26.mp4 has been tested, skipping
-question Hs5Q9gbZhjk.14.mp4 has been tested, skipping
-question 4dr0llTvNMI.26.mp4 has been tested, skipping
-question qm6B3s12VLI.27.mp4 has been tested, skipping
-question 6alEQGuroiM.35.mp4 has been tested, skipping
-question WtFejcr5AGc.2.mp4 has been tested, skipping
-question G7CJ2TvVf9U.17.mp4 has been tested, skipping
-question qKHGVxSWdqQ.38.mp4 has been tested, skipping
-question g0oZb_6lre0.1.mp4 has been tested, skipping
-question 0roOoYMur40.7.mp4 has been tested, skipping
-question Hrgq1eFC9SE.36.mp4 has been tested, skipping
-question dYUK-oWkt4g.2.mp4 has been tested, skipping
-question aGu-2KaP6pc.1.mp4 has been tested, skipping
-question 8Z0822sZ5Go.13.mp4 has been tested, skipping
-question LLVEVw5CkPY.2.mp4 has been tested, skipping
-question IL0cuuekUO8.2.mp4 has been tested, skipping
-question IpveWJpT3ns.1.mp4 has been tested, skipping
-question 3lYVqvRIasI.1.mp4 has been tested, skipping
-question 3b64-1vz1FM.1.mp4 has been tested, skipping
-question G1jixIOBhJU.13.mp4 has been tested, skipping
-question -ozMwvYF5zY.12.mp4 has been tested, skipping
-question Iudu236_rHE.7.mp4 has been tested, skipping
-question 5jLeIw4VQwA.13.mp4 has been tested, skipping
-question 4Q1s2y0cE8o.55.mp4 has been tested, skipping
-question -tAL5PE7zho.39.mp4 has been tested, skipping
-question _Cs2riJ92u8.1.mp4 has been tested, skipping
-question r73xBPZWsXI.40.mp4 has been tested, skipping
-question RXV8RODBM5g.1.mp4 has been tested, skipping
-question GNTX9lX8niM.24.mp4 has been tested, skipping
-question rHwk3s_wCVE.16.mp4 has been tested, skipping
-question 18qj-PmqcOg.55.mp4 has been tested, skipping
-question -iDGUVWzM6Q.3.mp4 has been tested, skipping
-question KlhnedzdPgo.4.mp4 has been tested, skipping
-question EVrLu5rEICU.55.mp4 has been tested, skipping
-question 0yFMF1sSb2E.9.mp4 has been tested, skipping
-question IF-GVRPu_EY.22.mp4 has been tested, skipping
-question G7TM9KOaim8.15.mp4 has been tested, skipping
-question 6PMJRe_B2QQ.24.mp4 has been tested, skipping
-question aq1Nn-90AKs.4.mp4 has been tested, skipping
-question KhRkPEwgnHs.35.mp4 has been tested, skipping
-question etUgUgqxcEg.53.mp4 has been tested, skipping
-question DgoL1sz8maA.21.mp4 has been tested, skipping
-question PjcSsRxyTpE.17.mp4 has been tested, skipping
-question 6p_NyX2nYg8.14.mp4 has been tested, skipping
-question C9HBwAn5ki4.21.mp4 has been tested, skipping
-question 8YDs3LoP9Nw.8.mp4 has been tested, skipping
-question P4vyy1hvQ2U.10.mp4 has been tested, skipping
-question O9DAXIzsNMs.13.mp4 has been tested, skipping
-question l9YXyzWApZ4.6.mp4 has been tested, skipping
-question 1Z0f9ntE4Ek.21.mp4 has been tested, skipping
-question LXfXDYFxSuc.8.mp4 has been tested, skipping
-question Jec9UVjJAwU.45.mp4 has been tested, skipping
-question JYJIjuCmYYs.2.mp4 has been tested, skipping
-question -shQv1g9ar4.5.mp4 has been tested, skipping
-question rIhzyR-wjDM.16.mp4 has been tested, skipping
-question qxgdsFIrdog.3.mp4 has been tested, skipping
-question 0kob0cW9IQo.1.mp4 has been tested, skipping
-question Lz5AoajR1Kk.2.mp4 has been tested, skipping
-question GcEiKrtuYKI.59.mp4 has been tested, skipping
-question IBf9pXOmpFw.9.mp4 has been tested, skipping
-question N-RaVuKOX4o.1.mp4 has been tested, skipping
-question TDHAJGyPW7g.12.mp4 has been tested, skipping
-question fneDwR2L_QE.4.mp4 has been tested, skipping
-question Cvo3_U-ox38.29.mp4 has been tested, skipping
-question l29qELo78rU.14.mp4 has been tested, skipping
-question 3YA9WsyvyAY.13.mp4 has been tested, skipping
-question ERSKbrP6Ydg.21.mp4 has been tested, skipping
-question R_FR2HbVegE.28.mp4 has been tested, skipping
-question 4fN9VXRUo4k.4.mp4 has been tested, skipping
-question l2QwpR2D0hQ.28.mp4 has been tested, skipping
-question OATUnQBQHuI.3.mp4 has been tested, skipping
-question BVRHQPkJ1_4.6.mp4 has been tested, skipping
-question 6_FV2ML2hp4.28.mp4 has been tested, skipping
-question 2tgKnElInLU.74.mp4 has been tested, skipping
-question 8qbV0u1ji6Q.7.mp4 has been tested, skipping
-question 4xu2H33rb5o.1.mp4 has been tested, skipping
-question JhyiIfhlXy0.2.mp4 has been tested, skipping
-question 7SuXr0X1dBA.3.mp4 has been tested, skipping
-question nh5ytvqLx2I.1.mp4 has been tested, skipping
-question CuIlXDB81xg.65.mp4 has been tested, skipping
-question 7vAiFxN7yfY.14.mp4 has been tested, skipping
-question 4tvTX9QIjOw.11.mp4 has been tested, skipping
-question Wmkv0jDy35M.12.mp4 has been tested, skipping
-question me7bACHeeLI.9.mp4 has been tested, skipping
-question pEHQ3zz6WVQ.2.mp4 has been tested, skipping
-question dBgXQ4z5ZLs.4.mp4 has been tested, skipping
-question dR8zHQ3odLA.34.mp4 has been tested, skipping
-question c8cgVXHi5A4.22.mp4 has been tested, skipping
-question GRq_z6sQXWM.4.mp4 has been tested, skipping
-question cUbsF2X0-4s.17.mp4 has been tested, skipping
-question C6jTN1ATwR8.2.mp4 has been tested, skipping
-question cz-yfHUwl2U.1.mp4 has been tested, skipping
-question Yk_beLAeoLY.33.mp4 has been tested, skipping
-question er9NPQvG8Dk.12.mp4 has been tested, skipping
-question auvPh79ueP4.25.mp4 has been tested, skipping
-question GcH0WTXSx8M.20.mp4 has been tested, skipping
-question IzCoEaGL8Gs.2.mp4 has been tested, skipping
-question 8Qvw07DFkkU.17.mp4 has been tested, skipping
-question YM4NGHU6rHg.6.mp4 has been tested, skipping
-question LKvt6ZMYouM.27.mp4 has been tested, skipping
-question YSgZlDiLsus.12.mp4 has been tested, skipping
-question K0cEUyyvBrw.31.mp4 has been tested, skipping
-question HXtpWYWdsiY.3.mp4 has been tested, skipping
-question _QII9qUI8L8.7.mp4 has been tested, skipping
-question I1hF_HJVH8I.3.mp4 has been tested, skipping
-question 1de46AHVXo4.25.mp4 has been tested, skipping
-question _wTssXikxME.55.mp4 has been tested, skipping
-question 7eNCoWXNuS8.4.mp4 has been tested, skipping
-question qogbtmw3v5A.12.mp4 has been tested, skipping
-question FjT538cwGqs.1.mp4 has been tested, skipping
-question 1L1z3jeBOtk.33.mp4 has been tested, skipping
-question I3SvDOUIWPo.7.mp4 has been tested, skipping
-question Yi2Km9KS02M.23.mp4 has been tested, skipping
-question iN2autsZmOM.11.mp4 has been tested, skipping
-question 37hxPReDuIc.20.mp4 has been tested, skipping
-question 0Em7bbUGpZk.21.mp4 has been tested, skipping
-question e4geBvUacFk.18.mp4 has been tested, skipping
-question EUKFeP-BJRI.3.mp4 has been tested, skipping
-question 0GDdLY4nLuA.9.mp4 has been tested, skipping
-question OQpy2uJJYI0.5.mp4 has been tested, skipping
-question E5GGC9t71IY.16.mp4 has been tested, skipping
-question X8VzOJ3dSB0.1.mp4 has been tested, skipping
-question _pJsTT_ClJY.45.mp4 has been tested, skipping
-question DHHZS8tRqJE.22.mp4 has been tested, skipping
-question Gyy69cKN89w.1.mp4 has been tested, skipping
-question 5sms0yb7UVI.6.mp4 has been tested, skipping
-question ILMRUC_p0Vg.2.mp4 has been tested, skipping
-question gOATE_0D-48.2.mp4 has been tested, skipping
-question io6ppR83ZMU.9.mp4 has been tested, skipping
-question XK8Qw_lFTaY.1.mp4 has been tested, skipping
-question WdjXLd3O-Xg.7.mp4 has been tested, skipping
-question mZj17EADK5g.29.mp4 has been tested, skipping
-question LnX7xhbLGVU.23.mp4 has been tested, skipping
-question cTZCzuUWW1Q.24.mp4 has been tested, skipping
-question 6DNAmDYiu6k.51.mp4 has been tested, skipping
-question jEfuWQTj7MU.18.mp4 has been tested, skipping
-question BTwT6KBSBe0.9.mp4 has been tested, skipping
-question CLI0_v4VQpg.8.mp4 has been tested, skipping
-question 271uwY99xSs.35.mp4 has been tested, skipping
-question ggknd6sKEHI.1.mp4 has been tested, skipping
-question p8a6T49NKvA.3.mp4 has been tested, skipping
-question K0OXx-cV2uM.1.mp4 has been tested, skipping
-question fG_a2fyDrwc.18.mp4 has been tested, skipping
-question MvfHMcOHifU.2.mp4 has been tested, skipping
-question dXWxixqUH8s.1.mp4 has been tested, skipping
-question KpjxyhaE4uU.44.mp4 has been tested, skipping
-question 7iXbMtOTbqg.9.mp4 has been tested, skipping
-question KFb8r6sKIPI.1.mp4 has been tested, skipping
-question 3X-cfu_sHhw.15.mp4 has been tested, skipping
-question GTT1xwzwXeM.7.mp4 has been tested, skipping
-question CYHElGVkxV8.56.mp4 has been tested, skipping
-question 40Gv62O1tV0.82.mp4 has been tested, skipping
-question KKGVwIi5fQM.30.mp4 has been tested, skipping
-question 1bZBfBBjZ9g.3.mp4 has been tested, skipping
-question gBhz2fT8oeM.39.mp4 has been tested, skipping
-question mUaZxPUMm_o.11.mp4 has been tested, skipping
-question pnsJ1SH4rq0.26.mp4 has been tested, skipping
-question 4ZppEwEzpcU.5.mp4 has been tested, skipping
-question PAeYsdWNRWY.23.mp4 has been tested, skipping
-question 2RZWujs91pI.4.mp4 has been tested, skipping
-question myLM2waNT7o.21.mp4 has been tested, skipping
-question JlojoMfiy6o.75.mp4 has been tested, skipping
-question RtOOmrekQG8.7.mp4 has been tested, skipping
-question GzzGUK7FE-8.10.mp4 has been tested, skipping
-question 7Z8vxGxfd64.56.mp4 has been tested, skipping
-question 5sKFO3s3x64.21.mp4 has been tested, skipping
-question il-OWVUYvjc.191.mp4 has been tested, skipping
-question 5vDHIM-M0fc.3.mp4 has been tested, skipping
-question 2xoINx_EY40.10.mp4 has been tested, skipping
-question lLDIgCGfzAk.31.mp4 has been tested, skipping
-question dc3xfB-T0RE.9.mp4 has been tested, skipping
-question Lbepfyilu8g.7.mp4 has been tested, skipping
-question OAj1356D288.23.mp4 has been tested, skipping
-question 7siClJ2YRoQ.18.mp4 has been tested, skipping
-question cehjpTw9NXA.30.mp4 has been tested, skipping
-question I3mLwm889XI.7.mp4 has been tested, skipping
-question J_YMyJapEKA.5.mp4 has been tested, skipping
-question iO1clYpP5jw.8.mp4 has been tested, skipping
-question RujfievRepk.2.mp4 has been tested, skipping
-question 4lc496pF1fo.5.mp4 has been tested, skipping
-question EbCE9Yg4jXo.3.mp4 has been tested, skipping
-question j264iSMCQ_o.22.mp4 has been tested, skipping
-question 3Nq7HPrCfxM.21.mp4 has been tested, skipping
-question XhHJIHEmQw8.10.mp4 has been tested, skipping
-question 4TEyx7Dvq-k.1.mp4 has been tested, skipping
-question Wg3XILuUhZk.27.mp4 has been tested, skipping
-question WZ1gb-T_Fxw.1.mp4 has been tested, skipping
-question Lb4rOEx5skc.5.mp4 has been tested, skipping
-question NbiG6PR8Ymk.9.mp4 has been tested, skipping
-question NZyPWqcZkcs.2.mp4 has been tested, skipping
-question fiQC5ZtPqVM.1.mp4 has been tested, skipping
-question 3438Txdb3i8.4.mp4 has been tested, skipping
-question IY5XUV2aEs0.2.mp4 has been tested, skipping
-question GBfJBDY21OE.12.mp4 has been tested, skipping
-question DZrwzsreV90.7.mp4 has been tested, skipping
-question MmtNFQwJQEM.1.mp4 has been tested, skipping
-question rl-izpUpHBo.4.mp4 has been tested, skipping
-question eGGMGHnh5kI.42.mp4 has been tested, skipping
-question Lzi650thDN0.1.mp4 has been tested, skipping
-question JjTKKCLRLZY.19.mp4 has been tested, skipping
-question JPLKi10TO7g.28.mp4 has been tested, skipping
-question 2aDu9xD2OL0.14.mp4 has been tested, skipping
-question LWmmvMfxUsY.61.mp4 has been tested, skipping
-question XSAb2Knd4GQ.29.mp4 has been tested, skipping
-question IUu1T75RjTo.12.mp4 has been tested, skipping
-question YeFYfErxy-g.1.mp4 has been tested, skipping
-question F7e3OAY9RDw.13.mp4 has been tested, skipping
-question DB8YHKHYsVw.4.mp4 has been tested, skipping
-question PyHV5SRuPXM.27.mp4 has been tested, skipping
-question XByDsde1hhE.15.mp4 has been tested, skipping
-question 7hxMeEess0s.1.mp4 has been tested, skipping
-question Kezav-pXc1o.12.mp4 has been tested, skipping
-question Ft5WiQCkASg.9.mp4 has been tested, skipping
-question RYun7EXYon8.35.mp4 has been tested, skipping
-question eBz1EqDpOAI.1.mp4 has been tested, skipping
-question HgfLkVW__b0.30.mp4 has been tested, skipping
-question DmiSUC8dT0o.9.mp4 has been tested, skipping
-question JsZqoXIcLos.23.mp4 has been tested, skipping
-question eTYmMCc_qaI.26.mp4 has been tested, skipping
-question eLqi8qnw7as.29.mp4 has been tested, skipping
-question WsWYZZE74q4.6.mp4 has been tested, skipping
-question KWaBY4DbZp0.19.mp4 has been tested, skipping
-question IoLTWQHkTDw.9.mp4 has been tested, skipping
-question Eq0Tx1uAUWo.3.mp4 has been tested, skipping
-question fGJ3wS7jxWU.6.mp4 has been tested, skipping
-question 5iAKOS4fmTQ.15.mp4 has been tested, skipping
-question I_JsZK_iQqc.14.mp4 has been tested, skipping
-question dGGz3mRbK7c.9.mp4 has been tested, skipping
-question 4jJGtAZIhUU.77.mp4 has been tested, skipping
-question 8bQpTURSlU0.1.mp4 has been tested, skipping
-question L0F1hMvcXb8.34.mp4 has been tested, skipping
-question epx0do0YOtw.32.mp4 has been tested, skipping
-question B8nIsmD3vlU.6.mp4 has been tested, skipping
-question dOXJpFcXMdA.2.mp4 has been tested, skipping
-question YqMaWOM2cRI.12.mp4 has been tested, skipping
-question 2hLZvF3KHbA.38.mp4 has been tested, skipping
-question KlwdnKXPN-4.39.mp4 has been tested, skipping
-question BZ7tfTv546w.27.mp4 has been tested, skipping
-question 8qGSRsIzJVI.35.mp4 has been tested, skipping
-question epmh_bRmhKo.11.mp4 has been tested, skipping
-question RvjUwKt73R4.8.mp4 has been tested, skipping
-question 1aL-w5nmkYA.7.mp4 has been tested, skipping
-question HYzAjWfXBTs.26.mp4 has been tested, skipping
-question 02SIKmmi0FU.28.mp4 has been tested, skipping
-question iZvoSdw3_ZU.31.mp4 has been tested, skipping
-question 07bcBWVYY8w.4.mp4 has been tested, skipping
-question 19M1-mDvzts.3.mp4 has been tested, skipping
-question RXl88NxbuJM.9.mp4 has been tested, skipping
-question -pppFBdWbiU.4.mp4 has been tested, skipping
-question 8nr6Np3HGWw.6.mp4 has been tested, skipping
-question Jfx2FCAYGno.6.mp4 has been tested, skipping
-question PkiaXT7rcC8.8.mp4 has been tested, skipping
-question DYn16nzGbNE.7.mp4 has been tested, skipping
-question 2NkM6kouV-Q.4.mp4 has been tested, skipping
-question MGW5rUUT2aY.1.mp4 has been tested, skipping
-question j8PXFrVwZEA.4.mp4 has been tested, skipping
-question NmBuWlsSuQw.25.mp4 has been tested, skipping
-question FpEGW-ti2QE.68.mp4 has been tested, skipping
-question imNwf_fD-gk.45.mp4 has been tested, skipping
-question FcU7c4EbyJw.39.mp4 has been tested, skipping
-question JlRgfWlUO3M.30.mp4 has been tested, skipping
-question 3tEwb-IZuj8.7.mp4 has been tested, skipping
-question jD9od-_9nNg.14.mp4 has been tested, skipping
-question PplaBASQ_3M.27.mp4 has been tested, skipping
-question 7y7ZIeQE7V0.19.mp4 has been tested, skipping
-question EBGlhLFya3c.33.mp4 has been tested, skipping
-question RpkgLzyUUAA.15.mp4 has been tested, skipping
-question Ep7k2AThI8w.14.mp4 has been tested, skipping
-question GgnH27n6O_I.22.mp4 has been tested, skipping
-question q4-r3WKLxdM.10.mp4 has been tested, skipping
-question qIzC4Nn-qzA.13.mp4 has been tested, skipping
-question RhI5OO5jhho.5.mp4 has been tested, skipping
-question YMWttbLZTIc.8.mp4 has been tested, skipping
-question 6OLDzu5TmNc.6.mp4 has been tested, skipping
-question 1Ehs8JiGSwI.6.mp4 has been tested, skipping
-question 2XNj-f0rKXc.12.mp4 has been tested, skipping
-question VHyUicMTqW4.8.mp4 has been tested, skipping
-question 4cNQdQCy0J8.18.mp4 has been tested, skipping
-question Fw65u33tcDo.1.mp4 has been tested, skipping
-question YGMvQrWWC48.2.mp4 has been tested, skipping
-question oBBVx3g_GBU.22.mp4 has been tested, skipping
-question 4TGsCIxgfLY.44.mp4 has been tested, skipping
-question YQywOi2mCrE.38.mp4 has been tested, skipping
-question 49M59RMSzzw.27.mp4 has been tested, skipping
-question LWcu0p39enY.5.mp4 has been tested, skipping
-question dEdNYkHUomw.2.mp4 has been tested, skipping
-question XoFA8OeA_38.70.mp4 has been tested, skipping
-question EasvD1QzfCM.15.mp4 has been tested, skipping
-question kOjw7RwMlwc.14.mp4 has been tested, skipping
-question DERUMu9keNE.46.mp4 has been tested, skipping
-question ReqRoD-wURQ.1.mp4 has been tested, skipping
-question j0z4QExGEJU.1.mp4 has been tested, skipping
-question GgfvYeYGzOE.18.mp4 has been tested, skipping
-question JepJM6lF2uc.3.mp4 has been tested, skipping
-question qKvNOzeZ6DM.6.mp4 has been tested, skipping
-question 2-61Zn4Sb8Q.35.mp4 has been tested, skipping
-question Pgbx7VOZspk.4.mp4 has been tested, skipping
-question dixQovgXvdY.3.mp4 has been tested, skipping
-question o418lXDLssM.7.mp4 has been tested, skipping
-question YIo3kTWsjlE.3.mp4 has been tested, skipping
-question 4FngG7uplgE.1.mp4 has been tested, skipping
-question m4LkVWJ6NWk.35.mp4 has been tested, skipping
-question kWF3Jm1ukrQ.22.mp4 has been tested, skipping
-question c_8fLy7W61c.8.mp4 has been tested, skipping
-question 240RLfDI724.18.mp4 has been tested, skipping
-question 6vh3mfBZcn4.55.mp4 has been tested, skipping
-question h3yv_L3K-MM.1.mp4 has been tested, skipping
-question O2wTicgnkmc.38.mp4 has been tested, skipping
-question 2TWBHFFTy5I.8.mp4 has been tested, skipping
-question hCUIlr0WiNc.59.mp4 has been tested, skipping
-question _ovNbnjRUNQ.4.mp4 has been tested, skipping
-question qNpjRxXcAsM.49.mp4 has been tested, skipping
-question C1DsU368r70.3.mp4 has been tested, skipping
-question KhY0u3Tv4bo.10.mp4 has been tested, skipping
-question YdlfnzR8ojc.1.mp4 has been tested, skipping
-question E6-q-ITwipI.4.mp4 has been tested, skipping
-question lIRE2oeIehw.67.mp4 has been tested, skipping
-question i_vtFiXxQZo.16.mp4 has been tested, skipping
-question 6Q-UeuliYpk.8.mp4 has been tested, skipping
-question H2vUiWSig_s.21.mp4 has been tested, skipping
-question 6Y6rnjFQl7A.31.mp4 has been tested, skipping
-question fibE7AKlwQA.1.mp4 has been tested, skipping
-question 8hkMuw9PIUo.11.mp4 has been tested, skipping
-question 06yJ9xDabFM.8.mp4 has been tested, skipping
-question 8JbqxN4TSYQ.6.mp4 has been tested, skipping
-question 2vOGFTsgewI.13.mp4 has been tested, skipping
-question RE2XqeZMIsM.7.mp4 has been tested, skipping
-question qE3I74NshWo.53.mp4 has been tested, skipping
-question 2O5VQAnGTS8.4.mp4 has been tested, skipping
-question 4-djU3koc3Y.4.mp4 has been tested, skipping
-question NBIQ96Ss9zc.6.mp4 has been tested, skipping
-question Mgc2y8QYBXE.3.mp4 has been tested, skipping
-question CUZgoOO6_EQ.11.mp4 has been tested, skipping
-question LGgaMq1eZGw.52.mp4 has been tested, skipping
-question ReNiTl1jAMI.13.mp4 has been tested, skipping
-question HvZaJWc759Q.5.mp4 has been tested, skipping
-question ruaZf6JF16I.47.mp4 has been tested, skipping
-question V13SCcr0pT4.45.mp4 has been tested, skipping
-question f9DOQAnzZhA.1.mp4 has been tested, skipping
-question H4JkP9yqvkI.4.mp4 has been tested, skipping
-question O7p4D52MazY.21.mp4 has been tested, skipping
-question ItvBzPJAfyE.9.mp4 has been tested, skipping
-question PhOUSflAvIM.3.mp4 has been tested, skipping
-question _liSsg3bgbc.57.mp4 has been tested, skipping
-question Z0Z5oT3DB8g.7.mp4 has been tested, skipping
-question 8YIWypzkS5M.4.mp4 has been tested, skipping
-question _qG2bOAwOZo.12.mp4 has been tested, skipping
-question 2DtVO8G668A.15.mp4 has been tested, skipping
-question 8xxI4M97RXg.9.mp4 has been tested, skipping
-question 7KOSPnBS_Lo.33.mp4 has been tested, skipping
-question _hRQq5e7Wi0.19.mp4 has been tested, skipping
-question 8TyV6UWcN54.40.mp4 has been tested, skipping
-question H_GQ4eSFTKA.3.mp4 has been tested, skipping
-question 0v6Iy9JYjyM.8.mp4 has been tested, skipping
-question TS_bO2mwZjg.17.mp4 has been tested, skipping
-question FgylhAa7ZU8.32.mp4 has been tested, skipping
-question gaQwC5QbLeQ.31.mp4 has been tested, skipping
-question rrA3ehK0Yn0.24.mp4 has been tested, skipping
-question 27gwVNBzjWE.4.mp4 has been tested, skipping
-question NsZbNSADNV0.23.mp4 has been tested, skipping
-question pe3qgYy57Yo.2.mp4 has been tested, skipping
-question 0w2jNRf4o7c.5.mp4 has been tested, skipping
-question lH2gMNrUuEY.27.mp4 has been tested, skipping
-question O-__QzkIWOU.22.mp4 has been tested, skipping
-question CDXXQORXXTQ.1.mp4 has been tested, skipping
-question P1mVU2pKuTg.1.mp4 has been tested, skipping
-question iJFkzC-kp3I.8.mp4 has been tested, skipping
-question 8nNDn4mAv6w.4.mp4 has been tested, skipping
-question eq8AN9v1BFQ.3.mp4 has been tested, skipping
-question 7giGHBweGRs.1.mp4 has been tested, skipping
-question iHLBo7d3_0o.35.mp4 has been tested, skipping
-question ZHubDHSl38U.117.mp4 has been tested, skipping
-question I0Xcb_V388Y.15.mp4 has been tested, skipping
-question dRKPUvLDfWI.16.mp4 has been tested, skipping
-question R994Tql3WvY.7.mp4 has been tested, skipping
-question WVESKBAPVBA.15.mp4 has been tested, skipping
-question 8dll64kkJpw.9.mp4 has been tested, skipping
-question 0lTYM9Z1IKI.26.mp4 has been tested, skipping
-question PbXgf2fzjDo.7.mp4 has been tested, skipping
-question I3DQfdeX5IQ.20.mp4 has been tested, skipping
-question WcwTiBISc6U.8.mp4 has been tested, skipping
-question ZPnT8o05D28.21.mp4 has been tested, skipping
-question hNWwyXW38XA.3.mp4 has been tested, skipping
-question HBweWSZcuxU.17.mp4 has been tested, skipping
-question M7DPXQCJxFU.7.mp4 has been tested, skipping
-question JRG5C9WRW8E.1.mp4 has been tested, skipping
-question 8OUjcO_q_7Y.1.mp4 has been tested, skipping
-question dj3H9wjOUaM.3.mp4 has been tested, skipping
-question eoNVXVCadPE.19.mp4 has been tested, skipping
-question WVfDQP0Nlng.6.mp4 has been tested, skipping
-question LmmxoV3rgwY.31.mp4 has been tested, skipping
-question gZAigt42wt0.7.mp4 has been tested, skipping
-question 2b9DqmOFozY.1.mp4 has been tested, skipping
-question hNSs2gxDZcg.3.mp4 has been tested, skipping
-question 3pJxlrRHA0Q.1.mp4 has been tested, skipping
-question ciCS98YanII.9.mp4 has been tested, skipping
-question njV5Z0GxbfA.57.mp4 has been tested, skipping
-question jFC-75RHT8c.6.mp4 has been tested, skipping
-question X9OhvgBdvIA.8.mp4 has been tested, skipping
-question 6ureBD2VY1c.3.mp4 has been tested, skipping
-question _KgWye11I8g.7.mp4 has been tested, skipping
-question m4sWjNlPlVs.43.mp4 has been tested, skipping
-question GzD9IDWLodk.15.mp4 has been tested, skipping
-question 2ZcsoP1AUTI.6.mp4 has been tested, skipping
-question bTMVVjv5zQ0.2.mp4 has been tested, skipping
-question CJorIIaGAYI.5.mp4 has been tested, skipping
-question Gw1fS2Nze5s.1.mp4 has been tested, skipping
-question 2l9I3UhWP10.8.mp4 has been tested, skipping
-question 8VR6Ao97vNc.1.mp4 has been tested, skipping
-question FL9WvBWs73I.18.mp4 has been tested, skipping
-question aGu1HuPl3Gs.1.mp4 has been tested, skipping
-question 2FmQgQW8clw.1.mp4 has been tested, skipping
-question Kd3vC0lL9C4.57.mp4 has been tested, skipping
-question E2WelDikd4s.50.mp4 has been tested, skipping
-question lIS3_02wKZM.8.mp4 has been tested, skipping
-question 4vZ7NszztMs.9.mp4 has been tested, skipping
-question h9ubQQpBWTE.1.mp4 has been tested, skipping
-question CJ-ER0GdJd8.36.mp4 has been tested, skipping
-question h4I8LFOlnOY.4.mp4 has been tested, skipping
-question g5esQcMBxek.10.mp4 has been tested, skipping
-question _T2A_lgn69w.37.mp4 has been tested, skipping
-question 6mLBr_ZxTj4.44.mp4 has been tested, skipping
-question gBBS5XqzOu4.65.mp4 has been tested, skipping
-question XqDwTKVeUcI.31.mp4 has been tested, skipping
-question nTGjRCHPHYw.10.mp4 has been tested, skipping
-question 0vklWHzRAos.9.mp4 has been tested, skipping
-question EwItjBAwCbQ.37.mp4 has been tested, skipping
-question eDZVdZvmG74.3.mp4 has been tested, skipping
-question _BVVEW8y_VA.9.mp4 has been tested, skipping
-question F_0Nud7Wa8w.7.mp4 has been tested, skipping
-question gw3w9MLxihk.5.mp4 has been tested, skipping
-question 8GnsEFk5HaI.28.mp4 has been tested, skipping
-question 3EBMpTiWAg8.11.mp4 has been tested, skipping
-question JljoS47Qf_s.20.mp4 has been tested, skipping
-question iU6Vq2pBI-I.59.mp4 has been tested, skipping
-question 0pHWbrdttl8.15.mp4 has been tested, skipping
-question YofCMYZhYcs.5.mp4 has been tested, skipping
-question k7OQGhkYkqs.1.mp4 has been tested, skipping
-question RjC6aV1SNIQ.3.mp4 has been tested, skipping
-question my2KTkgATPU.34.mp4 has been tested, skipping
-question VWlP9ZnqmIQ.14.mp4 has been tested, skipping
-question LbJ7VmR7Y9g.8.mp4 has been tested, skipping
-question 61fybvkZiDE.2.mp4 has been tested, skipping
-question WZcMlzsh4XM.1.mp4 has been tested, skipping
-question FhmTwZGt97Y.22.mp4 has been tested, skipping
-question B_A9FCsWnlI.6.mp4 has been tested, skipping
-question muUcz5aYTMs.3.mp4 has been tested, skipping
-question WQFI_AIsYtg.15.mp4 has been tested, skipping
-question RdhTvVPcoIo.12.mp4 has been tested, skipping
-question 0fbebx_l2Xw.4.mp4 has been tested, skipping
-question 7dyvxojt3o8.51.mp4 has been tested, skipping
-question FYvIo4ylZus.1.mp4 has been tested, skipping
-question KGTsMFEgpFI.3.mp4 has been tested, skipping
-question 0KoYCn3MQd0.9.mp4 has been tested, skipping
-question 09RFL5SKVjM.22.mp4 has been tested, skipping
-question cN039e4NGAw.7.mp4 has been tested, skipping
-question foGfkZjCHm0.21.mp4 has been tested, skipping
-question mtP9H7AClk8.7.mp4 has been tested, skipping
-question rM-QRSeVngo.1.mp4 has been tested, skipping
-question ZRL2bzC2GGE.67.mp4 has been tested, skipping
-question 6He8k52im8I.6.mp4 has been tested, skipping
-question 8TJF2VwFgD8.8.mp4 has been tested, skipping
-question 7k3S6IsDZ28.27.mp4 has been tested, skipping
-question LjKTQ9RKdaM.1.mp4 has been tested, skipping
-question eairs2hMa3I.31.mp4 has been tested, skipping
-question 0IKKzYIK-AY.6.mp4 has been tested, skipping
-question K78OKshZKIA.2.mp4 has been tested, skipping
-question 4EDw7gydFBk.25.mp4 has been tested, skipping
-question GBERmCAKFic.12.mp4 has been tested, skipping
-question _nbQsnUvlo4.9.mp4 has been tested, skipping
-question gCtvzTSzMxY.7.mp4 has been tested, skipping
-question LpUyGPg_Dc8.8.mp4 has been tested, skipping
-question WV1-ZuBmP-E.12.mp4 has been tested, skipping
-question MtuZyKJPjAM.4.mp4 has been tested, skipping
-question dUAPtHIz8Rg.5.mp4 has been tested, skipping
-question ecilxRa6m5g.4.mp4 has been tested, skipping
-question fRqJsYel7V0.15.mp4 has been tested, skipping
-question _8UAR6y9vtM.1.mp4 has been tested, skipping
-question rwbhbyWCR2U.8.mp4 has been tested, skipping
-question O7aiG0D0qo0.25.mp4 has been tested, skipping
-question PXMngeRSdsE.25.mp4 has been tested, skipping
-question 0YSLASX3Iq8.3.mp4 has been tested, skipping
-question ClksIvHsYcc.24.mp4 has been tested, skipping
-question 0lbseqh9fsg.35.mp4 has been tested, skipping
-question KqUZIzkIWaY.7.mp4 has been tested, skipping
-question 2uthP1KSZMc.11.mp4 has been tested, skipping
-question crFioD1EelM.13.mp4 has been tested, skipping
-question 6qTEzEcD3No.5.mp4 has been tested, skipping
-question dR9jfG9Zr5A.2.mp4 has been tested, skipping
-question 0tdkFPQri14.15.mp4 has been tested, skipping
-question 2iOaljmFfb0.4.mp4 has been tested, skipping
-question PvvMz5FBofo.6.mp4 has been tested, skipping
-question Itob3CQDzR4.18.mp4 has been tested, skipping
-question e3aLYhXDbz8.12.mp4 has been tested, skipping
-question _Jh8mvvoXsM.1.mp4 has been tested, skipping
-question GFhJFhBUc-Y.7.mp4 has been tested, skipping
-question iz6G1svj7Ng.4.mp4 has been tested, skipping
-question 84GzJD_ARp0.4.mp4 has been tested, skipping
-question 1rtBD13QbXE.16.mp4 has been tested, skipping
-question 44QpkTmKieg.49.mp4 has been tested, skipping
-question B4Tm44C6vAw.8.mp4 has been tested, skipping
-question eKoLmsDuIyo.5.mp4 has been tested, skipping
-question BwhjfrqpCEU.1.mp4 has been tested, skipping
-question IM9NZMRfLd4.1.mp4 has been tested, skipping
-question ckqAkbPl-e4.8.mp4 has been tested, skipping
-question 6gLelwwPSP8.7.mp4 has been tested, skipping
-question EbvJ0me0gG4.1.mp4 has been tested, skipping
-question CscMkq5E2mU.23.mp4 has been tested, skipping
-question n_kHPk0ED6I.8.mp4 has been tested, skipping
-question d03pIO_okto.13.mp4 has been tested, skipping
-question hcaWL97PUKs.3.mp4 has been tested, skipping
-question idap4YWfNt0.38.mp4 has been tested, skipping
-question CO44d-6Get0.25.mp4 has been tested, skipping
-question 6sFX-tW0VtI.43.mp4 has been tested, skipping
-question Bt98e5qpGmk.4.mp4 has been tested, skipping
-question h-ZdbX2K9jI.12.mp4 has been tested, skipping
-question 0c9o1GRCuAg.3.mp4 has been tested, skipping
-question 2ffY1LO_JL0.1.mp4 has been tested, skipping
-question 3f5KyH2jYOg.15.mp4 has been tested, skipping
-question -dF_B6-FqR4.13.mp4 has been tested, skipping
-question r-JJg-Xbzds.10.mp4 has been tested, skipping
-question -vU4vYtX6u8.8.mp4 has been tested, skipping
-question oxY2UnFPc3I.14.mp4 has been tested, skipping
-question 021mne6WwXw.7.mp4 has been tested, skipping
-question Mmi6B7J4Bws.5.mp4 has been tested, skipping
-question dv7jRLHPRoI.13.mp4 has been tested, skipping
-question IAgkphhB_pA.6.mp4 has been tested, skipping
-question 0Rmhbxl4d4g.15.mp4 has been tested, skipping
-question MxxG_wuGuTs.38.mp4 has been tested, skipping
-question H0wKjMsQi-w.4.mp4 has been tested, skipping
-question cEpLcUfRbJ0.20.mp4 has been tested, skipping
-question OSiABdVKSEE.47.mp4 has been tested, skipping
-question FkhzzU6YGkc.5.mp4 has been tested, skipping
-question 1y_1o81qUXs.8.mp4 has been tested, skipping
-question d_sKmTkNtZ8.8.mp4 has been tested, skipping
-question RUlOhFF__3c.2.mp4 has been tested, skipping
-question lLJFstExeTo.5.mp4 has been tested, skipping
-question FLdfKvNREQY.41.mp4 has been tested, skipping
-question H16F_IvXfic.16.mp4 has been tested, skipping
-question MAqTEchGI4I.32.mp4 has been tested, skipping
-question LwH8hmaOE6E.3.mp4 has been tested, skipping
-question q95imH_cOTU.3.mp4 has been tested, skipping
-question lp1R2FD1Saw.6.mp4 has been tested, skipping
-question 6lolRpVfHg0.22.mp4 has been tested, skipping
-question dLmAfySHWRc.36.mp4 has been tested, skipping
-question o1g5Z6r4Uj8.5.mp4 has been tested, skipping
-question 35MnlYhkmsY.29.mp4 has been tested, skipping
-question d75KX6-iGyo.40.mp4 has been tested, skipping
-question cG6YzpaIHuE.2.mp4 has been tested, skipping
-question jQdBsRWy2WQ.35.mp4 has been tested, skipping
-question Gg3FmRPOGwI.19.mp4 has been tested, skipping
-question G26MV-p1tOg.17.mp4 has been tested, skipping
-question NOOvJTQlSlA.15.mp4 has been tested, skipping
-question WsueV_vMLj4.2.mp4 has been tested, skipping
-question E3SRLv9Wc2M.76.mp4 has been tested, skipping
-question Pu0JawDgkSw.44.mp4 has been tested, skipping
-question _s5RFgd59ao.29.mp4 has been tested, skipping
-question P4dT-lW9260.1.mp4 has been tested, skipping
-question mjfaUtELFWo.13.mp4 has been tested, skipping
-question KVbgi9S6V_Y.12.mp4 has been tested, skipping
-question 4EURHiEqlIU.4.mp4 has been tested, skipping
-question NpRmCXTdlE8.1.mp4 has been tested, skipping
-question dUiJFPoc8Bs.16.mp4 has been tested, skipping
-question HPs8GcYcEgA.17.mp4 has been tested, skipping
-question Cp0ixDhm_Bg.6.mp4 has been tested, skipping
-question e8gKdmPH3Hk.2.mp4 has been tested, skipping
-question aLhWwkAkdLI.2.mp4 has been tested, skipping
-question IapXmSmJ3Y8.32.mp4 has been tested, skipping
-question erTkS5KvXUs.137.mp4 has been tested, skipping
-question _wX_wpQwtGQ.4.mp4 has been tested, skipping
-question 66ttEJuJcvQ.34.mp4 has been tested, skipping
-question 8niWMDPRk2U.8.mp4 has been tested, skipping
-question LQT9KDn2PIQ.92.mp4 has been tested, skipping
-question cPq1mbuldME.3.mp4 has been tested, skipping
-question 3Zk9tIz9GPA.10.mp4 has been tested, skipping
-question _MFr1JER9W8.29.mp4 has been tested, skipping
-question hKszGZxhlv0.6.mp4 has been tested, skipping
-question nBKKvw_0JyU.7.mp4 has been tested, skipping
-question Dbuh0n6kvfI.33.mp4 has been tested, skipping
-question ri4P8KMQJBI.6.mp4 has been tested, skipping
-question K2e82fBTDMQ.37.mp4 has been tested, skipping
-question JopNqvzMIqE.24.mp4 has been tested, skipping
-question M4kxyaNX6qM.3.mp4 has been tested, skipping
-question Yhr3AaTHEl0.43.mp4 has been tested, skipping
-question orgqZ_GA71c.56.mp4 has been tested, skipping
-question 4b-_x-9PLPo.4.mp4 has been tested, skipping
-question NvrZW8Yw8JI.5.mp4 has been tested, skipping
-question 4RYB76WzSTI.17.mp4 has been tested, skipping
-question EsViIV1z_f0.2.mp4 has been tested, skipping
-question mNB1146Q1Kw.9.mp4 has been tested, skipping
-question Gtjnmdq6Yaw.15.mp4 has been tested, skipping
-question f-geuprIX5Y.32.mp4 has been tested, skipping
-question OAjoUB7fOo8.1.mp4 has been tested, skipping
-question lG36so5wHg0.2.mp4 has been tested, skipping
-question 2yxI5oNqx4k.7.mp4 has been tested, skipping
-question B8xV7MJpyyM.11.mp4 has been tested, skipping
-question B2WMVOfvAo8.46.mp4 has been tested, skipping
-question VjsyoF2RsCc.6.mp4 has been tested, skipping
-question 4LDG5bdClVw.19.mp4 has been tested, skipping
-question 1x33UgY3H3c.5.mp4 has been tested, skipping
-question EzMhTtjOPW4.14.mp4 has been tested, skipping
-question ZRqJ-qPFvko.6.mp4 has been tested, skipping
-question 8hu0D1qZqxc.2.mp4 has been tested, skipping
-question 0QxZmxIIZIU.4.mp4 has been tested, skipping
-question iLPIErQ1R5I.1.mp4 has been tested, skipping
-question iv3PL7j7gSc.16.mp4 has been tested, skipping
-question MEsJT2wtI24.29.mp4 has been tested, skipping
-question iXTrKSOoYiU.1.mp4 has been tested, skipping
-question KjJm8J_CimM.17.mp4 has been tested, skipping
-question 8w3C0k12zYo.30.mp4 has been tested, skipping
-question PF1JnLwDO-w.12.mp4 has been tested, skipping
-question 8kScBTZif3Q.2.mp4 has been tested, skipping
-question gaexjWPCFdU.2.mp4 has been tested, skipping
-question gvOru-2sUXo.19.mp4 has been tested, skipping
-question fiKIUKVJuSw.14.mp4 has been tested, skipping
-question 4ojBoisVFWg.4.mp4 has been tested, skipping
-question Fk1POVtAmFE.3.mp4 has been tested, skipping
-question 0WZNy3UpGDE.10.mp4 has been tested, skipping
-question runtkgE3bMk.19.mp4 has been tested, skipping
-question BJjgDgIw7tc.9.mp4 has been tested, skipping
-question GMHDennJf9A.10.mp4 has been tested, skipping
-question hoFkBNpVHvY.4.mp4 has been tested, skipping
-question YD2PTcOgexg.2.mp4 has been tested, skipping
-question rpQ6DRjW5U0.1.mp4 has been tested, skipping
-question MEu7_HvXTVk.67.mp4 has been tested, skipping
-question egnTsqsWZ2c.16.mp4 has been tested, skipping
-question cIM9DYQxIc8.12.mp4 has been tested, skipping
-question ar6hZjKiYFs.1.mp4 has been tested, skipping
-question eoALIZBx8fw.11.mp4 has been tested, skipping
-question 3vxuMCaOocg.7.mp4 has been tested, skipping
-question VQ2G-bff-RY.40.mp4 has been tested, skipping
-question h7VfQYMNVkQ.60.mp4 has been tested, skipping
-question cj-lHKM-oz4.4.mp4 has been tested, skipping
-question H7pijECc8VA.27.mp4 has been tested, skipping
-question H8QV8KmWq_4.8.mp4 has been tested, skipping
-question DtxBfv8Y0Jo.13.mp4 has been tested, skipping
-question XywbZVMKby0.14.mp4 has been tested, skipping
-question KlA_YXDm9bg.17.mp4 has been tested, skipping
-question hNOc3xF1ZmQ.3.mp4 has been tested, skipping
-question 18KJzyH7FQc.10.mp4 has been tested, skipping
-question WkYewMoZCps.16.mp4 has been tested, skipping
-question HoSL6V4OByU.81.mp4 has been tested, skipping
-question 1fAlQ5IY3gk.10.mp4 has been tested, skipping
-question Bsm6PKyrJ1k.11.mp4 has been tested, skipping
-question 88cCaj1xt2A.17.mp4 has been tested, skipping
-question 2E1__lDhKec.28.mp4 has been tested, skipping
-question Bw6vNdkgtWU.1.mp4 has been tested, skipping
-question EgWSSYqZQaE.2.mp4 has been tested, skipping
-question cP0smXpDEJg.30.mp4 has been tested, skipping
-question 8b-PWrpgt2s.10.mp4 has been tested, skipping
-question ieuYnO5GSIA.55.mp4 has been tested, skipping
-question 6p6bvk8ITSU.17.mp4 has been tested, skipping
-question 5YWO3-m8mek.25.mp4 has been tested, skipping
-question I083WFIYz14.3.mp4 has been tested, skipping
-question g3MTTwPn-Fk.11.mp4 has been tested, skipping
-question 47NS-smohoM.15.mp4 has been tested, skipping
-question e6dGZ3oLQm4.10.mp4 has been tested, skipping
-question MqgtVpD328o.86.mp4 has been tested, skipping
-question GP9QMfe-rh4.3.mp4 has been tested, skipping
-question e5HNuezDpW0.3.mp4 has been tested, skipping
-question 0IsmE0FhKRE.9.mp4 has been tested, skipping
-question YP8nmaNQeoQ.7.mp4 has been tested, skipping
-question N01n3XJVRtg.28.mp4 has been tested, skipping
-question GG1bWdxnQYw.7.mp4 has been tested, skipping
-question V988cbOuTks.6.mp4 has been tested, skipping
-question 5YwhROj5uZs.20.mp4 has been tested, skipping
-question Eu9Eu9oHByI.5.mp4 has been tested, skipping
-question DtDYa608_gI.6.mp4 has been tested, skipping
-question mb3yJgdiW1w.4.mp4 has been tested, skipping
-question IJdiVKaDes8.1.mp4 has been tested, skipping
-question DVqZy020ui0.42.mp4 has been tested, skipping
-question drYx7XEIY08.15.mp4 has been tested, skipping
-question CCcXGAaig7Q.6.mp4 has been tested, skipping
-question 56XBXY4DsUc.6.mp4 has been tested, skipping
-question _Ar52EJuCak.1.mp4 has been tested, skipping
-question Mle1x6_F140.1.mp4 has been tested, skipping
-question K1PVNUuRSL8.118.mp4 has been tested, skipping
-question P2bar6fJAdA.38.mp4 has been tested, skipping
-question ggk2NgxEnuk.6.mp4 has been tested, skipping
-question 82syYEwzm3Y.5.mp4 has been tested, skipping
-question Xzm4xfh3BpQ.8.mp4 has been tested, skipping
-question RWNXmlw2l_Q.4.mp4 has been tested, skipping
-question HRS3qjV5D_w.37.mp4 has been tested, skipping
-question _Q2LKx-_KRA.150.mp4 has been tested, skipping
-question NvL57J1W8zA.4.mp4 has been tested, skipping
-question OIuvQtu23qM.3.mp4 has been tested, skipping
-question kQbQhYm9JbI.4.mp4 has been tested, skipping
-question -_ug1jZwAJA.14.mp4 has been tested, skipping
-question aPvQDKl-LG4.57.mp4 has been tested, skipping
-question WOTGpum9Lko.70.mp4 has been tested, skipping
-question lHzBfltvogw.6.mp4 has been tested, skipping
-question V0CwqA-UB-0.54.mp4 has been tested, skipping
-question HaHxFl7kjwI.15.mp4 has been tested, skipping
-question 3zPG29rjZkI.28.mp4 has been tested, skipping
-question mn2UAPYD5PM.1.mp4 has been tested, skipping
-question RomH9OM2mqc.53.mp4 has been tested, skipping
-question KqjM6kd9Bg0.7.mp4 has been tested, skipping
-question BvEM_cjErXg.1.mp4 has been tested, skipping
-question lC4OoBp_teg.6.mp4 has been tested, skipping
-question 8YJlZ0V3mIU.2.mp4 has been tested, skipping
-question oyFEkK_2lZ4.4.mp4 has been tested, skipping
-question 8_Hcyd_O9TQ.21.mp4 has been tested, skipping
-question hSnalRLcZLg.10.mp4 has been tested, skipping
-question ClSXElxg84s.11.mp4 has been tested, skipping
-question mqq_PxgjPJI.23.mp4 has been tested, skipping
-question axKFOGxQ9Gg.96.mp4 has been tested, skipping
-question X7QlJ5WjZzs.13.mp4 has been tested, skipping
-question aJSD8XV3qzE.3.mp4 has been tested, skipping
-question gM1CY1rBH28.3.mp4 has been tested, skipping
-question 0tTwALO3C2w.9.mp4 has been tested, skipping
-question rqm8s_cLZcs.34.mp4 has been tested, skipping
-question EvldcF-sIsg.36.mp4 has been tested, skipping
-question jPVA63MaegA.2.mp4 has been tested, skipping
-question XP05x1K5D9s.38.mp4 has been tested, skipping
-question lYkVA2bdsJQ.6.mp4 has been tested, skipping
-question M5vT2hnC7Ko.2.mp4 has been tested, skipping
-question 7Nqys4tgXts.8.mp4 has been tested, skipping
-question Bwe5XDbesjc.40.mp4 has been tested, skipping
-question He_zqRt8FQo.11.mp4 has been tested, skipping
-question E0et-nyUnf4.79.mp4 has been tested, skipping
-question MIvggVdEGb8.1.mp4 has been tested, skipping
-question -xh3PAabDs0.65.mp4 has been tested, skipping
-question Md7KOQkNrwA.35.mp4 has been tested, skipping
-question 2JCckn5dnk4.16.mp4 has been tested, skipping
-question I0Nw1zEYojI.10.mp4 has been tested, skipping
-question M-ING6k7ohg.5.mp4 has been tested, skipping
-question 1LnQGZ-Va5c.18.mp4 has been tested, skipping
-question ByJnLalsDmM.11.mp4 has been tested, skipping
-question 7KLhRZmMTlo.32.mp4 has been tested, skipping
-question 3ekWxNC4-cI.5.mp4 has been tested, skipping
-question 0LxRKxROSkE.8.mp4 has been tested, skipping
-question VxbvjZ9hOUc.1.mp4 has been tested, skipping
- 73%|███████▎  | 733/1000 [00:00<00:00, 6386.58it/s]question 3WbjiIqAYeU.1.mp4 has been tested, skipping
-question CQU1-cf11kk.27.mp4 has been tested, skipping
-question 6d7fSLk70hs.54.mp4 has been tested, skipping
-question 2b7pGfR7gFg.10.mp4 has been tested, skipping
-question fR2SCe_pJdQ.43.mp4 has been tested, skipping
-question NDzs-5OqHQQ.10.mp4 has been tested, skipping
-question WSLH5Zti3Bk.56.mp4 has been tested, skipping
-question ZuD3qhllgnE.1.mp4 has been tested, skipping
-question HxnIAkVpz4M.18.mp4 has been tested, skipping
-question LCUmxuy7znw.12.mp4 has been tested, skipping
-question fu5AjCuGfso.24.mp4 has been tested, skipping
-question lRBn_IbfvlE.7.mp4 has been tested, skipping
-question WWriqZgJWHg.1.mp4 has been tested, skipping
-question g_lZdwzAtGU.27.mp4 has been tested, skipping
-question MxYDAnCBUIQ.11.mp4 has been tested, skipping
-question dD51GzQJRmo.19.mp4 has been tested, skipping
-question Zp7eUdBVKp4.7.mp4 has been tested, skipping
-question Hzqv0WY8sDw.3.mp4 has been tested, skipping
-question 4Wi8NXmclw0.25.mp4 has been tested, skipping
- 73%|███████▎  | 733/1000 [00:11<00:00, 6386.58it/s] 75%|███████▌  | 753/1000 [00:12<00:05, 42.59it/s]   75%|███████▌  | 754/1000 [00:22<00:12, 20.00it/s] 75%|███████▌  | 754/1000 [00:40<00:12, 20.00it/s] 76%|███████▌  | 757/1000 [00:48<00:36,  6.70it/s] 76%|███████▌  | 758/1000 [00:51<00:39,  6.14it/s] 76%|███████▌  | 758/1000 [01:01<00:39,  6.14it/s] 76%|███████▌  | 760/1000 [01:04<01:01,  3.89it/s] 76%|███████▌  | 761/1000 [01:15<01:29,  2.66it/s] 76%|███████▌  | 762/1000 [01:30<02:20,  1.70it/s] 76%|███████▋  | 763/1000 [01:43<03:23,  1.16it/s] 76%|███████▋  | 764/1000 [01:48<03:47,  1.04it/s] 76%|███████▋  | 764/1000 [02:00<03:47,  1.04it/s] 77%|███████▋  | 767/1000 [02:05<05:44,  1.48s/it] 77%|███████▋  | 768/1000 [02:08<06:03,  1.57s/it] 77%|███████▋  | 768/1000 [02:20<06:03,  1.57s/it] 77%|███████▋  | 769/1000 [02:20<08:44,  2.27s/it] 77%|███████▋  | 770/1000 [02:25<09:42,  2.53s/it] 77%|███████▋  | 770/1000 [02:40<09:42,  2.53s/it] 77%|███████▋  | 773/1000 [02:43<13:05,  3.46s/it] 77%|███████▋  | 774/1000 [03:07<21:53,  5.81s/it] 78%|███████▊  | 775/1000 [03:09<19:41,  5.25s/it] 78%|███████▊  | 775/1000 [03:20<19:41,  5.25s/it] 78%|███████▊  | 777/1000 [03:20<19:52,  5.35s/it] 78%|███████▊  | 778/1000 [03:25<19:16,  5.21s/it] 78%|███████▊  | 778/1000 [03:40<19:16,  5.21s/it] 78%|███████▊  | 781/1000 [03:46<22:02,  6.04s/it] 78%|███████▊  | 782/1000 [03:54<22:56,  6.32s/it] 78%|███████▊  | 782/1000 [04:10<22:56,  6.32s/it] 78%|███████▊  | 785/1000 [04:20<26:23,  7.36s/it] 79%|███████▊  | 786/1000 [04:24<23:51,  6.69s/it] 79%|███████▊  | 786/1000 [04:40<23:51,  6.69s/it] 79%|███████▉  | 789/1000 [04:51<27:02,  7.69s/it] 79%|███████▉  | 790/1000 [04:59<27:06,  7.75s/it] 79%|███████▉  | 790/1000 [05:10<27:06,  7.75s/it] 79%|███████▉  | 792/1000 [05:10<24:10,  6.97s/it] 79%|███████▉  | 793/1000 [05:20<26:22,  7.65s/it] 79%|███████▉  | 794/1000 [05:26<24:35,  7.16s/it] 79%|███████▉  | 794/1000 [05:40<24:35,  7.16s/it] 80%|███████▉  | 796/1000 [05:45<27:26,  8.07s/it] 80%|███████▉  | 797/1000 [05:51<26:00,  7.69s/it] 80%|███████▉  | 797/1000 [06:02<26:00,  7.69s/it] 80%|███████▉  | 799/1000 [06:07<25:53,  7.73s/it] 80%|████████  | 800/1000 [06:10<23:03,  6.92s/it] 80%|████████  | 800/1000 [06:22<23:03,  6.92s/it] 80%|████████  | 802/1000 [06:27<24:15,  7.35s/it] 80%|████████  | 803/1000 [06:37<26:17,  8.01s/it] 80%|████████  | 804/1000 [06:44<25:39,  7.86s/it] 80%|████████  | 804/1000 [07:00<25:39,  7.86s/it] 81%|████████  | 806/1000 [07:02<26:51,  8.31s/it] 81%|████████  | 807/1000 [07:10<26:35,  8.27s/it] 81%|████████  | 808/1000 [07:15<23:46,  7.43s/it] 81%|████████  | 809/1000 [07:18<19:56,  6.26s/it] 81%|████████  | 810/1000 [07:25<20:02,  6.33s/it] 81%|████████  | 811/1000 [07:28<17:04,  5.42s/it] 81%|████████  | 812/1000 [07:36<19:13,  6.13s/it] 81%|████████▏ | 813/1000 [07:45<21:51,  7.01s/it] 81%|████████▏ | 814/1000 [07:52<21:53,  7.06s/it] 82%|████████▏ | 815/1000 [07:59<21:18,  6.91s/it] 82%|████████▏ | 816/1000 [08:03<19:04,  6.22s/it] 82%|████████▏ | 817/1000 [08:09<18:45,  6.15s/it] 82%|████████▏ | 818/1000 [08:21<24:02,  7.93s/it] 82%|████████▏ | 819/1000 [08:27<22:04,  7.32s/it] 82%|████████▏ | 820/1000 [08:32<19:52,  6.63s/it] 82%|████████▏ | 821/1000 [08:46<26:00,  8.72s/it] 82%|████████▏ | 822/1000 [08:52<23:27,  7.91s/it] 82%|████████▏ | 823/1000 [08:56<19:57,  6.77s/it] 82%|████████▏ | 824/1000 [09:03<20:25,  6.97s/it] 82%|████████▎ | 825/1000 [09:13<22:51,  7.84s/it] 83%|████████▎ | 826/1000 [09:20<21:43,  7.49s/it] 83%|████████▎ | 827/1000 [09:35<28:33,  9.91s/it] 83%|████████▎ | 828/1000 [09:46<29:17, 10.22s/it] 83%|████████▎ | 829/1000 [09:58<30:01, 10.54s/it] 83%|████████▎ | 830/1000 [10:06<27:52,  9.84s/it] 83%|████████▎ | 831/1000 [10:10<23:20,  8.29s/it] 83%|████████▎ | 832/1000 [10:25<28:47, 10.28s/it] 83%|████████▎ | 833/1000 [10:30<23:41,  8.51s/it] 83%|████████▎ | 834/1000 [10:34<19:54,  7.19s/it] 84%|████████▎ | 835/1000 [10:40<18:52,  6.86s/it] 84%|████████▎ | 836/1000 [10:49<20:20,  7.44s/it] 84%|████████▎ | 837/1000 [10:57<21:05,  7.76s/it] 84%|████████▍ | 838/1000 [11:07<22:39,  8.39s/it] 84%|████████▍ | 839/1000 [11:12<19:58,  7.45s/it] 84%|████████▍ | 840/1000 [11:19<19:00,  7.13s/it] 84%|████████▍ | 841/1000 [11:25<18:31,  6.99s/it] 84%|████████▍ | 842/1000 [11:29<15:42,  5.96s/it] 84%|████████▍ | 843/1000 [11:48<26:11, 10.01s/it] 84%|████████▍ | 844/1000 [11:54<22:42,  8.73s/it] 84%|████████▍ | 845/1000 [12:01<20:42,  8.02s/it] 85%|████████▍ | 846/1000 [12:07<19:10,  7.47s/it] 85%|████████▍ | 847/1000 [12:15<19:16,  7.56s/it] 85%|████████▍ | 848/1000 [12:18<16:04,  6.34s/it] 85%|████████▍ | 849/1000 [12:28<19:03,  7.58s/it] 85%|████████▌ | 850/1000 [12:35<18:05,  7.23s/it] 85%|████████▌ | 851/1000 [12:38<14:38,  5.90s/it] 85%|████████▌ | 852/1000 [12:41<12:54,  5.23s/it] 85%|████████▌ | 853/1000 [12:45<11:20,  4.63s/it] 85%|████████▌ | 854/1000 [12:50<11:55,  4.90s/it] 86%|████████▌ | 855/1000 [12:56<12:40,  5.25s/it] 86%|████████▌ | 856/1000 [13:01<11:55,  4.97s/it] 86%|████████▌ | 857/1000 [13:02<09:40,  4.06s/it] 86%|████████▌ | 858/1000 [13:11<12:36,  5.33s/it] 86%|████████▌ | 859/1000 [13:19<14:47,  6.29s/it] 86%|████████▌ | 860/1000 [13:24<13:49,  5.93s/it] 86%|████████▌ | 861/1000 [13:38<18:56,  8.18s/it] 86%|████████▌ | 862/1000 [13:44<17:19,  7.53s/it] 86%|████████▋ | 863/1000 [13:51<16:46,  7.35s/it] 86%|████████▋ | 864/1000 [13:54<13:34,  5.99s/it] 86%|████████▋ | 865/1000 [14:15<23:55, 10.63s/it] 87%|████████▋ | 866/1000 [14:23<22:01,  9.86s/it] 87%|████████▋ | 867/1000 [14:42<27:48, 12.54s/it] 87%|████████▋ | 868/1000 [14:50<24:47, 11.27s/it] 87%|████████▋ | 869/1000 [14:56<20:45,  9.51s/it] 87%|████████▋ | 870/1000 [15:02<18:43,  8.64s/it] 87%|████████▋ | 871/1000 [15:08<16:33,  7.70s/it] 87%|████████▋ | 872/1000 [15:22<20:58,  9.84s/it] 87%|████████▋ | 873/1000 [15:26<16:38,  7.86s/it] 87%|████████▋ | 874/1000 [15:33<16:05,  7.66s/it] 88%|████████▊ | 875/1000 [15:43<17:17,  8.30s/it] 88%|████████▊ | 876/1000 [15:47<14:22,  6.96s/it] 88%|████████▊ | 877/1000 [15:51<12:28,  6.09s/it] 88%|████████▊ | 878/1000 [15:54<10:44,  5.28s/it] 88%|████████▊ | 879/1000 [16:00<10:57,  5.44s/it] 88%|████████▊ | 880/1000 [16:04<09:56,  4.97s/it] 88%|████████▊ | 881/1000 [16:11<11:16,  5.68s/it] 88%|████████▊ | 882/1000 [16:16<10:37,  5.40s/it] 88%|████████▊ | 883/1000 [16:20<09:35,  4.92s/it] 88%|████████▊ | 884/1000 [16:25<09:48,  5.07s/it] 88%|████████▊ | 885/1000 [16:40<15:33,  8.12s/it] 89%|████████▊ | 886/1000 [16:51<16:58,  8.93s/it] 89%|████████▊ | 887/1000 [16:55<14:13,  7.56s/it] 89%|████████▉ | 888/1000 [17:01<13:09,  7.05s/it] 89%|████████▉ | 889/1000 [17:09<13:12,  7.14s/it] 89%|████████▉ | 890/1000 [17:25<18:03,  9.85s/it] 89%|████████▉ | 891/1000 [17:34<17:38,  9.71s/it] 89%|████████▉ | 892/1000 [17:45<17:59,  9.99s/it] 89%|████████▉ | 893/1000 [17:51<15:44,  8.83s/it] 89%|████████▉ | 894/1000 [18:03<17:05,  9.68s/it] 90%|████████▉ | 895/1000 [18:07<14:09,  8.09s/it] 90%|████████▉ | 896/1000 [18:14<13:16,  7.66s/it] 90%|████████▉ | 897/1000 [18:19<11:58,  6.97s/it] 90%|████████▉ | 898/1000 [18:29<13:34,  7.99s/it] 90%|████████▉ | 899/1000 [18:35<12:12,  7.25s/it] 90%|█████████ | 900/1000 [18:39<10:31,  6.31s/it] 90%|█████████ | 901/1000 [18:53<14:10,  8.59s/it] 90%|█████████ | 902/1000 [18:57<11:48,  7.23s/it] 90%|█████████ | 903/1000 [19:03<11:15,  6.97s/it] 90%|█████████ | 904/1000 [19:08<09:54,  6.20s/it] 90%|█████████ | 905/1000 [19:10<08:07,  5.13s/it] 91%|█████████ | 906/1000 [19:15<07:57,  5.08s/it] 91%|█████████ | 907/1000 [19:21<08:00,  5.17s/it] 91%|█████████ | 908/1000 [19:37<13:04,  8.53s/it] 91%|█████████ | 909/1000 [19:49<14:14,  9.39s/it] 91%|█████████ | 910/1000 [19:54<12:28,  8.32s/it] 91%|█████████ | 911/1000 [19:58<10:17,  6.94s/it] 91%|█████████ | 912/1000 [20:12<13:15,  9.04s/it] 91%|█████████▏| 913/1000 [20:19<12:25,  8.57s/it] 91%|█████████▏| 914/1000 [20:24<10:34,  7.38s/it] 92%|█████████▏| 915/1000 [20:29<09:13,  6.51s/it] 92%|█████████▏| 916/1000 [20:38<10:25,  7.44s/it] 92%|█████████▏| 917/1000 [20:49<11:38,  8.41s/it] 92%|█████████▏| 918/1000 [20:59<12:12,  8.93s/it] 92%|█████████▏| 919/1000 [21:05<11:04,  8.20s/it] 92%|█████████▏| 920/1000 [21:09<09:11,  6.90s/it] 92%|█████████▏| 921/1000 [21:22<11:19,  8.60s/it] 92%|█████████▏| 922/1000 [21:26<09:36,  7.39s/it] 92%|█████████▏| 923/1000 [21:30<07:58,  6.21s/it] 92%|█████████▏| 924/1000 [21:38<08:27,  6.68s/it] 92%|█████████▎| 925/1000 [21:45<08:27,  6.77s/it] 93%|█████████▎| 926/1000 [21:52<08:28,  6.88s/it] 93%|█████████▎| 927/1000 [22:07<11:15,  9.25s/it] 93%|█████████▎| 928/1000 [22:15<10:54,  9.09s/it] 93%|█████████▎| 929/1000 [22:29<12:31, 10.59s/it] 93%|█████████▎| 930/1000 [22:37<11:20,  9.72s/it] 93%|█████████▎| 931/1000 [22:49<12:05, 10.52s/it] 93%|█████████▎| 932/1000 [22:57<10:45,  9.49s/it] 93%|█████████▎| 933/1000 [23:03<09:33,  8.55s/it] 93%|█████████▎| 934/1000 [23:13<09:56,  9.03s/it] 94%|█████████▎| 935/1000 [23:23<10:03,  9.29s/it] 94%|█████████▎| 936/1000 [23:29<09:01,  8.46s/it] 94%|█████████▎| 937/1000 [23:38<08:47,  8.38s/it] 94%|█████████▍| 938/1000 [23:47<08:57,  8.66s/it] 94%|█████████▍| 939/1000 [23:54<08:09,  8.02s/it] 94%|█████████▍| 940/1000 [24:00<07:33,  7.55s/it] 94%|█████████▍| 941/1000 [24:08<07:38,  7.77s/it] 94%|█████████▍| 942/1000 [24:13<06:33,  6.78s/it] 94%|█████████▍| 943/1000 [24:21<06:58,  7.34s/it] 94%|█████████▍| 944/1000 [24:28<06:42,  7.18s/it] 94%|█████████▍| 945/1000 [24:35<06:25,  7.00s/it] 95%|█████████▍| 946/1000 [24:41<06:03,  6.73s/it] 95%|█████████▍| 947/1000 [24:53<07:29,  8.49s/it] 95%|█████████▍| 948/1000 [25:01<07:09,  8.26s/it] 95%|█████████▍| 949/1000 [25:09<06:50,  8.06s/it] 95%|█████████▌| 950/1000 [25:20<07:30,  9.02s/it] 95%|█████████▌| 951/1000 [25:27<06:46,  8.29s/it] 95%|█████████▌| 952/1000 [25:34<06:28,  8.10s/it] 95%|█████████▌| 953/1000 [25:45<06:56,  8.87s/it] 95%|█████████▌| 954/1000 [25:51<06:04,  7.92s/it] 96%|█████████▌| 955/1000 [25:56<05:22,  7.17s/it] 96%|█████████▌| 956/1000 [26:03<05:15,  7.17s/it] 96%|█████████▌| 957/1000 [26:08<04:40,  6.51s/it] 96%|█████████▌| 958/1000 [26:11<03:52,  5.53s/it] 96%|█████████▌| 959/1000 [26:22<04:43,  6.91s/it] 96%|█████████▌| 960/1000 [26:33<05:29,  8.24s/it] 96%|█████████▌| 961/1000 [26:40<05:10,  7.95s/it] 96%|█████████▌| 962/1000 [26:45<04:29,  7.09s/it] 96%|█████████▋| 963/1000 [26:56<05:05,  8.24s/it] 96%|█████████▋| 964/1000 [27:08<05:29,  9.16s/it] 96%|█████████▋| 965/1000 [27:22<06:15, 10.72s/it] 97%|█████████▋| 966/1000 [27:28<05:20,  9.43s/it] 97%|█████████▋| 967/1000 [27:31<04:04,  7.41s/it] 97%|█████████▋| 968/1000 [27:36<03:30,  6.58s/it] 97%|█████████▋| 969/1000 [27:40<03:06,  6.02s/it] 97%|█████████▋| 970/1000 [27:44<02:41,  5.39s/it] 97%|█████████▋| 971/1000 [27:47<02:14,  4.64s/it] 97%|█████████▋| 972/1000 [27:52<02:09,  4.63s/it] 97%|█████████▋| 973/1000 [27:59<02:28,  5.51s/it] 97%|█████████▋| 974/1000 [28:03<02:06,  4.86s/it] 98%|█████████▊| 975/1000 [28:14<02:49,  6.77s/it] 98%|█████████▊| 976/1000 [28:16<02:08,  5.35s/it] 98%|█████████▊| 977/1000 [28:32<03:14,  8.47s/it] 98%|█████████▊| 978/1000 [28:39<03:00,  8.20s/it] 98%|█████████▊| 979/1000 [28:45<02:38,  7.53s/it] 98%|█████████▊| 980/1000 [28:50<02:15,  6.75s/it] 98%|█████████▊| 981/1000 [28:53<01:45,  5.56s/it] 98%|█████████▊| 982/1000 [29:01<01:56,  6.45s/it] 98%|█████████▊| 983/1000 [29:16<02:28,  8.74s/it] 98%|█████████▊| 984/1000 [29:21<02:04,  7.79s/it] 98%|█████████▊| 985/1000 [29:30<02:02,  8.18s/it] 99%|█████████▊| 986/1000 [29:35<01:39,  7.13s/it] 99%|█████████▊| 987/1000 [29:48<01:55,  8.90s/it] 99%|█████████▉| 988/1000 [29:57<01:47,  8.96s/it] 99%|█████████▉| 989/1000 [30:03<01:27,  7.93s/it] 99%|█████████▉| 990/1000 [30:09<01:14,  7.48s/it] 99%|█████████▉| 991/1000 [30:13<00:57,  6.35s/it] 99%|█████████▉| 992/1000 [30:20<00:53,  6.71s/it] 99%|█████████▉| 993/1000 [30:24<00:40,  5.78s/it] 99%|█████████▉| 994/1000 [30:28<00:31,  5.25s/it]100%|█████████▉| 995/1000 [30:33<00:26,  5.28s/it]100%|█████████▉| 996/1000 [30:38<00:20,  5.21s/it]100%|█████████▉| 997/1000 [30:55<00:26,  8.68s/it]100%|█████████▉| 998/1000 [31:02<00:16,  8.22s/it]100%|█████████▉| 999/1000 [31:05<00:06,  6.66s/it]100%|██████████| 1000/1000 [31:07<00:00,  5.21s/it]100%|██████████| 1000/1000 [31:07<00:00,  1.87s/it]
