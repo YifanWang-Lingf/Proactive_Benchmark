@@ -4,9 +4,12 @@ from transformers import (
     AutoTokenizer,
     AutoProcessor
 )
-from qwen_vl_utils import process_vision_info  # 
 
+import os
+os.environ["FORCE_QWENVL_VIDEO_READER"] = "torchvision"     # 见qwen_vl_utils，只有这个video_reader可以指定开始和结束的秒数
+from qwen_vl_utils import process_vision_info  # 
 from utils.video_utils import load_video  # 你之前提供的 load_video 实现
+
 
 def clean_response(raw_text: str):
     """
@@ -61,7 +64,7 @@ def load_model(llm_pretrained, attn_implementation):
         use_fast=False  # 保证与 processor 匹配 
     )
     processor = AutoProcessor.from_pretrained(
-        llm_pretrained,
+        "Qwen/Qwen2.5-VL-7B-Instruct",
         trust_remote_code=True
     )
     generation_config = {"max_new_tokens": 256, "do_sample": True}
@@ -114,27 +117,6 @@ def inference(
     # -------------------------------------------------
     # 1. 准备视频和文本的原始数据 
     # -------------------------------------------------
-    
-    # 视频数据：抽帧：调用 load_video，得到 List[np.ndarray]；若为空则不做视觉输入 
-    pixel_list = load_video(
-        video_data["video_file"],
-        start_sec=video_data["start_sec"],
-        end_sec=video_data["end_sec"],
-        output_resolution=video_data["frame_resolution"],
-        output_fps=video_data["frame_fps"]
-    )
-    pil_frames = []
-    if len(pixel_list) > 0:
-        from PIL import Image
-        for frame_np in pixel_list:
-            # frame_np.shape = (3, H, W) → 转为 (H, W, 3) → PIL.Image
-            pil_frames.append(Image.fromarray(frame_np.transpose(1, 2, 0)))
-    # 如果没抽到帧，pil_frames 保持空列表
-
-    # --------- 显存优化 1 释放掉原始的视频序列 ---------
-    del pixel_list
-    # -----------------------------------------------
-    
     original_question = text_data["original_question"]
     additional_text_input = text_data.get("additional_text_input", "")
     previous_turns_output = text_data.get("previous_turns_output", "")
@@ -161,7 +143,7 @@ def inference(
         user_msg_yesno = {
             "role": "user",
             "content": [
-                {"type": "video", "video": video_data["video_file"]},
+                {"type": "video", "video": video_data["video_file"], "video_start": video_data["start_sec"], "video_end": video_data["end_sec"]},
                 {"type": "text",  "text": prompt_yesno}
             ]
         }
@@ -218,9 +200,9 @@ def inference(
         last_token = tokens[-1].strip().lower()
 
         # 3) 判断最后一个 token 是否为 “yes” 或 “no”  
-        if last_token == "yes":
+        if "yes" in last_token:
             answerable_response = "Yes"
-        elif last_token == "no":
+        elif "no" in last_token:
             answerable_response = "No"
         else:
             raise ValueError(
@@ -278,11 +260,13 @@ def inference(
                     + "\n"
                     + original_question
                 )
+        final_text += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
+
         # Qwen模型的Chat Template，要求用户消息包含视频和文本内容
         user_msg_final = {
             "role": "user",
             "content": [
-                {"type": "video", "video": video_data["video_file"]},
+                {"type": "video", "video": video_data["video_file"], "video_start": video_data["start_sec"], "video_end": video_data["end_sec"]},
                 {"type": "text",  "text": final_text}
             ]
         }
@@ -335,7 +319,7 @@ def inference(
             print(response)
         
         # --------- 显存优化 3 释放掉正式回答推理的中间数据张量   ---------
-        del inputs_final, generated_final, raw_final
+        # del inputs_final, generated_final, raw_final
         if 'image_inputs_final' in locals():
             del image_inputs_final
         if 'video_inputs_final' in locals():

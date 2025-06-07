@@ -5,6 +5,8 @@ from longva.constants import IMAGE_TOKEN_INDEX                  # :contentRefere
 
 from utils.video_utils import load_video
 from PIL import Image
+
+
 def load_model(llm_pretrained, attn_implementation):
     """
     - llm_pretrained: HuggingFace 仓库名 "lmms-lab/LongVA-7B"（当前shell中使用的） 或 "lmms-lab/LongVA-7B-DPO"
@@ -25,7 +27,7 @@ def load_model(llm_pretrained, attn_implementation):
         device_map="auto",          # 自动拆分权重到 GPU/CPU
         torch_dtype=torch.bfloat16, # 半精度
         trust_remote_code=True,
-        low_cpu_mem_usage=True
+        attn_implementation=attn_implementation,
     )
 
     # 2. 把模型设为 eval 模式
@@ -139,7 +141,7 @@ def inference(
             "You are a helpful assistant. Reply with Yes or No only.\n"
             "<|im_end|>\n"
             "<|im_start|>user\n"
-            "<video>\n"
+            "<image>\n"
             f"{prompt_yesno}\n"
             "<|im_end|>\n"
             "<|im_start|>assistant\n"
@@ -171,7 +173,7 @@ def inference(
                 images=images_tensor_yesno,
                 image_sizes=[frame.size for frame in pil_frames],  
                 # image_sizes 需要一个 list of (W, H)，表示每一帧的原始宽高
-                modalities=["image"],  
+                modalities=["video"],  
                 # LongVA-7B 官方示例里 image_tasks 用 modalities=["image"]
                 max_new_tokens=generation_config["max_new_tokens"],
                 do_sample=generation_config["do_sample"]
@@ -230,13 +232,14 @@ def inference(
                     + original_question
                 )
 
+        prompt_final += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
         # 3.2 ChatML 格式：system + user + <video>… + question + <assistant>
         chatml_final = (
             "<|im_start|>system\n"
             "You are a helpful assistant. Provide a concise answer based on the video.\n"
             "<|im_end|>\n"
             "<|im_start|>user\n"
-            "<video>\n"
+            "<image>\n"
             f"{prompt_final}\n"
             "<|im_end|>\n"
             "<|im_start|>assistant\n"
@@ -261,7 +264,7 @@ def inference(
                 input_ids_final,
                 images=images_tensor_final,
                 image_sizes=[frame.size for frame in pil_frames],
-                modalities=["image"],
+                modalities=["video"],
                 max_new_tokens=generation_config["max_new_tokens"],
                 do_sample=generation_config["do_sample"]
             )

@@ -73,6 +73,7 @@ def inference(baseline_model, video_data, text_data,
             question = f"{DEFAULT_IMAGE_TOKEN}\n{original_question}"
         else:
             question = f"{DEFAULT_IMAGE_TOKEN}\n{additional_text_input}\n{original_question}"
+        question += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
 
         conv = copy.deepcopy(conv_templates[conv_template])
         conv.append_message(conv.roles[0], question)

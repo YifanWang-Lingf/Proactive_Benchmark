@@ -110,6 +110,8 @@ def inference(baseline_model, video_data, text_data,
                 question = video_prefix + original_question
             else:
                 question = video_prefix + " " + additional_text_input + "\n" + original_question
+            question += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
+
             response, history = model.chat(tokenizer, pixel_values, question, generation_config,
                                         num_patches_list=num_patches_list, history=None, return_history=True)
         else:
