@@ -1,2 +1,0 @@
-Namespace(src_video_folder='/share3/public_share/TVQA/video/videos_val', dest_frame_folder='/share3/wangyq/resources/proactive_benchmark_frames/tvqa-1fps-new_videos', anno_fname='/share2/wangyq/projects/online_videollm/proactive_benchmark/qa_generate/outputs/tvqa/0502_version-anno.json', start_idx=0, end_idx=1000000000, fps=1.0, num_workers=5)
-videos: 354
