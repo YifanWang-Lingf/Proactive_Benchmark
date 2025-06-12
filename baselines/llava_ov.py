@@ -83,10 +83,13 @@ def inference(baseline_model, video_data, text_data,
         else:
             conv.append_message(conv.roles[1], previous_turns_output)
             prompt_question = conv.get_prompt()
+            # 删掉最后一个eos token，好让模型继续生成
             sep_token = conv.sep
             last_sep_index = prompt_question.rfind(sep_token)
-            prompt_question = prompt_question[:last_sep_index] + ' '
+            prompt_question = prompt_question[:last_sep_index]
             # we do not need to add anything right after the last period mark '.'
+            if debug_print:
+                print("prompt_question:", prompt_question)
 
         input_ids = tokenizer_image_token(prompt_question, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(model.device)
         cont = model.generate(

@@ -55,7 +55,7 @@ if __name__ == '__main__':
             print(f"get video length sec error for {example['question_id']}, skipping")
             continue
 
-        last_reply_end_time = example['answer'][-1]['time'][1]
+        last_reply_end_time = example['answer'][-1]['reply_timespan'][1]
         previous_turns_output = ''
         start_sec = 0
         for new_chunk_start_sec in range(0, int(video_length_sec), args.video_chunk_sec):
@@ -105,8 +105,9 @@ if __name__ == '__main__':
                 }
                 f_out.write(json.dumps(res) + '\n')
                 f_out.flush()
-            except:
+            except Exception as e:
                 print(f"error for {example['question_id']}, {start_sec} {end_sec}")
+                # raise e
                 break
 
     f_out.close()

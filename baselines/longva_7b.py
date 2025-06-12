@@ -205,8 +205,7 @@ def inference(
         del images_tensor_yesno
         torch.cuda.empty_cache()
         # --------------------------------------------------------------------
-        
-        
+
     else:
         answerable_response = "Yes"
 
@@ -244,6 +243,13 @@ def inference(
             "<|im_end|>\n"
             "<|im_start|>assistant\n"
         )
+
+        if previous_turns_output:
+            chatml_final += previous_turns_output
+
+        if debug_print:
+            print("----- 正式问答 prompt -----")
+            print(chatml_final)
 
         # 3.3 tokenize 文本 + process_images(帧) → 得到 input_ids_final, images_tensor_final
         input_ids_final = tokenizer_image_token(

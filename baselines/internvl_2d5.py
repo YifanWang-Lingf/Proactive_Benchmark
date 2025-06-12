@@ -39,6 +39,7 @@ def complete_truncated_assistant_turns(self, tokenizer, pixel_values, question, 
     template.append_message(template.roles[0], question)
     template.append_message(template.roles[1], previous_turns_output)
     query = template.get_prompt()
+    # 删掉最后一个表示turn结束的token，让模型可以继续生成
     sep_token = template.sep
     last_sep_index = query.rfind(sep_token)
     query = query[:last_sep_index]
@@ -50,7 +51,8 @@ def complete_truncated_assistant_turns(self, tokenizer, pixel_values, question, 
 
     for num_patches in num_patches_list:
         image_tokens = IMG_START_TOKEN + IMG_CONTEXT_TOKEN * self.num_image_token * num_patches + IMG_END_TOKEN
-        query = query.replace('<image>', image_tokens, 1)
+        # query = query.replace('<image>', image_tokens, 1)
+        query = query.replace('<image>', image_tokens)
 
         model_inputs = tokenizer(query, return_tensors='pt')
         input_ids = model_inputs['input_ids'].to(self.device)
@@ -64,7 +66,8 @@ def complete_truncated_assistant_turns(self, tokenizer, pixel_values, question, 
         )
         response = tokenizer.batch_decode(generation_output, skip_special_tokens=True)[0]
         response = response.split(template.sep.strip())[0].strip()
-        history.append((question, response))
+        if history is not None:
+            history.append((question, response))
         if return_history:
             return response, history
         else:
@@ -110,15 +113,17 @@ def inference(baseline_model, video_data, text_data,
                 question = video_prefix + original_question
             else:
                 question = video_prefix + " " + additional_text_input + "\n" + original_question
-            question += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
+            question += '\nYour answers can only contain video content. Do previous_turns_outputnot add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
 
             response, history = model.chat(tokenizer, pixel_values, question, generation_config,
                                         num_patches_list=num_patches_list, history=None, return_history=True)
         else:
             # model.chat function does not support complete truncated assistant turns, so we need to re-implement this
-            response, history = complete_truncated_assistant_turns(
+            question = video_prefix + original_question
+            question += '\nYour answers can only contain video content. Do not add your own speculation or judgement. Do not add timestamps or frame numbers in your answer.'
+            response = complete_truncated_assistant_turns(
                 model, tokenizer, pixel_values, question, previous_turns_output, generation_config,
-                num_patches_list=num_patches_list, history=None, return_history=True, verbose=debug_print
+                num_patches_list=num_patches_list, history=None, return_history=False, verbose=debug_print
             )
 
         if debug_print:
